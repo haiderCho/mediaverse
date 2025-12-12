@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY MEDIAVERSE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Loading all required thematic fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@400;600&family=Lora:wght@400;700&family=Montserrat:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Orbitron:wght@400;700&family=Permanent+Marker&family=Poppins:wght@400;600;700&family=Press+Start+2P&family=Rajdhani:wght@400;600&family=Trajan+Pro&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Custom Scrollbar for a sleek look */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0f172a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #334155;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #475569;
+      }
+
+      /* Hexagon Clip Path Utility - Pointy Topped */
+      .hex-shape {
+        clip-path: polygon(
+          50% 0%,
+          100% 25%,
+          100% 75%,
+          50% 100%,
+          0% 75%,
+          0% 25%
+        );
+      }
+
+      /* Smooth fade in */
+      .fade-in {
+        animation: fadeIn 0.5s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/mediaverse/assets/index-DT701g8j.js"></script>
+  </head>
+  <body class="bg-slate-950 text-white overflow-x-hidden">
+    <div id="root"></div>
+  </body>
+</html>

@@ -87,6 +87,19 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
             backgroundSize: '40px 40px'
           }} />
         </div>
+        
+        {/* Hero Image - User requested addition */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src={`${import.meta.env.BASE_URL}assets/hero_${pageId}.jpg`} 
+            onError={(e) => {
+              // Fallback to pattern or solid color if image missing
+              e.currentTarget.style.display = 'none'; 
+            }}
+            alt={`${theme.title} Hero`}
+            className="w-full h-full object-cover opacity-40 mix-blend-overlay"
+          />
+        </div>
 
         {/* Hero Content */}
         <div className="container mx-auto px-4 h-full flex flex-col justify-center items-center text-center relative z-10">

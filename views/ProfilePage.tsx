@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowLeft } from 'lucide-react';
+import { FaGithub, FaGlobe } from 'react-icons/fa';
 
 interface ProfilePageProps {
   onBack: () => void;
@@ -7,7 +8,8 @@ interface ProfilePageProps {
 
 const ProfilePage: React.FC<ProfilePageProps> = ({ onBack }) => {
   const socialLinks = [
-    { name: 'GitHub', url: 'https://github.com/haiderCho' },
+    { name: 'GitHub', url: 'https://github.com/haiderCho', icon: <FaGithub size={20} /> },
+    { name: 'Portfolio', url: 'https://haidercho.github.io/Portfolio/', icon: <FaGlobe size={20} /> },
   ];
 
   return (
@@ -21,8 +23,8 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack }) => {
       
       <div className="max-w-4xl w-full p-8 border border-slate-800 rounded-2xl bg-slate-900/50 text-center mx-4">
         <img 
-          src="https://picsum.photos/150/150?grayscale" 
-          className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-red-600" 
+          src={`${import.meta.env.BASE_URL}assets/NFTLuffy.png`} 
+          className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-red-600 object-cover" 
           alt="Profile" 
         />
         
@@ -32,17 +34,13 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack }) => {
         <div className="text-left mb-8 text-slate-300 space-y-4 text-sm">
           <p className="italic">
             "My quietness and introverted nature is a consequence of my deeply entrenched nihilism. 
-            I don't believe there is any real value in my or anyone else's speaking, 
-            and I think that all of human existence is fundamentally insignificant."
+            I don't believe there is any real value in my or anyone else's speaking, and I think that all of human existence is fundamentally insignificant." 
+            As a result, everything in this world displeases me; yet above all, my own displeasure in everything displeases me, but I find comfort in good fiction and music.
           </p>
           <p>
-            Hence, everything about this world displeases me; but, above all, my displeasure in everything displeases me, 
-            but I find comfort in good fiction and music.
-          </p>
-          <p>
-            I've read numerous Books, Comics/Visual Novels, Manga/Manhwa/Manhua; watched thousands of movies, anime. 
-            I can't in good conscience pick just 10 of my favourite of anything from within numerous genres that exists in these fields. 
-            I have a few favourite genres and I'll pick 5-10 favourite from each of these genres.
+            I’ve read numerous books, comics/visual novels, and manga/manhwa/manhua, and I’ve watched thousands of movies, tv-series and anime. 
+            I can’t in good conscience narrow my favorites down to just ten across the countless genres within these fields. 
+            Instead, I have a few favorite genres, and I’ll select five to ten favorites from each of those genres. 
           </p>
         </div>
 
@@ -131,8 +129,9 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack }) => {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-2 bg-slate-800 hover:bg-red-600 transition-colors rounded text-sm"
+              className="px-6 py-2 bg-slate-800 hover:bg-red-600 transition-colors rounded text-sm flex items-center gap-2"
             >
+              {link.icon}
               {link.name}
             </a>
           ))}

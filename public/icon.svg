@@ -1,0 +1,47 @@
+<svg width="64" height="64" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    Layout:
+         [2] [3]
+      [7] [1] [4]
+         [6] [5]
+    
+    1: Center
+    2: Top Left
+    3: Top Right
+    4: Right
+    5: Bottom Right
+    6: Bottom Left
+    7: Left
+  -->
+
+  <!-- Common Style: No fill, Bold Stroke, Color defaults to blue-ish or white with opacity fade on edges -->
+  
+  <g stroke="#3b82f6" stroke-width="6" stroke-linejoin="round">
+    <!-- Center Hexagon (1) - High Opacity -->
+    <path d="M50 20 L76 35 V65 L50 80 L24 65 V35 Z" opacity="1.0" />
+
+    <!-- Surrounding Hexagons - Fading Opacity on 'far side' 
+         The user said "edge hexagons are fading on the far side". 
+         I will iterate opacity or use a mask, but simple opacity variation is safer for favicon.
+    -->
+
+    <!-- Top Left (2) -->
+    <path d="M24 5 L50 20 V50 L24 65 L-2 50 V20 Z" opacity="0.6" />
+
+    <!-- Top Right (3) -->
+    <path d="M76 5 L102 20 V50 L76 65 L50 50 V20 Z" opacity="0.6" />
+
+    <!-- Right (4) -->
+    <path d="M102 35 L128 50 V80 L102 95 L76 80 V50 Z" opacity="0.4" />
+    
+    <!-- Bottom Right (5) -->
+    <path d="M76 65 L102 80 V110 L76 125 L50 110 V80 Z" opacity="0.4" />
+
+    <!-- Bottom Left (6) -->
+    <path d="M24 65 L50 80 V110 L24 125 L-2 110 V80 Z" opacity="0.4" />
+
+    <!-- Left (7) -->
+    <path d="M-2 35 L24 50 V80 L-2 95 L-28 80 V50 Z" opacity="0.6" />
+    
+  </g>
+</svg>

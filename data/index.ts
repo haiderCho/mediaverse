@@ -12,7 +12,7 @@ import { booksData, booksGenres, booksPageIds } from './books';
 import { lightNovelsData, lightNovelsGenres, lightNovelsPageIds } from './lightNovels';
 import { comicsData, comicsGenres, comicsPageIds } from './comics';
 import { gamesData, gamesGenres, gamesPageIds } from './games';
-import { musicData, musicGenres, musicPageIds } from './music';
+// import { musicData, musicGenres, musicPageIds } from './music';
 import { dramaData, dramaGenres, dramaPageIds } from './drama';
 
 /**
@@ -37,7 +37,7 @@ export const GENRE_MAP: Record<PageId, string[]> = {
   // Media pages
   [PageId.MOVIES]: moviesGenres,
   [PageId.TV_SERIES]: tvSeriesGenres,
-  [PageId.MUSIC]: musicGenres,
+  [PageId.MUSIC]: [], // Custom view used
   [PageId.DRAMA]: dramaGenres,
   
   // Reading pages
@@ -109,10 +109,12 @@ export function getData(pageId: PageId, genre: string): MediaEntry[] {
     return gamesData[genre] || [];
   }
   
-  // Music
+  // Music (Handled by custom view, no data needed here)
+  /*
   if (musicPageIds.includes(pageId)) {
     return musicData[genre] || [];
   }
+  */
   
   // Drama
   if (dramaPageIds.includes(pageId)) {

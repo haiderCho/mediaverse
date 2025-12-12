@@ -1,235 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY MEDIAVERSE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Loading all required thematic fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@400;600&family=Lora:wght@400;700&family=Montserrat:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Orbitron:wght@400;700&family=Permanent+Marker&family=Poppins:wght@400;600;700&family=Press+Start+2P&family=Rajdhani:wght@400;600&family=Trajan+Pro&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Custom Scrollbar for a sleek look */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0f172a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #334155;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #475569;
+      }
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+      /* Hexagon Clip Path Utility - Pointy Topped */
+      .hex-shape {
+        clip-path: polygon(
+          50% 0%,
+          100% 25%,
+          100% 75%,
+          50% 100%,
+          0% 75%,
+          0% 25%
+        );
+      }
 
-    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
-        rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css"
-        rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" />
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"></script>
-
-    <link rel="stylesheet" href="css/indextyle.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-    <main class="site-wrapper">
-        <div class="pt-table desktop-768">
-            <div class="pt-tablecell page-home relative" style="background-image: url('assets/Photos/TopCover.jpg');
-          background-position: center;
-          background-size: cover;">
-                <div class="overlay"></div>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-                            <div class="page-title home text-center">
-                                <span class="heading-page"> My Favourite Lists
-                                </span>
-                                <p class="mt20">By Haider Cho</p>
-                            </div>
-
-                            <div class="hexagon-menu clear">
-                                <div class="hexagon-item">
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <a href="pages/Profile.html" target="_blank" class="hex-content">
-                                        <span class="hex-content-inner">
-                                            <span class="icon">
-                                                <i class="fa fa-id-badge"></i>
-                                            </span>
-                                            <span class="title">Profile</span>
-                                        </span>
-                                        <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
-                                                fill="#1e2530"></path>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="hexagon-item">
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <a href="pages/Anime.html" target="_blank" class="hex-content">
-                                        <span class="hex-content-inner">
-                                            <span class="icon">
-                                                <i class="fa fa-bullseye"></i>
-                                            </span>
-                                            <span class="title">Anime</span>
-                                        </span>
-                                        <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
-                                                fill="#1e2530"></path>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="hexagon-item">
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <a href="pages/Manga.html" target="_blank" class="hex-content">
-                                        <span class="hex-content-inner">
-                                            <span class="icon">
-                                                <i class="fa fa-book-open"></i>
-                                            </span>
-                                            <span class="title">Manga</span>
-                                        </span>
-                                        <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
-                                                fill="#1e2530"></path>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="hexagon-item">
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <a href="" class="hex-content">
-                                        <span class="hex-content-inner">
-                                            <span class="icon">
-                                                <i class="fa fa-comments"></i>
-                                            </span>
-                                            <span class="title">Comics</span>
-                                        </span>
-                                        <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
-                                                fill="#1e2530"></path>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="hexagon-item">
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <a href="" class="hex-content">
-                                        <span class="hex-content-inner">
-                                            <span class="icon">
-                                                <i class="fa fa-tv"></i>
-                                            </span>
-                                            <span class="title">TV Series</span>
-                                        </span>
-                                        <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
-                                                fill="#1e2530"></path>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="hexagon-item">
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <a href="" class="hex-content">
-                                        <span class="hex-content-inner">
-                                            <span class="icon">
-                                                <i class="fa fa-film"></i>
-                                            </span>
-                                            <span class="title">Movies</span>
-                                        </span>
-                                        <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
-                                                fill="#1e2530"></path>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="hexagon-item">
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <div class="hex-item">
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                    <a href="" class="hex-content">
-                                        <span class="hex-content-inner">
-                                            <span class="icon">
-                                                <i class="fa fa-music"></i>
-                                            </span>
-                                            <span class="title">Musicians</span>
-                                        </span>
-                                        <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
-                                                fill="#1e2530"></path>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-</body>
-
+      /* Smooth fade in */
+      .fade-in {
+        animation: fadeIn 0.5s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-slate-950 text-white overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>

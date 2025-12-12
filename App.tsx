@@ -116,5 +116,5 @@ function App() {
     />
   );
 }
-
+console.log("MediaVerse Version: Music Update 1.1");
 export default App;

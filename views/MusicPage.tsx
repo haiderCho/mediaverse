@@ -1,15 +1,41 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Home, Mic2, Disc, ListMusic } from 'lucide-react';
-import { 
-  topArtists, 
-  englishTracks, 
-  banglaTracks, 
-  japaneseTracks, 
-  hindiUrduTracks, 
-  otherTracks,
-  playlists 
-} from '../data/music_data';
 import { PageId } from '../types';
+
+interface MusicArtist {
+  rank: number;
+  name: string;
+  imageUrl: string;
+}
+
+interface MusicTrack {
+  id: string;
+  title: string;
+  artist: string;
+  album: string;
+  imageUrl: string;
+}
+
+interface Playlist {
+  id: string;
+  name: string;
+  description: string;
+  platform: 'Spotify' | 'YouTube Music' | 'Other';
+  url: string;
+  imageUrl: string;
+}
+
+interface MusicData {
+  topArtists: MusicArtist[];
+  tracks: {
+    english: MusicTrack[];
+    bangla: MusicTrack[];
+    japanese: MusicTrack[];
+    hindiUrdu: MusicTrack[];
+    other: MusicTrack[];
+  };
+  playlists: Playlist[];
+}
 
 interface MusicPageProps {
   onBack: () => void;
@@ -20,6 +46,44 @@ type Tab = 'artists' | 'tracks' | 'playlists';
 
 const MusicPage: React.FC<MusicPageProps> = ({ onBack }) => {
   const [activeTab, setActiveTab] = useState<Tab>('artists');
+  const [data, setData] = useState<MusicData | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/music.json`)
+      .then(res => res.json())
+      .then(json => {
+        // Fix image URLs if they are relative
+        const processUrl = (url: string) => url.startsWith('http') ? url : `${import.meta.env.BASE_URL}${url}`;
+        
+        const processedData: MusicData = {
+            ...json,
+            topArtists: json.topArtists.map((a: MusicArtist) => ({ ...a, imageUrl: processUrl(a.imageUrl) })),
+        };
+        // Data in json tracks is array not record? Script wrote: tracks: { english: ... } 
+        // So json structure is correct as mapped in interface.
+        // We only need to fix URLs for topArtists if they were relative. script used 'assets/music/...'
+        
+        setData(processedData);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error("Failed to load music data", err);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading || !data) {
+    return <div className="min-h-screen bg-slate-950 flex items-center justify-center text-slate-400">Loading Music Archive...</div>;
+  }
+
+  const { topArtists, tracks, playlists } = data;
+
+  const englishTracks = tracks.english || [];
+  const banglaTracks = tracks.bangla || [];
+  const japaneseTracks = tracks.japanese || [];
+  const hindiUrduTracks = tracks.hindiUrdu || [];
+  const otherTracks = tracks.other || [];
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200 pb-10 fade-in flex flex-col">

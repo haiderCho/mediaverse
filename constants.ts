@@ -183,14 +183,13 @@ export const HEX_GRID_LAYOUT: HexGridRow[] = [
 
 // --- DATA LOADER ---
 
-import { GENRE_MAP, getData } from './data/index';
+// --- DATA LOADER ---
+
+import { GENRE_MAP } from './src/config/genres';
 
 export const generateMockData = (pageId: PageId, genre: string): MediaEntry[] => {
-  // Try to get real data first from the new data structure
-  const realData = getData(pageId, genre);
-  if (realData.length > 0) return realData;
+  // Purely fallback data generation
   
-  // Fallback to generated data for categories without data
   const images = [
     'https://picsum.photos/800/600',
     'https://picsum.photos/800/800',

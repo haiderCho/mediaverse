@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import LandingPage from './views/LandingPage';
 import CategoryPage from './views/CategoryPage';
 import ProfilePage from './views/ProfilePage';
@@ -20,16 +20,41 @@ import { FaBookOpen, FaTv, FaGamepad } from 'react-icons/fa'; // Fallbacks
 import MusicPage from './views/MusicPage';
 
 /**
+ * Get the page ID from the URL hash
+ */
+const getPageFromHash = (): PageId => {
+  const hash = window.location.hash.slice(1); // Remove the '#'
+  // Check if the hash matches a valid PageId
+  if (Object.values(PageId).includes(hash as PageId)) {
+    return hash as PageId;
+  }
+  return PageId.HOME;
+};
+
+/**
  * Main application component that manages navigation between different pages
- * Implements a simple routing system using React state
+ * Implements hash-based routing that persists across page refreshes
  */
 function App() {
-  const [activePage, setActivePage] = useState<PageId>(PageId.HOME);
+  const [activePage, setActivePage] = useState<PageId>(getPageFromHash());
+
+  /**
+   * Sync state with URL hash on browser navigation (back/forward buttons)
+   */
+  useEffect(() => {
+    const handleHashChange = () => {
+      setActivePage(getPageFromHash());
+    };
+    
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
 
   /**
    * Navigate to a specific page and scroll to top
    */
   const handleNavigate = (id: PageId) => {
+    window.location.hash = id;
     setActivePage(id);
     window.scrollTo(0, 0);
   };
@@ -38,6 +63,7 @@ function App() {
    * Return to the home page
    */
   const handleBack = () => {
+    window.location.hash = PageId.HOME;
     setActivePage(PageId.HOME);
   };
 

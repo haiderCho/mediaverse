@@ -36,6 +36,7 @@ export interface MediaEntry {
   myRating: number; // 1-10, renamed from 'rating' to clarify these are personal ratings
   review: string;
   genre: string;
+  customFont?: string; // Optional custom font for the title
 }
 
 export interface HexGridRow {

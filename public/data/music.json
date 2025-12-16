@@ -3,127 +3,127 @@
     {
       "rank": 1,
       "name": "Aurthohin",
-      "imageUrl": "assets/music/aurthohin.jpeg"
+      "imageUrl": "assets/music/artists/aurthohin.jpeg"
     },
     {
       "rank": 2,
       "name": "Five Finger Death Punch",
-      "imageUrl": "assets/music/five_finger_death_punch.jpeg"
+      "imageUrl": "assets/music/artists/five_finger_death_punch.jpeg"
     },
     {
       "rank": 3,
       "name": "Godsmack",
-      "imageUrl": "assets/music/godsmack.jpeg"
+      "imageUrl": "assets/music/artists/godsmack.jpeg"
     },
     {
       "rank": 4,
       "name": "Disturbed",
-      "imageUrl": "assets/music/disturbed.jpeg"
+      "imageUrl": "assets/music/artists/disturbed.jpeg"
     },
     {
       "rank": 5,
       "name": "Avenged Sevenfold",
-      "imageUrl": "assets/music/avenged_sevenfold.jpeg"
+      "imageUrl": "assets/music/artists/avenged_sevenfold.jpeg"
     },
     {
       "rank": 6,
       "name": "Sabaton",
-      "imageUrl": "https://ui-avatars.com/api/?name=Sabaton&background=4A148C&color=fff&size=300"
+      "imageUrl": "assets/music/artists/sabaton.jpg"
     },
     {
       "rank": 7,
       "name": "Three Days Grace",
-      "imageUrl": "assets/music/three_days_grace.jpeg"
+      "imageUrl": "assets/music/artists/three_days_grace.jpeg"
     },
     {
       "rank": 8,
       "name": "Linkin Park",
-      "imageUrl": "https://ui-avatars.com/api/?name=Linkin+Park&background=212121&color=fff&size=300"
+      "imageUrl": "assets/music/artists/linkin_park.jpg"
     },
     {
       "rank": 9,
       "name": "Metallica",
-      "imageUrl": "assets/music/metallica.jpeg"
+      "imageUrl": "assets/music/artists/metallica.jpeg"
     },
     {
       "rank": 10,
       "name": "Eminem",
-      "imageUrl": "assets/music/eminem.jpeg"
+      "imageUrl": "assets/music/artists/eminem.jpeg"
     },
     {
       "rank": 11,
       "name": "Popeye Bangladesh",
-      "imageUrl": "assets/music/popeye_bangladesh.jpeg"
+      "imageUrl": "assets/music/artists/popeye_bangladesh.jpeg"
     },
     {
       "rank": 12,
       "name": "System of a Down",
-      "imageUrl": "assets/music/system_of_a_down.jpeg"
+      "imageUrl": "assets/music/artists/system_of_a_down.jpeg"
     },
     {
       "rank": 13,
       "name": "Billy Talent",
-      "imageUrl": "assets/music/billy_talent.jpeg"
+      "imageUrl": "assets/music/artists/billy_talent.jpeg"
     },
     {
       "rank": 14,
       "name": "Breaking Benjamin",
-      "imageUrl": "assets/music/breaking_benjamin.jpeg"
+      "imageUrl": "assets/music/artists/breaking_benjamin.jpeg"
     },
     {
       "rank": 15,
       "name": "Warfaze",
-      "imageUrl": "https://ui-avatars.com/api/?name=Warfaze&background=263238&color=fff&size=300"
+      "imageUrl": "assets/music/artists/warfaze.jpg"
     },
     {
       "rank": 16,
       "name": "Shironamhin",
-      "imageUrl": "assets/music/shironamhin.jpeg"
+      "imageUrl": "assets/music/artists/shironamhin.jpeg"
     },
     {
       "rank": 17,
       "name": "Shinedown",
-      "imageUrl": "assets/music/shinedown.jpeg"
+      "imageUrl": "assets/music/artists/shinedown.jpeg"
     },
     {
       "rank": 18,
       "name": "Shunno",
-      "imageUrl": "assets/music/shunno.jpeg"
+      "imageUrl": "assets/music/artists/shunno.jpeg"
     },
     {
       "rank": 19,
       "name": "Alec Benjamin",
-      "imageUrl": "assets/music/alec_benjamin.jpeg"
+      "imageUrl": "assets/music/artists/alec_benjamin.jpeg"
     },
     {
       "rank": 20,
       "name": "Korn",
-      "imageUrl": "assets/music/korn.jpeg"
+      "imageUrl": "assets/music/artists/korn.jpeg"
     },
     {
       "rank": 21,
       "name": "Powerwolf",
-      "imageUrl": "assets/music/powerwolf.jpeg"
+      "imageUrl": "assets/music/artists/powerwolf.jpeg"
     },
     {
       "rank": 22,
       "name": "Thousand Foot Krutch",
-      "imageUrl": "assets/music/thousand_foot_krutch.jpeg"
+      "imageUrl": "assets/music/artists/thousand_foot_krutch.jpeg"
     },
     {
       "rank": 23,
       "name": "Guns N' Roses",
-      "imageUrl": "assets/music/guns_n_roses.jpeg"
+      "imageUrl": "assets/music/artists/guns_n_roses.jpeg"
     },
     {
       "rank": 24,
       "name": "Conclusion",
-      "imageUrl": "assets/music/conclusion.jpeg"
+      "imageUrl": "assets/music/artists/conclusion.jpeg"
     },
     {
       "rank": 25,
       "name": "Starset",
-      "imageUrl": "assets/music/Starset.jpeg"
+      "imageUrl": "assets/music/artists/Starset.jpeg"
     }
   ],
   "tracks": {

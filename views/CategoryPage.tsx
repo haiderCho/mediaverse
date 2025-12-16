@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { PageId, ThemeConfig, MediaEntry } from '../types';
 import { generateMockData, PAGE_THEMES } from '../constants';
 import { Home, Star } from 'lucide-react';
+import Top10Card from '../components/Top10Card';
 
 interface CategoryPageProps {
   pageId: PageId;
@@ -194,106 +195,12 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
         {entries.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {entries.map((entry, index) => (
-              <div
-                key={entry.id}
-                className="group relative bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-xl overflow-hidden hover:border-slate-700 transition-all duration-300 hover:shadow-xl hover:shadow-slate-900/50"
-                style={{
-                  borderColor: index === 0 ? theme.accentColorDark : undefined,
-                }}
-              >
-                {/* Ranking Badge - Redesigned as translucent overlay */}
-                <div
-                  className="absolute top-0 left-0 z-10 px-4 py-1 rounded-br-xl backdrop-blur-sm"
-                  style={{
-                    background: `linear-gradient(135deg, ${theme.accentColorDark}E6 0%, ${theme.accentColorLight}CC 100%)`,
-                  }}
-                >
-                  <span className="text-xl font-black text-white drop-shadow-lg">#{index + 1}</span>
-                </div>
-
-                <div className="flex h-48">
-                  {/* Cover Image */}
-                  <div className="w-32 shrink-0 relative overflow-hidden">
-                    <img
-                      src={entry.coverUrl}
-                      alt={entry.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent to-slate-900/70" />
-                  </div>
-
-                  {/* Info */}
-                  <div className="flex-1 p-4 flex flex-col justify-between">
-                    <div>
-                      <div className="flex items-start justify-between gap-2 mb-2">
-                        <h3
-                          className="text-lg font-bold text-white leading-tight line-clamp-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r transition-all"
-                          style={{
-                            fontFamily: theme.fontFamily,
-                            backgroundImage: `linear-gradient(to right, #fff, ${theme.accentColorLight})`,
-                          }}
-                        >
-                          {entry.title}
-                        </h3>
-
-                        {/* Rating Badge */}
-                        <div
-                          className="flex items-center gap-1 px-3 py-1 rounded-full shrink-0"
-                          style={{
-                            backgroundColor: `${theme.accentColorDark}20`,
-                            border: `2px solid ${theme.accentColorDark}`,
-                          }}
-                        >
-                          <Star
-                            size={14}
-                            fill={theme.accentColorDark}
-                            color={theme.accentColorDark}
-                          />
-                          <span
-                            className="text-sm font-black"
-                            style={{ color: theme.accentColorDark }}
-                          >
-                            {entry.myRating}
-                          </span>
-                        </div>
-                      </div>
-
-                      <p className="text-xs text-slate-400 uppercase tracking-wider mb-2">
-                        {entry.genre}
-                      </p>
-
-                      <p className="text-sm text-slate-300 leading-relaxed line-clamp-2">
-                        {entry.review}
-                      </p>
-                    </div>
-
-                    {/* Footer */}
-                    <div className="flex items-center justify-between pt-2 border-t border-slate-800/50">
-                      <button
-                        className="text-xs px-3 py-1 rounded font-semibold text-white hover:text-black transition-colors"
-                        style={{
-                          backgroundColor: 'transparent',
-                          border: `1px solid ${theme.accentColorDark}`,
-                          color: theme.accentColorDark,
-                        }}
-                        onMouseEnter={(e) => {
-                          e.currentTarget.style.backgroundColor = theme.accentColorDark;
-                          e.currentTarget.style.color = '#000';
-                        }}
-                        onMouseLeave={(e) => {
-                          e.currentTarget.style.backgroundColor = 'transparent';
-                          e.currentTarget.style.color = theme.accentColorDark;
-                        }}
-                      >
-                        View Details
-                      </button>
-                      <span className="text-[10px] text-slate-600 font-mono">
-                        ID: {entry.id.split('-').pop()}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <Top10Card 
+                key={entry.id} 
+                entry={entry} 
+                rank={index + 1} 
+                pageId={pageId} 
+              />
             ))}
           </div>
         ) : (

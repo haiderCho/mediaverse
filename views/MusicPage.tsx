@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Home, Mic2, Disc, ListMusic } from 'lucide-react';
+import { Home, Mic2, Disc, ListMusic, Radio } from 'lucide-react';
 import { PageId } from '../types';
 
 interface MusicArtist {
@@ -25,6 +25,27 @@ interface Playlist {
   imageUrl: string;
 }
 
+interface LastFmTrack {
+  name: string;
+  artist: string;
+  album: string;
+  playcount: number;
+  imageUrl: string;
+}
+
+interface LastFmArtist {
+  name: string;
+  playcount: number;
+  imageUrl: string;
+}
+
+interface LastFmData {
+  tracks: LastFmTrack[];
+  artists: LastFmArtist[];
+  fetchedAt: string;
+  username: string;
+}
+
 interface MusicData {
   topArtists: MusicArtist[];
   tracks: {
@@ -42,35 +63,54 @@ interface MusicPageProps {
   onNavigate: (id: PageId) => void; 
 }
 
-type Tab = 'artists' | 'tracks' | 'playlists';
+type Tab = 'artists' | 'tracks' | 'playlists' | 'lastfm';
 
 const MusicPage: React.FC<MusicPageProps> = ({ onBack }) => {
-  const [activeTab, setActiveTab] = useState<Tab>('artists');
+  const [activeTab, setActiveTab] = useState<Tab>('lastfm');
   const [data, setData] = useState<MusicData | null>(null);
+  const [lastfmData, setLastfmData] = useState<LastFmData | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data/music.json`)
+    // Load regular music data
+    const loadMusicData = fetch(`${import.meta.env.BASE_URL}data/music.json`)
       .then(res => res.json())
       .then(json => {
-        // Fix image URLs if they are relative
         const processUrl = (url: string) => url.startsWith('http') ? url : `${import.meta.env.BASE_URL}${url}`;
         
         const processedData: MusicData = {
             ...json,
             topArtists: json.topArtists.map((a: MusicArtist) => ({ ...a, imageUrl: processUrl(a.imageUrl) })),
         };
-        // Data in json tracks is array not record? Script wrote: tracks: { english: ... } 
-        // So json structure is correct as mapped in interface.
-        // We only need to fix URLs for topArtists if they were relative. script used 'assets/music/...'
         
         setData(processedData);
-        setLoading(false);
       })
       .catch(err => {
         console.error("Failed to load music data", err);
-        setLoading(false);
       });
+
+    // Load Last.fm data
+    const loadLastfmData = fetch(`${import.meta.env.BASE_URL}data/lastfm.json`)
+      .then(res => res.json())
+      .then(json => {
+        // Process artist image URLs - add base path for relative URLs
+        const processUrl = (url: string) => url.startsWith('http') ? url : `${import.meta.env.BASE_URL}${url}`;
+        const processedData = {
+          ...json,
+          artists: json.artists.map((artist: any) => ({
+            ...artist,
+            imageUrl: processUrl(artist.imageUrl)
+          }))
+        };
+        setLastfmData(processedData);
+      })
+      .catch(err => {
+        console.warn("Last.fm data not available yet. Run 'npm run fetch:lastfm' to fetch it.", err);
+      });
+
+    Promise.all([loadMusicData, loadLastfmData]).finally(() => {
+      setLoading(false);
+    });
   }, []);
 
   if (loading || !data) {
@@ -105,6 +145,7 @@ const MusicPage: React.FC<MusicPageProps> = ({ onBack }) => {
           {/* Tab Navigation */}
           <nav className="flex gap-1 bg-slate-900 p-1 rounded-lg">
             {[
+              { id: 'lastfm', label: 'Last.fm Stats', icon: Radio },
               { id: 'artists', label: 'Top Artists', icon: Mic2 },
               { id: 'tracks', label: 'Top Tracks', icon: Disc },
               { id: 'playlists', label: 'Playlists', icon: ListMusic },
@@ -128,6 +169,109 @@ const MusicPage: React.FC<MusicPageProps> = ({ onBack }) => {
 
       {/* 2. Content Area */}
       <main className="container mx-auto px-4 py-8">
+        
+        {/* LAST.FM TAB */}
+        {activeTab === 'lastfm' && (
+          <div className="space-y-12">
+            {!lastfmData ? (
+              <div className="text-center py-20">
+                <Radio className="mx-auto mb-4 text-slate-600" size={64} />
+                <h3 className="text-2xl font-bold text-slate-400 mb-2">Last.fm Data Not Available</h3>
+                <p className="text-slate-500 mb-4">
+                  Run <code className="bg-slate-800 px-2 py-1 rounded text-cyan-400">npm run fetch:lastfm</code> to fetch your scrobble data.
+                </p>
+                <p className="text-xs text-slate-600">
+                  You'll need to set up your LASTFM_API_KEY in a .env file first.
+                </p>
+              </div>
+            ) : (
+              <>
+                {/* Last.fm Header */}
+                <div className="text-center mb-8">
+                  <h2 className="text-3xl font-bold text-cyan-400 mb-2">Last.fm Stats</h2>
+                  <p className="text-slate-400">
+                    @{lastfmData.username} • Last updated: {new Date(lastfmData.fetchedAt).toLocaleDateString()}
+                  </p>
+                </div>
+
+                {/* Top Artists Section */}
+                <section>
+                  <h3 className="text-2xl font-bold text-cyan-400 mb-4 flex items-center gap-2">
+                    <Mic2 size={24} />
+                    Top 50 Artists
+                  </h3>
+                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                    {lastfmData.artists.map((artist, idx) => (
+                      <div key={`${artist.name}-${idx}`} className="group relative bg-slate-900 rounded-xl overflow-hidden border border-slate-800 hover:border-red-500/50 transition-all hover:-translate-y-1">
+                        <div className="aspect-square relative overflow-hidden">
+                          <img 
+                            src={artist.imageUrl} 
+                            alt={artist.name} 
+                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                          />
+                          <div className="absolute top-2 left-2 w-8 h-8 rounded-full bg-red-500 text-white font-bold flex items-center justify-center text-sm shadow-lg">
+                            #{idx + 1}
+                          </div>
+                        </div>
+                        <div className="p-4">
+                          <h4 className="font-bold text-white truncate text-sm" title={artist.name}>
+                            {artist.name}
+                          </h4>
+                          <p className="text-xs text-slate-400 mt-1">
+                            {artist.playcount.toLocaleString()} scrobbles
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+
+                {/* Top Tracks Section */}
+                <section>
+                  <h3 className="text-2xl font-bold text-cyan-400 mb-4 flex items-center gap-2">
+                    <Disc size={24} />
+                    Top 250 Tracks
+                  </h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                    {lastfmData.tracks.map((track, idx) => (
+                      <div key={`${track.name}-${track.artist}-${idx}`} className="group bg-slate-900 rounded-lg overflow-hidden border border-slate-800 hover:border-red-500/50 transition-all hover:-translate-y-1">
+                        <div className="flex gap-3 p-3">
+                          <div className="relative shrink-0">
+                            <img 
+                              src={track.imageUrl} 
+                              alt={`${track.name} by ${track.artist}`} 
+                              className="w-20 h-20 rounded object-cover group-hover:scale-105 transition-transform" 
+                            />
+                            <div className="absolute -top-2 -left-2 w-6 h-6 rounded-full bg-red-500 text-white font-bold flex items-center justify-center text-xs shadow-lg">
+                              {idx + 1}
+                            </div>
+                          </div>
+                          <div className="min-w-0 flex-1">
+                            <h4 className="font-bold text-white text-sm truncate leading-tight group-hover:text-cyan-400 transition-colors" title={track.name}>
+                              {track.name}
+                            </h4>
+                            <p className="text-xs text-slate-400 truncate mt-0.5" title={track.artist}>
+                              {track.artist}
+                            </p>
+                            <p className="text-[10px] text-slate-500 uppercase tracking-wider truncate mt-1" title={track.album}>
+                              <span className="text-slate-600">Album: </span>
+                              {track.album}
+                            </p>
+                            <div className="mt-2 flex items-center gap-1 text-xs">
+                              <Radio size={12} className="text-red-400" />
+                              <span className="text-red-400 font-bold">{track.playcount.toLocaleString()}</span>
+                              <span className="text-slate-500">plays</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              </>
+            )}
+          </div>
+        )}
         
         {/* ARTISTS TAB */}
         {activeTab === 'artists' && (

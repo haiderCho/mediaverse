@@ -12,11 +12,14 @@
     "type-check": "tsc --noEmit",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
+    "fetch:lastfm": "node scripts/fetchLastFm.js",
+    "prebuild": "node scripts/fetchLastFm.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
+    "dotenv": "^17.2.3",
     "lucide-react": "^0.559.0",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",

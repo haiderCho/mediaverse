@@ -1,0 +1,49 @@
+name: Update Last.fm Data
+
+on:
+  schedule:
+    # Run every Sunday at 00:00 UTC (6:00 AM Bangladesh Time)
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  update-lastfm:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch Last.fm data
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          LASTFM_USERNAME: NafizHC
+        run: node scripts/fetchLastFm.js
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code public/data/lastfm.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/lastfm.json
+          git commit -m "🎵 Update Last.fm data - $(date +'%Y-%m-%d')"
+          git push
+
+      - name: Trigger GitHub Pages deployment
+        if: steps.git-check.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            console.log('Last.fm data updated successfully!');

@@ -3,14 +3,16 @@
     {
       "id": "anime-shonen-1",
       "title": "One Piece",
+      "customFont": "\"Pirata One\", cursive",
       "genre": "Shonen",
       "myRating": 10,
-      "review": "An epic adventure spanning decades, One Piece masterfully weaves together friendship, freedom, and the pursuit of dreams in a vast world full of wonder and danger.",
+      "review": "Oda has crafted a vast, intricate, and diverse world that is populated by fascinating characters, interesting places, and complex political system. This world is made up of numerous islands, each home to unique people, animals, and customs. The numerous diverse groups and organizations that exist in the world, each with its own special objectives and drivers, are examples of impressive attention to detail. Because of this extensive history and mythology the show's universe feels authentic and real. The distinctive character designs are another noteworthy feature. Each character has a unique appearance and personality. Oda's artwork is likewise distinctive, with exaggerated features and strong lines. This visual style not only amplifies the series' humor but also imbues the characters with a strong sense of individuality. The humor of the show is another one of its assets. This comedy is employed quite effectively and adds much-needed levity to the occasionally dark and somber series.",
       "coverUrl": "https://cdn.myanimelist.net/images/anime/6/73245l.jpg"
     },
     {
       "id": "anime-shonen-2",
       "title": "Dragon Ball",
+      "customFont": "\"Bangers\", cursive",
       "genre": "Shonen",
       "myRating": 9,
       "review": "The legendary series that defined a generation. Dragon Ball combines intense battles with heartfelt moments and unforgettable characters.",
@@ -19,6 +21,7 @@
     {
       "id": "anime-shonen-3",
       "title": "Hunter × Hunter",
+      "customFont": "\"RocknRoll One\", sans-serif",
       "genre": "Shonen",
       "myRating": 10,
       "review": "A masterclass in storytelling with complex power systems, deep character development, and psychological depth rarely seen in shonen anime.",
@@ -27,6 +30,7 @@
     {
       "id": "anime-shonen-4",
       "title": "Naruto",
+      "customFont": "\"Shojumaru\", cursive",
       "genre": "Shonen",
       "myRating": 9,
       "review": "From outcast to hero, Naruto's journey explores themes of perseverance, friendship, and redemption with ninja action and emotional storytelling.",
@@ -35,6 +39,7 @@
     {
       "id": "anime-shonen-5",
       "title": "Bleach",
+      "customFont": "\"Cinzel\", serif",
       "genre": "Shonen",
       "myRating": 8,
       "review": "Stylish supernatural battles and memorable characters make Bleach a staple of the shonen genre with its unique take on the afterlife.",
@@ -109,6 +114,7 @@
     {
       "id": "anime-seinen-4",
       "title": "Vinland Saga",
+      "customFont": "\"Germania One\", serif",
       "genre": "Seinen",
       "myRating": 10,
       "review": "An epic tale of revenge, redemption, and the true meaning of being a warrior set in the Viking age.",
@@ -117,6 +123,7 @@
     {
       "id": "anime-seinen-5",
       "title": "Kingdom",
+      "customFont": "\"Ma Shan Zheng\", cursive",
       "genre": "Seinen",
       "myRating": 9,
       "review": "Massive scale warfare and political intrigue in ancient China. Kingdom is an underrated gem of historical epic storytelling.",
@@ -167,6 +174,7 @@
     {
       "id": "anime-action-1",
       "title": "One Punch Man",
+      "customFont": "\"Bangers\", cursive",
       "genre": "Action",
       "myRating": 9,
       "review": "A brilliant parody and love letter to superhero stories with spectacular animation and satirical humor.",
@@ -175,6 +183,7 @@
     {
       "id": "anime-action-2",
       "title": "My Hero Academia",
+      "customFont": "\"Bangers\", cursive",
       "genre": "Action",
       "myRating": 9,
       "review": "Modern superhero storytelling at its finest. MHA captures the excitement of classic shonen with fresh ideas.",
@@ -183,6 +192,7 @@
     {
       "id": "anime-action-3",
       "title": "Fullmetal Alchemist: Brotherhood",
+      "customFont": "\"Cinzel\", serif",
       "genre": "Action",
       "myRating": 10,
       "review": "Perfect storytelling. FMAB masterfully balances action, emotion, and philosophy in an epic tale of equivalent exchange.",
@@ -323,6 +333,7 @@
     {
       "id": "anime-fantasy-1",
       "title": "Berserk",
+      "customFont": "\"Metal Mania\", cursive",
       "genre": "Fantasy & SciFi",
       "myRating": 10,
       "review": "Dark fantasy at its finest. Berserk combines brutal action with deep character study and philosophical themes.",
@@ -371,6 +382,7 @@
     {
       "id": "anime-fantasy-7",
       "title": "Attack on Titan",
+      "customFont": "\"Germania One\", serif",
       "genre": "Fantasy & SciFi",
       "myRating": 10,
       "review": "A masterpiece of mystery, action, and moral complexity. AoT redefines what shonen can achieve.",
@@ -379,6 +391,7 @@
     {
       "id": "anime-fantasy-8",
       "title": "Cowboy Bebop",
+      "customFont": "\"Bebas Neue\", sans-serif",
       "genre": "Fantasy & SciFi",
       "myRating": 10,
       "review": "The gold standard of space westerns. Cowboy Bebop is stylish, melancholic, and timeless.",
@@ -593,6 +606,7 @@
     {
       "id": "anime-super-4",
       "title": "Demon Slayer",
+      "customFont": "\"Long Cang\", cursive",
       "genre": "Supernatural",
       "myRating": 9,
       "review": "Gorgeous animation and emotional storytelling. Demon Slayer combines family tragedy with thrilling battles.",
@@ -601,6 +615,7 @@
     {
       "id": "anime-super-5",
       "title": "Jujutsu Kaisen",
+      "customFont": "\"Shojumaru\", cursive",
       "genre": "Supernatural",
       "myRating": 9,
       "review": "Modern cursed energy battles with exceptional choreography. JJK is dark, stylish, and addictive.",
@@ -625,6 +640,7 @@
     {
       "id": "anime-super-8",
       "title": "Chainsaw Man",
+      "customFont": "\"Metal Mania\", cursive",
       "genre": "Supernatural",
       "myRating": 9,
       "review": "Chaotic, bloody, and surprisingly emotional. Chainsaw Man is unhinged demon-hunting at its finest.",

@@ -17,7 +17,7 @@ import {
   // SiSonyliv 
 } from 'react-icons/si';
 import { FaBookOpen, FaTv, FaGamepad } from 'react-icons/fa'; // Fallbacks
-import MusicPage from './views/MusicPage';
+import MusicPage from './views/categories/MusicPage';
 import ComicPage from './views/categories/ComicPage';
 import BookPage from './views/categories/BookPage';
 import LightNovelPage from './views/categories/LightNovelPage';

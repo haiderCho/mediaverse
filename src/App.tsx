@@ -4,23 +4,23 @@ import CategoryPage from './views/CategoryPage';
 import ProfilePage from './views/ProfilePage';
 import { PageId } from './types';
 import { PAGE_THEMES } from './constants';
-import { ArrowLeft, ExternalLink } from 'lucide-react';
-import { 
-  SiMyanimelist, 
-  SiImdb, 
-  SiLastdotfm, 
-  SiGoodreads, 
-  SiLetterboxd, 
-  SiAnilist, 
-  // SiBackloggd, // Not available
-  // SiLeagueoflegends, 
-  // SiSonyliv 
-} from 'react-icons/si';
-import { FaBookOpen, FaTv, FaGamepad } from 'react-icons/fa'; // Fallbacks
+import { ArrowLeft } from 'lucide-react';
+
+// Specific Category Pages
 import MusicPage from './views/categories/MusicPage';
 import ComicPage from './views/categories/ComicPage';
 import BookPage from './views/categories/BookPage';
 import LightNovelPage from './views/categories/LightNovelPage';
+import AnimeSeriesPage from './views/categories/AnimeSeriesPage';
+import AnimeMoviesPage from './views/categories/AnimeMoviesPage';
+import MangaPage from './views/categories/MangaPage';
+import ManhwaPage from './views/categories/ManhwaPage';
+import ManhuaPage from './views/categories/ManhuaPage';
+import GamesPage from './views/categories/GamesPage';
+import MoviesPage from './views/categories/MoviesPage';
+import TvSeriesPage from './views/categories/TvSeriesPage';
+import DramaPage from './views/categories/DramaPage';
+import TrackersPage from './views/categories/TrackersPage';
 
 /**
  * Get the page ID from the URL hash
@@ -81,45 +81,21 @@ function App() {
   if (activePage === PageId.BOOKS) return <BookPage onBack={handleBack} />;
   if (activePage === PageId.LIGHT_NOVEL) return <LightNovelPage onBack={handleBack} />;
 
+  if (activePage === PageId.ANIME_SERIES) return <AnimeSeriesPage onBack={handleBack} />;
+  if (activePage === PageId.ANIME_MOVIES) return <AnimeMoviesPage onBack={handleBack} />;
+  if (activePage === PageId.MANGA) return <MangaPage onBack={handleBack} />;
+  if (activePage === PageId.MANHWA) return <ManhwaPage onBack={handleBack} />;
+  if (activePage === PageId.MANHUA) return <ManhuaPage onBack={handleBack} />;
+  if (activePage === PageId.GAMES) return <GamesPage onBack={handleBack} />;
+  if (activePage === PageId.MOVIES) return <MoviesPage onBack={handleBack} />;
+  if (activePage === PageId.TV_SERIES) return <TvSeriesPage onBack={handleBack} />;
+  if (activePage === PageId.DRAMA) return <DramaPage onBack={handleBack} />;
+
   /**
    * Render the Trackers page with external links
    */
   if (activePage === PageId.TRACKERS) {
-    return (
-      <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center text-white fade-in">
-        <button onClick={handleBack} className="absolute top-8 left-8 p-2 bg-slate-800 rounded-full hover:bg-slate-700">
-          <ArrowLeft />
-        </button>
-        <h1 className="text-4xl font-bold mb-12 text-red-600" style={{fontFamily: 'Poppins'}}>EXTERNAL TRACKERS</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[
-              { name: 'MyAnimeList', url: 'https://myanimelist.net/profile/NafizHC', icon: <SiMyanimelist size={24} color="#2E51A2" /> },
-              { name: 'IMDb', url: 'https://www.imdb.com/user/ur41966547/', icon: <SiImdb size={24} color="#F5C518" /> },
-              { name: 'Last.fm', url: 'https://www.last.fm/user/NafizHC', icon: <SiLastdotfm size={24} color="#D51007" /> },
-              { name: 'GoodReads', url: 'http://goodreads.com/nafizhc', icon: <SiGoodreads size={24} color="#372213" /> },
-              { name: 'Letterboxd', url: 'https://letterboxd.com/NafizHC/', icon: <SiLetterboxd size={24} color="#20BC79" /> },
-              { name: 'AniList', url: 'https://anilist.co/user/NafizHC/', icon: <SiAnilist size={24} color="#02A9FF" /> },
-              { name: 'Backloggd', url: 'https://backloggd.com/u/NafizHC/', icon: <FaGamepad size={24} className="text-white" /> }, // Backloggd often white/dark
-              { name: 'Comic Geeks', url: 'https://leagueofcomicgeeks.com/profile/nafizhc/read-list', icon: <FaBookOpen size={24} className="text-green-500" /> }, // Generic book for Comic Geeks
-              { name: 'Serializd', url: 'https://www.serializd.com/user/NafizHC', icon: <FaTv size={24} className="text-purple-500" /> } // Generic TV for Serializd
-            ].map(tracker => (
-                <a 
-                  href={tracker.url} 
-                  key={tracker.name} 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-between w-64 p-4 bg-slate-900 border border-slate-700 rounded hover:border-red-600 hover:text-red-500 transition-all group"
-                >
-                    <div className="flex items-center gap-3">
-                      {tracker.icon}
-                      <span className="font-bold">{tracker.name}</span>
-                    </div>
-                    <ExternalLink size={16} />
-                </a>
-            ))}
-        </div>
-      </div>
-    );
+    return <TrackersPage onBack={handleBack} />;
   }
 
   // Fallback for other categories to generic page

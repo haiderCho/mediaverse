@@ -7,7 +7,7 @@ export const GENRE_MAP: Record<PageId, string[]> = {
     "Action", 
     "Fantasy & SciFi", 
     "Isekai", "Seinen", 
-    "Shonen", 
+    "Shōnen", 
     "Slice of Life & Comedy", 
     "Sports", 
     "Supernatural"
@@ -26,7 +26,7 @@ export const GENRE_MAP: Record<PageId, string[]> = {
     "Psychological", 
     "SciFi", 
     "Seinen", 
-    "Shonen", 
+    "Shōnen", 
     "Slice of Life & Comedy", 
     "Sports", 
     "Supernatural"],

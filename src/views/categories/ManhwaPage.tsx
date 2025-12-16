@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { PageId, ThemeConfig, MediaEntry } from '../types';
-import { generateMockData, PAGE_THEMES } from '../constants';
-import { Home, Star } from 'lucide-react';
-import Top10Card from '../components/Top10Card';
+import { PageId, MediaEntry } from '../../types';
+import { generateMockData, PAGE_THEMES } from '../../constants';
+import { Home } from 'lucide-react';
+import Top10Card from '../../components/Top10Card';
+import { dataService } from '../../services/dataService';
 
-interface CategoryPageProps {
-  pageId: PageId;
+interface ManhwaPageProps {
   onBack: () => void;
 }
 
-const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
+const ManhwaPage: React.FC<ManhwaPageProps> = ({ onBack }) => {
+  const pageId = PageId.MANHWA;
   const theme = PAGE_THEMES[pageId];
 
   // State for content
@@ -24,14 +25,6 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
     const loadData = async () => {
       setIsLoading(true);
       try {
-        // Import dataService dynamically to avoid circular dependencies if any,
-        // or just import at top. For now assuming top-level import is fine but need to add it.
-        // Actually, I'll add the import at the top in a separate edit or include it here if I replace the whole block properly?
-        // I will add the import first in a separate tool call to be safe, I'll handle it.
-        // I'll do a second edit for imports.
-
-        const { dataService } = await import('../src/services/dataService');
-
         const realData = await dataService.getGenreData(pageId, activeGenre);
 
         if (isMounted) {
@@ -63,10 +56,8 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200 pb-10 fade-in flex flex-col">
-      {/* 1. Compact Header */}
       <header className="sticky top-0 z-40 bg-slate-950/95 backdrop-blur-md border-b border-slate-800 shadow-sm h-16 shrink-0">
         <div className="container mx-auto px-4 h-full flex items-center justify-between">
-          {/* Left: Brand / Title */}
           <div className="flex items-center gap-3">
             <button
               onClick={onBack}
@@ -82,12 +73,11 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
                 {theme.title}
               </h1>
               <span className="text-[10px] text-slate-500 uppercase tracking-widest hidden sm:block">
-                Archive
+                Manhwa
               </span>
             </div>
           </div>
 
-          {/* Right: Genre Filter */}
           <nav className="flex-1 ml-4 overflow-x-auto no-scrollbar">
             <div className="flex items-center justify-end gap-2 min-w-max px-2">
               {theme.genres.map((genre) => (
@@ -116,14 +106,12 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
         </div>
       </header>
 
-      {/* 2. Hero Section for Genre */}
       <div
         className="w-full h-64 md:h-80 relative overflow-hidden"
         style={{
           background: `linear-gradient(135deg, ${theme.accentColorDark}15 0%, ${theme.accentColorLight}10 100%)`,
         }}
       >
-        {/* Animated background pattern */}
         <div className="absolute inset-0 opacity-10">
           <div
             className="absolute inset-0"
@@ -134,20 +122,15 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
           />
         </div>
 
-        {/* Hero Image - User requested addition */}
         <div className="absolute inset-0 z-0">
           <img
-            src={`${import.meta.env.BASE_URL}assets/hero_${pageId}.jpg`}
-            onError={(e) => {
-              // Fallback to pattern or solid color if image missing
-              e.currentTarget.style.display = 'none';
-            }}
-            alt={`${theme.title} Hero`}
+            src={`${import.meta.env.BASE_URL}assets/hero_manhwa.jpg`}
+            onError={(e) => { e.currentTarget.style.display = 'none'; }}
+            alt="Manhwa Hero"
             className="w-full h-full object-cover opacity-40 mix-blend-overlay"
           />
         </div>
 
-        {/* Hero Content */}
         <div className="container mx-auto px-4 h-full flex flex-col justify-center items-center text-center relative z-10">
           <div
             className="mb-4 px-6 py-2 rounded-full border-2 inline-block"
@@ -176,21 +159,9 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
           >
             Top 10
           </h2>
-
-          <p className="text-slate-400 max-w-2xl text-sm md:text-base">
-            Curated selection of the finest {activeGenre.toLowerCase()} {theme.title.toLowerCase()}
-          </p>
-        </div>
-
-        {/* Decorative bottom wave */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1200 120" preserveAspectRatio="none" className="w-full h-16">
-            <path d="M0,0 C300,60 600,80 900,60 L900,120 L0,120 Z" fill="#020617" opacity="0.8" />
-          </svg>
         </div>
       </div>
 
-      {/* 3. Ranked List */}
       <main className="container mx-auto px-4 -mt-8 relative z-20">
         {entries.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -213,4 +184,4 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
   );
 };
 
-export default CategoryPage;
+export default ManhwaPage;

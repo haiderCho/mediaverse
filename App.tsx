@@ -18,6 +18,9 @@ import {
 } from 'react-icons/si';
 import { FaBookOpen, FaTv, FaGamepad } from 'react-icons/fa'; // Fallbacks
 import MusicPage from './views/MusicPage';
+import ComicPage from './views/categories/ComicPage';
+import BookPage from './views/categories/BookPage';
+import LightNovelPage from './views/categories/LightNovelPage';
 
 /**
  * Get the page ID from the URL hash
@@ -67,20 +70,16 @@ function App() {
     setActivePage(PageId.HOME);
   };
 
-  /**
-   * Render the home page
-   */
-  
-  if (activePage === PageId.HOME) {
-    return <LandingPage onNavigate={handleNavigate} />;
-  }
+  // --- SPECIFIC PAGE ROUTING ---
 
-  /**
-   * Render the Profile page with user information
-   */
-  if (activePage === PageId.PROFILE) {
-    return <ProfilePage onBack={handleBack} />;
-  }
+  if (activePage === PageId.HOME) return <LandingPage onNavigate={handleNavigate} />;
+  if (activePage === PageId.PROFILE) return <ProfilePage onBack={handleBack} />;
+  
+  if (activePage === PageId.MUSIC) return <MusicPage onBack={handleBack} onNavigate={handleNavigate} />;
+  
+  if (activePage === PageId.COMIC) return <ComicPage onBack={handleBack} />;
+  if (activePage === PageId.BOOKS) return <BookPage onBack={handleBack} />;
+  if (activePage === PageId.LIGHT_NOVEL) return <LightNovelPage onBack={handleBack} />;
 
   /**
    * Render the Trackers page with external links
@@ -123,18 +122,7 @@ function App() {
     );
   }
 
-// ... (inside App component)
-
-  /**
-   * Render Music Page specially
-   */
-  if (activePage === PageId.MUSIC) {
-    return <MusicPage onBack={handleBack} onNavigate={handleNavigate} />;
-  }
-
-  /**
-   * Render generic category pages for all media types
-   */
+  // Fallback for other categories to generic page
   return (
     <CategoryPage 
       pageId={activePage} 

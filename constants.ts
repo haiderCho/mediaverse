@@ -128,8 +128,8 @@ export const PAGE_THEMES: Record<PageId, ThemeConfig> = {
     id: PageId.BOOKS,
     title: 'Books',
     fontFamily: '"Goudy Bookletter 1911", serif',
-    accentColorDark: '#1e1915', // Library Wood
-    accentColorLight: '#d4c5a9', // Old Paper
+    accentColorDark: '#E2A065', // Polished Wood (Lighter for visibility)
+    accentColorLight: '#F0D5B7', // Parchment
     icon: Library,
     genres: GENRE_MAP[PageId.BOOKS],
   },

@@ -1,0 +1,740 @@
+{
+  "Shonen": [
+    {
+      "id": "manga-shonen-1",
+      "title": "One Piece",
+      "genre": "Shonen",
+      "myRating": 10,
+      "review": "The ultimate adventure manga. Oda's worldbuilding, character development, and emotional storytelling create an unparalleled epic spanning decades.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/253146l.jpg"
+    },
+    {
+      "id": "manga-shonen-2",
+      "title": "Naruto",
+      "genre": "Shonen",
+      "myRating": 9,
+      "review": "A ninja's journey from outcast to legend. Kishimoto crafts incredible battles and emotionally resonant character arcs in this defining modern shonen.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/249658l.jpg"
+    },
+    {
+      "id": "manga-shonen-3",
+      "title": "Bleach",
+      "genre": "Shonen",
+      "myRating": 8,
+      "review": "Stylish supernatural action with iconic character designs. Kubo's artwork and creative power system make for consistently entertaining battles.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/180031l.jpg"
+    },
+    {
+      "id": "manga-shonen-4",
+      "title": "My Hero Academia",
+      "genre": "Shonen",
+      "myRating": 9,
+      "review": "A fresh take on superhero manga. Horikoshi delivers inspiring heroism, intense battles, and genuine heart in this modern classic.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/209370l.jpg"
+    },
+    {
+      "id": "manga-shonen-5",
+      "title": "Demon Slayer",
+      "genre": "Shonen",
+      "myRating": 9,
+      "review": "Gorgeous art meets emotionally driven demon-slaying action. Gotouge creates unforgettable characters and breathtaking battle sequences.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/179023l.jpg"
+    },
+    {
+      "id": "manga-shonen-6",
+      "title": "Hunter x Hunter",
+      "genre": "Shonen",
+      "myRating": 10,
+      "review": "Togashi's masterpiece of strategic battles and moral complexity. Every arc introduces innovative concepts that elevate shonen storytelling.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/253119l.jpg"
+    },
+    {
+      "id": "manga-shonen-7",
+      "title": "Jujutsu Kaisen",
+      "genre": "Shonen",
+      "myRating": 9,
+      "review": "Dark, stylish, and intensely creative. Akutami combines horror elements with shonen action for a uniquely compelling experience.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/210341l.jpg"
+    },
+    {
+      "id": "manga-shonen-8",
+      "title": "Dragon Ball",
+      "genre": "Shonen",
+      "myRating": 9,
+      "review": "The legendary series that defined battle shonen. Toriyama's iconic art and escalating power levels created the blueprint for generations.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/54525l.jpg"
+    },
+    {
+      "id": "manga-shonen-9",
+      "title": "Black Clover",
+      "genre": "Shonen",
+      "myRating": 8,
+      "review": "An underdog's magical journey with heart and determination. Tabata delivers consistent action and inspiring character growth.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/188801l.jpg"
+    },
+    {
+      "id": "manga-shonen-10",
+      "title": "Chainsaw Man",
+      "genre": "Shonen",
+      "myRating": 10,
+      "review": "Fujimoto's chaotic masterpiece breaks shonen conventions. Unpredictable, visceral, and emotionally devastating in the best way.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/216464l.jpg"
+    }
+  ],
+  "Seinen": [
+    {
+      "id": "manga-seinen-1",
+      "title": "Berserk",
+      "genre": "Seinen",
+      "myRating": 10,
+      "review": "The dark fantasy masterpiece. Miura's unparalleled art and brutal exploration of trauma, revenge, and humanity set the gold standard.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/157897l.jpg"
+    },
+    {
+      "id": "manga-seinen-2",
+      "title": "Vagabond",
+      "genre": "Seinen",
+      "myRating": 10,
+      "review": "Inoue's breathtaking artwork depicts Musashi's journey from savage warrior to enlightened master. A meditation on strength and purpose.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/259070l.jpg"
+    },
+    {
+      "id": "manga-seinen-3",
+      "title": "Vinland Saga",
+      "genre": "Seinen",
+      "myRating": 10,
+      "review": "A Viking epic that evolves from revenge tale to profound anti-war meditation. Yukimura crafts unforgettable characters and moral complexity.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/188925l.jpg"
+    },
+    {
+      "id": "manga-seinen-4",
+      "title": "Tokyo Ghoul",
+      "genre": "Seinen",
+      "myRating": 9,
+      "review": "Ishida's tragic masterpiece of identity and monstrosity. Dark, symbolic, and intensely emotional with stunning artistic expression.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/147515l.jpg"
+    },
+    {
+      "id": "manga-seinen-5",
+      "title": "Monster",
+      "genre": "Seinen",
+      "myRating": 10,
+      "review": "Urasawa's thriller masterpiece. A surgeon's ethical choice leads to a cat-and-mouse game with a charismatic psychopath.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/258224l.jpg"
+    },
+    {
+      "id": "manga-seinen-6",
+      "title": "Oyasumi Punpun",
+      "genre": "Seinen",
+      "myRating": 10,
+      "review": "Asano's devastating exploration of depression and existence. Not for the faint of heart, but unforgettably powerful.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/266834l.jpg"
+    },
+    {
+      "id": "manga-seinen-7",
+      "title": "Kingdom",
+      "genre": "Seinen",
+      "myRating": 9,
+      "review": "Epic Chinese historical warfare manga. Hara delivers massive battles, strategic brilliance, and inspiring leadership stories.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/171872l.jpg"
+    },
+    {
+      "id": "manga-seinen-8",
+      "title": "Homunculus",
+      "genre": "Seinen",
+      "myRating": 9,
+      "review": "Surreal psychological horror exploring perception and trauma. Yamamoto creates an unsettling journey into human darkness.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/54525l.jpg"
+    },
+    {
+      "id": "manga-seinen-9",
+      "title": "Akumetsu",
+      "genre": "Seinen",
+      "myRating": 8,
+      "review": "Dark vigilante justice tackling Japanese corruption. Extreme methods and moral complexity create gripping social commentary.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/53255l.jpg"
+    },
+    {
+      "id": "manga-seinen-10",
+      "title": "Pluto",
+      "genre": "Seinen",
+      "myRating": 9,
+      "review": "Urasawa's brilliant Astro Boy reimagining. A murder mystery exploring AI consciousness and what it means to be human.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/268313l.jpg"
+    }
+  ],
+  "Action": [
+    {
+      "id": "manga-action-1",
+      "title": "One Punch Man",
+      "genre": "Action",
+      "myRating": 9,
+      "review": "Murata's godly artwork transforms ONE's satire into visual spectacle. Hilarious and thrilling superhero action.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/250903l.jpg"
+    },
+    {
+      "id": "manga-action-2",
+      "title": "Attack on Titan",
+      "genre": "Action",
+      "myRating": 10,
+      "review": "Isayama's masterpiece of mystery, action, and moral complexity. Every revelation reshapes understanding in this titan-slaying epic.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/37846l.jpg"
+    },
+    {
+      "id": "manga-action-3",
+      "title": "Mob Psycho 100",
+      "genre": "Action",
+      "myRating": 9,
+      "review": "ONE's heartfelt story of psychic coming-of-age. Explosive action balanced with genuine emotional growth and kindness.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/5/150831l.jpg"
+    },
+    {
+      "id": "manga-action-4",
+      "title": "Fullmetal Alchemist",
+      "genre": "Action",
+      "myRating": 10,
+      "review": "Arakawa's perfectly crafted adventure. Alchemy, brotherhood, and sacrifice blend into an unforgettable masterpiece.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/243675l.jpg"
+    },
+    {
+      "id": "manga-action-5",
+      "title": "Tokyo Revengers",
+      "genre": "Action",
+      "myRating": 8,
+      "review": "Time-travel delinquent drama with intense gang warfare. Wakui creates compelling characters and escalating stakes.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/216566l.jpg"
+    },
+    {
+      "id": "manga-action-6",
+      "title": "Dorohedoro",
+      "genre": "Action",
+      "myRating": 9,
+      "review": "Hayashida's wonderfully weird dystopian world. Grotesque magic, dark humor, and memorable characters create unique chaos.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/178199l.jpg"
+    },
+    {
+      "id": "manga-action-7",
+      "title": "Fire Punch",
+      "genre": "Action",
+      "myRating": 8,
+      "review": "Fujimoto's debut is brutal, bizarre, and brilliant. A man eternally burning seeks revenge in a frozen apocalypse.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/189039l.jpg"
+    },
+    {
+      "id": "manga-action-8",
+      "title": "Gantz",
+      "genre": "Action",
+      "myRating": 8,
+      "review": "Disturbing sci-fi death game with no-holds-barred violence. Oku creates intense alien hunting action.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/221095l.jpg"
+    },
+    {
+      "id": "manga-action-9",
+      "title": "Hellsing",
+      "genre": "Action",
+      "myRating": 9,
+      "review": "Hirano's ultra-violent vampire mayhem. Alucard's overpowered destruction paired with gothic atmosphere.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/179785l.jpg"
+    },
+    {
+      "id": "manga-action-10",
+      "title": "Holyland",
+      "genre": "Action",
+      "myRating": 9,
+      "review": "Realistic street fighting manga about finding purpose. Bullied boy transforms through martial arts.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/214607l.jpg"
+    }
+  ],
+  "Isekai": [
+    {
+      "id": "manga-isekai-1",
+      "title": "Re:Zero",
+      "genre": "Isekai",
+      "myRating": 9,
+      "review": "Dark time-loop isekai exploring trauma and determination. Nagatsuki creates genuine stakes through suffering and growth.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/188948l.jpg"
+    },
+    {
+      "id": "manga-isekai-2",
+      "title": "That Time I Got Reincarnated as a Slime",
+      "genre": "Isekai",
+      "myRating": 8,
+      "review": "Fun monster evolution isekai with nation-building. Rimuru's journey from slime to demon lord is consistently entertaining.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/188915l.jpg"
+    },
+    {
+      "id": "manga-isekai-3",
+      "title": "Mushoku Tensei",
+      "genre": "Isekai",
+      "myRating": 9,
+      "review": "The isekai that influenced countless others. Rifujin creates deep worldbuilding and genuine character development.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/195611l.jpg"
+    },
+    {
+      "id": "manga-isekai-4",
+      "title": "Overlord",
+      "genre": "Isekai",
+      "myRating": 8,
+      "review": "Trapped as a skeletal overlord in an MMO world. Maruyama explores moral ambiguity from the villain's perspective.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/208664l.jpg"
+    },
+    {
+      "id": "manga-isekai-5",
+      "title": "The Rising of the Shield Hero",
+      "genre": "Isekai",
+      "myRating": 8,
+      "review": "Betrayed hero's dark revenge journey. Aneko crafts compelling character growth through adversity.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/180870l.jpg"
+    },
+    {
+      "id": "manga-isekai-6",
+      "title": "Ascendance of a Bookworm",
+      "genre": "Isekai",
+      "myRating": 8,
+      "review": "Book-loving girl revolutionizes medieval world. Wholesome isekai focused on knowledge and culture.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/195690l.jpg"
+    },
+    {
+      "id": "manga-isekai-7",
+      "title": "KonoSuba",
+      "genre": "Isekai",
+      "myRating": 9,
+      "review": "Hilarious isekai comedy with useless party members. Akatsuki perfectly parodies and celebrates the genre.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/178519l.jpg"
+    },
+    {
+      "id": "manga-isekai-8",
+      "title": "Log Horizon",
+      "genre": "Isekai",
+      "myRating": 8,
+      "review": "Strategic MMO isekai about building society. Focuses on politics, economics, and community.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/226561l.jpg"
+    },
+    {
+      "id": "manga-isekai-9",
+      "title": "The Eminence in Shadow",
+      "genre": "Isekai",
+      "myRating": 8,
+      "review": "Delusion becomes reality in this comedic isekai. Chuunibyou protagonist accidentally creates real conspiracies.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/223795l.jpg"
+    },
+    {
+      "id": "manga-isekai-10",
+      "title": "Sword Art Online",
+      "genre": "Isekai",
+      "myRating": 7,
+      "review": "The series that popularized modern isekai. Death game MMO with high stakes and romance.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/261845l.jpg"
+    }
+  ],
+  "Fantasy": [
+    {
+      "id": "manga-fantasy-1",
+      "title": "Frieren: Beyond Journey's End",
+      "genre": "Fantasy",
+      "myRating": 10,
+      "review": "Beautiful meditation on time, mortality, and understanding humanity. Yamada creates profound fantasy through simple moments.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/214606l.jpg"
+    },
+    {
+      "id": "manga-fantasy-2",
+      "title": "Magi: The Labyrinth of Magic",
+      "genre": "Fantasy",
+      "myRating": 9,
+      "review": "Epic Arabian Nights inspired adventure. Ohtaka builds a rich world of magic, dungeons, and kingdom politics.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/180969l.jpg"
+    },
+    {
+      "id": "manga-fantasy-3",
+      "title": "Made in Abyss",
+      "genre": "Fantasy",
+      "myRating": 10,
+      "review": "Deceptively cute visuals hide brutal exploration horror. Tsukushi creates an unforgettable descent into darkness.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/193351l.jpg"
+    },
+    {
+      "id": "manga-fantasy-4",
+      "title": "Fairy Tail",
+      "genre": "Fantasy",
+      "myRating": 8,
+      "review": "Mashima's magical guild adventures emphasize friendship and heart. Consistently fun battles and character bonds.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/5/193579l.jpg"
+    },
+    {
+      "id": "manga-fantasy-5",
+      "title": "Magi: The Seven Deadly Sins",
+      "genre": "Fantasy",
+      "myRating": 8,
+      "review": "Knights seek redemption in magical Britannia. Suzuki blends action, comedy, and mythology effectively.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/215699l.jpg"
+    },
+    {
+      "id": "manga-fantasy-6",
+      "title": "Nausicaä of the Valley of the Wind",
+      "genre": "Fantasy",
+      "myRating": 10,
+      "review": "Miyazaki's environmental epic. Breathtaking worldbuilding and meditation on nature versus humanity.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/5/259096l.jpg"
+    },
+    {
+      "id": "manga-fantasy-7",
+      "title": "Claymore",
+      "genre": "Fantasy",
+      "myRating": 9,
+      "review": "Dark fantasy about half-human demon slayers. Yagi crafts compelling lore and memorable warrior women.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/8451l.jpg"
+    },
+    {
+      "id": "manga-fantasy-8",
+      "title": "Dungeon Meshi (Delicious in Dungeon)",
+      "genre": "Fantasy",
+      "myRating": 9,
+      "review": "Gourmet dungeon exploration manga. Kui blends cooking, comedy, and compelling worldbuilding brilliantly.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/219086l.jpg"
+    },
+    {
+      "id": "manga-fantasy-9",
+      "title": "Pandora Hearts",
+      "genre": "Fantasy",
+      "myRating": 9,
+      "review": "Gothic mystery with Alice in Wonderland themes. Mochizuki weaves complex time-loop narrative beautifully.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/179790l.jpg"
+    },
+    {
+      "id": "manga-fantasy-10",
+      "title": "The Ancient Magus' Bride",
+      "genre": "Fantasy",
+      "myRating": 8,
+      "review": "Gentle dark fantasy about magic and healing. Yamazaki creates atmospheric fairy tale romance.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/188162l.jpg"
+    }
+  ],
+  "SciFi": [
+    {
+      "id": "manga-scifi-1",
+      "title": "Akira",
+      "genre": "SciFi",
+      "myRating": 10,
+      "review": "Otomo's cyberpunk masterpiece defined manga's global impact. Psychic powers, dystopia, and stunning art.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/263469l.jpg"
+    },
+    {
+      "id": "manga-scifi-2",
+      "title": "Ghost in the Shell",
+      "genre": "SciFi",
+      "myRating": 9,
+      "review": "Shirow explores consciousness in the digital age. Philosophical cyberpunk questioning reality and identity.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/5/261439l.jpg"
+    },
+    {
+      "id": "manga-scifi-3",
+      "title": "Steins;Gate",
+      "genre": "SciFi",
+      "myRating": 9,
+      "review": "Time travel thriller with genuine emotional stakes. Brilliantly executed butterfly effect narrative.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/146633l.jpg"
+    },
+    {
+      "id": "manga-scifi-4",
+      "title": "Blame!",
+      "genre": "SciFi",
+      "myRating": 9,
+      "review": "Nihei's apocalyptic mega-structure journey. Sparse dialogue, endless architecture, and haunting atmosphere.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/179796l.jpg"
+    },
+    {
+      "id": "manga-scifi-5",
+      "title": "Battle Angel Alita",
+      "genre": "SciFi",
+      "myRating": 9,
+      "review": "Cybernetic martial arts in dystopian future. Kishiro blends philosophy, action, and transhumanism.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/246648l.jpg"
+    },
+    {
+      "id": "manga-scifi-6",
+      "title": "Planetes",
+      "genre": "SciFi",
+      "myRating": 9,
+      "review": "Realistic space debris collectors manga. Yukimura's grounded sci-fi explores humanity's future in space.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/259070l.jpg"
+    },
+    {
+      "id": "manga-scifi-7",
+      "title": "20th Century Boys",
+      "genre": "SciFi",
+      "myRating": 10,
+      "review": "Urasawa's sprawling sci-fi mystery spanning decades. Childhood games become apocalyptic conspiracies.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/258245l.jpg"
+    },
+    {
+      "id": "manga-scifi-8",
+      "title": "Dr. Stone",
+      "genre": "SciFi",
+      "myRating": 8,
+      "review": "Rebuilding civilization from stone age. Inagaki makes science exciting through creative problem-solving.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/200592l.jpg"
+    },
+    {
+      "id": "manga-scifi-9",
+      "title": "Parasyte",
+      "genre": "SciFi",
+      "myRating": 9,
+      "review": "Body horror invasion manga exploring coexistence. Iwaaki creates thoughtful alien parasite thriller.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/54525l.jpg"
+    },
+    {
+      "id": "manga-scifi-10",
+      "title": "All You Need Is Kill",
+      "genre": "SciFi",
+      "myRating": 8,
+      "review": "Time-loop alien warfare. Sakurazaka's brutal military sci-fi inspired Edge of Tomorrow.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/139223l.jpg"
+    }
+  ],
+  "Slice of Life & Comedy": [
+    {
+      "id": "manga-slice-1",
+      "title": "A Silent Voice",
+      "genre": "Slice of Life & Comedy",
+      "myRating": 10,
+      "review": "Oima's powerful story about redemption, disability, and connection. Emotionally devastating and uplifting.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/190306l.jpg"
+    },
+    {
+      "id": "manga-slice-2",
+      "title": "March Comes in Like a Lion",
+      "genre": "Slice of Life & Comedy",
+      "myRating": 10,
+      "review": "Umino's gentle exploration of depression and healing through shogi and found family. Beautiful character work.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/188925l.jpg"
+    },
+    {
+      "id": "manga-slice-3",
+      "title": "Grand Blue Dreaming",
+      "genre": "Slice of Life & Comedy",
+      "myRating": 9,
+      "review": "Hilarious college diving club comedy. Inoue creates laugh-out-loud chaos with perfect comedic timing.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/166124l.jpg"
+    },
+    {
+      "id": "manga-slice-4",
+      "title": "Kaguya-sama: Love Is War",
+      "genre": "Slice of Life & Comedy",
+      "myRating": 9,
+      "review": "Romantic comedy as psychological warfare. Akasaka's genius students refuse to confess first.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/188896l.jpg"
+    },
+    {
+      "id": "manga-slice-5",
+      "title": "Barakamon",
+      "genre": "Slice of Life & Comedy",
+      "myRating": 9,
+      "review": "Calligrapher finds inspiration on rural island. Heartwarming slice of life about art and community.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/124606l.jpg"
+    },
+    {
+      "id": "manga-slice-6",
+      "title": "Yotsuba&!",
+      "genre": "Slice of Life & Comedy",
+      "myRating": 9,
+      "review": "Pure joy captured in manga form. Azuma's energetic child protagonist radiates infectious wonder.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/5/259096l.jpg"
+    },
+    {
+      "id": "manga-slice-7",
+      "title": "Skip and Loafer",
+      "genre": "Slice of Life & Comedy",
+      "myRating": 8,
+      "review": "Wholesome high school slice of life. Takamatsu creates genuine relationships and personal growth.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/211471l.jpg"
+    },
+    {
+      "id": "manga-slice-8",
+      "title": "Gintama",
+      "genre": "Slice of Life & Comedy",
+      "myRating": 9,
+      "review": "Brilliant comedy blending parody, action, and heart. Sorachi seamlessly shifts between hilarious and emotional.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/244253l.jpg"
+    },
+    {
+      "id": "manga-slice-9",
+      "title": "Laid-Back Camp",
+      "genre": "Slice of Life & Comedy",
+      "myRating": 8,
+      "review": "Cozy camping manga that warms the soul. Afro creates perfect comfort food storytelling.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/188896l.jpg"
+    },
+    {
+      "id": "manga-slice-10",
+      "title": "The Way of the Househusband",
+      "genre": "Slice of Life & Comedy",
+      "myRating": 8,
+      "review": "Ex-yakuza becomes dedicated househusband. Oono's deadpan humor makes everyday tasks hilarious.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/214607l.jpg"
+    }
+  ],
+  "Sports": [
+    {
+      "id": "manga-sports-1",
+      "title": "Haikyuu!!",
+      "genre": "Sports",
+      "myRating": 10,
+      "review": "Furudate's volleyball masterpiece captures pure joy of competition. Every match delivers tactical brilliance and emotional payoff.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/189793l.jpg"
+    },
+    {
+      "id": "manga-sports-2",
+      "title": "Slam Dunk",
+      "genre": "Sports",
+      "myRating": 10,
+      "review": "The basketball manga that defined the genre. Inoue's delinquent-turned-player creates iconic sports storytelling.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/5/243734l.jpg"
+    },
+    {
+      "id": "manga-sports-3",
+      "title": "Blue Lock",
+      "genre": "Sports",
+      "myRating": 8,
+      "review": "Battle royale soccer to create ultimate striker. Kaneshiro's explosive approach revolutionizes sports manga.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/219771l.jpg"
+    },
+    {
+      "id": "manga-sports-4",
+      "title": "Hajime no Ippo",
+      "genre": "Sports",
+      "myRating": 9,
+      "review": "The definitive boxing manga spanning decades. Morikawa creates inspiring underdog journey with technical mastery.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/54525l.jpg"
+    },
+    {
+      "id": "manga-sports-5",
+      "title": "Kuroko's Basketball",
+      "genre": "Sports",
+      "myRating": 8,
+      "review": "Supernatural basketball with phantom player. Fujimaki adds shounen power system to sports.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/157481l.jpg"
+    },
+    {
+      "id": "manga-sports-6",
+      "title": "Ashita no Joe",
+      "genre": "Sports",
+      "myRating": 10,
+      "review": "Classic boxing manga about redemption through fighting. Chiba and Kajiwara's tragic masterpiece.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/158133l.jpg"
+    },
+    {
+      "id": "manga-sports-7",
+      "title": "Ping Pong",
+      "genre": "Sports",
+      "myRating": 9,
+      "review": "Matsumoto's artistic table tennis exploration. More about life philosophy than just sports.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/157481l.jpg"
+    },
+    {
+      "id": "manga-sports-8",
+      "title": "Eyeshield 21",
+      "genre": "Sports",
+      "myRating": 8,
+      "review": "American football manga with Shonen Jump energy. Inagaki and Murata deliver exciting strategic gameplay.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/188925l.jpg"
+    },
+    {
+      "id": "manga-sports-9",
+      "title": "Yowamushi Pedal",
+      "genre": "Sports",
+      "myRating": 8,
+      "review": "Otaku discovers competitive cycling talent. Watanabe creates intense road racing drama.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/179023l.jpg"
+    },
+    {
+      "id": "manga-sports-10",
+      "title": "Days",
+      "genre": "Sports",
+      "myRating": 8,
+      "review": "Heartfelt soccer manga about hardwork triumphing over talent. Yasuda emphasizes passion and growth.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/188948l.jpg"
+    }
+  ],
+  "Supernatural": [
+    {
+      "id": "manga-supernatural-1",
+      "title": "Death Note",
+      "genre": "Supernatural",
+      "myRating": 10,
+      "review": "Ohba and Obata's cat-and-mouse thriller. Supernatural death game becomes battle of intellects.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/253119l.jpg"
+    },
+    {
+      "id": "manga-supernatural-2",
+      "title": "Bleach",
+      "genre": "Supernatural",
+      "myRating": 8,
+      "review": "Soul reaper battles with incredible style. Kubo's supernatural world features iconic character design.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/180031l.jpg"
+    },
+    {
+      "id": "manga-supernatural-3",
+      "title": "Noragami",
+      "genre": "Supernatural",
+      "myRating": 8,
+      "review": "Minor god seeks recognition through odd jobs. Adachitoka blends comedy and supernatural action.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/149026l.jpg"
+    },
+    {
+      "id": "manga-supernatural-4",
+      "title": "Blue Exorcist",
+      "genre": "Supernatural",
+      "myRating": 8,
+      "review": "Son of Satan becomes exorcist. Kato creates engaging demon-hunting adventures.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/177533l.jpg"
+    },
+    {
+      "id": "manga-supernatural-5",
+      "title": "Natsume's Book of Friends",
+      "genre": "Supernatural",
+      "myRating": 9,
+      "review": "Gentle yokai stories about connection and loneliness. Midorikawa creates atmospheric supernatural healing.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/5/215621l.jpg"
+    },
+    {
+      "id": "manga-supernatural-6",
+      "title": "Mononoke",
+      "genre": "Supernatural",
+      "myRating": 9,
+      "review": "Medicine seller exorcises supernatural entities. Unique art style and psychological horror.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/214607l.jpg"
+    },
+    {
+      "id": "manga-supernatural-7",
+      "title": "xxxHolic",
+      "genre": "Supernatural",
+      "myRating": 8,
+      "review": "CLAMP's supernatural wish shop. Beautiful art and meaningful supernatural encounters.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/2/188925l.jpg"
+    },
+    {
+      "id": "manga-supernatural-8",
+      "title": "Toilet-Bound Hanako-kun",
+      "genre": "Supernatural",
+      "myRating": 8,
+      "review": "School mysteries with charming ghost. AidaIro blends cute art with dark supernatural secrets.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/200592l.jpg"
+    },
+    {
+      "id": "manga-supernatural-9",
+      "title": "Hell's Paradise",
+      "genre": "Supernatural",
+      "myRating": 8,
+      "review": "Condemned criminals seek immortality on deadly island. Kaku creates brutal supernatural survival.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/3/214588l.jpg"
+    },
+    {
+      "id": "manga-supernatural-10",
+      "title": "Mushishi",
+      "genre": "Supernatural",
+      "myRating": 10,
+      "review": "Atmospheric episodic tales of mysterious life forms. Urushibara's meditative supernatural masterpiece.",
+      "coverUrl": "https://cdn.myanimelist.net/images/manga/1/157897l.jpg"
+    }
+  ]
+}

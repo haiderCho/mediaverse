@@ -1,0 +1,1917 @@
+{
+  "topArtists": [
+    {
+      "rank": 1,
+      "name": "Aurthohin",
+      "imageUrl": "assets/music/artists/aurthohin.jpeg"
+    },
+    {
+      "rank": 2,
+      "name": "Five Finger Death Punch",
+      "imageUrl": "assets/music/artists/five_finger_death_punch.jpeg"
+    },
+    {
+      "rank": 3,
+      "name": "Godsmack",
+      "imageUrl": "assets/music/artists/godsmack.jpeg"
+    },
+    {
+      "rank": 4,
+      "name": "Disturbed",
+      "imageUrl": "assets/music/artists/disturbed.jpeg"
+    },
+    {
+      "rank": 5,
+      "name": "Avenged Sevenfold",
+      "imageUrl": "assets/music/artists/avenged_sevenfold.jpeg"
+    },
+    {
+      "rank": 6,
+      "name": "Sabaton",
+      "imageUrl": "assets/music/artists/sabaton.jpg"
+    },
+    {
+      "rank": 7,
+      "name": "Three Days Grace",
+      "imageUrl": "assets/music/artists/three_days_grace.jpeg"
+    },
+    {
+      "rank": 8,
+      "name": "Linkin Park",
+      "imageUrl": "assets/music/artists/linkin_park.jpg"
+    },
+    {
+      "rank": 9,
+      "name": "Metallica",
+      "imageUrl": "assets/music/artists/metallica.jpeg"
+    },
+    {
+      "rank": 10,
+      "name": "Eminem",
+      "imageUrl": "assets/music/artists/eminem.jpeg"
+    },
+    {
+      "rank": 11,
+      "name": "Popeye Bangladesh",
+      "imageUrl": "assets/music/artists/popeye_bangladesh.jpeg"
+    },
+    {
+      "rank": 12,
+      "name": "System of a Down",
+      "imageUrl": "assets/music/artists/system_of_a_down.jpeg"
+    },
+    {
+      "rank": 13,
+      "name": "Billy Talent",
+      "imageUrl": "assets/music/artists/billy_talent.jpeg"
+    },
+    {
+      "rank": 14,
+      "name": "Breaking Benjamin",
+      "imageUrl": "assets/music/artists/breaking_benjamin.jpeg"
+    },
+    {
+      "rank": 15,
+      "name": "Warfaze",
+      "imageUrl": "assets/music/artists/warfaze.jpg"
+    },
+    {
+      "rank": 16,
+      "name": "Shironamhin",
+      "imageUrl": "assets/music/artists/shironamhin.jpeg"
+    },
+    {
+      "rank": 17,
+      "name": "Shinedown",
+      "imageUrl": "assets/music/artists/shinedown.jpeg"
+    },
+    {
+      "rank": 18,
+      "name": "Shunno",
+      "imageUrl": "assets/music/artists/shunno.jpeg"
+    },
+    {
+      "rank": 19,
+      "name": "Alec Benjamin",
+      "imageUrl": "assets/music/artists/alec_benjamin.jpeg"
+    },
+    {
+      "rank": 20,
+      "name": "Korn",
+      "imageUrl": "assets/music/artists/korn.jpeg"
+    },
+    {
+      "rank": 21,
+      "name": "Powerwolf",
+      "imageUrl": "assets/music/artists/powerwolf.jpeg"
+    },
+    {
+      "rank": 22,
+      "name": "Thousand Foot Krutch",
+      "imageUrl": "assets/music/artists/thousand_foot_krutch.jpeg"
+    },
+    {
+      "rank": 23,
+      "name": "Guns N' Roses",
+      "imageUrl": "assets/music/artists/guns_n_roses.jpeg"
+    },
+    {
+      "rank": 24,
+      "name": "Conclusion",
+      "imageUrl": "assets/music/artists/conclusion.jpeg"
+    },
+    {
+      "rank": 25,
+      "name": "Starset",
+      "imageUrl": "assets/music/artists/Starset.jpeg"
+    }
+  ],
+  "tracks": {
+    "english": [
+      {
+        "id": "English-0",
+        "title": "English Song 1",
+        "artist": "English Artist 1",
+        "album": "English Album 1",
+        "imageUrl": "https://picsum.photos/300/300?random=1000"
+      },
+      {
+        "id": "English-1",
+        "title": "English Song 2",
+        "artist": "English Artist 2",
+        "album": "English Album 2",
+        "imageUrl": "https://picsum.photos/300/300?random=1001"
+      },
+      {
+        "id": "English-2",
+        "title": "English Song 3",
+        "artist": "English Artist 3",
+        "album": "English Album 3",
+        "imageUrl": "https://picsum.photos/300/300?random=1002"
+      },
+      {
+        "id": "English-3",
+        "title": "English Song 4",
+        "artist": "English Artist 4",
+        "album": "English Album 4",
+        "imageUrl": "https://picsum.photos/300/300?random=1003"
+      },
+      {
+        "id": "English-4",
+        "title": "English Song 5",
+        "artist": "English Artist 5",
+        "album": "English Album 5",
+        "imageUrl": "https://picsum.photos/300/300?random=1004"
+      },
+      {
+        "id": "English-5",
+        "title": "English Song 6",
+        "artist": "English Artist 6",
+        "album": "English Album 6",
+        "imageUrl": "https://picsum.photos/300/300?random=1005"
+      },
+      {
+        "id": "English-6",
+        "title": "English Song 7",
+        "artist": "English Artist 7",
+        "album": "English Album 7",
+        "imageUrl": "https://picsum.photos/300/300?random=1006"
+      },
+      {
+        "id": "English-7",
+        "title": "English Song 8",
+        "artist": "English Artist 8",
+        "album": "English Album 8",
+        "imageUrl": "https://picsum.photos/300/300?random=1007"
+      },
+      {
+        "id": "English-8",
+        "title": "English Song 9",
+        "artist": "English Artist 9",
+        "album": "English Album 9",
+        "imageUrl": "https://picsum.photos/300/300?random=1008"
+      },
+      {
+        "id": "English-9",
+        "title": "English Song 10",
+        "artist": "English Artist 10",
+        "album": "English Album 10",
+        "imageUrl": "https://picsum.photos/300/300?random=1009"
+      },
+      {
+        "id": "English-10",
+        "title": "English Song 11",
+        "artist": "English Artist 11",
+        "album": "English Album 11",
+        "imageUrl": "https://picsum.photos/300/300?random=1010"
+      },
+      {
+        "id": "English-11",
+        "title": "English Song 12",
+        "artist": "English Artist 12",
+        "album": "English Album 12",
+        "imageUrl": "https://picsum.photos/300/300?random=1011"
+      },
+      {
+        "id": "English-12",
+        "title": "English Song 13",
+        "artist": "English Artist 13",
+        "album": "English Album 13",
+        "imageUrl": "https://picsum.photos/300/300?random=1012"
+      },
+      {
+        "id": "English-13",
+        "title": "English Song 14",
+        "artist": "English Artist 14",
+        "album": "English Album 14",
+        "imageUrl": "https://picsum.photos/300/300?random=1013"
+      },
+      {
+        "id": "English-14",
+        "title": "English Song 15",
+        "artist": "English Artist 15",
+        "album": "English Album 15",
+        "imageUrl": "https://picsum.photos/300/300?random=1014"
+      },
+      {
+        "id": "English-15",
+        "title": "English Song 16",
+        "artist": "English Artist 16",
+        "album": "English Album 16",
+        "imageUrl": "https://picsum.photos/300/300?random=1015"
+      },
+      {
+        "id": "English-16",
+        "title": "English Song 17",
+        "artist": "English Artist 17",
+        "album": "English Album 17",
+        "imageUrl": "https://picsum.photos/300/300?random=1016"
+      },
+      {
+        "id": "English-17",
+        "title": "English Song 18",
+        "artist": "English Artist 18",
+        "album": "English Album 18",
+        "imageUrl": "https://picsum.photos/300/300?random=1017"
+      },
+      {
+        "id": "English-18",
+        "title": "English Song 19",
+        "artist": "English Artist 19",
+        "album": "English Album 19",
+        "imageUrl": "https://picsum.photos/300/300?random=1018"
+      },
+      {
+        "id": "English-19",
+        "title": "English Song 20",
+        "artist": "English Artist 20",
+        "album": "English Album 20",
+        "imageUrl": "https://picsum.photos/300/300?random=1019"
+      },
+      {
+        "id": "English-20",
+        "title": "English Song 21",
+        "artist": "English Artist 21",
+        "album": "English Album 21",
+        "imageUrl": "https://picsum.photos/300/300?random=1020"
+      },
+      {
+        "id": "English-21",
+        "title": "English Song 22",
+        "artist": "English Artist 22",
+        "album": "English Album 22",
+        "imageUrl": "https://picsum.photos/300/300?random=1021"
+      },
+      {
+        "id": "English-22",
+        "title": "English Song 23",
+        "artist": "English Artist 23",
+        "album": "English Album 23",
+        "imageUrl": "https://picsum.photos/300/300?random=1022"
+      },
+      {
+        "id": "English-23",
+        "title": "English Song 24",
+        "artist": "English Artist 24",
+        "album": "English Album 24",
+        "imageUrl": "https://picsum.photos/300/300?random=1023"
+      },
+      {
+        "id": "English-24",
+        "title": "English Song 25",
+        "artist": "English Artist 25",
+        "album": "English Album 25",
+        "imageUrl": "https://picsum.photos/300/300?random=1024"
+      },
+      {
+        "id": "English-25",
+        "title": "English Song 26",
+        "artist": "English Artist 26",
+        "album": "English Album 26",
+        "imageUrl": "https://picsum.photos/300/300?random=1025"
+      },
+      {
+        "id": "English-26",
+        "title": "English Song 27",
+        "artist": "English Artist 27",
+        "album": "English Album 27",
+        "imageUrl": "https://picsum.photos/300/300?random=1026"
+      },
+      {
+        "id": "English-27",
+        "title": "English Song 28",
+        "artist": "English Artist 28",
+        "album": "English Album 28",
+        "imageUrl": "https://picsum.photos/300/300?random=1027"
+      },
+      {
+        "id": "English-28",
+        "title": "English Song 29",
+        "artist": "English Artist 29",
+        "album": "English Album 29",
+        "imageUrl": "https://picsum.photos/300/300?random=1028"
+      },
+      {
+        "id": "English-29",
+        "title": "English Song 30",
+        "artist": "English Artist 30",
+        "album": "English Album 30",
+        "imageUrl": "https://picsum.photos/300/300?random=1029"
+      },
+      {
+        "id": "English-30",
+        "title": "English Song 31",
+        "artist": "English Artist 31",
+        "album": "English Album 31",
+        "imageUrl": "https://picsum.photos/300/300?random=1030"
+      },
+      {
+        "id": "English-31",
+        "title": "English Song 32",
+        "artist": "English Artist 32",
+        "album": "English Album 32",
+        "imageUrl": "https://picsum.photos/300/300?random=1031"
+      },
+      {
+        "id": "English-32",
+        "title": "English Song 33",
+        "artist": "English Artist 33",
+        "album": "English Album 33",
+        "imageUrl": "https://picsum.photos/300/300?random=1032"
+      },
+      {
+        "id": "English-33",
+        "title": "English Song 34",
+        "artist": "English Artist 34",
+        "album": "English Album 34",
+        "imageUrl": "https://picsum.photos/300/300?random=1033"
+      },
+      {
+        "id": "English-34",
+        "title": "English Song 35",
+        "artist": "English Artist 35",
+        "album": "English Album 35",
+        "imageUrl": "https://picsum.photos/300/300?random=1034"
+      },
+      {
+        "id": "English-35",
+        "title": "English Song 36",
+        "artist": "English Artist 36",
+        "album": "English Album 36",
+        "imageUrl": "https://picsum.photos/300/300?random=1035"
+      },
+      {
+        "id": "English-36",
+        "title": "English Song 37",
+        "artist": "English Artist 37",
+        "album": "English Album 37",
+        "imageUrl": "https://picsum.photos/300/300?random=1036"
+      },
+      {
+        "id": "English-37",
+        "title": "English Song 38",
+        "artist": "English Artist 38",
+        "album": "English Album 38",
+        "imageUrl": "https://picsum.photos/300/300?random=1037"
+      },
+      {
+        "id": "English-38",
+        "title": "English Song 39",
+        "artist": "English Artist 39",
+        "album": "English Album 39",
+        "imageUrl": "https://picsum.photos/300/300?random=1038"
+      },
+      {
+        "id": "English-39",
+        "title": "English Song 40",
+        "artist": "English Artist 40",
+        "album": "English Album 40",
+        "imageUrl": "https://picsum.photos/300/300?random=1039"
+      },
+      {
+        "id": "English-40",
+        "title": "English Song 41",
+        "artist": "English Artist 41",
+        "album": "English Album 41",
+        "imageUrl": "https://picsum.photos/300/300?random=1040"
+      },
+      {
+        "id": "English-41",
+        "title": "English Song 42",
+        "artist": "English Artist 42",
+        "album": "English Album 42",
+        "imageUrl": "https://picsum.photos/300/300?random=1041"
+      },
+      {
+        "id": "English-42",
+        "title": "English Song 43",
+        "artist": "English Artist 43",
+        "album": "English Album 43",
+        "imageUrl": "https://picsum.photos/300/300?random=1042"
+      },
+      {
+        "id": "English-43",
+        "title": "English Song 44",
+        "artist": "English Artist 44",
+        "album": "English Album 44",
+        "imageUrl": "https://picsum.photos/300/300?random=1043"
+      },
+      {
+        "id": "English-44",
+        "title": "English Song 45",
+        "artist": "English Artist 45",
+        "album": "English Album 45",
+        "imageUrl": "https://picsum.photos/300/300?random=1044"
+      },
+      {
+        "id": "English-45",
+        "title": "English Song 46",
+        "artist": "English Artist 46",
+        "album": "English Album 46",
+        "imageUrl": "https://picsum.photos/300/300?random=1045"
+      },
+      {
+        "id": "English-46",
+        "title": "English Song 47",
+        "artist": "English Artist 47",
+        "album": "English Album 47",
+        "imageUrl": "https://picsum.photos/300/300?random=1046"
+      },
+      {
+        "id": "English-47",
+        "title": "English Song 48",
+        "artist": "English Artist 48",
+        "album": "English Album 48",
+        "imageUrl": "https://picsum.photos/300/300?random=1047"
+      },
+      {
+        "id": "English-48",
+        "title": "English Song 49",
+        "artist": "English Artist 49",
+        "album": "English Album 49",
+        "imageUrl": "https://picsum.photos/300/300?random=1048"
+      },
+      {
+        "id": "English-49",
+        "title": "English Song 50",
+        "artist": "English Artist 50",
+        "album": "English Album 50",
+        "imageUrl": "https://picsum.photos/300/300?random=1049"
+      }
+    ],
+    "bangla": [
+      {
+        "id": "Bangla-0",
+        "title": "Bangla Song 1",
+        "artist": "Bangla Artist 1",
+        "album": "Bangla Album 1",
+        "imageUrl": "https://picsum.photos/300/300?random=1000"
+      },
+      {
+        "id": "Bangla-1",
+        "title": "Bangla Song 2",
+        "artist": "Bangla Artist 2",
+        "album": "Bangla Album 2",
+        "imageUrl": "https://picsum.photos/300/300?random=1001"
+      },
+      {
+        "id": "Bangla-2",
+        "title": "Bangla Song 3",
+        "artist": "Bangla Artist 3",
+        "album": "Bangla Album 3",
+        "imageUrl": "https://picsum.photos/300/300?random=1002"
+      },
+      {
+        "id": "Bangla-3",
+        "title": "Bangla Song 4",
+        "artist": "Bangla Artist 4",
+        "album": "Bangla Album 4",
+        "imageUrl": "https://picsum.photos/300/300?random=1003"
+      },
+      {
+        "id": "Bangla-4",
+        "title": "Bangla Song 5",
+        "artist": "Bangla Artist 5",
+        "album": "Bangla Album 5",
+        "imageUrl": "https://picsum.photos/300/300?random=1004"
+      },
+      {
+        "id": "Bangla-5",
+        "title": "Bangla Song 6",
+        "artist": "Bangla Artist 6",
+        "album": "Bangla Album 6",
+        "imageUrl": "https://picsum.photos/300/300?random=1005"
+      },
+      {
+        "id": "Bangla-6",
+        "title": "Bangla Song 7",
+        "artist": "Bangla Artist 7",
+        "album": "Bangla Album 7",
+        "imageUrl": "https://picsum.photos/300/300?random=1006"
+      },
+      {
+        "id": "Bangla-7",
+        "title": "Bangla Song 8",
+        "artist": "Bangla Artist 8",
+        "album": "Bangla Album 8",
+        "imageUrl": "https://picsum.photos/300/300?random=1007"
+      },
+      {
+        "id": "Bangla-8",
+        "title": "Bangla Song 9",
+        "artist": "Bangla Artist 9",
+        "album": "Bangla Album 9",
+        "imageUrl": "https://picsum.photos/300/300?random=1008"
+      },
+      {
+        "id": "Bangla-9",
+        "title": "Bangla Song 10",
+        "artist": "Bangla Artist 10",
+        "album": "Bangla Album 10",
+        "imageUrl": "https://picsum.photos/300/300?random=1009"
+      },
+      {
+        "id": "Bangla-10",
+        "title": "Bangla Song 11",
+        "artist": "Bangla Artist 11",
+        "album": "Bangla Album 11",
+        "imageUrl": "https://picsum.photos/300/300?random=1010"
+      },
+      {
+        "id": "Bangla-11",
+        "title": "Bangla Song 12",
+        "artist": "Bangla Artist 12",
+        "album": "Bangla Album 12",
+        "imageUrl": "https://picsum.photos/300/300?random=1011"
+      },
+      {
+        "id": "Bangla-12",
+        "title": "Bangla Song 13",
+        "artist": "Bangla Artist 13",
+        "album": "Bangla Album 13",
+        "imageUrl": "https://picsum.photos/300/300?random=1012"
+      },
+      {
+        "id": "Bangla-13",
+        "title": "Bangla Song 14",
+        "artist": "Bangla Artist 14",
+        "album": "Bangla Album 14",
+        "imageUrl": "https://picsum.photos/300/300?random=1013"
+      },
+      {
+        "id": "Bangla-14",
+        "title": "Bangla Song 15",
+        "artist": "Bangla Artist 15",
+        "album": "Bangla Album 15",
+        "imageUrl": "https://picsum.photos/300/300?random=1014"
+      },
+      {
+        "id": "Bangla-15",
+        "title": "Bangla Song 16",
+        "artist": "Bangla Artist 16",
+        "album": "Bangla Album 16",
+        "imageUrl": "https://picsum.photos/300/300?random=1015"
+      },
+      {
+        "id": "Bangla-16",
+        "title": "Bangla Song 17",
+        "artist": "Bangla Artist 17",
+        "album": "Bangla Album 17",
+        "imageUrl": "https://picsum.photos/300/300?random=1016"
+      },
+      {
+        "id": "Bangla-17",
+        "title": "Bangla Song 18",
+        "artist": "Bangla Artist 18",
+        "album": "Bangla Album 18",
+        "imageUrl": "https://picsum.photos/300/300?random=1017"
+      },
+      {
+        "id": "Bangla-18",
+        "title": "Bangla Song 19",
+        "artist": "Bangla Artist 19",
+        "album": "Bangla Album 19",
+        "imageUrl": "https://picsum.photos/300/300?random=1018"
+      },
+      {
+        "id": "Bangla-19",
+        "title": "Bangla Song 20",
+        "artist": "Bangla Artist 20",
+        "album": "Bangla Album 20",
+        "imageUrl": "https://picsum.photos/300/300?random=1019"
+      },
+      {
+        "id": "Bangla-20",
+        "title": "Bangla Song 21",
+        "artist": "Bangla Artist 21",
+        "album": "Bangla Album 21",
+        "imageUrl": "https://picsum.photos/300/300?random=1020"
+      },
+      {
+        "id": "Bangla-21",
+        "title": "Bangla Song 22",
+        "artist": "Bangla Artist 22",
+        "album": "Bangla Album 22",
+        "imageUrl": "https://picsum.photos/300/300?random=1021"
+      },
+      {
+        "id": "Bangla-22",
+        "title": "Bangla Song 23",
+        "artist": "Bangla Artist 23",
+        "album": "Bangla Album 23",
+        "imageUrl": "https://picsum.photos/300/300?random=1022"
+      },
+      {
+        "id": "Bangla-23",
+        "title": "Bangla Song 24",
+        "artist": "Bangla Artist 24",
+        "album": "Bangla Album 24",
+        "imageUrl": "https://picsum.photos/300/300?random=1023"
+      },
+      {
+        "id": "Bangla-24",
+        "title": "Bangla Song 25",
+        "artist": "Bangla Artist 25",
+        "album": "Bangla Album 25",
+        "imageUrl": "https://picsum.photos/300/300?random=1024"
+      },
+      {
+        "id": "Bangla-25",
+        "title": "Bangla Song 26",
+        "artist": "Bangla Artist 26",
+        "album": "Bangla Album 26",
+        "imageUrl": "https://picsum.photos/300/300?random=1025"
+      },
+      {
+        "id": "Bangla-26",
+        "title": "Bangla Song 27",
+        "artist": "Bangla Artist 27",
+        "album": "Bangla Album 27",
+        "imageUrl": "https://picsum.photos/300/300?random=1026"
+      },
+      {
+        "id": "Bangla-27",
+        "title": "Bangla Song 28",
+        "artist": "Bangla Artist 28",
+        "album": "Bangla Album 28",
+        "imageUrl": "https://picsum.photos/300/300?random=1027"
+      },
+      {
+        "id": "Bangla-28",
+        "title": "Bangla Song 29",
+        "artist": "Bangla Artist 29",
+        "album": "Bangla Album 29",
+        "imageUrl": "https://picsum.photos/300/300?random=1028"
+      },
+      {
+        "id": "Bangla-29",
+        "title": "Bangla Song 30",
+        "artist": "Bangla Artist 30",
+        "album": "Bangla Album 30",
+        "imageUrl": "https://picsum.photos/300/300?random=1029"
+      },
+      {
+        "id": "Bangla-30",
+        "title": "Bangla Song 31",
+        "artist": "Bangla Artist 31",
+        "album": "Bangla Album 31",
+        "imageUrl": "https://picsum.photos/300/300?random=1030"
+      },
+      {
+        "id": "Bangla-31",
+        "title": "Bangla Song 32",
+        "artist": "Bangla Artist 32",
+        "album": "Bangla Album 32",
+        "imageUrl": "https://picsum.photos/300/300?random=1031"
+      },
+      {
+        "id": "Bangla-32",
+        "title": "Bangla Song 33",
+        "artist": "Bangla Artist 33",
+        "album": "Bangla Album 33",
+        "imageUrl": "https://picsum.photos/300/300?random=1032"
+      },
+      {
+        "id": "Bangla-33",
+        "title": "Bangla Song 34",
+        "artist": "Bangla Artist 34",
+        "album": "Bangla Album 34",
+        "imageUrl": "https://picsum.photos/300/300?random=1033"
+      },
+      {
+        "id": "Bangla-34",
+        "title": "Bangla Song 35",
+        "artist": "Bangla Artist 35",
+        "album": "Bangla Album 35",
+        "imageUrl": "https://picsum.photos/300/300?random=1034"
+      },
+      {
+        "id": "Bangla-35",
+        "title": "Bangla Song 36",
+        "artist": "Bangla Artist 36",
+        "album": "Bangla Album 36",
+        "imageUrl": "https://picsum.photos/300/300?random=1035"
+      },
+      {
+        "id": "Bangla-36",
+        "title": "Bangla Song 37",
+        "artist": "Bangla Artist 37",
+        "album": "Bangla Album 37",
+        "imageUrl": "https://picsum.photos/300/300?random=1036"
+      },
+      {
+        "id": "Bangla-37",
+        "title": "Bangla Song 38",
+        "artist": "Bangla Artist 38",
+        "album": "Bangla Album 38",
+        "imageUrl": "https://picsum.photos/300/300?random=1037"
+      },
+      {
+        "id": "Bangla-38",
+        "title": "Bangla Song 39",
+        "artist": "Bangla Artist 39",
+        "album": "Bangla Album 39",
+        "imageUrl": "https://picsum.photos/300/300?random=1038"
+      },
+      {
+        "id": "Bangla-39",
+        "title": "Bangla Song 40",
+        "artist": "Bangla Artist 40",
+        "album": "Bangla Album 40",
+        "imageUrl": "https://picsum.photos/300/300?random=1039"
+      },
+      {
+        "id": "Bangla-40",
+        "title": "Bangla Song 41",
+        "artist": "Bangla Artist 41",
+        "album": "Bangla Album 41",
+        "imageUrl": "https://picsum.photos/300/300?random=1040"
+      },
+      {
+        "id": "Bangla-41",
+        "title": "Bangla Song 42",
+        "artist": "Bangla Artist 42",
+        "album": "Bangla Album 42",
+        "imageUrl": "https://picsum.photos/300/300?random=1041"
+      },
+      {
+        "id": "Bangla-42",
+        "title": "Bangla Song 43",
+        "artist": "Bangla Artist 43",
+        "album": "Bangla Album 43",
+        "imageUrl": "https://picsum.photos/300/300?random=1042"
+      },
+      {
+        "id": "Bangla-43",
+        "title": "Bangla Song 44",
+        "artist": "Bangla Artist 44",
+        "album": "Bangla Album 44",
+        "imageUrl": "https://picsum.photos/300/300?random=1043"
+      },
+      {
+        "id": "Bangla-44",
+        "title": "Bangla Song 45",
+        "artist": "Bangla Artist 45",
+        "album": "Bangla Album 45",
+        "imageUrl": "https://picsum.photos/300/300?random=1044"
+      },
+      {
+        "id": "Bangla-45",
+        "title": "Bangla Song 46",
+        "artist": "Bangla Artist 46",
+        "album": "Bangla Album 46",
+        "imageUrl": "https://picsum.photos/300/300?random=1045"
+      },
+      {
+        "id": "Bangla-46",
+        "title": "Bangla Song 47",
+        "artist": "Bangla Artist 47",
+        "album": "Bangla Album 47",
+        "imageUrl": "https://picsum.photos/300/300?random=1046"
+      },
+      {
+        "id": "Bangla-47",
+        "title": "Bangla Song 48",
+        "artist": "Bangla Artist 48",
+        "album": "Bangla Album 48",
+        "imageUrl": "https://picsum.photos/300/300?random=1047"
+      },
+      {
+        "id": "Bangla-48",
+        "title": "Bangla Song 49",
+        "artist": "Bangla Artist 49",
+        "album": "Bangla Album 49",
+        "imageUrl": "https://picsum.photos/300/300?random=1048"
+      },
+      {
+        "id": "Bangla-49",
+        "title": "Bangla Song 50",
+        "artist": "Bangla Artist 50",
+        "album": "Bangla Album 50",
+        "imageUrl": "https://picsum.photos/300/300?random=1049"
+      }
+    ],
+    "japanese": [
+      {
+        "id": "Japanese-0",
+        "title": "Japanese Song 1",
+        "artist": "Japanese Artist 1",
+        "album": "Japanese Album 1",
+        "imageUrl": "https://picsum.photos/300/300?random=1000"
+      },
+      {
+        "id": "Japanese-1",
+        "title": "Japanese Song 2",
+        "artist": "Japanese Artist 2",
+        "album": "Japanese Album 2",
+        "imageUrl": "https://picsum.photos/300/300?random=1001"
+      },
+      {
+        "id": "Japanese-2",
+        "title": "Japanese Song 3",
+        "artist": "Japanese Artist 3",
+        "album": "Japanese Album 3",
+        "imageUrl": "https://picsum.photos/300/300?random=1002"
+      },
+      {
+        "id": "Japanese-3",
+        "title": "Japanese Song 4",
+        "artist": "Japanese Artist 4",
+        "album": "Japanese Album 4",
+        "imageUrl": "https://picsum.photos/300/300?random=1003"
+      },
+      {
+        "id": "Japanese-4",
+        "title": "Japanese Song 5",
+        "artist": "Japanese Artist 5",
+        "album": "Japanese Album 5",
+        "imageUrl": "https://picsum.photos/300/300?random=1004"
+      },
+      {
+        "id": "Japanese-5",
+        "title": "Japanese Song 6",
+        "artist": "Japanese Artist 6",
+        "album": "Japanese Album 6",
+        "imageUrl": "https://picsum.photos/300/300?random=1005"
+      },
+      {
+        "id": "Japanese-6",
+        "title": "Japanese Song 7",
+        "artist": "Japanese Artist 7",
+        "album": "Japanese Album 7",
+        "imageUrl": "https://picsum.photos/300/300?random=1006"
+      },
+      {
+        "id": "Japanese-7",
+        "title": "Japanese Song 8",
+        "artist": "Japanese Artist 8",
+        "album": "Japanese Album 8",
+        "imageUrl": "https://picsum.photos/300/300?random=1007"
+      },
+      {
+        "id": "Japanese-8",
+        "title": "Japanese Song 9",
+        "artist": "Japanese Artist 9",
+        "album": "Japanese Album 9",
+        "imageUrl": "https://picsum.photos/300/300?random=1008"
+      },
+      {
+        "id": "Japanese-9",
+        "title": "Japanese Song 10",
+        "artist": "Japanese Artist 10",
+        "album": "Japanese Album 10",
+        "imageUrl": "https://picsum.photos/300/300?random=1009"
+      },
+      {
+        "id": "Japanese-10",
+        "title": "Japanese Song 11",
+        "artist": "Japanese Artist 11",
+        "album": "Japanese Album 11",
+        "imageUrl": "https://picsum.photos/300/300?random=1010"
+      },
+      {
+        "id": "Japanese-11",
+        "title": "Japanese Song 12",
+        "artist": "Japanese Artist 12",
+        "album": "Japanese Album 12",
+        "imageUrl": "https://picsum.photos/300/300?random=1011"
+      },
+      {
+        "id": "Japanese-12",
+        "title": "Japanese Song 13",
+        "artist": "Japanese Artist 13",
+        "album": "Japanese Album 13",
+        "imageUrl": "https://picsum.photos/300/300?random=1012"
+      },
+      {
+        "id": "Japanese-13",
+        "title": "Japanese Song 14",
+        "artist": "Japanese Artist 14",
+        "album": "Japanese Album 14",
+        "imageUrl": "https://picsum.photos/300/300?random=1013"
+      },
+      {
+        "id": "Japanese-14",
+        "title": "Japanese Song 15",
+        "artist": "Japanese Artist 15",
+        "album": "Japanese Album 15",
+        "imageUrl": "https://picsum.photos/300/300?random=1014"
+      },
+      {
+        "id": "Japanese-15",
+        "title": "Japanese Song 16",
+        "artist": "Japanese Artist 16",
+        "album": "Japanese Album 16",
+        "imageUrl": "https://picsum.photos/300/300?random=1015"
+      },
+      {
+        "id": "Japanese-16",
+        "title": "Japanese Song 17",
+        "artist": "Japanese Artist 17",
+        "album": "Japanese Album 17",
+        "imageUrl": "https://picsum.photos/300/300?random=1016"
+      },
+      {
+        "id": "Japanese-17",
+        "title": "Japanese Song 18",
+        "artist": "Japanese Artist 18",
+        "album": "Japanese Album 18",
+        "imageUrl": "https://picsum.photos/300/300?random=1017"
+      },
+      {
+        "id": "Japanese-18",
+        "title": "Japanese Song 19",
+        "artist": "Japanese Artist 19",
+        "album": "Japanese Album 19",
+        "imageUrl": "https://picsum.photos/300/300?random=1018"
+      },
+      {
+        "id": "Japanese-19",
+        "title": "Japanese Song 20",
+        "artist": "Japanese Artist 20",
+        "album": "Japanese Album 20",
+        "imageUrl": "https://picsum.photos/300/300?random=1019"
+      },
+      {
+        "id": "Japanese-20",
+        "title": "Japanese Song 21",
+        "artist": "Japanese Artist 21",
+        "album": "Japanese Album 21",
+        "imageUrl": "https://picsum.photos/300/300?random=1020"
+      },
+      {
+        "id": "Japanese-21",
+        "title": "Japanese Song 22",
+        "artist": "Japanese Artist 22",
+        "album": "Japanese Album 22",
+        "imageUrl": "https://picsum.photos/300/300?random=1021"
+      },
+      {
+        "id": "Japanese-22",
+        "title": "Japanese Song 23",
+        "artist": "Japanese Artist 23",
+        "album": "Japanese Album 23",
+        "imageUrl": "https://picsum.photos/300/300?random=1022"
+      },
+      {
+        "id": "Japanese-23",
+        "title": "Japanese Song 24",
+        "artist": "Japanese Artist 24",
+        "album": "Japanese Album 24",
+        "imageUrl": "https://picsum.photos/300/300?random=1023"
+      },
+      {
+        "id": "Japanese-24",
+        "title": "Japanese Song 25",
+        "artist": "Japanese Artist 25",
+        "album": "Japanese Album 25",
+        "imageUrl": "https://picsum.photos/300/300?random=1024"
+      },
+      {
+        "id": "Japanese-25",
+        "title": "Japanese Song 26",
+        "artist": "Japanese Artist 26",
+        "album": "Japanese Album 26",
+        "imageUrl": "https://picsum.photos/300/300?random=1025"
+      },
+      {
+        "id": "Japanese-26",
+        "title": "Japanese Song 27",
+        "artist": "Japanese Artist 27",
+        "album": "Japanese Album 27",
+        "imageUrl": "https://picsum.photos/300/300?random=1026"
+      },
+      {
+        "id": "Japanese-27",
+        "title": "Japanese Song 28",
+        "artist": "Japanese Artist 28",
+        "album": "Japanese Album 28",
+        "imageUrl": "https://picsum.photos/300/300?random=1027"
+      },
+      {
+        "id": "Japanese-28",
+        "title": "Japanese Song 29",
+        "artist": "Japanese Artist 29",
+        "album": "Japanese Album 29",
+        "imageUrl": "https://picsum.photos/300/300?random=1028"
+      },
+      {
+        "id": "Japanese-29",
+        "title": "Japanese Song 30",
+        "artist": "Japanese Artist 30",
+        "album": "Japanese Album 30",
+        "imageUrl": "https://picsum.photos/300/300?random=1029"
+      },
+      {
+        "id": "Japanese-30",
+        "title": "Japanese Song 31",
+        "artist": "Japanese Artist 31",
+        "album": "Japanese Album 31",
+        "imageUrl": "https://picsum.photos/300/300?random=1030"
+      },
+      {
+        "id": "Japanese-31",
+        "title": "Japanese Song 32",
+        "artist": "Japanese Artist 32",
+        "album": "Japanese Album 32",
+        "imageUrl": "https://picsum.photos/300/300?random=1031"
+      },
+      {
+        "id": "Japanese-32",
+        "title": "Japanese Song 33",
+        "artist": "Japanese Artist 33",
+        "album": "Japanese Album 33",
+        "imageUrl": "https://picsum.photos/300/300?random=1032"
+      },
+      {
+        "id": "Japanese-33",
+        "title": "Japanese Song 34",
+        "artist": "Japanese Artist 34",
+        "album": "Japanese Album 34",
+        "imageUrl": "https://picsum.photos/300/300?random=1033"
+      },
+      {
+        "id": "Japanese-34",
+        "title": "Japanese Song 35",
+        "artist": "Japanese Artist 35",
+        "album": "Japanese Album 35",
+        "imageUrl": "https://picsum.photos/300/300?random=1034"
+      },
+      {
+        "id": "Japanese-35",
+        "title": "Japanese Song 36",
+        "artist": "Japanese Artist 36",
+        "album": "Japanese Album 36",
+        "imageUrl": "https://picsum.photos/300/300?random=1035"
+      },
+      {
+        "id": "Japanese-36",
+        "title": "Japanese Song 37",
+        "artist": "Japanese Artist 37",
+        "album": "Japanese Album 37",
+        "imageUrl": "https://picsum.photos/300/300?random=1036"
+      },
+      {
+        "id": "Japanese-37",
+        "title": "Japanese Song 38",
+        "artist": "Japanese Artist 38",
+        "album": "Japanese Album 38",
+        "imageUrl": "https://picsum.photos/300/300?random=1037"
+      },
+      {
+        "id": "Japanese-38",
+        "title": "Japanese Song 39",
+        "artist": "Japanese Artist 39",
+        "album": "Japanese Album 39",
+        "imageUrl": "https://picsum.photos/300/300?random=1038"
+      },
+      {
+        "id": "Japanese-39",
+        "title": "Japanese Song 40",
+        "artist": "Japanese Artist 40",
+        "album": "Japanese Album 40",
+        "imageUrl": "https://picsum.photos/300/300?random=1039"
+      },
+      {
+        "id": "Japanese-40",
+        "title": "Japanese Song 41",
+        "artist": "Japanese Artist 41",
+        "album": "Japanese Album 41",
+        "imageUrl": "https://picsum.photos/300/300?random=1040"
+      },
+      {
+        "id": "Japanese-41",
+        "title": "Japanese Song 42",
+        "artist": "Japanese Artist 42",
+        "album": "Japanese Album 42",
+        "imageUrl": "https://picsum.photos/300/300?random=1041"
+      },
+      {
+        "id": "Japanese-42",
+        "title": "Japanese Song 43",
+        "artist": "Japanese Artist 43",
+        "album": "Japanese Album 43",
+        "imageUrl": "https://picsum.photos/300/300?random=1042"
+      },
+      {
+        "id": "Japanese-43",
+        "title": "Japanese Song 44",
+        "artist": "Japanese Artist 44",
+        "album": "Japanese Album 44",
+        "imageUrl": "https://picsum.photos/300/300?random=1043"
+      },
+      {
+        "id": "Japanese-44",
+        "title": "Japanese Song 45",
+        "artist": "Japanese Artist 45",
+        "album": "Japanese Album 45",
+        "imageUrl": "https://picsum.photos/300/300?random=1044"
+      },
+      {
+        "id": "Japanese-45",
+        "title": "Japanese Song 46",
+        "artist": "Japanese Artist 46",
+        "album": "Japanese Album 46",
+        "imageUrl": "https://picsum.photos/300/300?random=1045"
+      },
+      {
+        "id": "Japanese-46",
+        "title": "Japanese Song 47",
+        "artist": "Japanese Artist 47",
+        "album": "Japanese Album 47",
+        "imageUrl": "https://picsum.photos/300/300?random=1046"
+      },
+      {
+        "id": "Japanese-47",
+        "title": "Japanese Song 48",
+        "artist": "Japanese Artist 48",
+        "album": "Japanese Album 48",
+        "imageUrl": "https://picsum.photos/300/300?random=1047"
+      },
+      {
+        "id": "Japanese-48",
+        "title": "Japanese Song 49",
+        "artist": "Japanese Artist 49",
+        "album": "Japanese Album 49",
+        "imageUrl": "https://picsum.photos/300/300?random=1048"
+      },
+      {
+        "id": "Japanese-49",
+        "title": "Japanese Song 50",
+        "artist": "Japanese Artist 50",
+        "album": "Japanese Album 50",
+        "imageUrl": "https://picsum.photos/300/300?random=1049"
+      }
+    ],
+    "hindiUrdu": [
+      {
+        "id": "Hindi/Urdu-0",
+        "title": "Hindi/Urdu Song 1",
+        "artist": "Hindi/Urdu Artist 1",
+        "album": "Hindi/Urdu Album 1",
+        "imageUrl": "https://picsum.photos/300/300?random=1000"
+      },
+      {
+        "id": "Hindi/Urdu-1",
+        "title": "Hindi/Urdu Song 2",
+        "artist": "Hindi/Urdu Artist 2",
+        "album": "Hindi/Urdu Album 2",
+        "imageUrl": "https://picsum.photos/300/300?random=1001"
+      },
+      {
+        "id": "Hindi/Urdu-2",
+        "title": "Hindi/Urdu Song 3",
+        "artist": "Hindi/Urdu Artist 3",
+        "album": "Hindi/Urdu Album 3",
+        "imageUrl": "https://picsum.photos/300/300?random=1002"
+      },
+      {
+        "id": "Hindi/Urdu-3",
+        "title": "Hindi/Urdu Song 4",
+        "artist": "Hindi/Urdu Artist 4",
+        "album": "Hindi/Urdu Album 4",
+        "imageUrl": "https://picsum.photos/300/300?random=1003"
+      },
+      {
+        "id": "Hindi/Urdu-4",
+        "title": "Hindi/Urdu Song 5",
+        "artist": "Hindi/Urdu Artist 5",
+        "album": "Hindi/Urdu Album 5",
+        "imageUrl": "https://picsum.photos/300/300?random=1004"
+      },
+      {
+        "id": "Hindi/Urdu-5",
+        "title": "Hindi/Urdu Song 6",
+        "artist": "Hindi/Urdu Artist 6",
+        "album": "Hindi/Urdu Album 6",
+        "imageUrl": "https://picsum.photos/300/300?random=1005"
+      },
+      {
+        "id": "Hindi/Urdu-6",
+        "title": "Hindi/Urdu Song 7",
+        "artist": "Hindi/Urdu Artist 7",
+        "album": "Hindi/Urdu Album 7",
+        "imageUrl": "https://picsum.photos/300/300?random=1006"
+      },
+      {
+        "id": "Hindi/Urdu-7",
+        "title": "Hindi/Urdu Song 8",
+        "artist": "Hindi/Urdu Artist 8",
+        "album": "Hindi/Urdu Album 8",
+        "imageUrl": "https://picsum.photos/300/300?random=1007"
+      },
+      {
+        "id": "Hindi/Urdu-8",
+        "title": "Hindi/Urdu Song 9",
+        "artist": "Hindi/Urdu Artist 9",
+        "album": "Hindi/Urdu Album 9",
+        "imageUrl": "https://picsum.photos/300/300?random=1008"
+      },
+      {
+        "id": "Hindi/Urdu-9",
+        "title": "Hindi/Urdu Song 10",
+        "artist": "Hindi/Urdu Artist 10",
+        "album": "Hindi/Urdu Album 10",
+        "imageUrl": "https://picsum.photos/300/300?random=1009"
+      },
+      {
+        "id": "Hindi/Urdu-10",
+        "title": "Hindi/Urdu Song 11",
+        "artist": "Hindi/Urdu Artist 11",
+        "album": "Hindi/Urdu Album 11",
+        "imageUrl": "https://picsum.photos/300/300?random=1010"
+      },
+      {
+        "id": "Hindi/Urdu-11",
+        "title": "Hindi/Urdu Song 12",
+        "artist": "Hindi/Urdu Artist 12",
+        "album": "Hindi/Urdu Album 12",
+        "imageUrl": "https://picsum.photos/300/300?random=1011"
+      },
+      {
+        "id": "Hindi/Urdu-12",
+        "title": "Hindi/Urdu Song 13",
+        "artist": "Hindi/Urdu Artist 13",
+        "album": "Hindi/Urdu Album 13",
+        "imageUrl": "https://picsum.photos/300/300?random=1012"
+      },
+      {
+        "id": "Hindi/Urdu-13",
+        "title": "Hindi/Urdu Song 14",
+        "artist": "Hindi/Urdu Artist 14",
+        "album": "Hindi/Urdu Album 14",
+        "imageUrl": "https://picsum.photos/300/300?random=1013"
+      },
+      {
+        "id": "Hindi/Urdu-14",
+        "title": "Hindi/Urdu Song 15",
+        "artist": "Hindi/Urdu Artist 15",
+        "album": "Hindi/Urdu Album 15",
+        "imageUrl": "https://picsum.photos/300/300?random=1014"
+      },
+      {
+        "id": "Hindi/Urdu-15",
+        "title": "Hindi/Urdu Song 16",
+        "artist": "Hindi/Urdu Artist 16",
+        "album": "Hindi/Urdu Album 16",
+        "imageUrl": "https://picsum.photos/300/300?random=1015"
+      },
+      {
+        "id": "Hindi/Urdu-16",
+        "title": "Hindi/Urdu Song 17",
+        "artist": "Hindi/Urdu Artist 17",
+        "album": "Hindi/Urdu Album 17",
+        "imageUrl": "https://picsum.photos/300/300?random=1016"
+      },
+      {
+        "id": "Hindi/Urdu-17",
+        "title": "Hindi/Urdu Song 18",
+        "artist": "Hindi/Urdu Artist 18",
+        "album": "Hindi/Urdu Album 18",
+        "imageUrl": "https://picsum.photos/300/300?random=1017"
+      },
+      {
+        "id": "Hindi/Urdu-18",
+        "title": "Hindi/Urdu Song 19",
+        "artist": "Hindi/Urdu Artist 19",
+        "album": "Hindi/Urdu Album 19",
+        "imageUrl": "https://picsum.photos/300/300?random=1018"
+      },
+      {
+        "id": "Hindi/Urdu-19",
+        "title": "Hindi/Urdu Song 20",
+        "artist": "Hindi/Urdu Artist 20",
+        "album": "Hindi/Urdu Album 20",
+        "imageUrl": "https://picsum.photos/300/300?random=1019"
+      },
+      {
+        "id": "Hindi/Urdu-20",
+        "title": "Hindi/Urdu Song 21",
+        "artist": "Hindi/Urdu Artist 21",
+        "album": "Hindi/Urdu Album 21",
+        "imageUrl": "https://picsum.photos/300/300?random=1020"
+      },
+      {
+        "id": "Hindi/Urdu-21",
+        "title": "Hindi/Urdu Song 22",
+        "artist": "Hindi/Urdu Artist 22",
+        "album": "Hindi/Urdu Album 22",
+        "imageUrl": "https://picsum.photos/300/300?random=1021"
+      },
+      {
+        "id": "Hindi/Urdu-22",
+        "title": "Hindi/Urdu Song 23",
+        "artist": "Hindi/Urdu Artist 23",
+        "album": "Hindi/Urdu Album 23",
+        "imageUrl": "https://picsum.photos/300/300?random=1022"
+      },
+      {
+        "id": "Hindi/Urdu-23",
+        "title": "Hindi/Urdu Song 24",
+        "artist": "Hindi/Urdu Artist 24",
+        "album": "Hindi/Urdu Album 24",
+        "imageUrl": "https://picsum.photos/300/300?random=1023"
+      },
+      {
+        "id": "Hindi/Urdu-24",
+        "title": "Hindi/Urdu Song 25",
+        "artist": "Hindi/Urdu Artist 25",
+        "album": "Hindi/Urdu Album 25",
+        "imageUrl": "https://picsum.photos/300/300?random=1024"
+      },
+      {
+        "id": "Hindi/Urdu-25",
+        "title": "Hindi/Urdu Song 26",
+        "artist": "Hindi/Urdu Artist 26",
+        "album": "Hindi/Urdu Album 26",
+        "imageUrl": "https://picsum.photos/300/300?random=1025"
+      },
+      {
+        "id": "Hindi/Urdu-26",
+        "title": "Hindi/Urdu Song 27",
+        "artist": "Hindi/Urdu Artist 27",
+        "album": "Hindi/Urdu Album 27",
+        "imageUrl": "https://picsum.photos/300/300?random=1026"
+      },
+      {
+        "id": "Hindi/Urdu-27",
+        "title": "Hindi/Urdu Song 28",
+        "artist": "Hindi/Urdu Artist 28",
+        "album": "Hindi/Urdu Album 28",
+        "imageUrl": "https://picsum.photos/300/300?random=1027"
+      },
+      {
+        "id": "Hindi/Urdu-28",
+        "title": "Hindi/Urdu Song 29",
+        "artist": "Hindi/Urdu Artist 29",
+        "album": "Hindi/Urdu Album 29",
+        "imageUrl": "https://picsum.photos/300/300?random=1028"
+      },
+      {
+        "id": "Hindi/Urdu-29",
+        "title": "Hindi/Urdu Song 30",
+        "artist": "Hindi/Urdu Artist 30",
+        "album": "Hindi/Urdu Album 30",
+        "imageUrl": "https://picsum.photos/300/300?random=1029"
+      },
+      {
+        "id": "Hindi/Urdu-30",
+        "title": "Hindi/Urdu Song 31",
+        "artist": "Hindi/Urdu Artist 31",
+        "album": "Hindi/Urdu Album 31",
+        "imageUrl": "https://picsum.photos/300/300?random=1030"
+      },
+      {
+        "id": "Hindi/Urdu-31",
+        "title": "Hindi/Urdu Song 32",
+        "artist": "Hindi/Urdu Artist 32",
+        "album": "Hindi/Urdu Album 32",
+        "imageUrl": "https://picsum.photos/300/300?random=1031"
+      },
+      {
+        "id": "Hindi/Urdu-32",
+        "title": "Hindi/Urdu Song 33",
+        "artist": "Hindi/Urdu Artist 33",
+        "album": "Hindi/Urdu Album 33",
+        "imageUrl": "https://picsum.photos/300/300?random=1032"
+      },
+      {
+        "id": "Hindi/Urdu-33",
+        "title": "Hindi/Urdu Song 34",
+        "artist": "Hindi/Urdu Artist 34",
+        "album": "Hindi/Urdu Album 34",
+        "imageUrl": "https://picsum.photos/300/300?random=1033"
+      },
+      {
+        "id": "Hindi/Urdu-34",
+        "title": "Hindi/Urdu Song 35",
+        "artist": "Hindi/Urdu Artist 35",
+        "album": "Hindi/Urdu Album 35",
+        "imageUrl": "https://picsum.photos/300/300?random=1034"
+      },
+      {
+        "id": "Hindi/Urdu-35",
+        "title": "Hindi/Urdu Song 36",
+        "artist": "Hindi/Urdu Artist 36",
+        "album": "Hindi/Urdu Album 36",
+        "imageUrl": "https://picsum.photos/300/300?random=1035"
+      },
+      {
+        "id": "Hindi/Urdu-36",
+        "title": "Hindi/Urdu Song 37",
+        "artist": "Hindi/Urdu Artist 37",
+        "album": "Hindi/Urdu Album 37",
+        "imageUrl": "https://picsum.photos/300/300?random=1036"
+      },
+      {
+        "id": "Hindi/Urdu-37",
+        "title": "Hindi/Urdu Song 38",
+        "artist": "Hindi/Urdu Artist 38",
+        "album": "Hindi/Urdu Album 38",
+        "imageUrl": "https://picsum.photos/300/300?random=1037"
+      },
+      {
+        "id": "Hindi/Urdu-38",
+        "title": "Hindi/Urdu Song 39",
+        "artist": "Hindi/Urdu Artist 39",
+        "album": "Hindi/Urdu Album 39",
+        "imageUrl": "https://picsum.photos/300/300?random=1038"
+      },
+      {
+        "id": "Hindi/Urdu-39",
+        "title": "Hindi/Urdu Song 40",
+        "artist": "Hindi/Urdu Artist 40",
+        "album": "Hindi/Urdu Album 40",
+        "imageUrl": "https://picsum.photos/300/300?random=1039"
+      },
+      {
+        "id": "Hindi/Urdu-40",
+        "title": "Hindi/Urdu Song 41",
+        "artist": "Hindi/Urdu Artist 41",
+        "album": "Hindi/Urdu Album 41",
+        "imageUrl": "https://picsum.photos/300/300?random=1040"
+      },
+      {
+        "id": "Hindi/Urdu-41",
+        "title": "Hindi/Urdu Song 42",
+        "artist": "Hindi/Urdu Artist 42",
+        "album": "Hindi/Urdu Album 42",
+        "imageUrl": "https://picsum.photos/300/300?random=1041"
+      },
+      {
+        "id": "Hindi/Urdu-42",
+        "title": "Hindi/Urdu Song 43",
+        "artist": "Hindi/Urdu Artist 43",
+        "album": "Hindi/Urdu Album 43",
+        "imageUrl": "https://picsum.photos/300/300?random=1042"
+      },
+      {
+        "id": "Hindi/Urdu-43",
+        "title": "Hindi/Urdu Song 44",
+        "artist": "Hindi/Urdu Artist 44",
+        "album": "Hindi/Urdu Album 44",
+        "imageUrl": "https://picsum.photos/300/300?random=1043"
+      },
+      {
+        "id": "Hindi/Urdu-44",
+        "title": "Hindi/Urdu Song 45",
+        "artist": "Hindi/Urdu Artist 45",
+        "album": "Hindi/Urdu Album 45",
+        "imageUrl": "https://picsum.photos/300/300?random=1044"
+      },
+      {
+        "id": "Hindi/Urdu-45",
+        "title": "Hindi/Urdu Song 46",
+        "artist": "Hindi/Urdu Artist 46",
+        "album": "Hindi/Urdu Album 46",
+        "imageUrl": "https://picsum.photos/300/300?random=1045"
+      },
+      {
+        "id": "Hindi/Urdu-46",
+        "title": "Hindi/Urdu Song 47",
+        "artist": "Hindi/Urdu Artist 47",
+        "album": "Hindi/Urdu Album 47",
+        "imageUrl": "https://picsum.photos/300/300?random=1046"
+      },
+      {
+        "id": "Hindi/Urdu-47",
+        "title": "Hindi/Urdu Song 48",
+        "artist": "Hindi/Urdu Artist 48",
+        "album": "Hindi/Urdu Album 48",
+        "imageUrl": "https://picsum.photos/300/300?random=1047"
+      },
+      {
+        "id": "Hindi/Urdu-48",
+        "title": "Hindi/Urdu Song 49",
+        "artist": "Hindi/Urdu Artist 49",
+        "album": "Hindi/Urdu Album 49",
+        "imageUrl": "https://picsum.photos/300/300?random=1048"
+      },
+      {
+        "id": "Hindi/Urdu-49",
+        "title": "Hindi/Urdu Song 50",
+        "artist": "Hindi/Urdu Artist 50",
+        "album": "Hindi/Urdu Album 50",
+        "imageUrl": "https://picsum.photos/300/300?random=1049"
+      }
+    ],
+    "other": [
+      {
+        "id": "Other-0",
+        "title": "Other Song 1",
+        "artist": "Other Artist 1",
+        "album": "Other Album 1",
+        "imageUrl": "https://picsum.photos/300/300?random=1000"
+      },
+      {
+        "id": "Other-1",
+        "title": "Other Song 2",
+        "artist": "Other Artist 2",
+        "album": "Other Album 2",
+        "imageUrl": "https://picsum.photos/300/300?random=1001"
+      },
+      {
+        "id": "Other-2",
+        "title": "Other Song 3",
+        "artist": "Other Artist 3",
+        "album": "Other Album 3",
+        "imageUrl": "https://picsum.photos/300/300?random=1002"
+      },
+      {
+        "id": "Other-3",
+        "title": "Other Song 4",
+        "artist": "Other Artist 4",
+        "album": "Other Album 4",
+        "imageUrl": "https://picsum.photos/300/300?random=1003"
+      },
+      {
+        "id": "Other-4",
+        "title": "Other Song 5",
+        "artist": "Other Artist 5",
+        "album": "Other Album 5",
+        "imageUrl": "https://picsum.photos/300/300?random=1004"
+      },
+      {
+        "id": "Other-5",
+        "title": "Other Song 6",
+        "artist": "Other Artist 6",
+        "album": "Other Album 6",
+        "imageUrl": "https://picsum.photos/300/300?random=1005"
+      },
+      {
+        "id": "Other-6",
+        "title": "Other Song 7",
+        "artist": "Other Artist 7",
+        "album": "Other Album 7",
+        "imageUrl": "https://picsum.photos/300/300?random=1006"
+      },
+      {
+        "id": "Other-7",
+        "title": "Other Song 8",
+        "artist": "Other Artist 8",
+        "album": "Other Album 8",
+        "imageUrl": "https://picsum.photos/300/300?random=1007"
+      },
+      {
+        "id": "Other-8",
+        "title": "Other Song 9",
+        "artist": "Other Artist 9",
+        "album": "Other Album 9",
+        "imageUrl": "https://picsum.photos/300/300?random=1008"
+      },
+      {
+        "id": "Other-9",
+        "title": "Other Song 10",
+        "artist": "Other Artist 10",
+        "album": "Other Album 10",
+        "imageUrl": "https://picsum.photos/300/300?random=1009"
+      },
+      {
+        "id": "Other-10",
+        "title": "Other Song 11",
+        "artist": "Other Artist 11",
+        "album": "Other Album 11",
+        "imageUrl": "https://picsum.photos/300/300?random=1010"
+      },
+      {
+        "id": "Other-11",
+        "title": "Other Song 12",
+        "artist": "Other Artist 12",
+        "album": "Other Album 12",
+        "imageUrl": "https://picsum.photos/300/300?random=1011"
+      },
+      {
+        "id": "Other-12",
+        "title": "Other Song 13",
+        "artist": "Other Artist 13",
+        "album": "Other Album 13",
+        "imageUrl": "https://picsum.photos/300/300?random=1012"
+      },
+      {
+        "id": "Other-13",
+        "title": "Other Song 14",
+        "artist": "Other Artist 14",
+        "album": "Other Album 14",
+        "imageUrl": "https://picsum.photos/300/300?random=1013"
+      },
+      {
+        "id": "Other-14",
+        "title": "Other Song 15",
+        "artist": "Other Artist 15",
+        "album": "Other Album 15",
+        "imageUrl": "https://picsum.photos/300/300?random=1014"
+      },
+      {
+        "id": "Other-15",
+        "title": "Other Song 16",
+        "artist": "Other Artist 16",
+        "album": "Other Album 16",
+        "imageUrl": "https://picsum.photos/300/300?random=1015"
+      },
+      {
+        "id": "Other-16",
+        "title": "Other Song 17",
+        "artist": "Other Artist 17",
+        "album": "Other Album 17",
+        "imageUrl": "https://picsum.photos/300/300?random=1016"
+      },
+      {
+        "id": "Other-17",
+        "title": "Other Song 18",
+        "artist": "Other Artist 18",
+        "album": "Other Album 18",
+        "imageUrl": "https://picsum.photos/300/300?random=1017"
+      },
+      {
+        "id": "Other-18",
+        "title": "Other Song 19",
+        "artist": "Other Artist 19",
+        "album": "Other Album 19",
+        "imageUrl": "https://picsum.photos/300/300?random=1018"
+      },
+      {
+        "id": "Other-19",
+        "title": "Other Song 20",
+        "artist": "Other Artist 20",
+        "album": "Other Album 20",
+        "imageUrl": "https://picsum.photos/300/300?random=1019"
+      },
+      {
+        "id": "Other-20",
+        "title": "Other Song 21",
+        "artist": "Other Artist 21",
+        "album": "Other Album 21",
+        "imageUrl": "https://picsum.photos/300/300?random=1020"
+      },
+      {
+        "id": "Other-21",
+        "title": "Other Song 22",
+        "artist": "Other Artist 22",
+        "album": "Other Album 22",
+        "imageUrl": "https://picsum.photos/300/300?random=1021"
+      },
+      {
+        "id": "Other-22",
+        "title": "Other Song 23",
+        "artist": "Other Artist 23",
+        "album": "Other Album 23",
+        "imageUrl": "https://picsum.photos/300/300?random=1022"
+      },
+      {
+        "id": "Other-23",
+        "title": "Other Song 24",
+        "artist": "Other Artist 24",
+        "album": "Other Album 24",
+        "imageUrl": "https://picsum.photos/300/300?random=1023"
+      },
+      {
+        "id": "Other-24",
+        "title": "Other Song 25",
+        "artist": "Other Artist 25",
+        "album": "Other Album 25",
+        "imageUrl": "https://picsum.photos/300/300?random=1024"
+      },
+      {
+        "id": "Other-25",
+        "title": "Other Song 26",
+        "artist": "Other Artist 26",
+        "album": "Other Album 26",
+        "imageUrl": "https://picsum.photos/300/300?random=1025"
+      },
+      {
+        "id": "Other-26",
+        "title": "Other Song 27",
+        "artist": "Other Artist 27",
+        "album": "Other Album 27",
+        "imageUrl": "https://picsum.photos/300/300?random=1026"
+      },
+      {
+        "id": "Other-27",
+        "title": "Other Song 28",
+        "artist": "Other Artist 28",
+        "album": "Other Album 28",
+        "imageUrl": "https://picsum.photos/300/300?random=1027"
+      },
+      {
+        "id": "Other-28",
+        "title": "Other Song 29",
+        "artist": "Other Artist 29",
+        "album": "Other Album 29",
+        "imageUrl": "https://picsum.photos/300/300?random=1028"
+      },
+      {
+        "id": "Other-29",
+        "title": "Other Song 30",
+        "artist": "Other Artist 30",
+        "album": "Other Album 30",
+        "imageUrl": "https://picsum.photos/300/300?random=1029"
+      },
+      {
+        "id": "Other-30",
+        "title": "Other Song 31",
+        "artist": "Other Artist 31",
+        "album": "Other Album 31",
+        "imageUrl": "https://picsum.photos/300/300?random=1030"
+      },
+      {
+        "id": "Other-31",
+        "title": "Other Song 32",
+        "artist": "Other Artist 32",
+        "album": "Other Album 32",
+        "imageUrl": "https://picsum.photos/300/300?random=1031"
+      },
+      {
+        "id": "Other-32",
+        "title": "Other Song 33",
+        "artist": "Other Artist 33",
+        "album": "Other Album 33",
+        "imageUrl": "https://picsum.photos/300/300?random=1032"
+      },
+      {
+        "id": "Other-33",
+        "title": "Other Song 34",
+        "artist": "Other Artist 34",
+        "album": "Other Album 34",
+        "imageUrl": "https://picsum.photos/300/300?random=1033"
+      },
+      {
+        "id": "Other-34",
+        "title": "Other Song 35",
+        "artist": "Other Artist 35",
+        "album": "Other Album 35",
+        "imageUrl": "https://picsum.photos/300/300?random=1034"
+      },
+      {
+        "id": "Other-35",
+        "title": "Other Song 36",
+        "artist": "Other Artist 36",
+        "album": "Other Album 36",
+        "imageUrl": "https://picsum.photos/300/300?random=1035"
+      },
+      {
+        "id": "Other-36",
+        "title": "Other Song 37",
+        "artist": "Other Artist 37",
+        "album": "Other Album 37",
+        "imageUrl": "https://picsum.photos/300/300?random=1036"
+      },
+      {
+        "id": "Other-37",
+        "title": "Other Song 38",
+        "artist": "Other Artist 38",
+        "album": "Other Album 38",
+        "imageUrl": "https://picsum.photos/300/300?random=1037"
+      },
+      {
+        "id": "Other-38",
+        "title": "Other Song 39",
+        "artist": "Other Artist 39",
+        "album": "Other Album 39",
+        "imageUrl": "https://picsum.photos/300/300?random=1038"
+      },
+      {
+        "id": "Other-39",
+        "title": "Other Song 40",
+        "artist": "Other Artist 40",
+        "album": "Other Album 40",
+        "imageUrl": "https://picsum.photos/300/300?random=1039"
+      },
+      {
+        "id": "Other-40",
+        "title": "Other Song 41",
+        "artist": "Other Artist 41",
+        "album": "Other Album 41",
+        "imageUrl": "https://picsum.photos/300/300?random=1040"
+      },
+      {
+        "id": "Other-41",
+        "title": "Other Song 42",
+        "artist": "Other Artist 42",
+        "album": "Other Album 42",
+        "imageUrl": "https://picsum.photos/300/300?random=1041"
+      },
+      {
+        "id": "Other-42",
+        "title": "Other Song 43",
+        "artist": "Other Artist 43",
+        "album": "Other Album 43",
+        "imageUrl": "https://picsum.photos/300/300?random=1042"
+      },
+      {
+        "id": "Other-43",
+        "title": "Other Song 44",
+        "artist": "Other Artist 44",
+        "album": "Other Album 44",
+        "imageUrl": "https://picsum.photos/300/300?random=1043"
+      },
+      {
+        "id": "Other-44",
+        "title": "Other Song 45",
+        "artist": "Other Artist 45",
+        "album": "Other Album 45",
+        "imageUrl": "https://picsum.photos/300/300?random=1044"
+      },
+      {
+        "id": "Other-45",
+        "title": "Other Song 46",
+        "artist": "Other Artist 46",
+        "album": "Other Album 46",
+        "imageUrl": "https://picsum.photos/300/300?random=1045"
+      },
+      {
+        "id": "Other-46",
+        "title": "Other Song 47",
+        "artist": "Other Artist 47",
+        "album": "Other Album 47",
+        "imageUrl": "https://picsum.photos/300/300?random=1046"
+      },
+      {
+        "id": "Other-47",
+        "title": "Other Song 48",
+        "artist": "Other Artist 48",
+        "album": "Other Album 48",
+        "imageUrl": "https://picsum.photos/300/300?random=1047"
+      },
+      {
+        "id": "Other-48",
+        "title": "Other Song 49",
+        "artist": "Other Artist 49",
+        "album": "Other Album 49",
+        "imageUrl": "https://picsum.photos/300/300?random=1048"
+      },
+      {
+        "id": "Other-49",
+        "title": "Other Song 50",
+        "artist": "Other Artist 50",
+        "album": "Other Album 50",
+        "imageUrl": "https://picsum.photos/300/300?random=1049"
+      }
+    ]
+  },
+  "playlists": [
+    {
+      "id": "p1",
+      "name": "My Top Favorites",
+      "description": "The absolute best tracks of all time.",
+      "platform": "Spotify",
+      "url": "#",
+      "imageUrl": "https://picsum.photos/300/300?random=2001"
+    },
+    {
+      "id": "p2",
+      "name": "Chill Vibes",
+      "description": "Relaxing beats for coding.",
+      "platform": "YouTube Music",
+      "url": "#",
+      "imageUrl": "https://picsum.photos/300/300?random=2002"
+    },
+    {
+      "id": "p3",
+      "name": "Heavy Rotation",
+      "description": "What I am listening to right now.",
+      "platform": "Spotify",
+      "url": "#",
+      "imageUrl": "https://picsum.photos/300/300?random=2003"
+    }
+  ]
+}

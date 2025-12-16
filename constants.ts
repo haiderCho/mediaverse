@@ -137,8 +137,8 @@ export const PAGE_THEMES: Record<PageId, ThemeConfig> = {
     id: PageId.LIGHT_NOVEL,
     title: 'Light Novels',
     fontFamily: '"Goudy Bookletter 1911", serif',
-    accentColorDark: '#FF66B2', // Soft Neon Pink
-    accentColorLight: '#FF99CC',
+    accentColorDark: '#F5F5F5', // E-Ink White
+    accentColorLight: '#E5E5E5', // Digital Paper Highlight
     icon: Book,
     genres: GENRE_MAP[PageId.LIGHT_NOVEL],
   },

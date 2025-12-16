@@ -76,44 +76,41 @@ const Top10Card: React.FC<Top10CardProps> = ({ entry, rank, pageId }) => {
 
             {/* Info */}
             <div className="flex-1 flex flex-col pt-1 pb-1 pr-2 relative">
-                <div className="flex justify-between items-start mb-1">
-                    <span 
-                        className="text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded border border-slate-700 text-slate-400 group-hover:border-slate-500 group-hover:text-slate-200 transition-colors"
+                <div className="flex flex-col mb-1 relative z-10">
+                    <h3 
+                        className="text-lg sm:text-xl font-black leading-tight text-white line-clamp-2"
+                        style={{ 
+                            fontFamily: theme.fontFamily,
+                            textShadow: isHovered ? `0 0 10px ${theme.accentColorDark}40` : 'none'
+                        }}
                     >
-                        {entry.genre}
-                    </span>
-                    <div className="flex items-center gap-1.5 bg-slate-900/50 px-2 py-0.5 rounded-full border border-slate-800">
-                        <Star size={12} className="text-yellow-400 fill-yellow-400" />
-                        <span className="text-sm font-bold text-white">{entry.myRating}</span>
-                    </div>
+                        {entry.title}
+                    </h3>
+                    
+                    {entry.author && (
+                        <div className="text-xs font-bold text-slate-300 mt-0.5">
+                            {entry.author}
+                        </div>
+                    )}
                 </div>
 
-                <h3 
-                    className="text-lg sm:text-xl font-black leading-tight mb-2 text-white line-clamp-2"
-                    style={{ 
-                        fontFamily: theme.fontFamily,
-                        textShadow: isHovered ? `0 0 10px ${theme.accentColorDark}40` : 'none'
-                    }}
-                >
-                    {entry.title}
-                </h3>
-
-                <p className="text-xs text-slate-400 line-clamp-2 leading-relaxed opacity-80 mb-auto">
-                    {entry.review}
+                <p className="text-xs text-slate-400 line-clamp-3 leading-relaxed opacity-80 mb-auto mt-1">
+                    {entry.synopsis || <span className="italic opacity-50">No synopsis available</span>}
                 </p>
 
                 {/* Bottom Action Area */}
                 <div className="flex items-center justify-between border-t border-white/5 pt-2 mt-2">
-                    <span className="text-[10px] text-slate-600 font-mono">ID: {entry.id.split('-').pop()}</span>
+                    <div className="flex items-center gap-1.5 bg-slate-900/50 px-2 py-0.5 rounded-full border border-slate-800">
+                        <Star size={12} className="text-yellow-400 fill-yellow-400" />
+                        <span className="text-sm font-bold text-white">{entry.myRating}<span className="text-[10px] text-slate-500 font-normal">/10</span></span>
+                    </div>
                     
                     <button 
-                        className="group/btn flex items-center gap-1 text-xs font-bold transition-all"
+                        className="group/btn flex items-center gap-1 text-xs font-bold transition-all px-2 py-1 rounded hover:bg-slate-800"
                         style={{ color: theme.accentColorDark }}
                     >
-                        <span className="opacity-0 -translate-x-2 group-hover/btn:opacity-100 group-hover/btn:translate-x-0 transition-all duration-300">View</span>
-                        <div className="p-1 rounded-full bg-slate-800 group-hover/btn:bg-slate-700">
-                            <ChevronRight size={14} />
-                        </div>
+                        <span>Review</span>
+                        <ChevronRight size={14} className="group-hover/btn:translate-x-1 transition-transform" />
                     </button>
                 </div>
             </div>

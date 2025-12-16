@@ -35,7 +35,7 @@
     { "id": "comic-cosmic-9", "title": "Saga", "genre": "Mythic", "myRating": 10, "review": "Brian K. Vaughan & Fiona Staples' epic space fantasy.", "coverUrl": "" },
     { "id": "comic-cosmic-10", "title": "Miracleman", "genre": "Mythic", "myRating": 10, "review": "Alan Moore's deconstruction of the superhero mythos.", "coverUrl": "" }
   ],
-  "Dark / Deconstructionist": [
+  "Deconstructionist": [
     { "id": "comic-dark-1", "title": "Watchmen", "genre": "Dark / Deconstructionist", "myRating": 10, "review": "Who watches the watchmen?", "coverUrl": "" },
     { "id": "comic-dark-2", "title": "The Dark Knight Returns", "genre": "Dark / Deconstructionist", "myRating": 10, "review": "Frank Miller's gritty future Batman.", "coverUrl": "" },
     { "id": "comic-dark-3", "title": "The Boys", "genre": "Dark / Deconstructionist", "myRating": 9, "review": "Garth Ennis's brutal satire of superhero celebrity culture.", "coverUrl": "" },

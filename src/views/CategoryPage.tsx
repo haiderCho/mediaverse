@@ -30,7 +30,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
         // I will add the import first in a separate tool call to be safe, I'll handle it.
         // I'll do a second edit for imports.
 
-        const { dataService } = await import('../src/services/dataService');
+        const { dataService } = await import("../services/dataService");
 
         const realData = await dataService.getGenreData(pageId, activeGenre);
 

@@ -1,75 +1,75 @@
 {
-  "Classic Superhero": [
-    { "id": "comic-classic-1", "title": "Action Comics", "genre": "Classic Superhero", "myRating": 10, "review": "The debut of Superman and the start of the Golden Age. (#1–present, Superman)", "coverUrl": "" },
-    { "id": "comic-classic-2", "title": "Detective Comics", "genre": "Classic Superhero", "myRating": 10, "review": "The legendary series that introduced Batman. (#27–present, Batman)", "coverUrl": "" },
-    { "id": "comic-classic-3", "title": "The Amazing Spider-Man", "genre": "Classic Superhero", "myRating": 10, "review": "The definitive Marvel superhero series.", "coverUrl": "" },
-    { "id": "comic-classic-4", "title": "Wonder Woman", "genre": "Classic Superhero", "myRating": 9, "review": "George Pérez's iconic run that redefined the character. (1987)", "coverUrl": "" },
-    { "id": "comic-classic-5", "title": "Captain America", "genre": "Classic Superhero", "myRating": 9, "review": "The Sentinel of Liberty in his own series. (1968 series)", "coverUrl": "" },
-    { "id": "comic-classic-6", "title": "The Flash", "genre": "Classic Superhero", "myRating": 9, "review": "The Silver Age classic that launched the DC Multiverse. (1959 series)", "coverUrl": "" },
-    { "id": "comic-classic-7", "title": "Green Lantern", "genre": "Classic Superhero", "myRating": 9, "review": "Hal Jordan's intergalactic adventures. (1960s series)", "coverUrl": "" },
-    { "id": "comic-classic-8", "title": "Fantastic Four", "genre": "Classic Superhero", "myRating": 10, "review": "The World's Greatest Magazine! (1961 series)", "coverUrl": "" },
-    { "id": "comic-classic-9", "title": "Shazam!", "genre": "Classic Superhero", "myRating": 8, "review": "The original Captain Marvel returns. (1970s series)", "coverUrl": "" },
-    { "id": "comic-classic-10", "title": "Invincible", "genre": "Classic Superhero", "myRating": 10, "review": "The best superhero comic in the universe. (Image Comics, 2003–2018)", "coverUrl": "" }
+  "Classic": [
+    { "id": "comic-classic-1", "title": "Action Comics", "genre": "Classic", "myRating": 10, "review": "The debut of Superman and the start of the Golden Age. (#1–present, Superman)", "coverUrl": "" },
+    { "id": "comic-classic-2", "title": "Detective Comics", "genre": "Classic", "myRating": 10, "review": "The legendary series that introduced Batman. (#27–present, Batman)", "coverUrl": "" },
+    { "id": "comic-classic-3", "title": "The Amazing Spider-Man", "genre": "Classic", "myRating": 10, "review": "The definitive Marvel superhero series.", "coverUrl": "" },
+    { "id": "comic-classic-4", "title": "Wonder Woman", "genre": "Classic", "myRating": 9, "review": "George Pérez's iconic run that redefined the character. (1987)", "coverUrl": "" },
+    { "id": "comic-classic-5", "title": "Captain America", "genre": "Classic", "myRating": 9, "review": "The Sentinel of Liberty in his own series. (1968 series)", "coverUrl": "" },
+    { "id": "comic-classic-6", "title": "The Flash", "genre": "Classic", "myRating": 9, "review": "The Silver Age classic that launched the DC Multiverse. (1959 series)", "coverUrl": "" },
+    { "id": "comic-classic-7", "title": "Green Lantern", "genre": "Classic", "myRating": 9, "review": "Hal Jordan's intergalactic adventures. (1960s series)", "coverUrl": "" },
+    { "id": "comic-classic-8", "title": "Fantastic Four", "genre": "Classic", "myRating": 10, "review": "The World's Greatest Magazine! (1961 series)", "coverUrl": "" },
+    { "id": "comic-classic-9", "title": "Shazam!", "genre": "Classic", "myRating": 8, "review": "The original Captain Marvel returns. (1970s series)", "coverUrl": "" },
+    { "id": "comic-classic-10", "title": "Invincible", "genre": "Classic", "myRating": 10, "review": "The best superhero comic in the universe. (Image Comics, 2003–2018)", "coverUrl": "" }
   ],
-  "Street-Level / Crime Superhero": [
-    { "id": "comic-street-1", "title": "Daredevil", "genre": "Street-Level / Crime Superhero", "myRating": 10, "review": "Frank Miller's gritty masterpiece that redefined the Man Without Fear.", "coverUrl": "" },
-    { "id": "comic-street-2", "title": "Punisher", "genre": "Street-Level / Crime Superhero", "myRating": 9, "review": "The brutal MAX series.", "coverUrl": "" },
-    { "id": "comic-street-3", "title": "Jessica Jones: Alias", "genre": "Street-Level / Crime Superhero", "myRating": 9, "review": "Bendis's ground-breaking private investigator series.", "coverUrl": "" },
-    { "id": "comic-street-4", "title": "Luke Cage: Hero for Hire", "genre": "Street-Level / Crime Superhero", "myRating": 8, "review": "Sweet Christmas! The original 70s run.", "coverUrl": "" },
-    { "id": "comic-street-5", "title": "Moon Knight", "genre": "Street-Level / Crime Superhero", "myRating": 9, "review": "The complex 1998 series.", "coverUrl": "" },
-    { "id": "comic-street-6", "title": "The Question", "genre": "Street-Level / Crime Superhero", "myRating": 9, "review": "O'Neil's philosophical detective series. (1987–1990)", "coverUrl": "" },
-    { "id": "comic-street-7", "title": "Gotham Central", "genre": "Street-Level / Crime Superhero", "myRating": 10, "review": "Life as a cop in Batman's city. A procedural masterpiece.", "coverUrl": "" },
-    { "id": "comic-street-8", "title": "Batman: Year One", "genre": "Street-Level / Crime Superhero", "myRating": 10, "review": "The definitive origin story.", "coverUrl": "" },
-    { "id": "comic-street-9", "title": "Sin City", "genre": "Street-Level / Crime Superhero", "myRating": 9, "review": "Frank Miller's stylish noir anthology.", "coverUrl": "" },
-    { "id": "comic-street-10", "title": "100 Bullets", "genre": "Street-Level / Crime Superhero", "myRating": 10, "review": "A sprawling crime saga about revenge and conspiracy.", "coverUrl": "" }
+  "Crime": [
+    { "id": "comic-street-1", "title": "Daredevil", "genre": "Crime", "myRating": 10, "review": "Frank Miller's gritty masterpiece that redefined the Man Without Fear.", "coverUrl": "" },
+    { "id": "comic-street-2", "title": "Punisher", "genre": "Crime", "myRating": 9, "review": "The brutal MAX series.", "coverUrl": "" },
+    { "id": "comic-street-3", "title": "Jessica Jones: Alias", "genre": "Crime", "myRating": 9, "review": "Bendis's ground-breaking private investigator series.", "coverUrl": "" },
+    { "id": "comic-street-4", "title": "Luke Cage: Hero for Hire", "genre": "Crime", "myRating": 8, "review": "Sweet Christmas! The original 70s run.", "coverUrl": "" },
+    { "id": "comic-street-5", "title": "Moon Knight", "genre": "Crime", "myRating": 9, "review": "The complex 1998 series.", "coverUrl": "" },
+    { "id": "comic-street-6", "title": "The Question", "genre": "Crime", "myRating": 9, "review": "O'Neil's philosophical detective series. (1987–1990)", "coverUrl": "" },
+    { "id": "comic-street-7", "title": "Gotham Central", "genre": "Crime", "myRating": 10, "review": "Life as a cop in Batman's city. A procedural masterpiece.", "coverUrl": "" },
+    { "id": "comic-street-8", "title": "Batman: Year One", "genre": "Crime", "myRating": 10, "review": "The definitive origin story.", "coverUrl": "" },
+    { "id": "comic-street-9", "title": "Sin City", "genre": "Crime", "myRating": 9, "review": "Frank Miller's stylish noir anthology.", "coverUrl": "" },
+    { "id": "comic-street-10", "title": "100 Bullets", "genre": "Crime", "myRating": 10, "review": "A sprawling crime saga about revenge and conspiracy.", "coverUrl": "" }
   ],
-  "Cosmic / Mythic Superhero": [
-    { "id": "comic-cosmic-1", "title": "Thor", "genre": "Cosmic / Mythic Superhero", "myRating": 10, "review": "Jason Aaron's epic run spanning the God Butcher to King Thor.", "coverUrl": "" },
-    { "id": "comic-cosmic-2", "title": "The Sandman", "genre": "Cosmic / Mythic Superhero", "myRating": 10, "review": "Gaiman's dark fantasy masterpiece about stories and dreams.", "coverUrl": "" },
-    { "id": "comic-cosmic-3", "title": "New Gods", "genre": "Cosmic / Mythic Superhero", "myRating": 9, "review": "Jack Kirby's Fourth World magnum opus.", "coverUrl": "" },
-    { "id": "comic-cosmic-4", "title": "Silver Surfer: Parable", "genre": "Cosmic / Mythic Superhero", "myRating": 9, "review": "Moebius and Stan Lee's philosophical tale.", "coverUrl": "" },
-    { "id": "comic-cosmic-5", "title": "Green Lantern Corps", "genre": "Cosmic / Mythic Superhero", "myRating": 9, "review": "Geoff Johns' expansive space opera run.", "coverUrl": "" },
-    { "id": "comic-cosmic-6", "title": "Eternals", "genre": "Cosmic / Mythic Superhero", "myRating": 8, "review": "Jack Kirby's cosmic mythology.", "coverUrl": "" },
-    { "id": "comic-cosmic-7", "title": "Doctor Strange: The Oath", "genre": "Cosmic / Mythic Superhero", "myRating": 9, "review": "The definitive modern Doctor Strange story.", "coverUrl": "" },
-    { "id": "comic-cosmic-8", "title": "Infinity Gauntlet", "genre": "Cosmic / Mythic Superhero", "myRating": 9, "review": "Snap.", "coverUrl": "" },
-    { "id": "comic-cosmic-9", "title": "Saga", "genre": "Cosmic / Mythic Superhero", "myRating": 10, "review": "Brian K. Vaughan & Fiona Staples' epic space fantasy.", "coverUrl": "" },
-    { "id": "comic-cosmic-10", "title": "Miracleman", "genre": "Cosmic / Mythic Superhero", "myRating": 10, "review": "Alan Moore's deconstruction of the superhero mythos.", "coverUrl": "" }
+  "Mythic": [
+    { "id": "comic-cosmic-1", "title": "Thor", "genre": "Mythic", "myRating": 10, "review": "Jason Aaron's epic run spanning the God Butcher to King Thor.", "coverUrl": "" },
+    { "id": "comic-cosmic-2", "title": "The Sandman", "genre": "Mythic", "myRating": 10, "review": "Gaiman's dark fantasy masterpiece about stories and dreams.", "coverUrl": "" },
+    { "id": "comic-cosmic-3", "title": "New Gods", "genre": "Mythic", "myRating": 9, "review": "Jack Kirby's Fourth World magnum opus.", "coverUrl": "" },
+    { "id": "comic-cosmic-4", "title": "Silver Surfer: Parable", "genre": "Mythic", "myRating": 9, "review": "Moebius and Stan Lee's philosophical tale.", "coverUrl": "" },
+    { "id": "comic-cosmic-5", "title": "Green Lantern Corps", "genre": "Mythic", "myRating": 9, "review": "Geoff Johns' expansive space opera run.", "coverUrl": "" },
+    { "id": "comic-cosmic-6", "title": "Eternals", "genre": "Mythic", "myRating": 8, "review": "Jack Kirby's cosmic mythology.", "coverUrl": "" },
+    { "id": "comic-cosmic-7", "title": "Doctor Strange: The Oath", "genre": "Mythic", "myRating": 9, "review": "The definitive modern Doctor Strange story.", "coverUrl": "" },
+    { "id": "comic-cosmic-8", "title": "Infinity Gauntlet", "genre": "Mythic", "myRating": 9, "review": "Snap.", "coverUrl": "" },
+    { "id": "comic-cosmic-9", "title": "Saga", "genre": "Mythic", "myRating": 10, "review": "Brian K. Vaughan & Fiona Staples' epic space fantasy.", "coverUrl": "" },
+    { "id": "comic-cosmic-10", "title": "Miracleman", "genre": "Mythic", "myRating": 10, "review": "Alan Moore's deconstruction of the superhero mythos.", "coverUrl": "" }
   ],
-  "Dark / Deconstructionist Superhero": [
-    { "id": "comic-dark-1", "title": "Watchmen", "genre": "Dark / Deconstructionist Superhero", "myRating": 10, "review": "Who watches the watchmen?", "coverUrl": "" },
-    { "id": "comic-dark-2", "title": "The Dark Knight Returns", "genre": "Dark / Deconstructionist Superhero", "myRating": 10, "review": "Frank Miller's gritty future Batman.", "coverUrl": "" },
-    { "id": "comic-dark-3", "title": "The Boys", "genre": "Dark / Deconstructionist Superhero", "myRating": 9, "review": "Garth Ennis's brutal satire of superhero celebrity culture.", "coverUrl": "" },
-    { "id": "comic-dark-4", "title": "Kingdom Come", "genre": "Dark / Deconstructionist Superhero", "myRating": 10, "review": "A clash between generations of heroes beautifully painted by Alex Ross.", "coverUrl": "" },
-    { "id": "comic-dark-5", "title": "Irredeemable", "genre": "Dark / Deconstructionist Superhero", "myRating": 9, "review": "What if Superman snapped?", "coverUrl": "" },
-    { "id": "comic-dark-6", "title": "Jupiter’s Legacy", "genre": "Dark / Deconstructionist Superhero", "myRating": 8, "review": "Generational conflict among superheroes.", "coverUrl": "" },
-    { "id": "comic-dark-7", "title": "Marshal Law", "genre": "Dark / Deconstructionist Superhero", "myRating": 8, "review": "The original superhero hunter.", "coverUrl": "" },
-    { "id": "comic-dark-8", "title": "Black Hammer", "genre": "Dark / Deconstructionist Superhero", "myRating": 9, "review": "Golden Age heroes trapped in a rural mystery.", "coverUrl": "" },
-    { "id": "comic-dark-9", "title": "The Authority", "genre": "Dark / Deconstructionist Superhero", "myRating": 9, "review": "Widescreen superhero action that changed the industry.", "coverUrl": "" },
-    { "id": "comic-dark-10", "title": "Punisher MAX", "genre": "Dark / Deconstructionist Superhero", "myRating": 10, "review": "Garth Ennis's defining crimelord saga.", "coverUrl": "" }
+  "Dark / Deconstructionist": [
+    { "id": "comic-dark-1", "title": "Watchmen", "genre": "Dark / Deconstructionist", "myRating": 10, "review": "Who watches the watchmen?", "coverUrl": "" },
+    { "id": "comic-dark-2", "title": "The Dark Knight Returns", "genre": "Dark / Deconstructionist", "myRating": 10, "review": "Frank Miller's gritty future Batman.", "coverUrl": "" },
+    { "id": "comic-dark-3", "title": "The Boys", "genre": "Dark / Deconstructionist", "myRating": 9, "review": "Garth Ennis's brutal satire of superhero celebrity culture.", "coverUrl": "" },
+    { "id": "comic-dark-4", "title": "Kingdom Come", "genre": "Dark / Deconstructionist", "myRating": 10, "review": "A clash between generations of heroes beautifully painted by Alex Ross.", "coverUrl": "" },
+    { "id": "comic-dark-5", "title": "Irredeemable", "genre": "Dark / Deconstructionist", "myRating": 9, "review": "What if Superman snapped?", "coverUrl": "" },
+    { "id": "comic-dark-6", "title": "Jupiter’s Legacy", "genre": "Dark / Deconstructionist", "myRating": 8, "review": "Generational conflict among superheroes.", "coverUrl": "" },
+    { "id": "comic-dark-7", "title": "Marshal Law", "genre": "Dark / Deconstructionist", "myRating": 8, "review": "The original superhero hunter.", "coverUrl": "" },
+    { "id": "comic-dark-8", "title": "Black Hammer", "genre": "Dark / Deconstructionist", "myRating": 9, "review": "Golden Age heroes trapped in a rural mystery.", "coverUrl": "" },
+    { "id": "comic-dark-9", "title": "The Authority", "genre": "Dark / Deconstructionist", "myRating": 9, "review": "Widescreen superhero action that changed the industry.", "coverUrl": "" },
+    { "id": "comic-dark-10", "title": "Punisher MAX", "genre": "Dark / Deconstructionist", "myRating": 10, "review": "Garth Ennis's defining crimelord saga.", "coverUrl": "" }
   ],
-  "Team / Political Superhero": [
-    { "id": "comic-team-1", "title": "X-Men", "genre": "Team / Political Superhero", "myRating": 10, "review": "Protecting a world that hates and fears them. (1963 series)", "coverUrl": "" },
-    { "id": "comic-team-2", "title": "Avengers", "genre": "Team / Political Superhero", "myRating": 9, "review": "Earth's Mightiest Heroes. (1963 series)", "coverUrl": "" },
-    { "id": "comic-team-3", "title": "Justice League", "genre": "Team / Political Superhero", "myRating": 9, "review": "The World's Greatest Superheroes. (1960 series)", "coverUrl": "" },
-    { "id": "comic-team-4", "title": "Civil War", "genre": "Team / Political Superhero", "myRating": 9, "review": "Whose side are you on?", "coverUrl": "" },
-    { "id": "comic-team-5", "title": "The Ultimates", "genre": "Team / Political Superhero", "myRating": 9, "review": "The Avengers for the 21st century.", "coverUrl": "" },
-    { "id": "comic-team-6", "title": "Young Avengers", "genre": "Team / Political Superhero", "myRating": 9, "review": "The next generation steps up.", "coverUrl": "" },
-    { "id": "comic-team-7", "title": "Doom Patrol", "genre": "Team / Political Superhero", "myRating": 10, "review": "Grant Morrison's surreal masterpiece.", "coverUrl": "" },
-    { "id": "comic-team-8", "title": "Stormwatch", "genre": "Team / Political Superhero", "myRating": 8, "review": "The precursor to The Authority.", "coverUrl": "" },
-    { "id": "comic-team-9", "title": "Secret Wars", "genre": "Team / Political Superhero", "myRating": 8, "review": "The original crossover event. (1984–1985)", "coverUrl": "" },
-    { "id": "comic-team-10", "title": "Astro City", "genre": "Team / Political Superhero", "myRating": 10, "review": "Life in the big city from the perspective of ordinary people.", "coverUrl": "" }
+  "Team": [
+    { "id": "comic-team-1", "title": "X-Men", "genre": "Team", "myRating": 10, "review": "Protecting a world that hates and fears them. (1963 series)", "coverUrl": "" },
+    { "id": "comic-team-2", "title": "Avengers", "genre": "Team", "myRating": 9, "review": "Earth's Mightiest Heroes. (1963 series)", "coverUrl": "" },
+    { "id": "comic-team-3", "title": "Justice League", "genre": "Team", "myRating": 9, "review": "The World's Greatest Superheroes. (1960 series)", "coverUrl": "" },
+    { "id": "comic-team-4", "title": "Civil War", "genre": "Team", "myRating": 9, "review": "Whose side are you on?", "coverUrl": "" },
+    { "id": "comic-team-5", "title": "The Ultimates", "genre": "Team", "myRating": 9, "review": "The Avengers for the 21st century.", "coverUrl": "" },
+    { "id": "comic-team-6", "title": "Young Avengers", "genre": "Team", "myRating": 9, "review": "The next generation steps up.", "coverUrl": "" },
+    { "id": "comic-team-7", "title": "Doom Patrol", "genre": "Team", "myRating": 10, "review": "Grant Morrison's surreal masterpiece.", "coverUrl": "" },
+    { "id": "comic-team-8", "title": "Stormwatch", "genre": "Team", "myRating": 8, "review": "The precursor to The Authority.", "coverUrl": "" },
+    { "id": "comic-team-9", "title": "Secret Wars", "genre": "Team", "myRating": 8, "review": "The original crossover event. (1984–1985)", "coverUrl": "" },
+    { "id": "comic-team-10", "title": "Astro City", "genre": "Team", "myRating": 10, "review": "Life in the big city from the perspective of ordinary people.", "coverUrl": "" }
   ],
-  "Science Fiction": [
-    { "id": "comic-scifi-1", "title": "Iron Man", "genre": "Science Fiction", "myRating": 9, "review": "Extremis run redefining Tony Stark for the modern age. (2005)", "coverUrl": "" },
-    { "id": "comic-scifi-2", "title": "Guardians of the Galaxy", "genre": "Science Fiction", "myRating": 9, "review": "The modern cosmic team that inspired the movies. (2008 series)", "coverUrl": "" },
-    { "id": "comic-scifi-3", "title": "The Vision", "genre": "Science Fiction", "myRating": 10, "review": "A haunting story about family and humanity. (2015 series)", "coverUrl": "" },
-    { "id": "comic-scifi-4", "title": "The Ultimates", "genre": "Science Fiction", "myRating": 8, "review": "2002-2004 series.", "coverUrl": "" },
-    { "id": "comic-scifi-5", "title": "Legion of Super-Heroes", "genre": "Science Fiction", "myRating": 8, "review": "Long live the Legion! (2005 series)", "coverUrl": "" },
-    { "id": "comic-scifi-6", "title": "Atomic Robo", "genre": "Science Fiction", "myRating": 9, "review": "Tesla's robot fights Nazis and monsters.", "coverUrl": "" },
-    { "id": "comic-scifi-7", "title": "Descender", "genre": "Science Fiction", "myRating": 9, "review": "One boy robot's struggle in a universe that hates machines.", "coverUrl": "" },
-    { "id": "comic-scifi-8", "title": "Transmetropolitan", "genre": "Science Fiction", "myRating": 10, "review": "Spider Jerusalem vs the future.", "coverUrl": "" },
-    { "id": "comic-scifi-9", "title": "Valerian and Laureline", "genre": "Science Fiction", "myRating": 9, "review": "The classic French sci-fi that inspired Star Wars.", "coverUrl": "" },
-    { "id": "comic-scifi-10", "title": "Judge Dredd", "genre": "Science Fiction", "myRating": 8, "review": "I am the Law.", "coverUrl": "" }
+  "Sci-Fi": [
+    { "id": "comic-scifi-1", "title": "Iron Man", "genre": "Sci-Fi", "myRating": 9, "review": "Extremis run redefining Tony Stark for the modern age. (2005)", "coverUrl": "" },
+    { "id": "comic-scifi-2", "title": "Guardians of the Galaxy", "genre": "Sci-Fi", "myRating": 9, "review": "The modern cosmic team that inspired the movies. (2008 series)", "coverUrl": "" },
+    { "id": "comic-scifi-3", "title": "The Vision", "genre": "Sci-Fi", "myRating": 10, "review": "A haunting story about family and humanity. (2015 series)", "coverUrl": "" },
+    { "id": "comic-scifi-4", "title": "The Ultimates", "genre": "Sci-Fi", "myRating": 8, "review": "2002-2004 series.", "coverUrl": "" },
+    { "id": "comic-scifi-5", "title": "Legion of Super-Heroes", "genre": "Sci-Fi", "myRating": 8, "review": "Long live the Legion! (2005 series)", "coverUrl": "" },
+    { "id": "comic-scifi-6", "title": "Atomic Robo", "genre": "Sci-Fi", "myRating": 9, "review": "Tesla's robot fights Nazis and monsters.", "coverUrl": "" },
+    { "id": "comic-scifi-7", "title": "Descender", "genre": "Sci-Fi", "myRating": 9, "review": "One boy robot's struggle in a universe that hates machines.", "coverUrl": "" },
+    { "id": "comic-scifi-8", "title": "Transmetropolitan", "genre": "Sci-Fi", "myRating": 10, "review": "Spider Jerusalem vs the future.", "coverUrl": "" },
+    { "id": "comic-scifi-9", "title": "Valerian and Laureline", "genre": "Sci-Fi", "myRating": 9, "review": "The classic French sci-fi that inspired Star Wars.", "coverUrl": "" },
+    { "id": "comic-scifi-10", "title": "Judge Dredd", "genre": "Sci-Fi", "myRating": 8, "review": "I am the Law.", "coverUrl": "" }
   ],
   "Horror": [
     { "id": "comic-horror-1", "title": "Spawn", "genre": "Horror", "myRating": 9, "review": "Image Comics legend. (1992–present)", "coverUrl": "" },
@@ -83,17 +83,17 @@
     { "id": "comic-horror-9", "title": "Immortal Hulk", "genre": "Horror", "myRating": 10, "review": "Body horror reinvention of the Hulk.", "coverUrl": "" },
     { "id": "comic-horror-10", "title": "From Hell", "genre": "Horror", "myRating": 10, "review": "Moore and Campbell's Jack the Ripper autopsy.", "coverUrl": "" }
   ],
-  "Alternate / Elseworld": [
-    { "id": "comic-alt-1", "title": "Batman: The Dark Knight Returns", "genre": "Alternate / Elseworld", "myRating": 10, "review": "The grim future of Gotham.", "coverUrl": "" },
-    { "id": "comic-alt-2", "title": "Superman: Red Son", "genre": "Alternate / Elseworld", "myRating": 9, "review": "What if Superman landed in the USSR?", "coverUrl": "" },
-    { "id": "comic-alt-3", "title": "Marvel Zombies", "genre": "Alternate / Elseworld", "myRating": 8, "review": "Superheroes with an appetite.", "coverUrl": "" },
-    { "id": "comic-alt-4", "title": "Flashpoint", "genre": "Alternate / Elseworld", "myRating": 9, "review": "The event that reset the DC Universe.", "coverUrl": "" },
-    { "id": "comic-alt-5", "title": "Old Man Logan", "genre": "Alternate / Elseworld", "myRating": 9, "review": "Wolverine in a wasteland ruled by villains.", "coverUrl": "" },
-    { "id": "comic-alt-6", "title": "Injustice: Gods Among Us", "genre": "Alternate / Elseworld", "myRating": 8, "review": "Dictator Superman vs Batman.", "coverUrl": "" },
-    { "id": "comic-alt-7", "title": "Gotham by Gaslight", "genre": "Alternate / Elseworld", "myRating": 9, "review": "Batman vs Jack the Ripper in Victorian era.", "coverUrl": "" },
-    { "id": "comic-alt-8", "title": "Earth X", "genre": "Alternate / Elseworld", "myRating": 9, "review": "Alex Ross's dystopian Marvel future.", "coverUrl": "" },
-    { "id": "comic-alt-9", "title": "DCeased", "genre": "Alternate / Elseworld", "myRating": 9, "review": "Zombie apocalypse in the DCU.", "coverUrl": "" },
-    { "id": "comic-alt-10", "title": "What If…?", "genre": "Alternate / Elseworld", "myRating": 8, "review": "Endless possibilities.", "coverUrl": "" }
+  "Elseworld": [
+    { "id": "comic-alt-1", "title": "Batman: The Dark Knight Returns", "genre": "Elseworld", "myRating": 10, "review": "The grim future of Gotham.", "coverUrl": "" },
+    { "id": "comic-alt-2", "title": "Superman: Red Son", "genre": "Elseworld", "myRating": 9, "review": "What if Superman landed in the USSR?", "coverUrl": "" },
+    { "id": "comic-alt-3", "title": "Marvel Zombies", "genre": "Elseworld", "myRating": 8, "review": "Superheroes with an appetite.", "coverUrl": "" },
+    { "id": "comic-alt-4", "title": "Flashpoint", "genre": "Elseworld", "myRating": 9, "review": "The event that reset the DC Universe.", "coverUrl": "" },
+    { "id": "comic-alt-5", "title": "Old Man Logan", "genre": "Elseworld", "myRating": 9, "review": "Wolverine in a wasteland ruled by villains.", "coverUrl": "" },
+    { "id": "comic-alt-6", "title": "Injustice: Gods Among Us", "genre": "Elseworld", "myRating": 8, "review": "Dictator Superman vs Batman.", "coverUrl": "" },
+    { "id": "comic-alt-7", "title": "Gotham by Gaslight", "genre": "Elseworld", "myRating": 9, "review": "Batman vs Jack the Ripper in Victorian era.", "coverUrl": "" },
+    { "id": "comic-alt-8", "title": "Earth X", "genre": "Elseworld", "myRating": 9, "review": "Alex Ross's dystopian Marvel future.", "coverUrl": "" },
+    { "id": "comic-alt-9", "title": "DCeased", "genre": "Elseworld", "myRating": 9, "review": "Zombie apocalypse in the DCU.", "coverUrl": "" },
+    { "id": "comic-alt-10", "title": "What If…?", "genre": "Elseworld", "myRating": 8, "review": "Endless possibilities.", "coverUrl": "" }
   ],
   "Post-Superhero": [
     { "id": "comic-post-1", "title": "Watchmen", "genre": "Post-Superhero", "myRating": 10, "review": "The beginning of the end.", "coverUrl": "" },

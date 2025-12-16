@@ -1,4 +1,4 @@
-import { MediaEntry, PageId } from '../../types';
+import { MediaEntry, PageId } from '../types';
 
 const BASE_URL = import.meta.env.BASE_URL || '/';
 

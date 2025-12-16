@@ -1,4 +1,4 @@
-import { PageId } from '../../types';
+import { PageId } from '../types';
 
 export const GENRE_MAP: Record<PageId, string[]> = {
   ['home']: [],

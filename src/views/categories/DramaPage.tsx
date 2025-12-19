@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { PageId, MediaEntry } from '../../types';
 import { generateMockData, PAGE_THEMES } from '../../constants';
-import { Home } from 'lucide-react';
+import { Home, Star } from 'lucide-react';
 import Top10Card from '../../components/Top10Card';
 import { dataService } from '../../services/dataService';
+import CategoryOverview from '../../components/category/CategoryOverview';
 
 interface DramaPageProps {
   onBack: () => void;
@@ -14,7 +15,7 @@ const DramaPage: React.FC<DramaPageProps> = ({ onBack }) => {
   const theme = PAGE_THEMES[pageId];
 
   // State for content
-  const [activeGenre, setActiveGenre] = useState<string>(theme.genres[0] || 'All');
+  const [activeGenre, setActiveGenre] = useState<string>('OVERVIEW');
   const [entries, setEntries] = useState<MediaEntry[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -23,6 +24,11 @@ const DramaPage: React.FC<DramaPageProps> = ({ onBack }) => {
     let isMounted = true;
 
     const loadData = async () => {
+      if (activeGenre === 'OVERVIEW') {
+        setEntries([]);
+        setIsLoading(false);
+        return;
+      }
       setIsLoading(true);
       try {
         const realData = await dataService.getGenreData(pageId, activeGenre);
@@ -80,6 +86,18 @@ const DramaPage: React.FC<DramaPageProps> = ({ onBack }) => {
 
           <nav className="flex-1 ml-4 overflow-x-auto no-scrollbar">
             <div className="flex items-center justify-end gap-2 min-w-max px-2">
+              <button
+                onClick={() => setActiveGenre('OVERVIEW')}
+                className={`
+                  flex items-center gap-1.5 px-3 py-1 rounded text-xs font-semibold transition-all duration-300 border
+                  ${activeGenre === 'OVERVIEW' ? 'text-black' : 'bg-transparent text-slate-500 border-transparent hover:text-slate-300 hover:bg-slate-800/50'}
+                `}
+                style={activeGenre === 'OVERVIEW' ? { backgroundColor: theme.accentColorDark, color: '#000', borderColor: theme.accentColorDark } : {}}
+              >
+                <Star size={14} fill={activeGenre === 'OVERVIEW' ? 'currentColor' : 'none'} />
+                Overview
+              </button>
+              <div className="h-4 w-[1px] bg-slate-800 mx-1" />
               {theme.genres.map((genre) => (
                 <button
                   key={genre}
@@ -106,6 +124,7 @@ const DramaPage: React.FC<DramaPageProps> = ({ onBack }) => {
         </div>
       </header>
 
+      {activeGenre !== 'OVERVIEW' && (
       <div
         className="w-full h-64 md:h-80 relative overflow-hidden"
         style={{
@@ -161,9 +180,12 @@ const DramaPage: React.FC<DramaPageProps> = ({ onBack }) => {
           </h2>
         </div>
       </div>
+      )}
 
-      <main className="container mx-auto px-4 -mt-8 relative z-20">
-        {entries.length > 0 ? (
+      <main className={`container mx-auto px-4 relative z-20 flex-1 flex flex-col ${activeGenre !== 'OVERVIEW' ? '-mt-8' : 'pt-8'}`}>
+        {activeGenre === 'OVERVIEW' ? (
+          <CategoryOverview pageId={pageId} theme={theme} />
+        ) : entries.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {entries.map((entry, index) => (
               <Top10Card 

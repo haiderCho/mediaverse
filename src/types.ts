@@ -46,3 +46,16 @@ export interface HexGridRow {
   items: (PageId | null)[];
   offset?: boolean;
 }
+
+export type LandingDesign = 'hex-grid' | 'bento' | 'orbital' | 'terminal' | 'floating-cards' | 'archive' | 'atelier' | 'frequency';
+
+export const LANDING_DESIGNS: { id: LandingDesign; label: string; icon: string }[] = [
+  { id: 'hex-grid', label: 'Hex Grid', icon: '⬡' },
+  { id: 'bento', label: 'Bento', icon: '▣' },
+  { id: 'orbital', label: 'Orbital', icon: '◯' },
+  { id: 'terminal', label: 'Terminal', icon: '⌨' },
+  { id: 'floating-cards', label: 'Cards', icon: '🃏' },
+  { id: 'archive', label: 'Archive', icon: '⚖' },
+  { id: 'atelier', label: 'Atelier', icon: '🎨' },
+  { id: 'frequency', label: 'Freq', icon: '📻' },
+];

@@ -3,6 +3,7 @@ import { PageId, ThemeConfig, MediaEntry } from '../types';
 import { generateMockData, PAGE_THEMES } from '../constants';
 import { Home, Star } from 'lucide-react';
 import Top10Card from '../components/Top10Card';
+import CategoryOverview from '../components/category/CategoryOverview';
 
 interface CategoryPageProps {
   pageId: PageId;
@@ -13,7 +14,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
   const theme = PAGE_THEMES[pageId];
 
   // State for content
-  const [activeGenre, setActiveGenre] = useState<string>(theme.genres[0] || 'All');
+  const [activeGenre, setActiveGenre] = useState<string>('OVERVIEW');
   const [entries, setEntries] = useState<MediaEntry[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -22,6 +23,12 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
     let isMounted = true;
 
     const loadData = async () => {
+      if (activeGenre === 'OVERVIEW') {
+        setEntries([]);
+        setIsLoading(false);
+        return;
+      }
+      
       setIsLoading(true);
       try {
         // Import dataService dynamically to avoid circular dependencies if any,
@@ -63,7 +70,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200 pb-10 fade-in flex flex-col">
-      {/* 1. Compact Header */}
+      {/* Compact Header */}
       <header className="sticky top-0 z-40 bg-slate-950/95 backdrop-blur-md border-b border-slate-800 shadow-sm h-16 shrink-0">
         <div className="container mx-auto px-4 h-full flex items-center justify-between">
           {/* Left: Brand / Title */}
@@ -90,6 +97,28 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
           {/* Right: Genre Filter */}
           <nav className="flex-1 ml-4 overflow-x-auto no-scrollbar">
             <div className="flex items-center justify-end gap-2 min-w-max px-2">
+              <button
+                onClick={() => setActiveGenre('OVERVIEW')}
+                className={`
+                  flex items-center gap-1.5 px-3 py-1 rounded text-xs font-semibold transition-all duration-300 border
+                  ${
+                    activeGenre === 'OVERVIEW'
+                      ? `text-black`
+                      : 'bg-transparent text-slate-500 border-transparent hover:text-slate-300 hover:bg-slate-800/50'
+                  }
+                `}
+                style={
+                  activeGenre === 'OVERVIEW'
+                    ? { backgroundColor: theme.accentColorDark, color: '#000', borderColor: theme.accentColorDark }
+                    : {}
+                }
+              >
+                <Star size={14} fill={activeGenre === 'OVERVIEW' ? 'currentColor' : 'none'} />
+                Overview
+              </button>
+              
+              <div className="h-4 w-[1px] bg-slate-800 mx-1" />
+
               {theme.genres.map((genre) => (
                 <button
                   key={genre}
@@ -98,13 +127,13 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
                     px-3 py-1 rounded text-xs font-semibold transition-all duration-300 border
                     ${
                       activeGenre === genre
-                        ? `bg-[${theme.accentColorDark}] text-black border-[${theme.accentColorDark}]`
+                        ? `text-black`
                         : 'bg-transparent text-slate-500 border-transparent hover:text-slate-300'
                     }
                   `}
                   style={
                     activeGenre === genre
-                      ? { backgroundColor: theme.accentColorDark, color: '#000' }
+                      ? { backgroundColor: theme.accentColorDark, color: '#000', borderColor: theme.accentColorDark }
                       : {}
                   }
                 >
@@ -117,6 +146,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
       </header>
 
       {/* 2. Hero Section for Genre */}
+      {activeGenre !== 'OVERVIEW' && (
       <div
         className="w-full h-64 md:h-80 relative overflow-hidden"
         style={{
@@ -189,10 +219,13 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ pageId, onBack }) => {
           </svg>
         </div>
       </div>
+      )}
 
       {/* 3. Ranked List */}
-      <main className="container mx-auto px-4 -mt-8 relative z-20">
-        {entries.length > 0 ? (
+      <main className={`container mx-auto px-4 relative z-20 flex-1 flex flex-col ${activeGenre !== 'OVERVIEW' ? '-mt-8' : 'pt-8'}`}>
+        {activeGenre === 'OVERVIEW' ? (
+          <CategoryOverview pageId={pageId} theme={theme} />
+        ) : entries.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {entries.map((entry, index) => (
               <Top10Card 

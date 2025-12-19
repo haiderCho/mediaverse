@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { PageId, MediaEntry } from '../../types';
 import { generateMockData, PAGE_THEMES } from '../../constants';
-import { Home } from 'lucide-react';
+import { Home, Star } from 'lucide-react';
 import Top10Card from '../../components/Top10Card';
 import { dataService } from '../../services/dataService';
+import CategoryOverview from '../../components/category/CategoryOverview';
 
 interface BookPageProps {
   onBack: () => void;
@@ -14,7 +15,7 @@ const BookPage: React.FC<BookPageProps> = ({ onBack }) => {
   const theme = PAGE_THEMES[pageId];
 
   // State for content
-  const [activeGenre, setActiveGenre] = useState<string>(theme.genres[0] || 'All');
+  const [activeGenre, setActiveGenre] = useState<string>('OVERVIEW');
   const [entries, setEntries] = useState<MediaEntry[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -22,6 +23,11 @@ const BookPage: React.FC<BookPageProps> = ({ onBack }) => {
   useEffect(() => {
     let isMounted = true;
     const loadData = async () => {
+      if (activeGenre === 'OVERVIEW') {
+        setEntries([]);
+        setIsLoading(false);
+        return;
+      }
       setIsLoading(true);
       try {
         const realData = await dataService.getGenreData(pageId, activeGenre);
@@ -66,6 +72,16 @@ const BookPage: React.FC<BookPageProps> = ({ onBack }) => {
 
           <nav className="flex-1 ml-4 overflow-x-auto no-scrollbar">
             <div className="flex items-center justify-end gap-2 min-w-max px-2">
+              <button
+                onClick={() => setActiveGenre('OVERVIEW')}
+                className={`flex items-center gap-1.5 px-3 py-1 rounded text-xs font-serif italic transition-all duration-300 border ${
+                  activeGenre === 'OVERVIEW' ? 'bg-[#2c241b] text-[#E2A065] border-[#E2A065]' : 'bg-transparent text-[#8c7b6d] border-transparent hover:text-[#d4c5a9]'
+                }`}
+              >
+                <Star size={14} fill={activeGenre === 'OVERVIEW' ? 'currentColor' : 'none'} />
+                Overview
+              </button>
+              <div className="h-4 w-[1px] bg-[#3e352f] mx-1" />
               {theme.genres.map((genre) => (
                 <button
                   key={genre}
@@ -85,6 +101,7 @@ const BookPage: React.FC<BookPageProps> = ({ onBack }) => {
       </header>
 
       {/* 2. Hero - Wood/Library Theme */}
+      {activeGenre !== 'OVERVIEW' && (
       <div className="w-full h-64 md:h-80 relative overflow-hidden bg-[#1e1915]">
         {/* Wood Texture CSS Pattern */}
         <div className="absolute inset-0 opacity-20" style={{ 
@@ -104,14 +121,23 @@ const BookPage: React.FC<BookPageProps> = ({ onBack }) => {
           <p className="text-[#8c7b6d] font-serif italic">Curated volumes of distinction</p>
         </div>
       </div>
+      )}
 
       {/* 3. List */}
-      <main className="container mx-auto px-4 -mt-8 relative z-20">
-         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <main className={`container mx-auto px-4 relative z-20 flex-1 flex flex-col ${activeGenre !== 'OVERVIEW' ? '-mt-8' : 'pt-8'}`}>
+        {activeGenre === 'OVERVIEW' ? (
+          <CategoryOverview pageId={pageId} theme={theme} />
+        ) : entries.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {entries.map((entry, index) => (
               <Top10Card key={entry.id} entry={entry} rank={index + 1} pageId={pageId} />
             ))}
-         </div>
+          </div>
+        ) : (
+          <div className="flex-1 flex items-center justify-center text-[#8c7b6d] py-20">
+            No entries found for this genre.
+          </div>
+        )}
       </main>
     </div>
   );

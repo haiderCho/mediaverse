@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Home, Mic2, Disc, ListMusic, Radio } from 'lucide-react';
+import { Home, Mic2, Disc, ListMusic, Radio, Star } from 'lucide-react';
 import { PageId } from '../../types';
+import { PAGE_THEMES } from '../../constants';
+import CategoryOverview from '../../components/category/CategoryOverview';
 
 interface MusicArtist {
   rank: number;
@@ -66,7 +68,9 @@ interface MusicPageProps {
 type Tab = 'artists' | 'tracks' | 'playlists' | 'lastfm';
 
 const MusicPage: React.FC<MusicPageProps> = ({ onBack }) => {
-  const [activeTab, setActiveTab] = useState<Tab>('lastfm');
+  const pageId = PageId.MUSIC;
+  const theme = PAGE_THEMES[pageId];
+  const [activeTab, setActiveTab] = useState<Tab | 'overview'>('overview');
   const [data, setData] = useState<MusicData | null>(null);
   const [lastfmData, setLastfmData] = useState<LastFmData | null>(null);
   const [loading, setLoading] = useState(true);
@@ -127,7 +131,7 @@ const MusicPage: React.FC<MusicPageProps> = ({ onBack }) => {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200 pb-10 fade-in flex flex-col">
-      {/* 1. Header */}
+      {/* Header */}
       <header className="sticky top-0 z-40 bg-slate-950/95 backdrop-blur-md border-b border-slate-800 shadow-sm h-16 shrink-0">
         <div className="container mx-auto px-4 h-full flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -144,6 +148,19 @@ const MusicPage: React.FC<MusicPageProps> = ({ onBack }) => {
 
           {/* Tab Navigation */}
           <nav className="flex gap-1 bg-slate-900 p-1 rounded-lg">
+            <button
+              onClick={() => setActiveTab('overview')}
+              className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-sm font-bold transition-all ${
+                activeTab === 'overview' 
+                  ? 'bg-cyan-500 text-black shadow-lg' 
+                  : 'text-slate-400 hover:text-white hover:bg-slate-800'
+              }`}
+            >
+              <Star size={16} fill={activeTab === 'overview' ? 'currentColor' : 'none'} />
+              <span className="hidden sm:inline">Overview</span>
+            </button>
+            
+            <div className="w-[1px] bg-slate-800 my-1 mx-1" />
             {[
               { id: 'lastfm', label: 'Last.fm Stats', icon: Radio },
               { id: 'artists', label: 'Top Artists', icon: Mic2 },
@@ -168,8 +185,13 @@ const MusicPage: React.FC<MusicPageProps> = ({ onBack }) => {
       </header>
 
       {/* 2. Content Area */}
-      <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-4 py-8 flex-1 flex flex-col">
         
+        {/* OVERVIEW TAB */}
+        {activeTab === 'overview' && (
+          <CategoryOverview pageId={pageId} theme={theme} />
+        )}
+
         {/* LAST.FM TAB */}
         {activeTab === 'lastfm' && (
           <div className="space-y-12">

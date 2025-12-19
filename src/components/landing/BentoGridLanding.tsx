@@ -35,15 +35,15 @@ const BentoGridLanding: React.FC<BentoGridLandingProps> = ({ onNavigate }) => {
   return (
     <div className="min-h-screen w-full bg-slate-950 text-white px-4 py-8 md:px-8 lg:px-16">
       {/* Header */}
-      <header className="mb-8 text-center">
-        <h1 className="text-4xl md:text-6xl font-black tracking-tight mb-2 text-white">
+      <header className="mb-4 md:mb-8 text-center">
+        <h1 className="text-3xl md:text-6xl font-black tracking-tight mb-2 text-white">
           MEDIAVERSE
         </h1>
         <p className="text-slate-500 text-sm uppercase tracking-widest">Select a Category</p>
       </header>
 
       {/* Bento Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4 max-w-7xl mx-auto auto-rows-[120px] md:auto-rows-[140px]">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 md:gap-4 max-w-7xl mx-auto auto-rows-[100px] md:auto-rows-[140px] grid-flow-dense">
         {BENTO_ITEMS.map((item) => {
           const theme = PAGE_THEMES[item.id];
           const Icon = theme.icon;
@@ -81,7 +81,7 @@ const BentoGridLanding: React.FC<BentoGridLandingProps> = ({ onNavigate }) => {
             >
               {/* Background glow */}
               <div 
-                className="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-500"
+                className="absolute inset-0 opacity-10 md:opacity-0 group-hover:opacity-20 transition-opacity duration-500"
                 style={{ background: `radial-gradient(circle at center, ${theme.accentColorDark}, transparent 70%)` }}
               />
 

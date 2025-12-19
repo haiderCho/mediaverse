@@ -100,7 +100,7 @@ const TerminalLanding: React.FC<TerminalLandingProps> = ({ onNavigate }) => {
 
   return (
     <div 
-      className="min-h-screen w-full bg-black text-green-500 font-mono p-4 md:p-8 overflow-hidden relative"
+      className="min-h-screen w-full bg-black text-green-500 font-mono p-2 md:p-8 overflow-hidden relative"
       onClick={bootSequence ? finishBoot : undefined}
     >
       {/* Subtle CRT Scanlines */}
@@ -116,7 +116,7 @@ const TerminalLanding: React.FC<TerminalLandingProps> = ({ onNavigate }) => {
       <div className="fixed inset-0 pointer-events-none z-40 opacity-20 bg-green-500/5 blur-3xl" />
 
       {/* Terminal Window (V1 Style Container) */}
-      <div className="max-w-4xl mx-auto relative z-10 border border-green-500/30 rounded bg-black/90 shadow-[0_0_50px_rgba(34,197,94,0.1)] min-h-[80vh] flex flex-col mt-8">
+      <div className="max-w-4xl mx-auto relative z-10 border border-green-500/30 rounded bg-black/90 shadow-[0_0_50px_rgba(34,197,94,0.1)] min-h-[85vh] md:min-h-[80vh] flex flex-col mt-4 md:mt-8">
         
         {/* Header Bar (V2 Style System) */}
         <div className="border-b border-green-500/30 px-4 py-2 flex items-center justify-between bg-green-500/5">
@@ -136,7 +136,7 @@ const TerminalLanding: React.FC<TerminalLandingProps> = ({ onNavigate }) => {
         </div>
 
         {/* Console Body */}
-        <div className="p-6 flex-1 overflow-y-auto font-mono text-sm md:text-base scrollbar-none">
+        <div className="p-3 md:p-6 flex-1 overflow-y-auto font-mono text-xs md:text-base scrollbar-none break-all md:break-normal">
           {bootSequence ? (
             <div className="space-y-2">
               {bootLines.map((line, i) => (

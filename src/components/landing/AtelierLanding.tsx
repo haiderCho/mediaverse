@@ -59,7 +59,7 @@ const AtelierLanding: React.FC<AtelierLandingProps> = ({ onNavigate }) => {
       {/* Header */}
       <header className="fixed top-0 left-0 w-full p-8 z-40 flex justify-between items-baseline mix-blend-darken pointer-events-none bg-gradient-to-b from-[#f2f2f0] to-transparent">
         <div className="flex flex-col">
-          <h1 className="text-6xl md:text-8xl font-serif font-medium tracking-tighter leading-[0.8]">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-serif font-medium tracking-tighter leading-[0.9] md:leading-[0.8]">
             Atelier
           </h1>
           <span className="text-xs uppercase tracking-[0.3em] mt-4 ml-1 opacity-60">
@@ -74,9 +74,9 @@ const AtelierLanding: React.FC<AtelierLandingProps> = ({ onNavigate }) => {
       </header>
       
       {/* Main Exhibition Grid */}
-      <div className="container mx-auto px-6 pt-48 pb-24 max-w-[1600px] relative z-10">
+      <div className="container mx-auto px-4 md:px-6 pt-32 md:pt-48 pb-12 md:pb-24 max-w-[1600px] relative z-10">
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-8 gap-y-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 md:gap-x-8 gap-y-12 md:gap-y-16">
           {EXHIBITION_ITEMS.map((id, index) => {
             const theme = PAGE_THEMES[id];
             const isHovered = hoveredId === id;
@@ -113,8 +113,10 @@ const AtelierLanding: React.FC<AtelierLandingProps> = ({ onNavigate }) => {
                            src={imageUrl} 
                            alt={theme.title}
                            className={`
-                             w-full h-full object-cover grayscale transition-all duration-700 ease-in-out
-                             ${isHovered ? 'grayscale-0 scale-105' : 'scale-100 opacity-90'}
+                             w-full h-full object-cover transition-all duration-700 ease-in-out
+                             grayscale md:grayscale
+                             md:group-hover:grayscale-0 md:group-hover:scale-105
+                             scale-100 md:scale-100 opacity-100 md:opacity-90
                            `}
                          />
                          {/* Overlay for depth */}
@@ -165,7 +167,9 @@ const AtelierLanding: React.FC<AtelierLandingProps> = ({ onNavigate }) => {
                    <span className={`
                      text-[10px] uppercase tracking-wider mt-1
                      transition-all duration-300
-                     ${isHovered ? 'opacity-50 translate-y-0' : 'opacity-0 -translate-y-2'}
+                     opacity-100 md:opacity-0 translate-y-0
+                     md:group-hover:opacity-50 md:group-hover:translate-y-0
+                     md:-translate-y-2
                    `}>
                      {theme.genres[0]}
                    </span>

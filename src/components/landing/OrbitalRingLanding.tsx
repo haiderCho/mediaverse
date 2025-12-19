@@ -38,15 +38,18 @@ const OrbitalRingLanding: React.FC<OrbitalRingLandingProps> = ({ onNavigate }) =
   const TrackersIcon = PAGE_THEMES[PageId.TRACKERS].icon;
 
   return (
-    <div className="min-h-screen w-full flex items-center justify-center overflow-hidden relative">
+    <div className="min-h-screen w-full flex items-center justify-center overflow-hidden relative bg-slate-950">
       {/* Animated Starfield background */}
       <Starfield />
 
-      {/* Orbital rings (decorative) */}
-      <div className="absolute w-[650px] h-[650px] rounded-full border border-slate-800/30" />
-      <div className="absolute w-[500px] h-[500px] rounded-full border border-purple-500/10" />
+      {/* Scalable Container for Mobile Responsiveness - Increased scale for visibility */}
+      <div className="relative transform scale-[0.6] xs:scale-[0.65] sm:scale-[0.75] md:scale-100 transition-transform duration-500 origin-center flex items-center justify-center">
 
-      {/* Central Hub (Profile) */}
+        {/* Orbital rings (decorative) */}
+        <div className="absolute w-[650px] h-[650px] rounded-full border border-slate-800/30" />
+        <div className="absolute w-[500px] h-[500px] rounded-full border border-purple-500/10" />
+
+        {/* Central Hub (Profile) */}
       <div className="absolute z-20 flex flex-col items-center justify-center" style={{ width: 0, height: 0 }}>
         <button
           onClick={() => onNavigate(PageId.PROFILE)}
@@ -110,22 +113,25 @@ const OrbitalRingLanding: React.FC<OrbitalRingLandingProps> = ({ onNavigate }) =
             >
               <Icon size={32} style={{ color: theme.accentColorDark }} />
               
-              {/* Label on hover */}
-              {isHovered && (
-                <span 
-                  className="absolute -bottom-8 whitespace-nowrap text-xs font-bold uppercase tracking-wider px-3 py-1 rounded bg-slate-900/95"
-                  style={{ color: theme.accentColorDark }}
-                >
-                  {theme.title}
-                </span>
-              )}
+              {/* Label on hover (or always on mobile) */}
+              <span 
+                className={`
+                  absolute -bottom-8 whitespace-nowrap text-xs font-bold uppercase tracking-wider px-3 py-1 rounded bg-slate-900/95
+                  transition-opacity duration-300
+                  ${isHovered ? 'opacity-100 z-50' : 'opacity-100 md:opacity-0 z-0'}
+                `}
+                style={{ color: theme.accentColorDark }}
+              >
+                {theme.title}
+              </span>
             </button>
           );
         })}
+        </div>
       </div>
 
-      {/* Trackers Button - Bottom Right Corner */}
-      <div className="fixed bottom-8 right-8 z-50">
+      {/* Mobile-Adjusted Trackers Button */}
+      <div className="fixed bottom-4 right-4 md:bottom-8 md:right-8 z-50 transform scale-75 md:scale-100 origin-bottom-right">
         <button
           onClick={() => onNavigate(PageId.TRACKERS)}
           className="

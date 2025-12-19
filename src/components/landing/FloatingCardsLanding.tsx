@@ -72,30 +72,37 @@ const TiltCard = ({ id, index, onNavigate }: { id: PageId; index: number; onNavi
         zIndex: isHovered ? 50 : 10,
       }}
     >
-      {/* Neon Glow beneath */}
+      {/* Neon Glow beneath (Always visible on mobile, hover on desktop) */}
       <div 
-        className={`absolute inset-4 rounded-xl opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-500`}
+        className={`
+            absolute inset-4 rounded-xl blur-xl transition-opacity duration-500
+            opacity-60 md:opacity-0 md:group-hover:opacity-100
+        `}
         style={{ background: theme.accentColorDark }}
       />
 
       {/* Glass Card */}
       <div 
         className={`
-          absolute inset-0 rounded-xl backdrop-blur-md border border-white/10
-          bg-gradient-to-br from-white/10 to-white/5
+          absolute inset-0 rounded-xl backdrop-blur-xl border border-white/10
+          bg-gradient-to-br from-white/10 via-white/5 to-transparent
           flex flex-col items-center justify-center p-6 gap-4
           transition-all duration-300
-          ${isHovered ? 'border-white/30 shadow-2xl' : 'shadow-lg'}
+          shadow-lg md:shadow-lg
+          ${isHovered ? 'border-white/40 shadow-2xl' : 'border-white/10'}
         `}
         style={{
           boxShadow: isHovered 
-            ? `0 20px 40px -10px ${theme.accentColorDark}40, inset 0 0 20px rgba(255,255,255,0.05)` 
-            : '0 10px 20px -10px rgba(0,0,0,0.5)',
+            ? `0 20px 40px -10px ${theme.accentColorDark}40, inset 0 0 20px rgba(255,255,255,0.1)` 
+            : `0 10px 30px -10px rgba(0,0,0,0.8), inset 0 0 0 1px ${theme.accentColorDark}20`, // Mobile default subtle glow
         }}
       >
-        {/* Holographic Gradient Overlay on Hover */}
+        {/* Holographic Gradient Overlay (Hover or Touch) */}
         <div 
-          className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-30 bg-gradient-to-tr from-transparent via-white/20 to-transparent transition-opacity duration-300 pointer-events-none"
+          className={`
+            absolute inset-0 rounded-xl bg-gradient-to-tr from-transparent via-white/20 to-transparent transition-opacity duration-300 pointer-events-none
+            opacity-20 md:opacity-0 md:group-hover:opacity-30
+          `}
           style={{ backgroundBlendMode: 'overlay' }}
         />
 
@@ -134,9 +141,14 @@ const FloatingCardsLanding: React.FC<FloatingCardsLandingProps> = ({ onNavigate 
         <div className="absolute top-[40%] left-[40%] w-[40%] h-[40%] rounded-full bg-fuchsia-600/20 blur-[100px] animate-[spin_10s_linear_infinite]" />
       </div>
 
+      {/* Noise Texture Overlay */}
+      <div className="absolute inset-0 pointer-events-none opacity-[0.07] mix-blend-overlay z-0"
+           style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")` }} 
+      />
+
       {/* Grid Overlay */}
       <div 
-        className="absolute inset-0 opacity-[0.03] pointer-events-none"
+        className="absolute inset-0 opacity-[0.05] pointer-events-none z-0"
         style={{
           backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px)`,
           backgroundSize: '40px 40px',

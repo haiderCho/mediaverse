@@ -44,9 +44,9 @@ const Hexagon: React.FC<HexagonProps> = ({ pageId, onClick }) => {
             background: isHovered 
                 ? `conic-gradient(from 0deg, ${theme.accentColorDark}, ${theme.accentColorLight}, #fff, ${theme.accentColorLight}, ${theme.accentColorDark})`
                 : `linear-gradient(135deg, ${theme.accentColorDark}40, #1e293b)`,
-            opacity: isHovered ? 1 : 0.7,
+            opacity: isHovered ? 1 : 0.8, // Increased opacity for mobile default
             animation: isHovered ? 'spin 3s linear infinite' : 'none',
-            boxShadow: isHovered ? `inset 0 0 20px ${theme.accentColorDark}50` : 'none'
+            boxShadow: isHovered ? `inset 0 0 20px ${theme.accentColorDark}50` : `inset 0 0 10px ${theme.accentColorDark}20` // Default glow
         }}
       />
       

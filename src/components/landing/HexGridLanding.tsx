@@ -28,7 +28,7 @@ const HexGridLanding: React.FC<HexGridLandingProps> = ({ onNavigate }) => {
       {/* Hex Grid Container - Perfectly Centered */}
       <div className="flex items-center justify-center w-full relative z-10 py-2 md:py-4 pt-6 md:pt-10">
         <div 
-          className="relative flex flex-col items-center transform scale-[0.5] sm:scale-[0.6] md:scale-[0.75] lg:scale-90 opacity-0 animate-[fadeIn_0.6s_ease-in-out_0.3s_forwards] origin-center transition-transform duration-500 ease-in-out" 
+          className="relative flex flex-col items-center transform scale-[0.65] sm:scale-[0.75] md:scale-[0.85] lg:scale-95 origin-center transition-transform duration-500 ease-in-out" 
         >
           {HEX_GRID_LAYOUT.map((row) => (
             <div 

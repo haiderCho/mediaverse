@@ -1,0 +1,340 @@
+{
+  "stats": {
+    "anime_series": {
+      "total": 1992,
+      "completed": 1845,
+      "meanScore": 70.42,
+      "statExtra": {
+        "label": "Episodes Watched",
+        "value": "60,515"
+      },
+      "timeWatched": {
+        "days": "940.5",
+        "hours": "22572"
+      },
+      "formats": [
+        {
+          "name": "TV",
+          "count": 1371
+        },
+        {
+          "name": "MOVIE",
+          "count": 207
+        },
+        {
+          "name": "ONA",
+          "count": 170
+        },
+        {
+          "name": "OVA",
+          "count": 104
+        },
+        {
+          "name": "TV_SHORT",
+          "count": 69
+        },
+        {
+          "name": "SPECIAL",
+          "count": 66
+        },
+        {
+          "name": "MUSIC",
+          "count": 5
+        }
+      ],
+      "topGenres": [
+        {
+          "name": "Action",
+          "count": 1010
+        },
+        {
+          "name": "Comedy",
+          "count": 924
+        },
+        {
+          "name": "Fantasy",
+          "count": 690
+        },
+        {
+          "name": "Drama",
+          "count": 676
+        },
+        {
+          "name": "Adventure",
+          "count": 603
+        }
+      ],
+      "topStudios": [
+        {
+          "name": "Toei Animation",
+          "count": 155
+        },
+        {
+          "name": "MADHOUSE",
+          "count": 106
+        },
+        {
+          "name": "Production I.G",
+          "count": 86
+        },
+        {
+          "name": "A-1 Pictures",
+          "count": 86
+        },
+        {
+          "name": "J.C.STAFF",
+          "count": 80
+        }
+      ],
+      "details": {
+        "watching": 75,
+        "onHold": 11,
+        "dropped": 61,
+        "planTo": 26
+      }
+    },
+    "anime_movies": {
+      "total": 207,
+      "completed": 207,
+      "meanScore": 70.42,
+      "statExtra": {
+        "label": "Movies Watched",
+        "value": "207"
+      },
+      "topGenres": [
+        {
+          "name": "Action",
+          "count": 1010
+        },
+        {
+          "name": "Comedy",
+          "count": 924
+        },
+        {
+          "name": "Fantasy",
+          "count": 690
+        },
+        {
+          "name": "Drama",
+          "count": 676
+        },
+        {
+          "name": "Adventure",
+          "count": 603
+        }
+      ],
+      "details": {
+        "watching": 0,
+        "onHold": 0,
+        "dropped": 0,
+        "planTo": 0
+      }
+    },
+    "manga": {
+      "total": 715,
+      "completed": 530,
+      "meanScore": 7.7,
+      "statExtra": {
+        "label": "Chapters Read",
+        "value": "105,399"
+      },
+      "topGenres": [
+        {
+          "name": "Action",
+          "count": 397
+        },
+        {
+          "name": "Drama",
+          "count": 339
+        },
+        {
+          "name": "Comedy",
+          "count": 291
+        },
+        {
+          "name": "Fantasy",
+          "count": 232
+        },
+        {
+          "name": "Adventure",
+          "count": 223
+        }
+      ],
+      "topAuthors": [
+        {
+          "name": "Marc Bernabé",
+          "count": 33
+        },
+        {
+          "name": "Drik Sada",
+          "count": 16
+        },
+        {
+          "name": "Christine Dashiell",
+          "count": 15
+        },
+        {
+          "name": "Thibaud Desbief",
+          "count": 15
+        },
+        {
+          "name": "Alethea Nibley",
+          "count": 13
+        }
+      ],
+      "formats": [
+        {
+          "name": "MANGA",
+          "count": 645
+        },
+        {
+          "name": "NOVEL",
+          "count": 69
+        },
+        {
+          "name": "ONE_SHOT",
+          "count": 1
+        }
+      ],
+      "details": {
+        "watching": 167,
+        "onHold": 0,
+        "dropped": 12,
+        "planTo": 6
+      }
+    },
+    "manhwa": {
+      "total": 634,
+      "completed": 171,
+      "meanScore": 6.3,
+      "statExtra": {
+        "label": "Chapters Read",
+        "value": "56,795"
+      },
+      "topGenres": [
+        {
+          "name": "Action",
+          "count": 591
+        },
+        {
+          "name": "Fantasy",
+          "count": 492
+        },
+        {
+          "name": "Adventure",
+          "count": 283
+        },
+        {
+          "name": "Drama",
+          "count": 161
+        },
+        {
+          "name": "Comedy",
+          "count": 82
+        }
+      ],
+      "topAuthors": [
+        {
+          "name": "Studio Inus",
+          "count": 12
+        },
+        {
+          "name": "Meen",
+          "count": 7
+        },
+        {
+          "name": "Seung-Hoon Baek",
+          "count": 7
+        },
+        {
+          "name": "LICO",
+          "count": 7
+        },
+        {
+          "name": "Seon-Yul Jeong",
+          "count": 6
+        }
+      ],
+      "formats": [
+        {
+          "name": "MANGA",
+          "count": 634
+        }
+      ],
+      "details": {
+        "watching": 451,
+        "onHold": 0,
+        "dropped": 8,
+        "planTo": 4
+      }
+    },
+    "manhua": {
+      "total": 37,
+      "completed": 15,
+      "meanScore": 6.6,
+      "statExtra": {
+        "label": "Chapters Read",
+        "value": "3,399"
+      },
+      "topGenres": [
+        {
+          "name": "Action",
+          "count": 31
+        },
+        {
+          "name": "Fantasy",
+          "count": 24
+        },
+        {
+          "name": "Adventure",
+          "count": 22
+        },
+        {
+          "name": "Romance",
+          "count": 12
+        },
+        {
+          "name": "Comedy",
+          "count": 11
+        }
+      ],
+      "topAuthors": [
+        {
+          "name": "Tang Jia San Shao",
+          "count": 4
+        },
+        {
+          "name": "Jianhe Zheng",
+          "count": 4
+        },
+        {
+          "name": "Zhihui Deng",
+          "count": 4
+        },
+        {
+          "name": "Fengchun Mu",
+          "count": 2
+        },
+        {
+          "name": "Tian Can Tudou",
+          "count": 2
+        }
+      ],
+      "formats": [
+        {
+          "name": "MANGA",
+          "count": 37
+        }
+      ],
+      "details": {
+        "watching": 22,
+        "onHold": 0,
+        "dropped": 0,
+        "planTo": 0
+      }
+    }
+  },
+  "username": "NafizHC",
+  "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/large/b108851-vNcioRaGRtdo.jpg",
+  "fetchedAt": "2025-12-21T18:33:16.327Z"
+}

@@ -1,0 +1,356 @@
+{
+  "stats": {
+    "anime_series": {
+      "total": 1776,
+      "completed": 1615,
+      "meanScore": "6.97",
+      "statExtra": {
+        "label": "Days Watched",
+        "value": "704.1"
+      },
+      "topGenres": [
+        {
+          "name": "Action",
+          "count": 780
+        },
+        {
+          "name": "Comedy",
+          "count": 621
+        },
+        {
+          "name": "Fantasy",
+          "count": 571
+        },
+        {
+          "name": "Shounen",
+          "count": 477
+        },
+        {
+          "name": "Adventure",
+          "count": 437
+        }
+      ],
+      "topStudios": [
+        {
+          "name": "Madhouse",
+          "count": 89
+        },
+        {
+          "name": "Toei Animation",
+          "count": 85
+        },
+        {
+          "name": "A-1 Pictures",
+          "count": 79
+        },
+        {
+          "name": "J.C.Staff",
+          "count": 79
+        },
+        {
+          "name": "Studio Deen",
+          "count": 68
+        }
+      ],
+      "topAuthors": [],
+      "formats": [
+        {
+          "name": "TV",
+          "count": 1465
+        },
+        {
+          "name": "ONA",
+          "count": 164
+        },
+        {
+          "name": "OVA",
+          "count": 96
+        },
+        {
+          "name": "SPECIAL",
+          "count": 44
+        },
+        {
+          "name": "MUSIC",
+          "count": 7
+        }
+      ],
+      "details": {
+        "watching": 73,
+        "onHold": 9,
+        "dropped": 58,
+        "planTo": 21
+      }
+    },
+    "anime_movies": {
+      "total": 215,
+      "completed": 204,
+      "meanScore": "7.68",
+      "statExtra": {
+        "label": "Days Watched",
+        "value": "12.8"
+      },
+      "topGenres": [
+        {
+          "name": "Action",
+          "count": 116
+        },
+        {
+          "name": "Fantasy",
+          "count": 87
+        },
+        {
+          "name": "Adventure",
+          "count": 86
+        },
+        {
+          "name": "Shounen",
+          "count": 81
+        },
+        {
+          "name": "Drama",
+          "count": 69
+        }
+      ],
+      "topStudios": [
+        {
+          "name": "Toei Animation",
+          "count": 48
+        },
+        {
+          "name": "Production I.G",
+          "count": 15
+        },
+        {
+          "name": "Madhouse",
+          "count": 13
+        },
+        {
+          "name": "Sunrise",
+          "count": 12
+        },
+        {
+          "name": "Studio Ghibli",
+          "count": 12
+        }
+      ],
+      "topAuthors": [],
+      "formats": [
+        {
+          "name": "MOVIE",
+          "count": 215
+        }
+      ],
+      "details": {
+        "watching": 0,
+        "onHold": 4,
+        "dropped": 4,
+        "planTo": 3
+      }
+    },
+    "manga": {
+      "total": 646,
+      "completed": 482,
+      "meanScore": "7.66",
+      "statExtra": {
+        "label": "Chapters Read",
+        "value": "101,410"
+      },
+      "topGenres": [
+        {
+          "name": "Action",
+          "count": 326
+        },
+        {
+          "name": "Shounen",
+          "count": 256
+        },
+        {
+          "name": "Seinen",
+          "count": 195
+        },
+        {
+          "name": "Fantasy",
+          "count": 194
+        },
+        {
+          "name": "Comedy",
+          "count": 193
+        }
+      ],
+      "topStudios": [],
+      "topAuthors": [
+        {
+          "name": "Nobuyuki Fukumoto",
+          "count": 9
+        },
+        {
+          "name": "Tooru Fujisawa",
+          "count": 8
+        },
+        {
+          "name": "Keisuke Itagaki",
+          "count": 8
+        },
+        {
+          "name": "Hirohiko Araki",
+          "count": 8
+        },
+        {
+          "name": "Shin Kibayashi",
+          "count": 5
+        }
+      ],
+      "formats": [
+        {
+          "name": "MANGA",
+          "count": 641
+        },
+        {
+          "name": "NOVEL",
+          "count": 5
+        }
+      ],
+      "details": {
+        "watching": 146,
+        "onHold": 0,
+        "dropped": 12,
+        "planTo": 6
+      }
+    },
+    "manhwa": {
+      "total": 643,
+      "completed": 172,
+      "meanScore": "6.28",
+      "statExtra": {
+        "label": "Chapters Read",
+        "value": "57,112"
+      },
+      "topGenres": [
+        {
+          "name": "Action",
+          "count": 592
+        },
+        {
+          "name": "Fantasy",
+          "count": 499
+        },
+        {
+          "name": "Martial Arts",
+          "count": 126
+        },
+        {
+          "name": "Adventure",
+          "count": 123
+        },
+        {
+          "name": "Reincarnation",
+          "count": 112
+        }
+      ],
+      "topStudios": [],
+      "topAuthors": [
+        {
+          "name": "Studio Inus",
+          "count": 10
+        },
+        {
+          "name": "Seung Hoon Baek",
+          "count": 7
+        },
+        {
+          "name": "Meen",
+          "count": 7
+        },
+        {
+          "name": "Paranyeong",
+          "count": 4
+        },
+        {
+          "name": "Jinsung Yu",
+          "count": 4
+        }
+      ],
+      "formats": [
+        {
+          "name": "MANHWA",
+          "count": 643
+        }
+      ],
+      "details": {
+        "watching": 459,
+        "onHold": 0,
+        "dropped": 8,
+        "planTo": 4
+      }
+    },
+    "manhua": {
+      "total": 32,
+      "completed": 14,
+      "meanScore": "6.57",
+      "statExtra": {
+        "label": "Chapters Read",
+        "value": "3,324"
+      },
+      "topGenres": [
+        {
+          "name": "Action",
+          "count": 26
+        },
+        {
+          "name": "Fantasy",
+          "count": 18
+        },
+        {
+          "name": "Adventure",
+          "count": 14
+        },
+        {
+          "name": "Martial Arts",
+          "count": 13
+        },
+        {
+          "name": "Historical",
+          "count": 9
+        }
+      ],
+      "topStudios": [],
+      "topAuthors": [
+        {
+          "name": "Tang Jia San Shao",
+          "count": 4
+        },
+        {
+          "name": "Zhi Hui Deng",
+          "count": 4
+        },
+        {
+          "name": "Jian He Zheng",
+          "count": 4
+        },
+        {
+          "name": "Kin Wo Cheng",
+          "count": 3
+        },
+        {
+          "name": "Feng Chun Mu",
+          "count": 2
+        }
+      ],
+      "formats": [
+        {
+          "name": "MANHUA",
+          "count": 32
+        }
+      ],
+      "details": {
+        "watching": 18,
+        "onHold": 0,
+        "dropped": 0,
+        "planTo": 0
+      }
+    }
+  },
+  "username": "NafizHC",
+  "fetchedAt": "2025-12-21T17:58:23.495Z"
+}

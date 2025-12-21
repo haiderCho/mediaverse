@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    Concept: The "Media Monolith"
+    Style: Swiss International / Bauhaus
+    Description: Use of negative space to create an "M" from three solid bars.
+                 The central bar is offset to create depth without shading.
+                 One "recording dot" accent.
+  -->
+  
+  <rect width="512" height="512" rx="100" fill="#121212"/>
+  
+  <g transform="translate(106, 106) scale(0.6)">
+    <!-- Left Pillar -->
+    <rect x="0" y="0" width="100" height="500" fill="white"/>
+    
+    <!-- Right Pillar -->
+    <rect x="400" y="0" width="100" height="500" fill="white"/>
+    
+    <!-- Center "Bridge" (The V shape of M, stylized as a floating block) -->
+    <!-- Using a path to create a sharp diagonal cut -->
+    <path d="M100 0 L250 250 L400 0 V150 L250 400 L100 150 Z" fill="#EAEAEA"/>
+    
+    <!-- The Accent: A "Recording" Circle -->
+    <circle cx="250" cy="400" r="40" fill="#FF2E00"/>
+  </g>
+</svg>

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { PageId, MediaEntry } from '../types';
 import { PAGE_THEMES } from '../constants';
-import { Star, Trophy, Zap, Bookmark, Clapperboard, Film, Gamepad2, ChevronRight, Quote } from 'lucide-react';
+import { Star, Trophy, Zap, Bookmark, Clapperboard, Film, Gamepad2, ChevronRight, Quote, X, User } from 'lucide-react';
+import { createPortal } from 'react-dom';
 
 interface Top10CardProps {
   entry: MediaEntry;
@@ -12,6 +13,7 @@ interface Top10CardProps {
 const Top10Card: React.FC<Top10CardProps> = ({ entry, rank, pageId }) => {
   const theme = PAGE_THEMES[pageId];
   const [isHovered, setIsHovered] = useState(false);
+  const [showReview, setShowReview] = useState(false);
 
   // --- STYLE SELECTION ---
   const isOtaku = [PageId.ANIME_SERIES, PageId.ANIME_MOVIES, PageId.MANGA, PageId.MANHWA, PageId.MANHUA, PageId.COMIC].includes(pageId);
@@ -19,13 +21,54 @@ const Top10Card: React.FC<Top10CardProps> = ({ entry, rank, pageId }) => {
   const isLiterary = [PageId.BOOKS, PageId.LIGHT_NOVEL].includes(pageId);
   const isGamer = [PageId.GAMES].includes(pageId);
 
+  // --- REVIEW MODAL ---
+  const ReviewModal = () => {
+    if (!showReview) return null;
+    return createPortal(
+      <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200" onClick={() => setShowReview(false)}>
+        <div 
+          className="bg-[#1a1a1a] border border-[#333] rounded-2xl p-6 max-w-2xl w-full relative shadow-2xl scale-in"
+          onClick={e => e.stopPropagation()}
+          style={{ borderColor: theme.accentColorDark }}
+        >
+            <button 
+                onClick={() => setShowReview(false)}
+                className="absolute top-4 right-4 p-1 rounded-full hover:bg-white/10 transition-colors"
+            >
+                <X size={20} className="text-white" />
+            </button>
+
+            <div className="flex gap-4 mb-6">
+                <img src={entry.coverUrl} alt={entry.title} className="w-24 h-36 object-cover rounded shadow-lg" />
+                <div>
+                    <h3 className="text-2xl font-bold text-white mb-1" style={{ fontFamily: theme.fontFamily }}>{entry.title}</h3>
+                    {entry.author && <div className="text-sm text-[#888] font-medium mb-2">By {entry.author}</div>}
+                    <div className="flex items-center gap-1 text-yellow-500 font-bold mb-2">
+                        <Star size={16} fill="currentColor" />
+                        <span>{entry.myRating}/10</span>
+                    </div>
+                </div>
+            </div>
+
+            <h4 className="text-sm font-bold text-[#666] uppercase tracking-widest mb-3">My Review</h4>
+            <div className="text-[#e5e5e5] leading-relaxed max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar">
+                <p className="whitespace-pre-wrap">{entry.review}</p>
+            </div>
+        </div>
+      </div>,
+      document.body
+    );
+  };
+
   // --- OSAKU STYLE (Anime/Manga) ---
   if (isOtaku) {
     return (
+      <>
       <div
-        className="relative group rounded-xl overflow-hidden transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1"
+        className="relative group rounded-xl overflow-hidden transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 cursor-pointer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
+        onClick={() => setShowReview(true)}
         style={{
           boxShadow: isHovered 
             ? `0 0 20px ${theme.accentColorDark}40, 0 10px 40px -10px rgba(0,0,0,0.5)` 
@@ -88,14 +131,14 @@ const Top10Card: React.FC<Top10CardProps> = ({ entry, rank, pageId }) => {
                     </h3>
                     
                     {entry.author && (
-                        <div className="text-xs font-bold text-slate-300 mt-0.5">
+                        <div className="text-xs font-bold text-slate-300 mt-1">
                             {entry.author}
                         </div>
                     )}
                 </div>
 
                 <p className="text-xs text-slate-400 line-clamp-3 leading-relaxed opacity-80 mb-auto mt-1">
-                    {entry.synopsis || <span className="italic opacity-50">No synopsis available</span>}
+                    {entry.synopsis || <span className="italic opacity-50">Click to read review...</span>}
                 </p>
 
                 {/* Bottom Action Area */}
@@ -108,6 +151,7 @@ const Top10Card: React.FC<Top10CardProps> = ({ entry, rank, pageId }) => {
                     <button 
                         className="group/btn flex items-center gap-1 text-xs font-bold transition-all px-2 py-1 rounded hover:bg-slate-800"
                         style={{ color: theme.accentColorDark }}
+                        onClick={(e) => { e.stopPropagation(); setShowReview(true); }}
                     >
                         <span>Review</span>
                         <ChevronRight size={14} className="group-hover/btn:translate-x-1 transition-transform" />
@@ -116,16 +160,20 @@ const Top10Card: React.FC<Top10CardProps> = ({ entry, rank, pageId }) => {
             </div>
         </div>
       </div>
+      <ReviewModal />
+      </>
     );
   }
 
   // --- CINEMATIC STYLE (Movies/TV) ---
   if (isCinematic) {
     return (
+      <>
       <div
-        className="relative group rounded-lg overflow-hidden transition-all duration-500 hover:shadow-2xl"
+        className="relative group rounded-lg overflow-hidden transition-all duration-500 hover:shadow-2xl cursor-pointer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
+        onClick={() => setShowReview(true)}
       >
         {/* Full Background Image with Gradient Overlay */}
         <div className="absolute inset-0 z-0">
@@ -152,17 +200,19 @@ const Top10Card: React.FC<Top10CardProps> = ({ entry, rank, pageId }) => {
             </div>
 
             <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                <div className="flex items-center gap-2 mb-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-75">
-                    <Clapperboard size={14} className="text-slate-400" />
-                    <span className="text-xs text-slate-300 uppercase tracking-widest">{entry.genre}</span>
-                </div>
-
                 <h3 
                     className="text-2xl font-bold text-white mb-2 leading-none drop-shadow-md"
                     style={{ fontFamily: theme.fontFamily }}
                 >
                     {entry.title}
                 </h3>
+
+                {entry.author && (
+                    <div className="flex items-center gap-2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-75">
+                        <User size={14} className="text-slate-400" />
+                        <span className="text-xs text-slate-300 uppercase tracking-widest">{entry.author}</span>
+                    </div>
+                )}
 
                 <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300">
                     <div className="flex items-center gap-3 text-xs text-slate-300 mb-2">
@@ -180,17 +230,21 @@ const Top10Card: React.FC<Top10CardProps> = ({ entry, rank, pageId }) => {
             </div>
         </div>
       </div>
+      <ReviewModal />
+      </>
     );
   }
 
   // --- LITERARY STYLE (Books) ---
   if (isLiterary) {
     return (
+        <>
         <div 
-            className="group relative bg-[#1e1c1a] rounded-r-md border-l-4 shadow-md transition-all duration-300 hover:translate-x-1 hover:shadow-xl flex overflow-hidden h-40 md:h-44"
+            className="group relative bg-[#1e1c1a] rounded-r-md border-l-4 shadow-md transition-all duration-300 hover:translate-x-1 hover:shadow-xl flex overflow-hidden h-40 md:h-44 cursor-pointer"
             style={{ borderColor: theme.accentColorDark }}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
+            onClick={() => setShowReview(true)}
         >
             {/* Paper Texture Overlay */}
             <div className="absolute inset-0 opacity-[0.03] pointer-events-none mix-blend-overlay" 
@@ -214,14 +268,16 @@ const Top10Card: React.FC<Top10CardProps> = ({ entry, rank, pageId }) => {
 
             {/* Content - Typography Focused */}
             <div className="flex-1 p-5 pr-14 flex flex-col justify-center">
-                 <div className="flex items-center gap-2 mb-2">
-                    <Bookmark size={14} className="text-slate-500" />
-                    <span className="text-[10px] uppercase tracking-[0.2em] text-slate-400">{entry.genre}</span>
-                 </div>
-
-                 <h3 className="text-xl font-serif text-white mb-2 leading-tight" style={{ fontFamily: '"Goudy Bookletter 1911", serif' }}>
+                 <h3 className="text-xl font-serif text-white mb-1 leading-tight" style={{ fontFamily: '"Goudy Bookletter 1911", serif' }}>
                     {entry.title}
                  </h3>
+
+                 {entry.author && (
+                     <div className="flex items-center gap-2 mb-2">
+                        <User size={14} className="text-slate-500" />
+                        <span className="text-[10px] uppercase tracking-[0.2em] text-slate-400">{entry.author}</span>
+                     </div>
+                 )}
 
                  <div className="relative pl-4 border-l border-slate-700">
                     <p className="text-xs text-slate-400 font-serif italic line-clamp-2">
@@ -230,21 +286,25 @@ const Top10Card: React.FC<Top10CardProps> = ({ entry, rank, pageId }) => {
                  </div>
                  
                  <div className="mt-3 flex items-center justify-between border-t border-slate-800 pt-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                    <div className="text-[10px] text-slate-500">Use Rating: <span className="text-white">{entry.myRating}/10</span></div>
+                    <div className="text-[10px] text-slate-500">My Rating: <span className="text-white">{entry.myRating}/10</span></div>
                     <ChevronRight size={14} className="text-slate-400" />
                  </div>
             </div>
         </div>
+        <ReviewModal />
+        </>
     );
   }
 
   // --- GAMER STYLE (Games) ---
   if (isGamer) {
     return (
+        <>
         <div 
-            className="group relative h-48 bg-black border border-slate-800 overflow-hidden transition-all duration-200 hover:border-green-500/50"
+            className="group relative h-48 bg-black border border-slate-800 overflow-hidden transition-all duration-200 hover:border-green-500/50 cursor-pointer"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
+            onClick={() => setShowReview(true)}
             style={{
                 clipPath: 'polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px)'
             }}
@@ -281,13 +341,19 @@ const Top10Card: React.FC<Top10CardProps> = ({ entry, rank, pageId }) => {
                 {/* HUD Content Area */}
                 <div className="flex-1 p-4 relative font-mono text-xs text-slate-300">
                     <div className="flex justify-between items-start border-b border-slate-800 pb-2 mb-2 group-hover:border-green-500/30">
-                        <span className="text-[10px] text-green-500/70 uppercase">SYS.ID: {entry.id.split('-').pop()}</span>
+                        <h3 className="text-base text-white font-bold uppercase tracking-tight truncate group-hover:text-green-400 transition-colors">
+                            {entry.title}
+                        </h3>
                         <Gamepad2 size={14} className={`${isHovered ? 'text-green-400 animate-pulse' : 'text-slate-600'}`} />
                     </div>
 
-                    <h3 className="text-base text-white font-bold mb-2 uppercase tracking-tight truncate group-hover:text-green-400 transition-colors">
-                        {entry.title}
-                    </h3>
+                    <div className="mb-2">
+                        {entry.author ? (
+                            <span className="text-[10px] text-green-500/70 uppercase block">DEV: {entry.author}</span>
+                        ) : (
+                            <span className="text-[10px] text-green-500/70 uppercase block">SYS.ID: {entry.id.split('-').pop()}</span>
+                        )}
+                    </div>
 
                     <div className="bg-slate-900/50 p-2 border-l-2 border-slate-700 mb-2 group-hover:border-green-500 transition-colors">
                         <p className="line-clamp-2 opacity-80">
@@ -304,6 +370,8 @@ const Top10Card: React.FC<Top10CardProps> = ({ entry, rank, pageId }) => {
                 </div>
             </div>
         </div>
+        <ReviewModal />
+        </>
     );
   }
 

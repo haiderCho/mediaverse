@@ -73,7 +73,7 @@ export const PAGE_THEMES: Record<PageId, ThemeConfig> = {
   [PageId.MANHUA]: {
     id: PageId.MANHUA,
     title: 'Manhua',
-    fontFamily: '"Ma Shan Zheng", cursive',
+    fontFamily: '"Long Cang", cursive',
     accentColorDark: '#FCEE0A', // Cyber Yellow
     accentColorLight: '#FDF566',
     icon: Scroll,

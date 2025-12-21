@@ -57,6 +57,9 @@ export const GENRE_MAP: Record<PageId, string[]> = {
     "Indie"
   ],
   ['books']: [
+    "Bangla",
+    "Humayun Ahmed",
+    "Himu",
     "Fantasy", 
     "Literature", 
     "Non-Fiction", 

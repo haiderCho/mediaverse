@@ -55,7 +55,19 @@ const LightNovelPage: React.FC<LightNovelPageProps> = ({ onBack }) => {
               Overview
             </button>
             <div className="h-3 w-[1px] bg-[#444]" />
-            <span className="text-xs text-[#666] uppercase tracking-widest">{activeGenre === 'OVERVIEW' ? 'Home' : activeGenre}</span>
+            {theme.genres.map((genre) => (
+              <button
+                key={genre}
+                onClick={() => setActiveGenre(genre)}
+                className={`px-3 py-1 rounded text-xs transition-all ${
+                  activeGenre === genre
+                    ? 'bg-[#444] text-white'
+                    : 'text-[#666] hover:text-white'
+                }`}
+              >
+                {genre}
+              </button>
+            ))}
           </nav>
         </div>
       </header>

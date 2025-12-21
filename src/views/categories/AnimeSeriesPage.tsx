@@ -4,7 +4,8 @@ import { generateMockData, PAGE_THEMES } from '../../constants';
 import Top10Card from '../../components/Top10Card';
 import { dataService } from '../../services/dataService';
 import CategoryOverview from '../../components/category/CategoryOverview';
-import { Home, Star } from 'lucide-react';
+import CategoryStats from '../../components/category/CategoryStats';
+import { Home, Star, BarChart3 } from 'lucide-react';
 
 interface AnimeSeriesPageProps {
   onBack: () => void;
@@ -24,7 +25,8 @@ const AnimeSeriesPage: React.FC<AnimeSeriesPageProps> = ({ onBack }) => {
     let isMounted = true;
 
     const loadData = async () => {
-      if (activeGenre === 'OVERVIEW') {
+      // Don't load entry data for Overview or Stats pages
+      if (activeGenre === 'OVERVIEW' || activeGenre === 'STATS') {
         setEntries([]);
         setIsLoading(false);
         return;
@@ -106,6 +108,26 @@ const AnimeSeriesPage: React.FC<AnimeSeriesPageProps> = ({ onBack }) => {
                 <Star size={14} fill={activeGenre === 'OVERVIEW' ? 'currentColor' : 'none'} />
                 Overview
               </button>
+
+              <button
+                onClick={() => setActiveGenre('STATS')}
+                className={`
+                  flex items-center gap-1.5 px-3 py-1 rounded text-xs font-semibold transition-all duration-300 border
+                  ${
+                    activeGenre === 'STATS'
+                      ? `text-black`
+                      : 'bg-transparent text-slate-500 border-transparent hover:text-slate-300 hover:bg-slate-800/50'
+                  }
+                `}
+                style={
+                  activeGenre === 'STATS'
+                    ? { backgroundColor: theme.accentColorDark, color: '#000', borderColor: theme.accentColorDark }
+                    : {}
+                }
+              >
+                <BarChart3 size={14} />
+                Stats
+              </button>
               
               <div className="h-4 w-[1px] bg-slate-800 mx-1" />
 
@@ -135,7 +157,7 @@ const AnimeSeriesPage: React.FC<AnimeSeriesPageProps> = ({ onBack }) => {
         </div>
       </header>
 
-      {activeGenre !== 'OVERVIEW' && (
+      {activeGenre !== 'OVERVIEW' && activeGenre !== 'STATS' && (
       <div
         className="w-full h-64 md:h-80 relative overflow-hidden"
         style={{
@@ -193,9 +215,11 @@ const AnimeSeriesPage: React.FC<AnimeSeriesPageProps> = ({ onBack }) => {
       </div>
       )}
 
-      <main className={`container mx-auto px-4 relative z-20 flex-1 flex flex-col ${activeGenre !== 'OVERVIEW' ? '-mt-8' : 'pt-8'}`}>
+      <main className={`container mx-auto px-4 relative z-20 flex-1 flex flex-col ${activeGenre !== 'OVERVIEW' && activeGenre !== 'STATS' ? '-mt-8' : 'pt-8'}`}>
         {activeGenre === 'OVERVIEW' ? (
           <CategoryOverview pageId={pageId} theme={theme} />
+        ) : activeGenre === 'STATS' ? (
+           <CategoryStats pageId={pageId} theme={theme} />
         ) : entries.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {entries.map((entry, index) => (

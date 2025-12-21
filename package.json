@@ -13,6 +13,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
     "fetch:lastfm": "node scripts/fetchLastFm.js",
+    "fetch:anilist": "node scripts/fetchAniList.js",
+    "fetch:mal": "node scripts/fetchMAL.js",
     "prebuild": "node scripts/fetchLastFm.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
@@ -20,10 +22,12 @@
   },
   "dependencies": {
     "dotenv": "^17.2.3",
+    "framer-motion": "^12.23.26",
     "lucide-react": "^0.559.0",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "recharts": "^3.6.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

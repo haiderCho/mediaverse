@@ -2,5 +2,190 @@
   "Fiction": [],
   "Non-Fiction": [],
   "History": [],
-  "Philosophy": []
+  "Philosophy": [],
+  "Bangla": [],
+  "Humayun Ahmed": [
+    {
+      "id": "books-Humayun_Ahmed-0",
+      "title": "Himu (হিমু)",
+      "genre": "Humayun Ahmed",
+      "myRating": 10,
+      "review": "Humayun Ahmed's iconic creation that defies societal norms.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=11"
+    },
+    {
+      "id": "books-Humayun_Ahmed-1",
+      "title": "Misir Ali (মিসির আলি)",
+      "genre": "Humayun Ahmed",
+      "myRating": 10,
+      "review": "The logical psychologist who solves the mysteries of the human mind.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=12"
+    },
+    {
+      "id": "books-Humayun_Ahmed-2",
+      "title": "Ni (নি)",
+      "genre": "Humayun Ahmed",
+      "myRating": 9,
+      "review": "A science fiction novel that blends emotion with the unknown.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=13"
+    },
+    {
+      "id": "books-Humayun_Ahmed-3",
+      "title": "Nondito Noroke (নন্দিত নরকে)",
+      "genre": "Humayun Ahmed",
+      "myRating": 10,
+      "review": "Humayun Ahmed's debut novel, a masterpiece of middle-class family drama.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=14"
+    },
+    {
+      "id": "books-Humayun_Ahmed-4",
+      "title": "Shonkhonil Karagar (শঙ্খনীল কারাগার)",
+      "genre": "Humayun Ahmed",
+      "myRating": 9,
+      "review": "A touching portrayal of family bonds and hidden tragedies.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=15"
+    },
+    {
+      "id": "books-Humayun_Ahmed-5",
+      "title": "Kutu Mia (কুটু মিয়া)",
+      "genre": "Humayun Ahmed",
+      "myRating": 8,
+      "review": "A story full of humor and the unique quirks of its characters.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=16"
+    },
+    {
+      "id": "books-Humayun_Ahmed-6",
+      "title": "Sobai Geche Bone (সবাই গেছে বনে)",
+      "genre": "Humayun Ahmed",
+      "myRating": 9,
+      "review": "A tale of liberation and the absurdities of life.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=17"
+    },
+    {
+      "id": "books-Humayun_Ahmed-7",
+      "title": "Aaj Ami Kothao Jabo Na (আজ আমি কোথাও যাব না)",
+      "genre": "Humayun Ahmed",
+      "myRating": 9,
+      "review": "A deeply atmospheric novel about solitude and relationships.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=18"
+    },
+    {
+      "id": "books-Humayun_Ahmed-8",
+      "title": "Bohubrihi (বহুব্রীহি)",
+      "genre": "Humayun Ahmed",
+      "myRating": 10,
+      "review": "A classic story that was also adapted into a beloved TV series.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=19"
+    },
+    {
+      "id": "books-Humayun_Ahmed-9",
+      "title": "Kothao Keu Nei (কোথাও কেউ নেই)",
+      "genre": "Humayun Ahmed",
+      "myRating": 10,
+      "review": "The tragic story of Baker Bhai that moved an entire nation.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=20"
+    }
+  ],
+  "Himu": [
+    {
+      "id": "books-Himu-0",
+      "title": "Himur Moddhodupur (হিমুর মধ্যদুপুর)",
+      "genre": "Himu",
+      "myRating": 9,
+      "review": "Himu wanders through the burning midday sun, observing life's paradoxes.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=1"
+    },
+    {
+      "id": "books-Himu-1",
+      "title": "Moyurakkhi (ময়ূরাক্ষী)",
+      "genre": "Himu",
+      "myRating": 10,
+      "review": "The first introduction to the enigmatic character of Himu.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=2"
+    },
+    {
+      "id": "books-Himu-2",
+      "title": "Tomader Ei Nogore (তোমাদের এই নগরে)",
+      "genre": "Himu",
+      "myRating": 9,
+      "review": "Himu interacts with the urban chaos of Dhaka in his unique way.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=3"
+    },
+    {
+      "id": "books-Himu-3",
+      "title": "Himur Ditio Prohor (হিমুর দ্বিতীয় প্রহর)",
+      "genre": "Himu",
+      "myRating": 8,
+      "review": "Another chapter in Himu's journey, filled with philosophical musings.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=4"
+    },
+    {
+      "id": "books-Himu-4",
+      "title": "Se Ase Dhire (সে আসে ধীরে)",
+      "genre": "Himu",
+      "myRating": 9,
+      "review": "A suspenseful and mystical addition to the Himu series.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=5"
+    },
+    {
+      "id": "books-Himu-5",
+      "title": "Himur Rupali Ratri (হিমুর রূপালী রাত্রি)",
+      "genre": "Himu",
+      "myRating": 9,
+      "review": "Himu explores the silvery nights and the secrets they hold.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=6"
+    },
+    {
+      "id": "books-Himu-6",
+      "title": "Chole Jay Bosonter Din (চলে যায় বসন্তের দিন)",
+      "genre": "Himu",
+      "myRating": 8,
+      "review": "A reflective story about the passage of time and fleeting moments.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=7"
+    },
+    {
+      "id": "books-Himu-7",
+      "title": "Ekjon Himu Koyekti Jhijhi Poka (একজন হিমু কয়েকটি ঝিঁঝিঁ পোকা)",
+      "genre": "Himu",
+      "myRating": 9,
+      "review": "Himu's interaction with the small, unnoticed details of life.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=8"
+    },
+    {
+      "id": "books-Himu-8",
+      "title": "Himur Nil Jochna (হিমুর নীল জোছনা)",
+      "genre": "Himu",
+      "myRating": 10,
+      "review": "Under the blue moonlight, Himu's world takes on a surreal quality.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=9"
+    },
+    {
+      "id": "books-Himu-9",
+      "title": "Himur Hate Koyekti Nilpodmo (হিমুর হাতে কয়েকটি নীলপদ্ম)",
+      "genre": "Himu",
+      "myRating": 10,
+      "review": "The blue lotuses symbolize the mystical and unattainable beauty Himu seeks.",
+      "author": "Humayun Ahmed",
+      "coverUrl": "https://picsum.photos/300/450?random=10"
+    }
+  ]
 }

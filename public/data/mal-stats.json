@@ -224,7 +224,7 @@
       "meanScore": "6.28",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "57,112"
+        "value": "57,140"
       },
       "topGenres": [
         {
@@ -352,5 +352,5 @@
     }
   },
   "username": "NafizHC",
-  "fetchedAt": "2025-12-21T17:58:23.495Z"
+  "fetchedAt": "2025-12-23T10:04:46.617Z"
 }

@@ -15,7 +15,7 @@
         },
         {
           "name": "Comedy",
-          "count": 621
+          "count": 620
         },
         {
           "name": "Fantasy",
@@ -219,29 +219,29 @@
       }
     },
     "manhwa": {
-      "total": 643,
-      "completed": 172,
+      "total": 647,
+      "completed": 173,
       "meanScore": "6.28",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "57,140"
+        "value": "57,374"
       },
       "topGenres": [
         {
           "name": "Action",
-          "count": 592
+          "count": 596
         },
         {
           "name": "Fantasy",
-          "count": 499
+          "count": 503
         },
         {
           "name": "Martial Arts",
-          "count": 126
+          "count": 128
         },
         {
           "name": "Adventure",
-          "count": 123
+          "count": 124
         },
         {
           "name": "Reincarnation",
@@ -274,11 +274,11 @@
       "formats": [
         {
           "name": "MANHWA",
-          "count": 643
+          "count": 647
         }
       ],
       "details": {
-        "watching": 459,
+        "watching": 462,
         "onHold": 0,
         "dropped": 8,
         "planTo": 4
@@ -352,5 +352,5 @@
     }
   },
   "username": "NafizHC",
-  "fetchedAt": "2025-12-23T10:04:46.617Z"
+  "fetchedAt": "2026-01-01T01:05:07.830Z"
 }

@@ -32,7 +32,7 @@
       "name": "Srotoshinni",
       "artist": "Encore",
       "album": "Unknown Album",
-      "playcount": 498,
+      "playcount": 499,
       "imageUrl": null
     },
     {
@@ -487,7 +487,7 @@
       "name": "Down With the Sickness",
       "artist": "Disturbed",
       "album": "The Sickness",
-      "playcount": 411,
+      "playcount": 412,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/61b929a6ca07482ba86ee85bd6fbe4a6.png"
     },
     {
@@ -1055,7 +1055,7 @@
       "artist": "Metallica",
       "album": "Master of Puppets",
       "playcount": 360,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/f13628c90ce6c56f2f7ad8d06231e70c.png"
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/07f492a00c904cc6ccf868010be4d5a6.png"
     },
     {
       "name": "Dur",
@@ -1100,6 +1100,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/3f426c9970df50f6eeeace38e6d9d33a.png"
     },
     {
+      "name": "Lonely Day",
+      "artist": "System of a Down",
+      "album": "Hypnotize",
+      "playcount": 353,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/a96a0ff1cd9b384659b7edac19dc15b6.png"
+    },
+    {
       "name": "Wake Up and Smell the Coffee",
       "artist": "The Cranberries",
       "album": "Wake Up and Smell the Coffee",
@@ -1107,17 +1114,10 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/71c77ad4d73f69654c3a9983d0fa6555.png"
     },
     {
-      "name": "Lonely Day",
-      "artist": "System of a Down",
-      "album": "Hypnotize",
-      "playcount": 352,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/a96a0ff1cd9b384659b7edac19dc15b6.png"
-    },
-    {
       "name": "Breaking the Habit",
       "artist": "Linkin Park",
       "album": "Meteora",
-      "playcount": 351,
+      "playcount": 352,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/fee069a98672ac3719f6c766ff6f0f9c.png"
     },
     {
@@ -1125,7 +1125,7 @@
       "artist": "Falling in Reverse",
       "album": "Popular Monster",
       "playcount": 349,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2e2fff99ac19fdcfc7ecc7054c429848.png"
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/708c31077c7938b52c6f9d13dc91cb53.png"
     },
     {
       "name": "Powerless",
@@ -1216,7 +1216,14 @@
       "artist": "Alice in Chains",
       "album": "Facelift",
       "playcount": 342,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/61d67476df27e0c4b4450f47f654be27.png"
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/989334c7f7d0a5d0862472736696e951.png"
+    },
+    {
+      "name": "Coming Undone",
+      "artist": "Korn",
+      "album": "See You on the Other Side",
+      "playcount": 341,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/84dd0944c5fe4d0e9b533ea1039a70aa.png"
     },
     {
       "name": "Ghum",
@@ -1231,13 +1238,6 @@
       "album": "The Wrong Side of Heaven and the Righteous Side of Hell, Volume 1",
       "playcount": 340,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/42e9eac0dcff42dbb492c71fde5c74d4.png"
-    },
-    {
-      "name": "Coming Undone",
-      "artist": "Korn",
-      "album": "See You on the Other Side",
-      "playcount": 340,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/84dd0944c5fe4d0e9b533ea1039a70aa.png"
     },
     {
       "name": "Boulevard of Broken Dreams",
@@ -1296,6 +1296,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/066f91676c49209985b4049596c86ad1.png"
     },
     {
+      "name": "In the End",
+      "artist": "Linkin Park",
+      "album": "Hybrid Theory (Bonus Track Version)",
+      "playcount": 332,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/53a7bd85bc99272900f620792bf43452.png"
+    },
+    {
       "name": "Cancer",
       "artist": "Aurthohin",
       "album": "Aushomapto II",
@@ -1315,13 +1322,6 @@
       "album": "God Shuffled His Feet",
       "playcount": 330,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/d2fee8f7c5c044de9bf8b91493e83fad.png"
-    },
-    {
-      "name": "In the End",
-      "artist": "Linkin Park",
-      "album": "Hybrid Theory (Bonus Track Version)",
-      "playcount": 330,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/53a7bd85bc99272900f620792bf43452.png"
     },
     {
       "name": "Chalk Outline",
@@ -1366,18 +1366,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/51e2eb6913cffb979f3979739374a457.png"
     },
     {
+      "name": "No One Like You",
+      "artist": "Scorpions",
+      "album": "Blackout",
+      "playcount": 327,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/bf1ee2653fc79d3c8e2f4964be2494be.png"
+    },
+    {
       "name": "Scorned",
       "artist": "Hypnogaja",
       "album": "Below Sunset",
       "playcount": 326,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/93256f46696e4f55cf3e48817a8e7517.png"
-    },
-    {
-      "name": "No One Like You",
-      "artist": "Scorpions",
-      "album": "Blackout",
-      "playcount": 326,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/bf1ee2653fc79d3c8e2f4964be2494be.png"
     },
     {
       "name": "Right Left Wrong",
@@ -1394,18 +1394,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/df08bb44927445c0b3cde2d5ae4a45b4.png"
     },
     {
+      "name": "Holy Diver",
+      "artist": "Dio",
+      "album": "Holy Diver",
+      "playcount": 324,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/fc2c9efb0c4b26081546c069d3b2ee21.png"
+    },
+    {
       "name": "Still Loving You",
       "artist": "Scorpions",
       "album": "Love at First Sting",
       "playcount": 324,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/d76166a09b9d4ce2cce5170853dea6cb.png"
-    },
-    {
-      "name": "Holy Diver",
-      "artist": "Dio",
-      "album": "Holy Diver",
-      "playcount": 323,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/fc2c9efb0c4b26081546c069d3b2ee21.png"
     },
     {
       "name": "Running with the Wolves",
@@ -1513,6 +1513,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/8f4df50132db45dcc550f88513ed2de7.png"
     },
     {
+      "name": "Wind of Change",
+      "artist": "Scorpions",
+      "album": "Crazy World",
+      "playcount": 317,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/470b934e8cd26ed4d4e1f819b7f7014f.png"
+    },
+    {
       "name": "Shurjo",
       "artist": "Aurthohin",
       "album": "Aushomapto II",
@@ -1525,13 +1532,6 @@
       "album": "Fever Ray",
       "playcount": 316,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/3a4830c2914442f7b69c5b682075afcb.png"
-    },
-    {
-      "name": "Wind of Change",
-      "artist": "Scorpions",
-      "album": "Crazy World",
-      "playcount": 316,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/470b934e8cd26ed4d4e1f819b7f7014f.png"
     },
     {
       "name": "Ashamajik",
@@ -1653,6 +1653,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/21deba7c7c9017cab849b90446de7060.png"
     },
     {
+      "name": "Stricken",
+      "artist": "Disturbed",
+      "album": "Ten Thousand Fists",
+      "playcount": 308,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/1b564725ab844a23ca99b965bbbac930.png"
+    },
+    {
       "name": "Shomadhi Shohor",
       "artist": "Aurthohin",
       "album": "Dhrubok",
@@ -1686,13 +1693,6 @@
       "album": "Biborton",
       "playcount": 306,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/8f4df50132db45dcc550f88513ed2de7.png"
-    },
-    {
-      "name": "Stricken",
-      "artist": "Disturbed",
-      "album": "Ten Thousand Fists",
-      "playcount": 306,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/1b564725ab844a23ca99b965bbbac930.png"
     },
     {
       "name": "Stupify",
@@ -1764,42 +1764,42 @@
     },
     {
       "name": "Godsmack",
-      "playcount": 10043,
+      "playcount": 10045,
       "imageUrl": "assets/music/artists/godsmack.jpeg"
     },
     {
       "name": "Disturbed",
-      "playcount": 9531,
+      "playcount": 9562,
       "imageUrl": "assets/music/artists/disturbed.jpeg"
     },
     {
       "name": "Avenged Sevenfold",
-      "playcount": 9037,
+      "playcount": 9039,
       "imageUrl": "assets/music/artists/avenged_sevenfold.jpeg"
     },
     {
       "name": "Three Days Grace",
-      "playcount": 8879,
+      "playcount": 8881,
       "imageUrl": "assets/music/artists/three_days_grace.jpeg"
     },
     {
       "name": "Sabaton",
-      "playcount": 8751,
+      "playcount": 8752,
       "imageUrl": "assets/music/artists/sabaton.jpg"
     },
     {
       "name": "Linkin Park",
-      "playcount": 7954,
+      "playcount": 7959,
       "imageUrl": "assets/music/artists/linkin_park.jpg"
     },
     {
       "name": "Metallica",
-      "playcount": 6972,
+      "playcount": 6974,
       "imageUrl": "assets/music/artists/metallica.jpeg"
     },
     {
       "name": "Eminem",
-      "playcount": 6899,
+      "playcount": 6901,
       "imageUrl": "assets/music/artists/eminem.jpeg"
     },
     {
@@ -1809,7 +1809,7 @@
     },
     {
       "name": "System of a Down",
-      "playcount": 6618,
+      "playcount": 6619,
       "imageUrl": "assets/music/artists/system_of_a_down.jpeg"
     },
     {
@@ -1819,7 +1819,7 @@
     },
     {
       "name": "Breaking Benjamin",
-      "playcount": 4978,
+      "playcount": 4979,
       "imageUrl": "assets/music/artists/breaking_benjamin.jpeg"
     },
     {
@@ -1834,7 +1834,7 @@
     },
     {
       "name": "Shinedown",
-      "playcount": 3648,
+      "playcount": 3649,
       "imageUrl": "assets/music/artists/shinedown.jpeg"
     },
     {
@@ -1849,7 +1849,7 @@
     },
     {
       "name": "Korn",
-      "playcount": 2851,
+      "playcount": 2852,
       "imageUrl": "assets/music/artists/korn.jpeg"
     },
     {
@@ -1884,7 +1884,7 @@
     },
     {
       "name": "Starset",
-      "playcount": 2647,
+      "playcount": 2648,
       "imageUrl": "assets/music/artists/Starset.jpeg"
     },
     {
@@ -1899,7 +1899,7 @@
     },
     {
       "name": "Iron Maiden",
-      "playcount": 2362,
+      "playcount": 2368,
       "imageUrl": "assets/music/artists/iron_maiden.jpg"
     },
     {
@@ -1924,7 +1924,7 @@
     },
     {
       "name": "Scorpions",
-      "playcount": 1943,
+      "playcount": 1946,
       "imageUrl": "assets/music/artists/scorpions.jpg"
     },
     {
@@ -1984,7 +1984,7 @@
     },
     {
       "name": "Rammstein",
-      "playcount": 1341,
+      "playcount": 1342,
       "imageUrl": "assets/music/artists/rammstein.jpg"
     },
     {
@@ -1994,15 +1994,15 @@
     },
     {
       "name": "Seether",
-      "playcount": 1313,
+      "playcount": 1314,
       "imageUrl": "assets/music/artists/seether.jpg"
     },
     {
       "name": "Kanye West",
-      "playcount": 1288,
+      "playcount": 1292,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-01-18T02:06:37.252Z",
+  "fetchedAt": "2026-01-25T02:09:16.922Z",
   "username": "NafizHC"
 }

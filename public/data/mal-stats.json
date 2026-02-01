@@ -2,11 +2,11 @@
   "stats": {
     "anime_series": {
       "total": 1776,
-      "completed": 1615,
+      "completed": 1620,
       "meanScore": "6.97",
       "statExtra": {
         "label": "Days Watched",
-        "value": "704.1"
+        "value": "704.8"
       },
       "topGenres": [
         {
@@ -15,11 +15,11 @@
         },
         {
           "name": "Comedy",
-          "count": 620
+          "count": 619
         },
         {
           "name": "Fantasy",
-          "count": 571
+          "count": 573
         },
         {
           "name": "Shounen",
@@ -27,7 +27,7 @@
         },
         {
           "name": "Adventure",
-          "count": 437
+          "count": 435
         }
       ],
       "topStudios": [
@@ -76,7 +76,7 @@
         }
       ],
       "details": {
-        "watching": 73,
+        "watching": 68,
         "onHold": 9,
         "dropped": 58,
         "planTo": 21
@@ -149,29 +149,29 @@
       }
     },
     "manga": {
-      "total": 646,
+      "total": 647,
       "completed": 482,
       "meanScore": "7.66",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "101,410"
+        "value": "101,471"
       },
       "topGenres": [
         {
           "name": "Action",
-          "count": 326
+          "count": 327
         },
         {
           "name": "Shounen",
           "count": 256
         },
         {
-          "name": "Seinen",
+          "name": "Fantasy",
           "count": 195
         },
         {
-          "name": "Fantasy",
-          "count": 194
+          "name": "Seinen",
+          "count": 195
         },
         {
           "name": "Comedy",
@@ -204,7 +204,7 @@
       "formats": [
         {
           "name": "MANGA",
-          "count": 641
+          "count": 642
         },
         {
           "name": "NOVEL",
@@ -212,32 +212,32 @@
         }
       ],
       "details": {
-        "watching": 146,
+        "watching": 147,
         "onHold": 0,
         "dropped": 12,
         "planTo": 6
       }
     },
     "manhwa": {
-      "total": 647,
+      "total": 649,
       "completed": 173,
-      "meanScore": "6.28",
+      "meanScore": "6.29",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "57,374"
+        "value": "57,733"
       },
       "topGenres": [
         {
           "name": "Action",
-          "count": 596
+          "count": 598
         },
         {
           "name": "Fantasy",
-          "count": 503
+          "count": 505
         },
         {
           "name": "Martial Arts",
-          "count": 128
+          "count": 130
         },
         {
           "name": "Adventure",
@@ -274,11 +274,11 @@
       "formats": [
         {
           "name": "MANHWA",
-          "count": 647
+          "count": 649
         }
       ],
       "details": {
-        "watching": 462,
+        "watching": 464,
         "onHold": 0,
         "dropped": 8,
         "planTo": 4
@@ -352,5 +352,5 @@
     }
   },
   "username": "NafizHC",
-  "fetchedAt": "2026-01-01T01:05:07.830Z"
+  "fetchedAt": "2026-02-01T01:20:39.660Z"
 }

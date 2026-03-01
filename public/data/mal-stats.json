@@ -149,33 +149,33 @@
       }
     },
     "manga": {
-      "total": 647,
-      "completed": 482,
+      "total": 651,
+      "completed": 485,
       "meanScore": "7.66",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "101,471"
+        "value": "101,755"
       },
       "topGenres": [
         {
           "name": "Action",
-          "count": 327
+          "count": 328
         },
         {
           "name": "Shounen",
-          "count": 256
+          "count": 258
         },
         {
           "name": "Fantasy",
-          "count": 195
+          "count": 196
         },
         {
           "name": "Seinen",
-          "count": 195
+          "count": 196
         },
         {
           "name": "Comedy",
-          "count": 193
+          "count": 195
         }
       ],
       "topStudios": [],
@@ -204,7 +204,7 @@
       "formats": [
         {
           "name": "MANGA",
-          "count": 642
+          "count": 646
         },
         {
           "name": "NOVEL",
@@ -212,47 +212,47 @@
         }
       ],
       "details": {
-        "watching": 147,
+        "watching": 148,
         "onHold": 0,
         "dropped": 12,
         "planTo": 6
       }
     },
     "manhwa": {
-      "total": 649,
-      "completed": 173,
+      "total": 655,
+      "completed": 175,
       "meanScore": "6.29",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "57,733"
+        "value": "58,588"
       },
       "topGenres": [
         {
           "name": "Action",
-          "count": 598
+          "count": 602
         },
         {
           "name": "Fantasy",
-          "count": 505
+          "count": 511
         },
         {
           "name": "Martial Arts",
-          "count": 130
+          "count": 132
         },
         {
           "name": "Adventure",
-          "count": 124
+          "count": 125
         },
         {
           "name": "Reincarnation",
-          "count": 112
+          "count": 114
         }
       ],
       "topStudios": [],
       "topAuthors": [
         {
           "name": "Studio Inus",
-          "count": 10
+          "count": 11
         },
         {
           "name": "Seung Hoon Baek",
@@ -274,14 +274,14 @@
       "formats": [
         {
           "name": "MANHWA",
-          "count": 649
+          "count": 655
         }
       ],
       "details": {
-        "watching": 464,
+        "watching": 469,
         "onHold": 0,
         "dropped": 8,
-        "planTo": 4
+        "planTo": 3
       }
     },
     "manhua": {
@@ -352,5 +352,5 @@
     }
   },
   "username": "NafizHC",
-  "fetchedAt": "2026-02-01T01:20:39.660Z"
+  "fetchedAt": "2026-03-01T01:19:03.184Z"
 }

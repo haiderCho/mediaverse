@@ -18,7 +18,7 @@
       "name": "Neshar Bojha - Lo-Fi Melo Rap Remix",
       "artist": "Arafa-T Kabir",
       "album": "Unknown Album",
-      "playcount": 507,
+      "playcount": 509,
       "imageUrl": null
     },
     {
@@ -162,18 +162,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/1002066a732efc946eee05ba0d401380.png"
     },
     {
+      "name": "Morron Iccha",
+      "artist": "Popeye Bangladesh",
+      "album": "Morron Iccha - Single",
+      "playcount": 464,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/ea2cd5e100bbc08850d2cde73a8a29cb.png"
+    },
+    {
       "name": "Obak Bhalobasha",
       "artist": "Warfaze",
       "album": "Obak Bhalobasha",
       "playcount": 464,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e798f24cdc11b28169efab41ef18955f.png"
-    },
-    {
-      "name": "Morron Iccha",
-      "artist": "Popeye Bangladesh",
-      "album": "Morron Iccha - Single",
-      "playcount": 463,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/ea2cd5e100bbc08850d2cde73a8a29cb.png"
     },
     {
       "name": "I Don't Belong",
@@ -1759,12 +1759,12 @@
     },
     {
       "name": "Five Finger Death Punch",
-      "playcount": 11093,
+      "playcount": 11094,
       "imageUrl": "assets/music/artists/five_finger_death_punch.jpeg"
     },
     {
       "name": "Godsmack",
-      "playcount": 10160,
+      "playcount": 10161,
       "imageUrl": "assets/music/artists/godsmack.jpeg"
     },
     {
@@ -1774,17 +1774,17 @@
     },
     {
       "name": "Avenged Sevenfold",
-      "playcount": 9121,
+      "playcount": 9123,
       "imageUrl": "assets/music/artists/avenged_sevenfold.jpeg"
     },
     {
       "name": "Three Days Grace",
-      "playcount": 8974,
+      "playcount": 8976,
       "imageUrl": "assets/music/artists/three_days_grace.jpeg"
     },
     {
       "name": "Sabaton",
-      "playcount": 8837,
+      "playcount": 8839,
       "imageUrl": "assets/music/artists/sabaton.jpg"
     },
     {
@@ -1799,12 +1799,12 @@
     },
     {
       "name": "Popeye Bangladesh",
-      "playcount": 6957,
+      "playcount": 6958,
       "imageUrl": "assets/music/artists/popeye_bangladesh.jpeg"
     },
     {
       "name": "Eminem",
-      "playcount": 6909,
+      "playcount": 6912,
       "imageUrl": "assets/music/artists/eminem.jpeg"
     },
     {
@@ -1829,7 +1829,7 @@
     },
     {
       "name": "Shironamhin",
-      "playcount": 4580,
+      "playcount": 4581,
       "imageUrl": "assets/music/artists/shironamhin.jpeg"
     },
     {
@@ -1869,12 +1869,12 @@
     },
     {
       "name": "Arbovirus",
-      "playcount": 2723,
+      "playcount": 2724,
       "imageUrl": "assets/music/artists/arbovirus.jpg"
     },
     {
       "name": "Nemesis",
-      "playcount": 2689,
+      "playcount": 2690,
       "imageUrl": "assets/music/artists/nemesis.jpg"
     },
     {
@@ -1959,7 +1959,7 @@
     },
     {
       "name": "KARNiVAL",
-      "playcount": 1490,
+      "playcount": 1491,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-03-08T02:28:43.051Z",
+  "fetchedAt": "2026-03-15T02:42:27.681Z",
   "username": "NafizHC"
 }

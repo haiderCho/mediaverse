@@ -1,12 +1,12 @@
 {
   "stats": {
     "anime_series": {
-      "total": 1776,
+      "total": 1777,
       "completed": 1620,
       "meanScore": "6.97",
       "statExtra": {
         "label": "Days Watched",
-        "value": "704.8"
+        "value": "705.0"
       },
       "topGenres": [
         {
@@ -19,7 +19,7 @@
         },
         {
           "name": "Fantasy",
-          "count": 573
+          "count": 574
         },
         {
           "name": "Shounen",
@@ -27,7 +27,7 @@
         },
         {
           "name": "Adventure",
-          "count": 435
+          "count": 433
         }
       ],
       "topStudios": [
@@ -60,7 +60,7 @@
         },
         {
           "name": "ONA",
-          "count": 164
+          "count": 165
         },
         {
           "name": "OVA",
@@ -76,10 +76,10 @@
         }
       ],
       "details": {
-        "watching": 68,
+        "watching": 70,
         "onHold": 9,
         "dropped": 58,
-        "planTo": 21
+        "planTo": 20
       }
     },
     "anime_movies": {
@@ -154,7 +154,7 @@
       "meanScore": "7.66",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "101,755"
+        "value": "101,758"
       },
       "topGenres": [
         {
@@ -219,25 +219,25 @@
       }
     },
     "manhwa": {
-      "total": 655,
-      "completed": 175,
-      "meanScore": "6.29",
+      "total": 662,
+      "completed": 176,
+      "meanScore": "6.30",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "58,588"
+        "value": "59,364"
       },
       "topGenres": [
         {
           "name": "Action",
-          "count": 602
+          "count": 608
         },
         {
           "name": "Fantasy",
-          "count": 511
+          "count": 518
         },
         {
           "name": "Martial Arts",
-          "count": 132
+          "count": 133
         },
         {
           "name": "Adventure",
@@ -245,7 +245,7 @@
         },
         {
           "name": "Reincarnation",
-          "count": 114
+          "count": 117
         }
       ],
       "topStudios": [],
@@ -274,14 +274,14 @@
       "formats": [
         {
           "name": "MANHWA",
-          "count": 655
+          "count": 662
         }
       ],
       "details": {
-        "watching": 469,
+        "watching": 476,
         "onHold": 0,
         "dropped": 8,
-        "planTo": 3
+        "planTo": 2
       }
     },
     "manhua": {
@@ -352,5 +352,5 @@
     }
   },
   "username": "NafizHC",
-  "fetchedAt": "2026-03-01T01:19:03.184Z"
+  "fetchedAt": "2026-04-01T01:28:14.779Z"
 }

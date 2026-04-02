@@ -148,6 +148,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/5ee8129f7754ce8bd964ad743fcc688a.png"
     },
     {
+      "name": "Morron Iccha",
+      "artist": "Popeye Bangladesh",
+      "album": "Morron Iccha - Single",
+      "playcount": 465,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/ea2cd5e100bbc08850d2cde73a8a29cb.png"
+    },
+    {
       "name": "Purnota",
       "artist": "Warfaze",
       "album": "Shotto",
@@ -160,13 +167,6 @@
       "album": "Mohakashchari",
       "playcount": 464,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/1002066a732efc946eee05ba0d401380.png"
-    },
-    {
-      "name": "Morron Iccha",
-      "artist": "Popeye Bangladesh",
-      "album": "Morron Iccha - Single",
-      "playcount": 464,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/ea2cd5e100bbc08850d2cde73a8a29cb.png"
     },
     {
       "name": "Obak Bhalobasha",
@@ -235,7 +235,7 @@
       "name": "Ei Tumi Ke ?",
       "artist": "Popeye Bangladesh",
       "album": "Amar Shorgo",
-      "playcount": 456,
+      "playcount": 457,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/1de243ca1c438f6fe640e0e473b7de50.png"
     },
     {
@@ -561,6 +561,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/cd367a94c3c09684b3e8c1d83ec040a5.png"
     },
     {
+      "name": "Do I Wanna Know?",
+      "artist": "Arctic Monkeys",
+      "album": "AM",
+      "playcount": 408,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/f579e414e20f40969185e41182d72472.png"
+    },
+    {
       "name": "Ajker Din",
       "artist": "Bay of Bengal",
       "album": "Ajker Din - Single",
@@ -573,13 +580,6 @@
       "album": "One-X",
       "playcount": 408,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/7d574c73804709ed8983e6261af8f1f7.png"
-    },
-    {
-      "name": "Do I Wanna Know?",
-      "artist": "Arctic Monkeys",
-      "album": "AM",
-      "playcount": 407,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/f579e414e20f40969185e41182d72472.png"
     },
     {
       "name": "Somewhere Only We Know",
@@ -925,18 +925,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/cd367a94c3c09684b3e8c1d83ec040a5.png"
     },
     {
+      "name": "Human",
+      "artist": "Hellyeah",
+      "album": "Unden!able",
+      "playcount": 376,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/ef00e9e9a21dc16e8351c64d14ffd298.png"
+    },
+    {
       "name": "Careless Whisper",
       "artist": "George Michael",
       "album": "Ladies & Gentlemen: The Best of George Michael",
       "playcount": 374,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/dc46e978d1f1df0599a9f160b265c31e.png"
-    },
-    {
-      "name": "Human",
-      "artist": "Hellyeah",
-      "album": "Unden!able",
-      "playcount": 374,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/ef00e9e9a21dc16e8351c64d14ffd298.png"
     },
     {
       "name": "What I've Done",
@@ -1485,6 +1485,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/448e16c122a623e288eb481aa777c8a5.png"
     },
     {
+      "name": "From the Inside",
+      "artist": "Linkin Park",
+      "album": "Meteora",
+      "playcount": 321,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/fee069a98672ac3719f6c766ff6f0f9c.png"
+    },
+    {
       "name": "Black Rover",
       "artist": "Vicke Blanka",
       "album": "Supervillain",
@@ -1525,13 +1532,6 @@
       "album": "The Wrong Side of Heaven and the Righteous Side of Hell, Volume 1",
       "playcount": 320,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/42e9eac0dcff42dbb492c71fde5c74d4.png"
-    },
-    {
-      "name": "From the Inside",
-      "artist": "Linkin Park",
-      "album": "Meteora",
-      "playcount": 320,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/fee069a98672ac3719f6c766ff6f0f9c.png"
     },
     {
       "name": "Prostab",
@@ -1754,32 +1754,32 @@
   "artists": [
     {
       "name": "Aurthohin",
-      "playcount": 15889,
+      "playcount": 15890,
       "imageUrl": "assets/music/artists/aurthohin.jpeg"
     },
     {
       "name": "Five Finger Death Punch",
-      "playcount": 11094,
+      "playcount": 11098,
       "imageUrl": "assets/music/artists/five_finger_death_punch.jpeg"
     },
     {
       "name": "Godsmack",
-      "playcount": 10161,
+      "playcount": 10166,
       "imageUrl": "assets/music/artists/godsmack.jpeg"
     },
     {
       "name": "Disturbed",
-      "playcount": 9566,
+      "playcount": 9569,
       "imageUrl": "assets/music/artists/disturbed.jpeg"
     },
     {
       "name": "Avenged Sevenfold",
-      "playcount": 9123,
+      "playcount": 9124,
       "imageUrl": "assets/music/artists/avenged_sevenfold.jpeg"
     },
     {
       "name": "Three Days Grace",
-      "playcount": 8976,
+      "playcount": 8977,
       "imageUrl": "assets/music/artists/three_days_grace.jpeg"
     },
     {
@@ -1789,7 +1789,7 @@
     },
     {
       "name": "Linkin Park",
-      "playcount": 8070,
+      "playcount": 8071,
       "imageUrl": "assets/music/artists/linkin_park.jpg"
     },
     {
@@ -1799,12 +1799,12 @@
     },
     {
       "name": "Popeye Bangladesh",
-      "playcount": 6958,
+      "playcount": 6960,
       "imageUrl": "assets/music/artists/popeye_bangladesh.jpeg"
     },
     {
       "name": "Eminem",
-      "playcount": 6912,
+      "playcount": 6914,
       "imageUrl": "assets/music/artists/eminem.jpeg"
     },
     {
@@ -1814,12 +1814,12 @@
     },
     {
       "name": "Billy Talent",
-      "playcount": 5589,
+      "playcount": 5591,
       "imageUrl": "assets/music/artists/billy_talent.jpeg"
     },
     {
       "name": "Breaking Benjamin",
-      "playcount": 5042,
+      "playcount": 5043,
       "imageUrl": "assets/music/artists/breaking_benjamin.jpeg"
     },
     {
@@ -1839,7 +1839,7 @@
     },
     {
       "name": "Alec Benjamin",
-      "playcount": 3445,
+      "playcount": 3447,
       "imageUrl": "assets/music/artists/alec_benjamin.jpeg"
     },
     {
@@ -1909,7 +1909,7 @@
     },
     {
       "name": "Green Day",
-      "playcount": 2229,
+      "playcount": 2230,
       "imageUrl": "assets/music/artists/green_day.jpg"
     },
     {
@@ -1919,7 +1919,7 @@
     },
     {
       "name": "Skillet",
-      "playcount": 2049,
+      "playcount": 2050,
       "imageUrl": "assets/music/artists/skillet.jpg"
     },
     {
@@ -1944,12 +1944,12 @@
     },
     {
       "name": "Hellyeah",
-      "playcount": 1609,
+      "playcount": 1611,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
       "name": "Motionless in White",
-      "playcount": 1598,
+      "playcount": 1599,
       "imageUrl": "assets/music/artists/motionless_in_white.jpg"
     },
     {
@@ -1959,7 +1959,7 @@
     },
     {
       "name": "KARNiVAL",
-      "playcount": 1491,
+      "playcount": 1492,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -1994,7 +1994,7 @@
     },
     {
       "name": "Seether",
-      "playcount": 1314,
+      "playcount": 1315,
       "imageUrl": "assets/music/artists/seether.jpg"
     },
     {
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-03-15T02:42:27.681Z",
+  "fetchedAt": "2026-03-29T02:44:32.710Z",
   "username": "NafizHC"
 }

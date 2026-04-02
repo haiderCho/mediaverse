@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=VT323&family=Archivo+Black&family=Bebas+Neue&family=Noto+Sans+JP:wght@400;700;900&family=Permanent+Marker&family=Caveat+Brush&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -22,4 +22,129 @@
 body {
   margin: 0;
   min-height: 100vh;
+}
+
+/* Manga Page Utilities (Clean Inked Style) */
+:root {
+  --manga-washi: #fbfaf5;
+  --manga-ink: #111111;
+  --manga-hanko: #bc002d;
+}
+
+.manga-panel {
+  border: 4px solid var(--manga-ink);
+  background-color: var(--manga-washi);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.manga-panel-double {
+  border: 6px solid var(--manga-ink);
+  outline: 2px solid var(--manga-ink);
+  outline-offset: -8px;
+}
+
+.manga-panel:hover {
+  transform: translate(-1px, -1px);
+}
+
+.manga-screentone {
+  background-image: radial-gradient(var(--manga-ink) 0.5px, transparent 0.5px);
+  background-size: 3px 3px;
+}
+
+.manga-ink-bleed {
+  filter: contrast(1.2) grayscale(1);
+}
+
+.manga-title {
+  font-family: 'Permanent Marker', cursive;
+  line-height: 0.9;
+}
+
+.manga-lettering {
+  font-family: 'Archivo Black', sans-serif;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+
+.manga-lettering-organic {
+  font-family: 'Caveat Brush', cursive;
+  letter-spacing: 0.02em;
+}
+
+.manga-lettering-alt {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.manga-font-jp {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Iconic Manga Speech Bubble */
+.manga-bubble {
+  position: relative;
+  background: white;
+  border: 5px solid var(--manga-ink);
+  /* Classic Manga Oval - vertically weighted */
+  border-radius: 50% 50% 50% 50% / 35% 35% 65% 65%;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  min-width: 140px;
+}
+
+.manga-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 28px;
+  height: 28px;
+  background: white;
+  border-right: 5px solid var(--manga-ink);
+  border-bottom: 5px solid var(--manga-ink);
+  transform: translateX(-50%) rotate(45deg) skew(10deg, 10deg);
+  z-index: 1;
+  border-bottom-right-radius: 4px;
+}
+
+/* Mask to keep the bubble interior paper-white */
+.manga-bubble::before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 35px;
+  height: 10px;
+  background: white;
+  z-index: 2;
+}
+
+/* Animations */
+.manga-pop {
+  animation: mangaSnap 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
+}
+
+@keyframes mangaSnap {
+  0% { transform: scale(0.96); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.manga-action-lines {
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 15px,
+    rgba(17, 17, 17, 0.05) 15px,
+    rgba(17, 17, 17, 0.05) 30px
+  );
 }

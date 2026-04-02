@@ -33,10 +33,15 @@ export interface MediaEntry {
   id: string;
   title: string;
   coverUrl: string;
-  myRating: number; // 1-10, renamed from 'rating' to clarify these are personal ratings
+  backdropUrl?: string; // High-res backdrop for Hero sections
+  myRating: number; // 1-10, personal rating
+  imdbRating?: number; // IMDb style rating
+  year?: number; // Release year
+  runtime?: string; // e.g. "2h 15m" (for movies)
+  seasonCount?: number; // e.g. 3 (for TV series)
   review: string;
   genre: string;
-  author?: string;
+  author?: string; // used as Director/Creator for Movies/TV
   synopsis?: string;
   customFont?: string; // Optional custom font for the title
 }

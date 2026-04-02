@@ -9,7 +9,7 @@ interface ProfilePageProps {
 const ProfilePage: React.FC<ProfilePageProps> = ({ onBack }) => {
   const socialLinks = [
     { name: 'GitHub', url: 'https://github.com/haiderCho', icon: <FaGithub size={20} /> },
-    { name: 'Portfolio', url: 'https://haidercho.github.io/Portfolio/', icon: <FaGlobe size={20} /> },
+    { name: 'Portfolio', url: 'https://haidercho.github.io/', icon: <FaGlobe size={20} /> },
   ];
 
   return (

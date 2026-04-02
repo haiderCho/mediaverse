@@ -40,4 +40,23 @@ export interface MalData {
   fetchedAt: string;
 }
 
-export type DataSource = 'ANILIST' | 'MAL';
+export interface CinematicStat {
+  totalTitles: number;
+  averageRating: number;
+  totalRuntime?: string;
+  ratingsDistribution: {
+    score: number;
+    count: number;
+  }[];
+  decades: {
+    decade: string;
+    count: number;
+  }[];
+  topGenres: TopItem[];
+  recentMilestones?: {
+    label: string;
+    value: string;
+  }[];
+}
+
+export type DataSource = 'ANILIST' | 'MAL' | 'IMDB' | 'LETTERBOXD' | 'SERIALIZD';

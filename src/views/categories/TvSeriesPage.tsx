@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { PageId, MediaEntry } from '../../types';
 import { generateMockData, PAGE_THEMES } from '../../constants';
-import { Home, Star } from 'lucide-react';
+import CategoryStats from '../../components/category/CategoryStats';
+import TvSeriesCategoryOverview from '../../components/category/TvSeriesCategoryOverview';
 import Top10Card from '../../components/Top10Card';
 import { dataService } from '../../services/dataService';
-import CategoryOverview from '../../components/category/CategoryOverview';
+import { Home, Star, BarChart3, Tv, Hash } from 'lucide-react';
 
 interface TvSeriesPageProps {
   onBack: () => void;
@@ -24,7 +25,7 @@ const TvSeriesPage: React.FC<TvSeriesPageProps> = ({ onBack }) => {
     let isMounted = true;
 
     const loadData = async () => {
-      if (activeGenre === 'OVERVIEW') {
+      if (activeGenre === 'OVERVIEW' || activeGenre === 'STATS') {
         setEntries([]);
         setIsLoading(false);
         return;
@@ -35,7 +36,7 @@ const TvSeriesPage: React.FC<TvSeriesPageProps> = ({ onBack }) => {
 
         if (isMounted) {
           if (realData && realData.length > 0) {
-            setEntries(realData);
+            setEntries(realData.slice(0, 10)); // Strictly Top 10
           } else {
             // Fallback
             const fallback = generateMockData(pageId, activeGenre);
@@ -61,60 +62,58 @@ const TvSeriesPage: React.FC<TvSeriesPageProps> = ({ onBack }) => {
   }, [pageId, activeGenre]);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-200 pb-10 fade-in flex flex-col">
-      <header className="sticky top-0 z-40 bg-slate-950/95 backdrop-blur-md border-b border-slate-800 shadow-sm h-16 shrink-0">
+    <div className="min-h-screen bg-slate-950 text-slate-200 pb-20 fade-in flex flex-col">
+      {/* High-Contrast Seasonal Header */}
+      <header className="sticky top-0 z-40 bg-slate-900 border-b-4 border-[#E50914] shadow-2xl h-16 shrink-0">
         <div className="container mx-auto px-4 h-full flex items-center justify-between">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-4">
             <button
               onClick={onBack}
-              className="p-1.5 rounded-full hover:bg-slate-800 transition-colors group"
+              className="w-10 h-10 flex items-center justify-center bg-black border-2 border-[#E50914] text-[#E50914] hover:bg-[#E50914] hover:text-white transition-all shadow-[4px_4px_0_0_rgba(229,9,20,0.3)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
             >
-              <Home className="text-slate-400 group-hover:text-white" size={20} />
+              <Home size={20} />
             </button>
-            <div className="flex items-baseline gap-2">
+            <div className="flex flex-col">
               <h1
-                className="text-xl md:text-2xl font-bold uppercase tracking-wider truncate"
-                style={{ fontFamily: theme.fontFamily, color: theme.accentColorDark }}
+                className="text-2xl font-black uppercase tracking-tighter leading-none text-white"
+                style={{ fontFamily: theme.fontFamily }}
               >
-                {theme.title}
+                THE <span className="text-[#E50914]">CHRONICLE</span>
               </h1>
-              <span className="text-[10px] text-slate-500 uppercase tracking-widest hidden sm:block">
-                TV Series
-              </span>
             </div>
           </div>
 
-          <nav className="flex-1 ml-4 overflow-x-auto no-scrollbar">
+          <nav className="flex-1 ml-6 overflow-x-auto no-scrollbar">
             <div className="flex items-center justify-end gap-2 min-w-max px-2">
               <button
                 onClick={() => setActiveGenre('OVERVIEW')}
                 className={`
-                  flex items-center gap-1.5 px-3 py-1 rounded text-xs font-semibold transition-all duration-300 border
-                  ${activeGenre === 'OVERVIEW' ? 'text-black' : 'bg-transparent text-slate-500 border-transparent hover:text-slate-300 hover:bg-slate-800/50'}
+                  px-4 py-1.5 font-black text-[11px] uppercase tracking-widest transition-all border-b-2
+                  ${activeGenre === 'OVERVIEW' ? 'border-[#E50914] text-[#E50914] bg-white/5' : 'border-transparent text-slate-500 hover:text-slate-300'}
                 `}
-                style={activeGenre === 'OVERVIEW' ? { backgroundColor: theme.accentColorDark, color: '#000', borderColor: theme.accentColorDark } : {}}
               >
-                <Star size={14} fill={activeGenre === 'OVERVIEW' ? 'currentColor' : 'none'} />
                 Overview
               </button>
-              <div className="h-4 w-[1px] bg-slate-800 mx-1" />
+
+              <button
+                onClick={() => setActiveGenre('STATS')}
+                className={`
+                   px-4 py-1.5 font-black text-[11px] uppercase tracking-widest transition-all border-b-2
+                  ${activeGenre === 'STATS' ? 'border-[#E50914] text-[#E50914] bg-white/5' : 'border-transparent text-slate-500 hover:text-slate-300'}
+                `}
+              >
+                Analytics
+              </button>
+
+              <div className="h-4 w-[2px] bg-slate-800 mx-2" />
               {theme.genres.map((genre) => (
                 <button
                   key={genre}
                   onClick={() => setActiveGenre(genre)}
                   className={`
-                    px-3 py-1 rounded text-xs font-semibold transition-all duration-300 border
-                    ${
-                      activeGenre === genre
-                        ? `bg-[${theme.accentColorDark}] text-black border-[${theme.accentColorDark}]`
-                        : 'bg-transparent text-slate-500 border-transparent hover:text-slate-300'
-                    }
+                    px-4 py-1.5 font-black text-[11px] uppercase tracking-widest transition-all
+                    ${activeGenre === genre ? 'text-white bg-[#E50914]' : 'text-slate-500 hover:text-slate-300'}
                   `}
-                  style={
-                    activeGenre === genre
-                      ? { backgroundColor: theme.accentColorDark, color: '#000' }
-                      : {}
-                  }
                 >
                   {genre}
                 </button>
@@ -123,82 +122,66 @@ const TvSeriesPage: React.FC<TvSeriesPageProps> = ({ onBack }) => {
           </nav>
         </div>
       </header>
-      
-      {activeGenre !== 'OVERVIEW' && (
-      <div
-        className="w-full h-64 md:h-80 relative overflow-hidden"
-        style={{
-          background: `linear-gradient(135deg, ${theme.accentColorDark}15 0%, ${theme.accentColorLight}10 100%)`,
-        }}
-      >
-        <div className="absolute inset-0 opacity-10">
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage: `radial-gradient(circle at 2px 2px, ${theme.accentColorDark} 1px, transparent 0)`,
-              backgroundSize: '40px 40px',
-            }}
-          />
-        </div>
 
-        <div className="absolute inset-0 z-0">
-          <img
-            src={`${import.meta.env.BASE_URL}assets/hero_tv_series.jpg`}
-            onError={(e) => { e.currentTarget.style.display = 'none'; }}
-            alt="TV Series Hero"
-            className="w-full h-full object-cover opacity-40 mix-blend-overlay"
-          />
-        </div>
-
-        <div className="container mx-auto px-4 h-full flex flex-col justify-center items-center text-center relative z-10">
-          <div
-            className="mb-4 px-6 py-2 rounded-full border-2 inline-block"
-            style={{
-              borderColor: theme.accentColorDark,
-              backgroundColor: `${theme.accentColorDark}20`,
-            }}
-          >
-            <span
-              className="text-sm font-bold uppercase tracking-wider"
-              style={{ color: theme.accentColorDark }}
-            >
-              {activeGenre}
-            </span>
-          </div>
-
-          <h2
-            className="text-4xl md:text-6xl font-black mb-3 drop-shadow-lg"
-            style={{
-              fontFamily: theme.fontFamily,
-              background: `linear-gradient(135deg, ${theme.accentColorDark}, ${theme.accentColorLight})`,
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text',
-            }}
-          >
-            Top 10
-          </h2>
-        </div>
-      </div>
+       {/* Genre Prestige Banner */}
+       {activeGenre !== 'OVERVIEW' && activeGenre !== 'STATS' && (
+         <div className="w-full bg-[#E50914] py-4 shadow-xl">
+            <div className="container mx-auto px-4 flex items-center justify-between">
+               <div className="flex items-center gap-4 text-white">
+                  <div className="p-2 border-2 border-white rotate-3">
+                    <Tv size={24} />
+                  </div>
+                  <div>
+                    <h2 className="text-4xl font-black uppercase tracking-tighter leading-none" style={{ fontFamily: theme.fontFamily }}>
+                       {activeGenre} SAGA
+                    </h2>
+                    <p className="text-[10px] font-bold tracking-[0.2em] opacity-80">VERIFIED SEASONS & SELECTIONS</p>
+                  </div>
+               </div>
+               
+               <div className="hidden md:flex items-center gap-8">
+                  <div className="flex flex-col items-end">
+                     <span className="text-[10px] font-black opacity-60">CATALOGUE ID</span>
+                     <span className="text-sm font-bold tracking-tighter">TV-{activeGenre.slice(0,3).toUpperCase()}</span>
+                  </div>
+                  <div className="w-[2px] h-10 bg-white/20" />
+                  <div className="flex flex-col items-end">
+                     <span className="text-[10px] font-black opacity-60">PRECISION</span>
+                     <span className="text-sm font-bold tracking-tighter italic">ULTRA-DENSE</span>
+                  </div>
+               </div>
+            </div>
+         </div>
       )}
 
-      <main className={`container mx-auto px-4 relative z-20 flex-1 flex flex-col ${activeGenre !== 'OVERVIEW' ? '-mt-8' : 'pt-8'}`}>
+      <main className="container mx-auto px-4 py-10 relative z-20 flex-1 flex flex-col">
         {activeGenre === 'OVERVIEW' ? (
-          <CategoryOverview pageId={pageId} theme={theme} />
+          <TvSeriesCategoryOverview pageId={pageId} theme={theme} />
+        ) : activeGenre === 'STATS' ? (
+          <CategoryStats pageId={pageId} theme={theme} />
         ) : entries.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {entries.map((entry, index) => (
-              <Top10Card 
-                key={entry.id} 
-                entry={entry} 
-                rank={index + 1} 
-                pageId={pageId} 
-              />
-            ))}
+          <div className="flex flex-col gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+               {entries.map((entry, index) => (
+                  <div key={entry.id} className="animate-in fade-in slide-in-from-right-4 duration-300" style={{ animationDelay: `${index * 50}ms` }}>
+                    <Top10Card entry={entry} rank={index + 1} pageId={pageId} />
+                  </div>
+               ))}
+            </div>
+
+            {/* List Footer */}
+            <div className="mt-12 border-t border-slate-800 pt-8 flex items-center justify-between text-slate-500 font-bold text-[10px] uppercase tracking-[0.4em]">
+               <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 rounded-full bg-[#E50914] animate-pulse" />
+                  DATA SOURCE: TVDB_CATALOGUE_V2
+               </div>
+               <div>END OF COLLECTION</div>
+            </div>
           </div>
         ) : (
-          <div className="flex-1 flex items-center justify-center text-slate-500 py-20">
-            No entries found for this genre.
+          <div className="flex-1 flex flex-col items-center justify-center py-20 text-slate-700">
+            <Hash size={48} className="mb-4 opacity-20" />
+            <span className="text-xl font-black uppercase tracking-widest opacity-20">Catalogue Empty</span>
           </div>
         )}
       </main>

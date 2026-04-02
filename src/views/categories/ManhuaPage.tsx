@@ -3,7 +3,7 @@ import { PageId, MediaEntry } from '../../types';
 import { generateMockData, PAGE_THEMES } from '../../constants';
 import Top10Card from '../../components/Top10Card';
 import { dataService } from '../../services/dataService';
-import CategoryOverview from '../../components/category/CategoryOverview';
+import ManhuaCategoryOverview from '../../components/category/ManhuaCategoryOverview';
 import CategoryStats from '../../components/category/CategoryStats';
 import { Home, Star, BarChart3 } from 'lucide-react';
 
@@ -19,6 +19,20 @@ const ManhuaPage: React.FC<ManhuaPageProps> = ({ onBack }) => {
   const [activeGenre, setActiveGenre] = useState<string>('OVERVIEW');
   const [entries, setEntries] = useState<MediaEntry[]>([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [scrollProgress, setScrollProgress] = useState(0);
+
+  // Scroll handler for progress bar
+  useEffect(() => {
+    const handleScroll = () => {
+      const totalScroll = document.documentElement.scrollHeight - window.innerHeight;
+      if (totalScroll > 0) {
+        setScrollProgress((window.scrollY / totalScroll) * 100);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   // Load data when genre changes
   useEffect(() => {
@@ -65,7 +79,17 @@ const ManhuaPage: React.FC<ManhuaPageProps> = ({ onBack }) => {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200 pb-10 fade-in flex flex-col">
-      <header className="sticky top-0 z-40 bg-slate-950/95 backdrop-blur-md border-b border-slate-800 shadow-sm h-16 shrink-0">
+      <header className="sticky top-0 z-40 bg-slate-950/95 backdrop-blur-md border-b border-white/5 shadow-sm h-16 shrink-0">
+        {/* Scroll Progress Bar */}
+        <div 
+          className="absolute bottom-0 left-0 h-[2px] z-50 transition-all duration-150 ease-out"
+          style={{ 
+            width: `${scrollProgress}%`, 
+            backgroundColor: theme.accentColorDark,
+            boxShadow: `0 0 10px ${theme.accentColorDark}`
+          }}
+        />
+        
         <div className="container mx-auto px-4 h-full flex items-center justify-between">
           <div className="flex items-center gap-3">
             <button
@@ -215,9 +239,9 @@ const ManhuaPage: React.FC<ManhuaPageProps> = ({ onBack }) => {
       </div>
       )}
 
-      <main className={`container mx-auto px-4 relative z-20 flex-1 flex flex-col ${activeGenre !== 'OVERVIEW' && activeGenre !== 'STATS' ? '-mt-8' : 'pt-8'}`}>
+      <main className={`container mx-auto px-4 relative z-20 flex-1 flex flex-col ${activeGenre !== 'OVERVIEW' && activeGenre !== 'STATS' ? '-mt-8' : 'pt-4'}`}>
         {activeGenre === 'OVERVIEW' ? (
-          <CategoryOverview pageId={pageId} theme={theme} />
+          <ManhuaCategoryOverview pageId={pageId} theme={theme} />
         ) : activeGenre === 'STATS' ? (
            <CategoryStats pageId={pageId} theme={theme} />
         ) : entries.length > 0 ? (

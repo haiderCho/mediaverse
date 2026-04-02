@@ -7,6 +7,7 @@ import { useStatsData } from './stats/useStatsData';
 import { StatsKPIs } from './stats/StatsKPIs';
 import { StatusChart } from './stats/StatusChart';
 import { ChartsRow, TimeAndFavorites } from './stats/DetailedCharts';
+import CinematicStatsView from './stats/CinematicStatsView';
 
 interface CategoryStatsProps {
   pageId: PageId;
@@ -14,7 +15,7 @@ interface CategoryStatsProps {
 }
 
 const CategoryStats: React.FC<CategoryStatsProps> = ({ pageId, theme }) => {
-  const { stats, dataSource, setDataSource, loading, currentData } = useStatsData(pageId);
+  const { stats, dataSource, setDataSource, loading, currentData, isCinematic } = useStatsData(pageId);
 
   if (loading) {
     return (
@@ -49,23 +50,25 @@ const CategoryStats: React.FC<CategoryStatsProps> = ({ pageId, theme }) => {
               Collection Analysis
             </h2>
             
-            {/* Toggle Controls */}
-            <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-6">
-                <div className="flex bg-slate-900/80 backdrop-blur-sm border border-slate-800 p-1 rounded-full shadow-xl">
-                    <button
-                        onClick={() => setDataSource('ANILIST')}
-                        className={`flex items-center gap-2 px-5 py-2 rounded-full text-xs font-bold transition-all ${dataSource === 'ANILIST' ? 'bg-blue-600 text-white shadow-lg scale-105' : 'text-slate-500 hover:text-slate-300'}`}
-                    >
-                        AniList
-                    </button>
-                    <button
-                        onClick={() => setDataSource('MAL')}
-                        className={`flex items-center gap-2 px-5 py-2 rounded-full text-xs font-bold transition-all ${dataSource === 'MAL' ? 'bg-[#2e51a2] text-white shadow-lg scale-105' : 'text-slate-500 hover:text-slate-300'}`}
-                    >
-                        MyAnimeList
-                    </button>
-                </div>
-            </div>
+            {/* Toggle Controls - Only for Anime */}
+            {!isCinematic && (
+              <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-6">
+                  <div className="flex bg-slate-900/80 backdrop-blur-sm border border-slate-800 p-1 rounded-full shadow-xl">
+                      <button
+                          onClick={() => setDataSource('ANILIST')}
+                          className={`flex items-center gap-2 px-5 py-2 rounded-full text-xs font-bold transition-all ${dataSource === 'ANILIST' ? 'bg-blue-600 text-white shadow-lg scale-105' : 'text-slate-500 hover:text-slate-300'}`}
+                      >
+                          AniList
+                      </button>
+                      <button
+                          onClick={() => setDataSource('MAL')}
+                          className={`flex items-center gap-2 px-5 py-2 rounded-full text-xs font-bold transition-all ${dataSource === 'MAL' ? 'bg-[#2e51a2] text-white shadow-lg scale-105' : 'text-slate-500 hover:text-slate-300'}`}
+                      >
+                          MyAnimeList
+                      </button>
+                  </div>
+              </div>
+            )}
 
             {/* User Meta */}
             <div className="flex items-center justify-center gap-3 text-slate-500 font-mono text-xs uppercase tracking-widest">
@@ -78,17 +81,24 @@ const CategoryStats: React.FC<CategoryStatsProps> = ({ pageId, theme }) => {
             </div>
         </div>
 
-        {/* 1. Key Performance Indicators */}
-        <StatsKPIs stats={stats} theme={theme} dataSource={dataSource} />
+        {/* Main Content */}
+        {isCinematic ? (
+          <CinematicStatsView stats={stats as any} pageId={pageId} theme={theme} />
+        ) : (
+          <>
+            {/* 1. Key Performance Indicators */}
+            <StatsKPIs stats={stats} theme={theme} dataSource={dataSource} />
 
-        {/* 2. Charts Row: Status vs Time Investment */}
-        <div className="grid grid-cols-1 gap-8 mb-8 lg:grid-cols-2">
-            <StatusChart stats={stats} />
-            <TimeAndFavorites stats={stats} theme={theme} />
-        </div>
+            {/* 2. Charts Row: Status vs Time Investment */}
+            <div className="grid grid-cols-1 gap-8 mb-8 lg:grid-cols-2">
+                <StatusChart stats={stats} />
+                <TimeAndFavorites stats={stats} theme={theme} />
+            </div>
 
-        {/* 3. Detailed Breakdown: Genres & Formats */}
-        <ChartsRow stats={stats} theme={theme} pageId={pageId} />
+            {/* 3. Detailed Breakdown: Genres & Formats */}
+            <ChartsRow stats={stats} theme={theme} pageId={pageId} />
+          </>
+        )}
       </div>
     </div>
   );

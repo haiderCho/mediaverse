@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { PageId, MediaEntry } from '../../types';
 import { generateMockData, PAGE_THEMES } from '../../constants';
 import { Home, Star } from 'lucide-react';
-import Top10Card from '../../components/Top10Card';
+import Top10ComicCard from '../../components/Top10ComicCard';
+import ComicCategoryOverview from '../../components/category/ComicCategoryOverview';
+import ComicCategoryStats from '../../components/category/ComicCategoryStats';
 import { dataService } from '../../services/dataService';
-import CategoryOverview from '../../components/category/CategoryOverview';
 
 interface ComicPageProps {
   onBack: () => void;
@@ -24,7 +25,7 @@ const ComicPage: React.FC<ComicPageProps> = ({ onBack }) => {
     let isMounted = true;
 
     const loadData = async () => {
-      if (activeGenre === 'OVERVIEW') {
+      if (activeGenre === 'OVERVIEW' || activeGenre === 'STATS') {
         setEntries([]);
         setIsLoading(false);
         return;
@@ -61,62 +62,71 @@ const ComicPage: React.FC<ComicPageProps> = ({ onBack }) => {
   }, [pageId, activeGenre]);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-200 pb-10 fade-in flex flex-col">
-      {/* 1. Page Header - Specific for Comics */}
-      <header className="sticky top-0 z-40 bg-slate-950/95 backdrop-blur-md border-b border-slate-800 shadow-sm h-16 shrink-0">
+    <div className="min-h-screen bg-[#fbb013] text-black pb-10 fade-in flex flex-col relative selection:bg-yellow-300 selection:text-black">
+      {/* Background Halftone Pattern */}
+      <div 
+        className="fixed inset-0 pointer-events-none z-0 opacity-5"
+        style={{
+          backgroundImage: 'radial-gradient(circle, #000 2px, transparent 2.5px)',
+          backgroundSize: '12px 12px'
+        }}
+      />
+      
+      <header className="sticky top-0 z-40 bg-[#fbb013] border-b-[4px] border-black shadow-[0_6px_0_0_#000] h-16 shrink-0 relative">
         <div className="container mx-auto px-4 h-full flex items-center justify-between">
           <div className="flex items-center gap-3">
             <button
               onClick={onBack}
-              className="p-1.5 rounded-full hover:bg-slate-800 transition-colors group"
+              className="p-1.5 rounded-none border-[3px] border-black hover:bg-black hover:text-white transition-colors group bg-[#fff200] shadow-[3px_3px_0_0_#000] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]"
             >
-              <Home className="text-slate-400 group-hover:text-white" size={20} />
+              <Home className="text-current" size={20} />
             </button>
             <div className="flex items-baseline gap-2">
               <h1
-                className="text-xl md:text-2xl font-bold uppercase tracking-wider truncate"
-                style={{ fontFamily: theme.fontFamily, color: theme.accentColorDark }}
+                className="text-2xl md:text-3xl font-black italic tracking-tight text-white uppercase"
+                style={{ fontFamily: `'Impact', sans-serif`, WebkitTextStroke: '2px black' }}
               >
-                {theme.title}
+                <span className="bg-[#f00000] text-white border-[3px] border-black px-2 py-0.5 mt-1 tracking-tighter transform -skew-x-12 inline-block shadow-[4px_4px_0_0_#000]" style={{ WebkitTextStroke: '0px' }}>COMICS</span> 
               </h1>
-              <span className="text-[10px] text-slate-500 uppercase tracking-widest hidden sm:block">
-                Collection
-              </span>
             </div>
           </div>
 
-          {/* Genre Filter */}
           <nav className="flex-1 ml-4 overflow-x-auto no-scrollbar">
-            <div className="flex items-center justify-end gap-2 min-w-max px-2">
+            <div className="flex items-center justify-end gap-2 min-w-max px-2 py-1">
               <button
                 onClick={() => setActiveGenre('OVERVIEW')}
-                className={`
-                  flex items-center gap-1.5 px-3 py-1 rounded text-xs font-semibold transition-all duration-300 border
-                  ${activeGenre === 'OVERVIEW' ? 'text-black' : 'bg-transparent text-slate-500 border-transparent hover:text-slate-300 hover:bg-slate-800/50'}
-                `}
-                style={activeGenre === 'OVERVIEW' ? { backgroundColor: theme.accentColorDark, color: '#000', borderColor: theme.accentColorDark } : {}}
+                className={`flex items-center gap-1.5 px-3 py-1 font-black transition-all duration-150 border-[3px] border-black uppercase tracking-wider text-xs transform -skew-x-6 ${
+                  activeGenre === 'OVERVIEW' 
+                    ? 'text-black bg-[#fff200] translate-y-1 translate-x-1 shadow-none' 
+                    : 'text-black bg-[#fbb013] hover:bg-[#fff200] shadow-[4px_4px_0_0_#000] hover:shadow-none hover:translate-y-1 hover:translate-x-1'
+                }`}
               >
-                <Star size={14} fill={activeGenre === 'OVERVIEW' ? 'currentColor' : 'none'} />
+                <Star size={14} className={activeGenre === 'OVERVIEW' ? 'fill-white' : 'fill-transparent'} />
                 Overview
               </button>
-              <div className="h-4 w-[1px] bg-slate-800 mx-1" />
+
+              <button
+                onClick={() => setActiveGenre('STATS')}
+                className={`flex items-center gap-1.5 px-3 py-1 font-black transition-all duration-150 border-[3px] border-black uppercase tracking-wider text-xs transform -skew-x-6 ${
+                  activeGenre === 'STATS' 
+                    ? 'text-white bg-[#0256a1] translate-y-1 translate-x-1 shadow-none' 
+                    : 'text-black bg-[#fff200] hover:bg-[#0256a1] hover:text-white shadow-[4px_4px_0_0_#000] hover:shadow-none hover:translate-y-1 hover:translate-x-1'
+                }`}
+              >
+                <Star size={14} className={activeGenre === 'STATS' ? 'fill-white' : 'fill-transparent'} />
+                Stats
+              </button>
+
+              <div className="h-6 w-[4px] bg-black mx-2 transform rotate-12" />
               {theme.genres.map((genre) => (
                 <button
                   key={genre}
                   onClick={() => setActiveGenre(genre)}
-                  className={`
-                    px-3 py-1 rounded text-xs font-semibold transition-all duration-300 border
-                    ${
-                      activeGenre === genre
-                        ? `bg-[${theme.accentColorDark}] text-black border-[${theme.accentColorDark}]`
-                        : 'bg-transparent text-slate-500 border-transparent hover:text-slate-300'
-                    }
-                  `}
-                  style={
-                    activeGenre === genre
-                      ? { backgroundColor: theme.accentColorDark, color: '#000' }
-                      : {}
-                  }
+                  className={`flex items-center gap-1.5 px-3 py-1 font-black transition-all duration-150 border-[3px] border-black uppercase tracking-wider text-xs transform -skew-x-6 ${
+                    activeGenre === genre 
+                      ? 'text-white bg-[#f00000] translate-y-1 translate-x-1 shadow-none' 
+                      : 'text-black bg-[#fff200] hover:bg-[#f00000] hover:text-white shadow-[4px_4px_0_0_#000] hover:shadow-none hover:translate-y-1 hover:translate-x-1'
+                  }`}
                 >
                   {genre}
                 </button>
@@ -127,72 +137,73 @@ const ComicPage: React.FC<ComicPageProps> = ({ onBack }) => {
       </header>
 
       {/* 2. Comic Hero Section */}
-      {activeGenre !== 'OVERVIEW' && (
+      {activeGenre !== 'OVERVIEW' && activeGenre !== 'STATS' && (
       <div
-        className="w-full h-64 md:h-80 relative overflow-hidden"
-        style={{
-          background: `linear-gradient(135deg, ${theme.accentColorDark}15 0%, ${theme.accentColorLight}10 100%)`,
-        }}
+        className="w-full h-64 md:h-80 relative overflow-hidden bg-black pb-4 z-20 border-b-[4px] border-black shadow-[0_6px_0_0_#000]"
       >
-        <div className="absolute inset-0 opacity-10">
-          <div
-            className="absolute inset-0"
+        <div 
+           className="absolute inset-0 border-b-[4px] border-black z-10"
+           style={{ 
+               clipPath: 'polygon(0 0, 100% 0, 100% 88%, 0 100%)',
+               background: `radial-gradient(circle at center, #fff200 0%, #fbb013 30%, #f00000 70%, #9c2121 100%)`
+           }}
+        >
+          {/* Halftone pop pattern */}
+          <div 
+            className="absolute inset-0 z-0 opacity-10 pointer-events-none"
             style={{
-              backgroundImage: `radial-gradient(circle at 2px 2px, ${theme.accentColorDark} 1px, transparent 0)`,
-              backgroundSize: '40px 40px',
+              backgroundImage: 'radial-gradient(circle, #000 2px, transparent 2.5px)',
+              backgroundSize: '12px 12px'
             }}
           />
-        </div>
-        
-        {/* Comic Halftone Effect Overlay */}
-        <div className="absolute inset-0 opacity-5 pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle, #000 2px, transparent 2.5px)', backgroundSize: '8px 8px' }}></div>
-
-        <div className="absolute inset-0 z-0">
-          <img
-            src={`${import.meta.env.BASE_URL}assets/hero_comic.jpg`}
-            onError={(e) => { e.currentTarget.style.display = 'none'; }}
-            alt="Comics Hero"
-            className="w-full h-full object-cover opacity-40 mix-blend-overlay grayscale hover:grayscale-0 transition-all duration-1000"
-          />
-        </div>
-
-        <div className="container mx-auto px-4 h-full flex flex-col justify-center items-center text-center relative z-10">
-          <div
-            className="mb-4 px-6 py-2 rounded-full border-2 inline-block shadow-[4px_4px_0px_0px_rgba(255,0,60,0.5)]"
+          {/* Comic Starburst Center Highlight */}
+          <div 
+            className="absolute inset-0 opacity-40 pointer-events-none z-10"
             style={{
-              borderColor: theme.accentColorDark,
-              backgroundColor: '#000',
+              background: `radial-gradient(circle at center, transparent 20%, rgba(0,0,0,0.6) 100%)`
             }}
-          >
-            <span
-              className="text-sm font-bold uppercase tracking-wider"
-              style={{ color: theme.accentColorDark }}
-            >
-              {activeGenre}
-            </span>
+          />
+
+          {/* Hero Image - classic comic halftone blend */}
+          <div className="absolute inset-0 z-0 opacity-90 mix-blend-luminosity">
+            <img
+              src={`${import.meta.env.BASE_URL}assets/hero_comic.jpg`}
+              onError={(e) => { e.currentTarget.style.display = 'none'; }}
+              alt="Comic Hero"
+              className="w-full h-full object-cover grayscale-0"
+            />
           </div>
 
-          <h2
-            className="text-5xl md:text-7xl font-black mb-3 drop-shadow-[5px_5px_0px_rgba(0,0,0,1)] text-white transform -rotate-2"
-            style={{
-              fontFamily: theme.fontFamily,
-              textShadow: `3px 3px 0 ${theme.accentColorDark}`,
-            }}
-          >
-            TOP 10
-          </h2>
+          <div className="container mx-auto px-4 h-full flex flex-col justify-center items-center text-center relative z-20 top-[-5%]">
+            <div
+              className="mb-4 px-6 py-2 border-[4px] border-black inline-block transform -rotate-3 bg-[#f00000] shadow-[6px_6px_0_0_#000]"
+            >
+              <h2
+                className="text-6xl md:text-8xl font-black mb-3 italic tracking-tight text-white leading-none top-10"
+                style={{
+                  fontFamily: `'Impact', sans-serif`,
+                  WebkitTextStroke: '2px black',
+                  textShadow: `6px 6px 0 ${theme.accentColorDark}`
+                }}
+              >
+                TOP 10
+              </h2>
+            </div>
+          </div>
         </div>
       </div>
       )}
 
       {/* 3. Ranked List */}
-      <main className={`container mx-auto px-4 relative z-20 flex-1 flex flex-col ${activeGenre !== 'OVERVIEW' ? '-mt-8' : 'pt-8'}`}>
+      <main className={`container mx-auto px-4 relative z-20 flex-1 flex flex-col ${activeGenre !== 'OVERVIEW' && activeGenre !== 'STATS' ? '-mt-8' : 'pt-8'}`}>
         {activeGenre === 'OVERVIEW' ? (
-          <CategoryOverview pageId={pageId} theme={theme} />
+          <ComicCategoryOverview pageId={pageId} theme={theme} />
+        ) : activeGenre === 'STATS' ? (
+           <ComicCategoryStats pageId={pageId} theme={theme} />
         ) : entries.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {entries.map((entry, index) => (
-              <Top10Card 
+              <Top10ComicCard 
                 key={entry.id} 
                 entry={entry} 
                 rank={index + 1} 

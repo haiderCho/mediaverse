@@ -368,7 +368,7 @@
       "name": "Barud Shomudro",
       "artist": "Shironamhin",
       "album": "Perfume",
-      "playcount": 435,
+      "playcount": 436,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/f31981bb1986e0028bc0243dc3c4a7be.png"
     },
     {
@@ -421,18 +421,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/95a026ccba4f0148046913ddb690df06.png"
     },
     {
+      "name": "Oniket Prantor",
+      "artist": "Artcell",
+      "album": "Oniket Prantor",
+      "playcount": 425,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/0a06c220eea14f638c5b3c8d76c743e7.png"
+    },
+    {
       "name": "Emon Jodi Hoto",
       "artist": "JoLER GAAN",
       "album": "Otol jOler gaan",
       "playcount": 425,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/30ca08cab69b4b8a9b6b4f7df4a8f65a.png"
-    },
-    {
-      "name": "Oniket Prantor",
-      "artist": "Artcell",
-      "album": "Oniket Prantor",
-      "playcount": 424,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/0a06c220eea14f638c5b3c8d76c743e7.png"
     },
     {
       "name": "Anmone 2",
@@ -684,7 +684,7 @@
       "artist": "Eminem",
       "album": "Curtain Call: The Hits",
       "playcount": 400,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/0e4c959a450a45e89a95f65d2824d97d.png"
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/537eaca37e86ce5466b04a4c20eef13a.png"
     },
     {
       "name": "The Unforgiven II",
@@ -869,18 +869,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/de93513160ce9a8abe1d5aa27f38871e.png"
     },
     {
+      "name": "空に歌えば",
+      "artist": "amazarashi",
+      "album": "空に歌えば",
+      "playcount": 385,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/0618e2dd2bc8e6472ed62a01ef959e6d.png"
+    },
+    {
       "name": "Remember Everything",
       "artist": "Five Finger Death Punch",
       "album": "American Capitalist",
       "playcount": 385,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/17153809adca4656ac5ad79e74cb6e2a.png"
-    },
-    {
-      "name": "空に歌えば",
-      "artist": "amazarashi",
-      "album": "空に歌えば",
-      "playcount": 384,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/0618e2dd2bc8e6472ed62a01ef959e6d.png"
     },
     {
       "name": "Etota Valobasi",
@@ -981,18 +981,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/3f426c9970df50f6eeeace38e6d9d33a.png"
     },
     {
+      "name": "How Did You Love",
+      "artist": "Shinedown",
+      "album": "Threat to Survival",
+      "playcount": 372,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/4ebf5a082db147b6448fc43a97ec3271.png"
+    },
+    {
       "name": "Civil War",
       "artist": "Guns N' Roses",
       "album": "Use Your Illusion II",
       "playcount": 371,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/1b0fa568a161253b78ffb06750388ef1.png"
-    },
-    {
-      "name": "How Did You Love",
-      "artist": "Shinedown",
-      "album": "Threat to Survival",
-      "playcount": 371,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/4ebf5a082db147b6448fc43a97ec3271.png"
     },
     {
       "name": "World So Cold",
@@ -1016,6 +1016,13 @@
       "imageUrl": null
     },
     {
+      "name": "Breaking the Habit",
+      "artist": "Linkin Park",
+      "album": "Meteora",
+      "playcount": 366,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/fee069a98672ac3719f6c766ff6f0f9c.png"
+    },
+    {
       "name": "Dreamer",
       "artist": "Ozzy Osbourne",
       "album": "Down to Earth",
@@ -1035,13 +1042,6 @@
       "album": "Unknown Album",
       "playcount": 366,
       "imageUrl": null
-    },
-    {
-      "name": "Breaking the Habit",
-      "artist": "Linkin Park",
-      "album": "Meteora",
-      "playcount": 365,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/fee069a98672ac3719f6c766ff6f0f9c.png"
     },
     {
       "name": "You and Me",
@@ -1114,6 +1114,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/5dda2ee492c00966c166665454e10c2d.png"
     },
     {
+      "name": "Niye Gele",
+      "artist": "Popeye Bangladesh",
+      "album": "Ja Ichche Ta",
+      "playcount": 356,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/7e3da82fc6caac4ad339cd0d835344b8.png"
+    },
+    {
       "name": "Tell Me Why",
       "artist": "Three Days Grace",
       "album": "Human",
@@ -1126,13 +1133,6 @@
       "album": "Crush",
       "playcount": 355,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/17633748ce267254f57e200e0ba3b86b.png"
-    },
-    {
-      "name": "Niye Gele",
-      "artist": "Popeye Bangladesh",
-      "album": "Ja Ichche Ta",
-      "playcount": 355,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/7e3da82fc6caac4ad339cd0d835344b8.png"
     },
     {
       "name": "November Rain",
@@ -1681,6 +1681,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/6af731c307585bb1e496f80f7dbad566.png"
     },
     {
+      "name": "God Of Failure",
+      "artist": "Witchz",
+      "album": "God of Failure - Single",
+      "playcount": 311,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e828173a261cac49862d8faf3f09aa9c.png"
+    },
+    {
       "name": "Help",
       "artist": "Papa Roach",
       "album": "Help",
@@ -1702,11 +1709,11 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/0c7646db6d754068afdfba51ee460fd9.png"
     },
     {
-      "name": "God Of Failure",
+      "name": "In My Head",
       "artist": "Witchz",
-      "album": "God of Failure - Single",
+      "album": "In My Head",
       "playcount": 310,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e828173a261cac49862d8faf3f09aa9c.png"
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/559450c2f061f1ee8804a4d3765b5c23.png"
     },
     {
       "name": "Stricken",
@@ -1714,13 +1721,6 @@
       "album": "Ten Thousand Fists",
       "playcount": 309,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/1b564725ab844a23ca99b965bbbac930.png"
-    },
-    {
-      "name": "In My Head",
-      "artist": "Witchz",
-      "album": "In My Head",
-      "playcount": 309,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/559450c2f061f1ee8804a4d3765b5c23.png"
     },
     {
       "name": "Guti (From Hell)",
@@ -1754,17 +1754,17 @@
   "artists": [
     {
       "name": "Aurthohin",
-      "playcount": 15905,
+      "playcount": 15907,
       "imageUrl": "assets/music/artists/aurthohin.jpeg"
     },
     {
       "name": "Five Finger Death Punch",
-      "playcount": 11179,
+      "playcount": 11180,
       "imageUrl": "assets/music/artists/five_finger_death_punch.jpeg"
     },
     {
       "name": "Godsmack",
-      "playcount": 10250,
+      "playcount": 10252,
       "imageUrl": "assets/music/artists/godsmack.jpeg"
     },
     {
@@ -1774,27 +1774,27 @@
     },
     {
       "name": "Avenged Sevenfold",
-      "playcount": 9179,
+      "playcount": 9181,
       "imageUrl": "assets/music/artists/avenged_sevenfold.jpeg"
     },
     {
       "name": "Three Days Grace",
-      "playcount": 9095,
+      "playcount": 9097,
       "imageUrl": "assets/music/artists/three_days_grace.jpeg"
     },
     {
       "name": "Sabaton",
-      "playcount": 8894,
+      "playcount": 8896,
       "imageUrl": "assets/music/artists/sabaton.jpg"
     },
     {
       "name": "Linkin Park",
-      "playcount": 8177,
+      "playcount": 8179,
       "imageUrl": "assets/music/artists/linkin_park.jpg"
     },
     {
       "name": "Popeye Bangladesh",
-      "playcount": 7034,
+      "playcount": 7035,
       "imageUrl": "assets/music/artists/popeye_bangladesh.jpeg"
     },
     {
@@ -1804,7 +1804,7 @@
     },
     {
       "name": "Eminem",
-      "playcount": 6923,
+      "playcount": 6924,
       "imageUrl": "assets/music/artists/eminem.jpeg"
     },
     {
@@ -1819,22 +1819,22 @@
     },
     {
       "name": "Breaking Benjamin",
-      "playcount": 5083,
+      "playcount": 5084,
       "imageUrl": "assets/music/artists/breaking_benjamin.jpeg"
     },
     {
       "name": "Warfaze",
-      "playcount": 4835,
+      "playcount": 4836,
       "imageUrl": "assets/music/artists/warfaze.jpg"
     },
     {
       "name": "Shironamhin",
-      "playcount": 4608,
+      "playcount": 4609,
       "imageUrl": "assets/music/artists/shironamhin.jpeg"
     },
     {
       "name": "Shinedown",
-      "playcount": 3733,
+      "playcount": 3734,
       "imageUrl": "assets/music/artists/shinedown.jpeg"
     },
     {
@@ -1844,7 +1844,7 @@
     },
     {
       "name": "Shunno",
-      "playcount": 3313,
+      "playcount": 3314,
       "imageUrl": "assets/music/artists/shunno.jpeg"
     },
     {
@@ -1874,7 +1874,7 @@
     },
     {
       "name": "Nemesis",
-      "playcount": 2706,
+      "playcount": 2707,
       "imageUrl": "assets/music/artists/nemesis.jpg"
     },
     {
@@ -1889,7 +1889,7 @@
     },
     {
       "name": "Artcell",
-      "playcount": 2594,
+      "playcount": 2595,
       "imageUrl": "assets/music/artists/artcell.jpg"
     },
     {
@@ -1899,7 +1899,7 @@
     },
     {
       "name": "amazarashi",
-      "playcount": 2398,
+      "playcount": 2399,
       "imageUrl": "assets/music/artists/amazarashi.jpg"
     },
     {
@@ -1949,17 +1949,17 @@
     },
     {
       "name": "Motionless in White",
-      "playcount": 1602,
+      "playcount": 1603,
       "imageUrl": "assets/music/artists/motionless_in_white.jpg"
     },
     {
       "name": "YOASOBI",
-      "playcount": 1545,
+      "playcount": 1546,
       "imageUrl": "assets/music/artists/yoasobi.jpg"
     },
     {
       "name": "KARNiVAL",
-      "playcount": 1501,
+      "playcount": 1502,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -1969,7 +1969,7 @@
     },
     {
       "name": "Marilyn Manson",
-      "playcount": 1444,
+      "playcount": 1445,
       "imageUrl": "assets/music/artists/marilyn_manson.jpg"
     },
     {
@@ -1979,7 +1979,7 @@
     },
     {
       "name": "Rammstein",
-      "playcount": 1378,
+      "playcount": 1379,
       "imageUrl": "assets/music/artists/rammstein.jpg"
     },
     {
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-04-19T02:57:37.619Z",
+  "fetchedAt": "2026-04-26T03:20:45.288Z",
   "username": "NafizHC"
 }

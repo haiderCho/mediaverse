@@ -1,21 +1,21 @@
 {
   "stats": {
     "anime_series": {
-      "total": 1777,
-      "completed": 1620,
-      "meanScore": "6.97",
+      "total": 1770,
+      "completed": 1615,
+      "meanScore": "6.98",
       "statExtra": {
         "label": "Days Watched",
-        "value": "705.0"
+        "value": "703.1"
       },
       "topGenres": [
         {
           "name": "Action",
-          "count": 780
+          "count": 779
         },
         {
           "name": "Comedy",
-          "count": 619
+          "count": 614
         },
         {
           "name": "Fantasy",
@@ -45,22 +45,22 @@
         },
         {
           "name": "J.C.Staff",
-          "count": 79
+          "count": 78
         },
         {
           "name": "Studio Deen",
-          "count": 68
+          "count": 64
         }
       ],
       "topAuthors": [],
       "formats": [
         {
           "name": "TV",
-          "count": 1465
+          "count": 1460
         },
         {
           "name": "ONA",
-          "count": 165
+          "count": 163
         },
         {
           "name": "OVA",
@@ -76,19 +76,19 @@
         }
       ],
       "details": {
-        "watching": 70,
+        "watching": 69,
         "onHold": 9,
-        "dropped": 58,
+        "dropped": 57,
         "planTo": 20
       }
     },
     "anime_movies": {
-      "total": 215,
-      "completed": 204,
-      "meanScore": "7.68",
+      "total": 213,
+      "completed": 202,
+      "meanScore": "7.77",
       "statExtra": {
         "label": "Days Watched",
-        "value": "12.8"
+        "value": "12.7"
       },
       "topGenres": [
         {
@@ -109,7 +109,7 @@
         },
         {
           "name": "Drama",
-          "count": 69
+          "count": 68
         }
       ],
       "topStudios": [
@@ -138,7 +138,7 @@
       "formats": [
         {
           "name": "MOVIE",
-          "count": 215
+          "count": 213
         }
       ],
       "details": {
@@ -149,33 +149,33 @@
       }
     },
     "manga": {
-      "total": 651,
+      "total": 658,
       "completed": 485,
-      "meanScore": "7.66",
+      "meanScore": "7.64",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "101,758"
+        "value": "101,769"
       },
       "topGenres": [
         {
           "name": "Action",
-          "count": 328
+          "count": 332
         },
         {
           "name": "Shounen",
-          "count": 258
+          "count": 262
         },
         {
           "name": "Fantasy",
-          "count": 196
-        },
-        {
-          "name": "Seinen",
-          "count": 196
+          "count": 200
         },
         {
           "name": "Comedy",
-          "count": 195
+          "count": 198
+        },
+        {
+          "name": "Seinen",
+          "count": 197
         }
       ],
       "topStudios": [],
@@ -204,7 +204,7 @@
       "formats": [
         {
           "name": "MANGA",
-          "count": 646
+          "count": 653
         },
         {
           "name": "NOVEL",
@@ -212,19 +212,19 @@
         }
       ],
       "details": {
-        "watching": 148,
+        "watching": 149,
         "onHold": 0,
         "dropped": 12,
-        "planTo": 6
+        "planTo": 12
       }
     },
     "manhwa": {
       "total": 662,
-      "completed": 176,
+      "completed": 177,
       "meanScore": "6.30",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "59,364"
+        "value": "59,562"
       },
       "topGenres": [
         {
@@ -278,7 +278,7 @@
         }
       ],
       "details": {
-        "watching": 476,
+        "watching": 475,
         "onHold": 0,
         "dropped": 8,
         "planTo": 2
@@ -352,5 +352,5 @@
     }
   },
   "username": "NafizHC",
-  "fetchedAt": "2026-04-01T01:28:14.779Z"
+  "fetchedAt": "2026-05-01T02:00:42.816Z"
 }

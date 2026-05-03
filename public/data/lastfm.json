@@ -29,18 +29,18 @@
       "imageUrl": null
     },
     {
+      "name": "60's LOVE",
+      "artist": "Level five",
+      "album": "Obosheshey",
+      "playcount": 511,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/b4267bfce6edb7dfe1bc6fa7fd855f8e.png"
+    },
+    {
       "name": "Tomake Bhebe Lekha",
       "artist": "Fuad",
       "album": "VARIATION NO. 25.2",
       "playcount": 510,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/1548c34818d07bc04aee12a8045318a6.png"
-    },
-    {
-      "name": "60's LOVE",
-      "artist": "Level five",
-      "album": "Obosheshey",
-      "playcount": 510,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/b4267bfce6edb7dfe1bc6fa7fd855f8e.png"
     },
     {
       "name": "I Stand Alone",
@@ -99,14 +99,14 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/b65052411057bb5cfd2ae0aa94161b3b.png"
     },
     {
-      "name": "Agami",
+      "name": "Rupkotha",
       "artist": "Warfaze",
       "album": "Shotto",
-      "playcount": 476,
+      "playcount": 477,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e8d1ff3c8716ef353e9a2e213cbca9b4.png"
     },
     {
-      "name": "Rupkotha",
+      "name": "Agami",
       "artist": "Warfaze",
       "album": "Shotto",
       "playcount": 476,
@@ -263,7 +263,7 @@
       "name": "Nirob Durvikkho",
       "artist": "Bay of Bengal",
       "album": "Nirob Durvikkho",
-      "playcount": 458,
+      "playcount": 459,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/5ee8129f7754ce8bd964ad743fcc688a.png"
     },
     {
@@ -652,18 +652,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/693af41f6f59bd150b341109c94d0d6e.png"
     },
     {
+      "name": "Omanush",
+      "artist": "Arbovirus",
+      "album": "64m 53s",
+      "playcount": 404,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/c91a34a2db6d5844bdf9fca918ee1ecb.png"
+    },
+    {
       "name": "Welcome to the Black Parade",
       "artist": "My Chemical Romance",
       "album": "The Black Parade",
       "playcount": 404,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/7675defb2787ce67cd030081eb8ff77c.png"
-    },
-    {
-      "name": "Omanush",
-      "artist": "Arbovirus",
-      "album": "64m 53s",
-      "playcount": 403,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/c91a34a2db6d5844bdf9fca918ee1ecb.png"
     },
     {
       "name": "Carolus Rex",
@@ -684,7 +684,7 @@
       "artist": "Eminem",
       "album": "Curtain Call: The Hits",
       "playcount": 400,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/537eaca37e86ce5466b04a4c20eef13a.png"
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/b6d7acf39479b08acaf91523dc1161c3.png"
     },
     {
       "name": "The Unforgiven II",
@@ -778,18 +778,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/b6db56c7287fb6da062bef1430243a6b.png"
     },
     {
+      "name": "Surrender",
+      "artist": "Godsmack",
+      "album": "Surrender",
+      "playcount": 393,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/0ab1939c19d7f6b179621892ec7925be.png"
+    },
+    {
       "name": "季節は次々死んでいく",
       "artist": "amazarashi",
       "album": "世界収束二一一六",
       "playcount": 392,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/823085a49bfd13ac221a5336a47790c7.png"
-    },
-    {
-      "name": "Surrender",
-      "artist": "Godsmack",
-      "album": "Surrender",
-      "playcount": 392,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/0ab1939c19d7f6b179621892ec7925be.png"
     },
     {
       "name": "Here Comes the Rain Again",
@@ -977,14 +977,14 @@
       "name": "Don't Cry (Original)",
       "artist": "Guns N' Roses",
       "album": "Use Your Illusion I",
-      "playcount": 372,
+      "playcount": 373,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/3f426c9970df50f6eeeace38e6d9d33a.png"
     },
     {
       "name": "How Did You Love",
       "artist": "Shinedown",
       "album": "Threat to Survival",
-      "playcount": 372,
+      "playcount": 373,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/4ebf5a082db147b6448fc43a97ec3271.png"
     },
     {
@@ -1019,7 +1019,7 @@
       "name": "Breaking the Habit",
       "artist": "Linkin Park",
       "album": "Meteora",
-      "playcount": 366,
+      "playcount": 367,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/fee069a98672ac3719f6c766ff6f0f9c.png"
     },
     {
@@ -1166,7 +1166,7 @@
       "name": "Killing in the Name",
       "artist": "Rage Against the Machine",
       "album": "Rage Against the Machine",
-      "playcount": 349,
+      "playcount": 350,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/8f25a0a061254740c74a40a4e16337d6.png"
     },
     {
@@ -1580,7 +1580,7 @@
       "artist": "Iron Maiden",
       "album": "Brave New World (2015 - Remaster)",
       "playcount": 319,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/1b469113ba52ddd6992006b9c0946e9c.png"
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/ca1aacbe58b61ece99cb53e489821346.png"
     },
     {
       "name": "Voices",
@@ -1754,27 +1754,27 @@
   "artists": [
     {
       "name": "Aurthohin",
-      "playcount": 15907,
+      "playcount": 15908,
       "imageUrl": "assets/music/artists/aurthohin.jpeg"
     },
     {
       "name": "Five Finger Death Punch",
-      "playcount": 11180,
+      "playcount": 11181,
       "imageUrl": "assets/music/artists/five_finger_death_punch.jpeg"
     },
     {
       "name": "Godsmack",
-      "playcount": 10252,
+      "playcount": 10255,
       "imageUrl": "assets/music/artists/godsmack.jpeg"
     },
     {
       "name": "Disturbed",
-      "playcount": 9573,
+      "playcount": 9574,
       "imageUrl": "assets/music/artists/disturbed.jpeg"
     },
     {
       "name": "Avenged Sevenfold",
-      "playcount": 9181,
+      "playcount": 9182,
       "imageUrl": "assets/music/artists/avenged_sevenfold.jpeg"
     },
     {
@@ -1789,7 +1789,7 @@
     },
     {
       "name": "Linkin Park",
-      "playcount": 8179,
+      "playcount": 8180,
       "imageUrl": "assets/music/artists/linkin_park.jpg"
     },
     {
@@ -1799,12 +1799,12 @@
     },
     {
       "name": "Metallica",
-      "playcount": 6989,
+      "playcount": 6990,
       "imageUrl": "assets/music/artists/metallica.jpeg"
     },
     {
       "name": "Eminem",
-      "playcount": 6924,
+      "playcount": 6927,
       "imageUrl": "assets/music/artists/eminem.jpeg"
     },
     {
@@ -1819,12 +1819,12 @@
     },
     {
       "name": "Breaking Benjamin",
-      "playcount": 5084,
+      "playcount": 5085,
       "imageUrl": "assets/music/artists/breaking_benjamin.jpeg"
     },
     {
       "name": "Warfaze",
-      "playcount": 4836,
+      "playcount": 4837,
       "imageUrl": "assets/music/artists/warfaze.jpg"
     },
     {
@@ -1834,7 +1834,7 @@
     },
     {
       "name": "Shinedown",
-      "playcount": 3734,
+      "playcount": 3736,
       "imageUrl": "assets/music/artists/shinedown.jpeg"
     },
     {
@@ -1849,7 +1849,7 @@
     },
     {
       "name": "Korn",
-      "playcount": 2860,
+      "playcount": 2862,
       "imageUrl": "assets/music/artists/korn.jpeg"
     },
     {
@@ -1864,7 +1864,7 @@
     },
     {
       "name": "Arbovirus",
-      "playcount": 2749,
+      "playcount": 2751,
       "imageUrl": "assets/music/artists/arbovirus.jpg"
     },
     {
@@ -1874,12 +1874,12 @@
     },
     {
       "name": "Nemesis",
-      "playcount": 2707,
+      "playcount": 2708,
       "imageUrl": "assets/music/artists/nemesis.jpg"
     },
     {
       "name": "Guns N' Roses",
-      "playcount": 2673,
+      "playcount": 2674,
       "imageUrl": "assets/music/artists/guns_n_roses.jpeg"
     },
     {
@@ -1894,7 +1894,7 @@
     },
     {
       "name": "Bay of Bengal",
-      "playcount": 2487,
+      "playcount": 2488,
       "imageUrl": "assets/music/artists/bay_of_bengal.jpg"
     },
     {
@@ -1904,7 +1904,7 @@
     },
     {
       "name": "Iron Maiden",
-      "playcount": 2369,
+      "playcount": 2371,
       "imageUrl": "assets/music/artists/iron_maiden.jpg"
     },
     {
@@ -1919,7 +1919,7 @@
     },
     {
       "name": "Skillet",
-      "playcount": 2059,
+      "playcount": 2060,
       "imageUrl": "assets/music/artists/skillet.jpg"
     },
     {
@@ -1929,7 +1929,7 @@
     },
     {
       "name": "Fozzy",
-      "playcount": 1879,
+      "playcount": 1880,
       "imageUrl": "assets/music/artists/fozzy.jpg"
     },
     {
@@ -1949,7 +1949,7 @@
     },
     {
       "name": "Motionless in White",
-      "playcount": 1603,
+      "playcount": 1604,
       "imageUrl": "assets/music/artists/motionless_in_white.jpg"
     },
     {
@@ -1964,7 +1964,7 @@
     },
     {
       "name": "Rob Zombie",
-      "playcount": 1478,
+      "playcount": 1496,
       "imageUrl": "assets/music/artists/rob_zombie.jpg"
     },
     {
@@ -1973,24 +1973,24 @@
       "imageUrl": "assets/music/artists/marilyn_manson.jpg"
     },
     {
+      "name": "Nine Inch Nails",
+      "playcount": 1416,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
+      "name": "Rammstein",
+      "playcount": 1382,
+      "imageUrl": "assets/music/artists/rammstein.jpg"
+    },
+    {
       "name": "Phil Collins",
       "playcount": 1379,
       "imageUrl": "assets/music/artists/phil_collins.jpg"
     },
     {
-      "name": "Rammstein",
-      "playcount": 1379,
-      "imageUrl": "assets/music/artists/rammstein.jpg"
-    },
-    {
       "name": "Aerosmith",
       "playcount": 1359,
       "imageUrl": "assets/music/artists/aerosmith.jpg"
-    },
-    {
-      "name": "Nine Inch Nails",
-      "playcount": 1339,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
       "name": "Seether",
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-04-26T03:20:45.288Z",
+  "fetchedAt": "2026-05-03T03:33:02.737Z",
   "username": "NafizHC"
 }

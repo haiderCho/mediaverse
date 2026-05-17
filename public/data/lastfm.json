@@ -4,7 +4,7 @@
       "name": "Almost Easy",
       "artist": "Avenged Sevenfold",
       "album": "Avenged Sevenfold",
-      "playcount": 536,
+      "playcount": 537,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/22a003ba9da1f715adea71f6874babe3.png"
     },
     {
@@ -25,7 +25,7 @@
       "name": "Srotoshinni",
       "artist": "Encore",
       "album": "Unknown Album",
-      "playcount": 514,
+      "playcount": 515,
       "imageUrl": null
     },
     {
@@ -99,6 +99,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/b65052411057bb5cfd2ae0aa94161b3b.png"
     },
     {
+      "name": "Agami",
+      "artist": "Warfaze",
+      "album": "Shotto",
+      "playcount": 478,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e8d1ff3c8716ef353e9a2e213cbca9b4.png"
+    },
+    {
       "name": "Rupkotha",
       "artist": "Warfaze",
       "album": "Shotto",
@@ -106,11 +113,11 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e8d1ff3c8716ef353e9a2e213cbca9b4.png"
     },
     {
-      "name": "Agami",
-      "artist": "Warfaze",
-      "album": "Shotto",
-      "playcount": 477,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e8d1ff3c8716ef353e9a2e213cbca9b4.png"
+      "name": "Afterlife",
+      "artist": "Avenged Sevenfold",
+      "album": "Avenged Sevenfold",
+      "playcount": 476,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/22a003ba9da1f715adea71f6874babe3.png"
     },
     {
       "name": "Priyo Ondhokar",
@@ -120,11 +127,11 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/1002066a732efc946eee05ba0d401380.png"
     },
     {
-      "name": "Afterlife",
-      "artist": "Avenged Sevenfold",
-      "album": "Avenged Sevenfold",
-      "playcount": 475,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/22a003ba9da1f715adea71f6874babe3.png"
+      "name": "Dusshopno",
+      "artist": "Odd Signature",
+      "album": "Dusshopno - Single",
+      "playcount": 471,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/d22279c9052346d1917b8b0a5f1e515b.png"
     },
     {
       "name": "Morron Iccha",
@@ -153,13 +160,6 @@
       "album": "1000hp",
       "playcount": 470,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/f224d68815e544fac463b6ee1142bb17.png"
-    },
-    {
-      "name": "Dusshopno",
-      "artist": "Odd Signature",
-      "album": "Dusshopno - Single",
-      "playcount": 470,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/d22279c9052346d1917b8b0a5f1e515b.png"
     },
     {
       "name": "Opare",
@@ -225,6 +225,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e58ab602c557c1f6f96165d78c2dc969.png"
     },
     {
+      "name": "Karma",
+      "artist": "Popeye Bangladesh",
+      "album": "Karma - Single",
+      "playcount": 463,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/49051b314a6dbe3004186f01025323ed.png"
+    },
+    {
       "name": "Nightmare",
       "artist": "Avenged Sevenfold",
       "album": "Nightmare",
@@ -251,13 +258,6 @@
       "album": "Amar Shorgo",
       "playcount": 462,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/1de243ca1c438f6fe640e0e473b7de50.png"
-    },
-    {
-      "name": "Karma",
-      "artist": "Popeye Bangladesh",
-      "album": "Karma - Single",
-      "playcount": 462,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/49051b314a6dbe3004186f01025323ed.png"
     },
     {
       "name": "Nirob Durvikkho",
@@ -417,7 +417,7 @@
       "name": "Oniket Prantor",
       "artist": "Artcell",
       "album": "Oniket Prantor",
-      "playcount": 426,
+      "playcount": 427,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/0a06c220eea14f638c5b3c8d76c743e7.png"
     },
     {
@@ -669,7 +669,7 @@
       "name": "Carolus Rex",
       "artist": "Sabaton",
       "album": "Carolus Rex (Bonus Version)",
-      "playcount": 402,
+      "playcount": 403,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e1669bbd420022396aca9331ee37c46d.png"
     },
     {
@@ -718,7 +718,7 @@
       "name": "Hariye Jao",
       "artist": "Arbovirus",
       "album": "Montobbo Nishproyojon",
-      "playcount": 398,
+      "playcount": 399,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/eceb08e9da867450afe9760bf2526ab8.png"
     },
     {
@@ -760,7 +760,7 @@
       "name": "Sad but True",
       "artist": "Metallica",
       "album": "Metallica",
-      "playcount": 396,
+      "playcount": 397,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/d6a960e23328230e5e203007b7690cde.png"
     },
     {
@@ -928,7 +928,7 @@
       "name": "Growing Old",
       "artist": "Godsmack",
       "album": "Lighting Up the Sky",
-      "playcount": 379,
+      "playcount": 380,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2cfa1191ef012e6ce46766adbf9356b1.png"
     },
     {
@@ -1005,7 +1005,7 @@
       "name": "Nobody",
       "artist": "Avenged Sevenfold",
       "album": "Life Is But A Dream...",
-      "playcount": 369,
+      "playcount": 370,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/63c6699e852b3d03f06b8567809b0324.png"
     },
     {
@@ -1037,18 +1037,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e3559a1f702b4cf8a0dca702ea53557d.png"
     },
     {
+      "name": "You and Me",
+      "artist": "The Cranberries",
+      "album": "Bury the Hatchet",
+      "playcount": 366,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/132505b32c337aa10724ce6182164234.png"
+    },
+    {
       "name": "Here I Go Again - 2018 Remaster",
       "artist": "Whitesnake",
       "album": "Unknown Album",
       "playcount": 366,
       "imageUrl": null
-    },
-    {
-      "name": "You and Me",
-      "artist": "The Cranberries",
-      "album": "Bury the Hatchet",
-      "playcount": 365,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/132505b32c337aa10724ce6182164234.png"
     },
     {
       "name": "Moth",
@@ -1097,7 +1097,7 @@
       "artist": "Metallica",
       "album": "Master of Puppets",
       "playcount": 360,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/0f12c8b74180851d92f7c137f6c3dc18.png"
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/07f492a00c904cc6ccf868010be4d5a6.png"
     },
     {
       "name": "Dur",
@@ -1180,7 +1180,7 @@
       "name": "Eden",
       "artist": "Arekta Rock Band",
       "album": "Eden - Single",
-      "playcount": 347,
+      "playcount": 348,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/09fa2c674772ca4847b01755c9d26e64.png"
     },
     {
@@ -1380,6 +1380,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/6516bd55313bfcef1c13a988f455dd75.png"
     },
     {
+      "name": "Whore",
+      "artist": "In This Moment",
+      "album": "Blood",
+      "playcount": 329,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/676ebf4e7e3f45d984fe3cc2d8ecd3c9.png"
+    },
+    {
       "name": "Dance of Death - 2015 Remaster",
       "artist": "Iron Maiden",
       "album": "Unknown Album",
@@ -1420,13 +1427,6 @@
       "album": "Below Sunset",
       "playcount": 328,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/93256f46696e4f55cf3e48817a8e7517.png"
-    },
-    {
-      "name": "Whore",
-      "artist": "In This Moment",
-      "album": "Blood",
-      "playcount": 328,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/676ebf4e7e3f45d984fe3cc2d8ecd3c9.png"
     },
     {
       "name": "No One Like You",
@@ -1499,6 +1499,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/d76166a09b9d4ce2cce5170853dea6cb.png"
     },
     {
+      "name": "I Am An Outsider",
+      "artist": "Three Days Grace",
+      "album": "Outsider",
+      "playcount": 324,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2f079ab09058f6e9bd1554d55537bde5.png"
+    },
+    {
       "name": "Dukkho Bilash",
       "artist": "Artcell",
       "album": "ArtCell",
@@ -1511,13 +1518,6 @@
       "album": "The Slim Shady LP",
       "playcount": 323,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/6b71796a5a734c2f97a0daddd12115fe.png"
-    },
-    {
-      "name": "I Am An Outsider",
-      "artist": "Three Days Grace",
-      "album": "Outsider",
-      "playcount": 323,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2f079ab09058f6e9bd1554d55537bde5.png"
     },
     {
       "name": "Running with the Wolves",
@@ -1653,6 +1653,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/fe3783f447dca320d9ea3c8042ee7db4.png"
     },
     {
+      "name": "My December",
+      "artist": "Linkin Park",
+      "album": "Hybrid Theory (Bonus Track Version)",
+      "playcount": 313,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/53a7bd85bc99272900f620792bf43452.png"
+    },
+    {
       "name": "guti 2",
       "artist": "Aurthohin",
       "album": "Biborton",
@@ -1667,13 +1674,6 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/fc2c9efb0c4b26081546c069d3b2ee21.png"
     },
     {
-      "name": "My December",
-      "artist": "Linkin Park",
-      "album": "Hybrid Theory (Bonus Track Version)",
-      "playcount": 312,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/53a7bd85bc99272900f620792bf43452.png"
-    },
-    {
       "name": "Violent Pornography",
       "artist": "System of a Down",
       "album": "Mezmerize",
@@ -1684,8 +1684,15 @@
       "name": "God Of Failure",
       "artist": "Witchz",
       "album": "God of Failure - Single",
-      "playcount": 311,
+      "playcount": 312,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e828173a261cac49862d8faf3f09aa9c.png"
+    },
+    {
+      "name": "Living Dead Girl",
+      "artist": "Rob Zombie",
+      "album": "Hellbilly Deluxe",
+      "playcount": 311,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e0f0fc5a8edeccd6c1e329a7db3e8ba1.png"
     },
     {
       "name": "Help",
@@ -1693,13 +1700,6 @@
       "album": "Help",
       "playcount": 310,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/182bfcbb0b67e55e7eff44a3b5f88423.png"
-    },
-    {
-      "name": "Living Dead Girl",
-      "artist": "Rob Zombie",
-      "album": "Hellbilly Deluxe",
-      "playcount": 310,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e0f0fc5a8edeccd6c1e329a7db3e8ba1.png"
     },
     {
       "name": "Careless Whisper",
@@ -1754,17 +1754,17 @@
   "artists": [
     {
       "name": "Aurthohin",
-      "playcount": 15912,
+      "playcount": 15915,
       "imageUrl": "assets/music/artists/aurthohin.jpeg"
     },
     {
       "name": "Five Finger Death Punch",
-      "playcount": 11197,
+      "playcount": 11199,
       "imageUrl": "assets/music/artists/five_finger_death_punch.jpeg"
     },
     {
       "name": "Godsmack",
-      "playcount": 10275,
+      "playcount": 10276,
       "imageUrl": "assets/music/artists/godsmack.jpeg"
     },
     {
@@ -1774,37 +1774,37 @@
     },
     {
       "name": "Avenged Sevenfold",
-      "playcount": 9195,
+      "playcount": 9198,
       "imageUrl": "assets/music/artists/avenged_sevenfold.jpeg"
     },
     {
       "name": "Three Days Grace",
-      "playcount": 9112,
+      "playcount": 9115,
       "imageUrl": "assets/music/artists/three_days_grace.jpeg"
     },
     {
       "name": "Sabaton",
-      "playcount": 8909,
+      "playcount": 8912,
       "imageUrl": "assets/music/artists/sabaton.jpg"
     },
     {
       "name": "Linkin Park",
-      "playcount": 8199,
+      "playcount": 8202,
       "imageUrl": "assets/music/artists/linkin_park.jpg"
     },
     {
       "name": "Popeye Bangladesh",
-      "playcount": 7052,
+      "playcount": 7053,
       "imageUrl": "assets/music/artists/popeye_bangladesh.jpeg"
     },
     {
       "name": "Metallica",
-      "playcount": 6990,
+      "playcount": 6991,
       "imageUrl": "assets/music/artists/metallica.jpeg"
     },
     {
       "name": "Eminem",
-      "playcount": 6927,
+      "playcount": 6929,
       "imageUrl": "assets/music/artists/eminem.jpeg"
     },
     {
@@ -1814,17 +1814,17 @@
     },
     {
       "name": "Billy Talent",
-      "playcount": 5669,
+      "playcount": 5671,
       "imageUrl": "assets/music/artists/billy_talent.jpeg"
     },
     {
       "name": "Breaking Benjamin",
-      "playcount": 5095,
+      "playcount": 5096,
       "imageUrl": "assets/music/artists/breaking_benjamin.jpeg"
     },
     {
       "name": "Warfaze",
-      "playcount": 4842,
+      "playcount": 4843,
       "imageUrl": "assets/music/artists/warfaze.jpg"
     },
     {
@@ -1834,12 +1834,12 @@
     },
     {
       "name": "Shinedown",
-      "playcount": 3745,
+      "playcount": 3748,
       "imageUrl": "assets/music/artists/shinedown.jpeg"
     },
     {
       "name": "Alec Benjamin",
-      "playcount": 3530,
+      "playcount": 3531,
       "imageUrl": "assets/music/artists/alec_benjamin.jpeg"
     },
     {
@@ -1849,12 +1849,12 @@
     },
     {
       "name": "Korn",
-      "playcount": 2862,
+      "playcount": 2863,
       "imageUrl": "assets/music/artists/korn.jpeg"
     },
     {
       "name": "Powerwolf",
-      "playcount": 2777,
+      "playcount": 2778,
       "imageUrl": "assets/music/artists/powerwolf.jpeg"
     },
     {
@@ -1864,7 +1864,7 @@
     },
     {
       "name": "Arbovirus",
-      "playcount": 2757,
+      "playcount": 2758,
       "imageUrl": "assets/music/artists/arbovirus.jpg"
     },
     {
@@ -1889,12 +1889,12 @@
     },
     {
       "name": "Artcell",
-      "playcount": 2599,
+      "playcount": 2600,
       "imageUrl": "assets/music/artists/artcell.jpg"
     },
     {
       "name": "Bay of Bengal",
-      "playcount": 2494,
+      "playcount": 2495,
       "imageUrl": "assets/music/artists/bay_of_bengal.jpg"
     },
     {
@@ -1914,12 +1914,12 @@
     },
     {
       "name": "Odd Signature",
-      "playcount": 2182,
+      "playcount": 2183,
       "imageUrl": "assets/music/artists/odd_signature.jpg"
     },
     {
       "name": "Skillet",
-      "playcount": 2060,
+      "playcount": 2061,
       "imageUrl": "assets/music/artists/skillet.jpg"
     },
     {
@@ -1929,7 +1929,7 @@
     },
     {
       "name": "Fozzy",
-      "playcount": 1881,
+      "playcount": 1883,
       "imageUrl": "assets/music/artists/fozzy.jpg"
     },
     {
@@ -1964,12 +1964,12 @@
     },
     {
       "name": "Rob Zombie",
-      "playcount": 1496,
+      "playcount": 1497,
       "imageUrl": "assets/music/artists/rob_zombie.jpg"
     },
     {
       "name": "Marilyn Manson",
-      "playcount": 1450,
+      "playcount": 1451,
       "imageUrl": "assets/music/artists/marilyn_manson.jpg"
     },
     {
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-05-10T03:36:11.069Z",
+  "fetchedAt": "2026-05-17T03:42:40.049Z",
   "username": "NafizHC"
 }

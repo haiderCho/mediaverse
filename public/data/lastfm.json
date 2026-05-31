@@ -561,18 +561,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/35b1faaf6bf5a35c351c73c8eee43425.png"
     },
     {
+      "name": "Down With the Sickness",
+      "artist": "Disturbed",
+      "album": "The Sickness",
+      "playcount": 413,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/61b929a6ca07482ba86ee85bd6fbe4a6.png"
+    },
+    {
       "name": "Ajker Din",
       "artist": "Bay of Bengal",
       "album": "Ajker Din - Single",
       "playcount": 412,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/9d918e2b6676eefdb97400bc0394479f.png"
-    },
-    {
-      "name": "Down With the Sickness",
-      "artist": "Disturbed",
-      "album": "The Sickness",
-      "playcount": 412,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/61b929a6ca07482ba86ee85bd6fbe4a6.png"
     },
     {
       "name": "Tritio Jatra",
@@ -1226,18 +1226,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/61d67476df27e0c4b4450f47f654be27.png"
     },
     {
+      "name": "Breath",
+      "artist": "Breaking Benjamin",
+      "album": "Phobia",
+      "playcount": 345,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2e5b0bc8cf774381c37c150f159e58c4.png"
+    },
+    {
       "name": "Ekta gopon kotha",
       "artist": "Topu",
       "album": "She Ke",
       "playcount": 345,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/343a74ab4ecd6e5d0ec4faa4b1139e1d.png"
-    },
-    {
-      "name": "Breath",
-      "artist": "Breaking Benjamin",
-      "album": "Phobia",
-      "playcount": 344,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2e5b0bc8cf774381c37c150f159e58c4.png"
     },
     {
       "name": "Coming Undone",
@@ -1307,7 +1307,7 @@
       "artist": "Shinedown",
       "album": "The Sound of Madness",
       "playcount": 339,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/51e2eb6913cffb979f3979739374a457.png"
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/c384571cc1bb3c896d41f8d319f642fc.png"
     },
     {
       "name": "Right Left Wrong",
@@ -1377,7 +1377,7 @@
       "artist": "Shinedown",
       "album": "The Sound of Madness",
       "playcount": 330,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/51e2eb6913cffb979f3979739374a457.png"
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/c384571cc1bb3c896d41f8d319f642fc.png"
     },
     {
       "name": "Older",
@@ -1583,6 +1583,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/ca1aacbe58b61ece99cb53e489821346.png"
     },
     {
+      "name": "You and I",
+      "artist": "Godsmack",
+      "album": "Lighting Up the Sky",
+      "playcount": 318,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2cfa1191ef012e6ce46766adbf9356b1.png"
+    },
+    {
       "name": "Voices",
       "artist": "Motionless in White",
       "album": "Graveyard Shift",
@@ -1602,13 +1609,6 @@
       "album": "Biborton",
       "playcount": 317,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/8f4df50132db45dcc550f88513ed2de7.png"
-    },
-    {
-      "name": "You and I",
-      "artist": "Godsmack",
-      "album": "Lighting Up the Sky",
-      "playcount": 317,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2cfa1191ef012e6ce46766adbf9356b1.png"
     },
     {
       "name": "Shurjo",
@@ -1764,12 +1764,12 @@
     },
     {
       "name": "Godsmack",
-      "playcount": 10279,
+      "playcount": 10280,
       "imageUrl": "assets/music/artists/godsmack.jpeg"
     },
     {
       "name": "Disturbed",
-      "playcount": 9574,
+      "playcount": 9575,
       "imageUrl": "assets/music/artists/disturbed.jpeg"
     },
     {
@@ -1819,7 +1819,7 @@
     },
     {
       "name": "Breaking Benjamin",
-      "playcount": 5096,
+      "playcount": 5126,
       "imageUrl": "assets/music/artists/breaking_benjamin.jpeg"
     },
     {
@@ -1974,7 +1974,7 @@
     },
     {
       "name": "Nine Inch Nails",
-      "playcount": 1416,
+      "playcount": 1420,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-05-24T03:54:51.618Z",
+  "fetchedAt": "2026-05-31T04:07:08.045Z",
   "username": "NafizHC"
 }

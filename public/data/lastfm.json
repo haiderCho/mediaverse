@@ -18,7 +18,7 @@
       "name": "Neshar Bojha - Lo-Fi Melo Rap Remix",
       "artist": "Arafa-T Kabir",
       "album": "Unknown Album",
-      "playcount": 518,
+      "playcount": 519,
       "imageUrl": null
     },
     {
@@ -309,18 +309,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/77a72a841531cbadf64a9537ce09fd2a.png"
     },
     {
+      "name": "Ei Obelay",
+      "artist": "Shironamhin",
+      "album": "Ei Obelay",
+      "playcount": 452,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/5aaeb64c82905131e8a10dc998abcd78.png"
+    },
+    {
       "name": "さよならごっこ",
       "artist": "amazarashi",
       "album": "さよならごっこ",
       "playcount": 451,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/ff7679bf592fda9f01ccd05f924c8142.png"
-    },
-    {
-      "name": "Ei Obelay",
-      "artist": "Shironamhin",
-      "album": "Ei Obelay",
-      "playcount": 451,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/5aaeb64c82905131e8a10dc998abcd78.png"
     },
     {
       "name": "Bhoboghure",
@@ -484,6 +484,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/a82b226d99cdb33a5fd1609f9b88a5ca.png"
     },
     {
+      "name": "Love Falls",
+      "artist": "Hellyeah",
+      "album": "Unden!able",
+      "playcount": 419,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/ef00e9e9a21dc16e8351c64d14ffd298.png"
+    },
+    {
       "name": "裸の勇者",
       "artist": "Vaundy",
       "album": "裸の勇者",
@@ -503,13 +510,6 @@
       "album": "Aushomapto I",
       "playcount": 418,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/73fbe6d18b6e315ef8d4a171ae80803f.png"
-    },
-    {
-      "name": "Love Falls",
-      "artist": "Hellyeah",
-      "album": "Unden!able",
-      "playcount": 418,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/ef00e9e9a21dc16e8351c64d14ffd298.png"
     },
     {
       "name": "Vertigo",
@@ -659,18 +659,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/c91a34a2db6d5844bdf9fca918ee1ecb.png"
     },
     {
+      "name": "Carolus Rex",
+      "artist": "Sabaton",
+      "album": "Carolus Rex (Bonus Version)",
+      "playcount": 405,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e1669bbd420022396aca9331ee37c46d.png"
+    },
+    {
       "name": "Welcome to the Black Parade",
       "artist": "My Chemical Romance",
       "album": "The Black Parade",
       "playcount": 404,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/7675defb2787ce67cd030081eb8ff77c.png"
-    },
-    {
-      "name": "Carolus Rex",
-      "artist": "Sabaton",
-      "album": "Carolus Rex (Bonus Version)",
-      "playcount": 404,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e1669bbd420022396aca9331ee37c46d.png"
     },
     {
       "name": "Time of Dying",
@@ -725,8 +725,15 @@
       "name": "Surrender",
       "artist": "Godsmack",
       "album": "Surrender",
-      "playcount": 398,
+      "playcount": 399,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/0ab1939c19d7f6b179621892ec7925be.png"
+    },
+    {
+      "name": "Winged Hussars",
+      "artist": "Sabaton",
+      "album": "The Last Stand (History Channel Edition)",
+      "playcount": 399,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/c586d080d03be042232964424f18aa2d.png"
     },
     {
       "name": "Sad but True",
@@ -741,13 +748,6 @@
       "album": "Metallica",
       "playcount": 398,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/d6a960e23328230e5e203007b7690cde.png"
-    },
-    {
-      "name": "Winged Hussars",
-      "artist": "Sabaton",
-      "album": "The Last Stand (History Channel Edition)",
-      "playcount": 398,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/c586d080d03be042232964424f18aa2d.png"
     },
     {
       "name": "Livin' on the Edge",
@@ -823,7 +823,7 @@
       "name": "The Last Stand",
       "artist": "Sabaton",
       "album": "20th Anniversary Show: Live at Wacken",
-      "playcount": 389,
+      "playcount": 390,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/c06053cec8074482505006288c4ca195.png"
     },
     {
@@ -1097,7 +1097,7 @@
       "artist": "Metallica",
       "album": "Master of Puppets",
       "playcount": 360,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/07f492a00c904cc6ccf868010be4d5a6.png"
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/0f12c8b74180851d92f7c137f6c3dc18.png"
     },
     {
       "name": "Dur",
@@ -1142,6 +1142,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/3f426c9970df50f6eeeace38e6d9d33a.png"
     },
     {
+      "name": "Crawling",
+      "artist": "Linkin Park",
+      "album": "Hybrid Theory",
+      "playcount": 353,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/c21b3923a4d3ff5629996f3f8e178140.png"
+    },
+    {
       "name": "Wake Up and Smell the Coffee",
       "artist": "The Cranberries",
       "album": "Wake Up and Smell the Coffee",
@@ -1154,13 +1161,6 @@
       "album": "Popular Monster",
       "playcount": 352,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2e2fff99ac19fdcfc7ecc7054c429848.png"
-    },
-    {
-      "name": "Crawling",
-      "artist": "Linkin Park",
-      "album": "Hybrid Theory",
-      "playcount": 352,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/c21b3923a4d3ff5629996f3f8e178140.png"
     },
     {
       "name": "Killing in the Name",
@@ -1660,6 +1660,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/53a7bd85bc99272900f620792bf43452.png"
     },
     {
+      "name": "God Of Failure",
+      "artist": "Witchz",
+      "album": "God of Failure - Single",
+      "playcount": 313,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e828173a261cac49862d8faf3f09aa9c.png"
+    },
+    {
       "name": "guti 2",
       "artist": "Aurthohin",
       "album": "Biborton",
@@ -1679,13 +1686,6 @@
       "album": "Mezmerize",
       "playcount": 312,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/6af731c307585bb1e496f80f7dbad566.png"
-    },
-    {
-      "name": "God Of Failure",
-      "artist": "Witchz",
-      "album": "God of Failure - Single",
-      "playcount": 312,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e828173a261cac49862d8faf3f09aa9c.png"
     },
     {
       "name": "Living Dead Girl",
@@ -1764,7 +1764,7 @@
     },
     {
       "name": "Godsmack",
-      "playcount": 10283,
+      "playcount": 10284,
       "imageUrl": "assets/music/artists/godsmack.jpeg"
     },
     {
@@ -1784,12 +1784,12 @@
     },
     {
       "name": "Sabaton",
-      "playcount": 8913,
+      "playcount": 8925,
       "imageUrl": "assets/music/artists/sabaton.jpg"
     },
     {
       "name": "Linkin Park",
-      "playcount": 8206,
+      "playcount": 8207,
       "imageUrl": "assets/music/artists/linkin_park.jpg"
     },
     {
@@ -1829,7 +1829,7 @@
     },
     {
       "name": "Shironamhin",
-      "playcount": 4620,
+      "playcount": 4621,
       "imageUrl": "assets/music/artists/shironamhin.jpeg"
     },
     {
@@ -1904,7 +1904,7 @@
     },
     {
       "name": "Iron Maiden",
-      "playcount": 2371,
+      "playcount": 2373,
       "imageUrl": "assets/music/artists/iron_maiden.jpg"
     },
     {
@@ -1944,7 +1944,7 @@
     },
     {
       "name": "Hellyeah",
-      "playcount": 1622,
+      "playcount": 1623,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -1974,7 +1974,7 @@
     },
     {
       "name": "Nine Inch Nails",
-      "playcount": 1420,
+      "playcount": 1423,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-06-14T04:21:46.436Z",
+  "fetchedAt": "2026-06-21T04:27:59.270Z",
   "username": "NafizHC"
 }

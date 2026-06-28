@@ -1639,6 +1639,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/546d39d387d3f25f12746d830463b96f.png"
     },
     {
+      "name": "God Of Failure",
+      "artist": "Witchz",
+      "album": "God of Failure - Single",
+      "playcount": 316,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e828173a261cac49862d8faf3f09aa9c.png"
+    },
+    {
       "name": "Kill The Humans",
       "artist": "Hypnogaja",
       "album": "Truth Decay",
@@ -1658,13 +1665,6 @@
       "album": "Hybrid Theory (Bonus Track Version)",
       "playcount": 313,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/53a7bd85bc99272900f620792bf43452.png"
-    },
-    {
-      "name": "God Of Failure",
-      "artist": "Witchz",
-      "album": "God of Failure - Single",
-      "playcount": 313,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e828173a261cac49862d8faf3f09aa9c.png"
     },
     {
       "name": "guti 2",
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-06-21T04:27:59.270Z",
+  "fetchedAt": "2026-06-28T04:06:02.735Z",
   "username": "NafizHC"
 }

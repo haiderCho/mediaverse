@@ -154,7 +154,7 @@
       "meanScore": "7.64",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "101,772"
+        "value": "101,779"
       },
       "topGenres": [
         {
@@ -219,21 +219,21 @@
       }
     },
     "manhwa": {
-      "total": 662,
+      "total": 665,
       "completed": 177,
       "meanScore": "6.30",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "59,801"
+        "value": "60,027"
       },
       "topGenres": [
         {
           "name": "Action",
-          "count": 608
+          "count": 610
         },
         {
           "name": "Fantasy",
-          "count": 518
+          "count": 521
         },
         {
           "name": "Martial Arts",
@@ -245,7 +245,7 @@
         },
         {
           "name": "Reincarnation",
-          "count": 117
+          "count": 119
         }
       ],
       "topStudios": [],
@@ -263,22 +263,22 @@
           "count": 7
         },
         {
-          "name": "Paranyeong",
-          "count": 4
+          "name": "LICO",
+          "count": 5
         },
         {
-          "name": "Jinsung Yu",
+          "name": "Paranyeong",
           "count": 4
         }
       ],
       "formats": [
         {
           "name": "MANHWA",
-          "count": 662
+          "count": 665
         }
       ],
       "details": {
-        "watching": 475,
+        "watching": 478,
         "onHold": 0,
         "dropped": 8,
         "planTo": 2
@@ -352,5 +352,5 @@
     }
   },
   "username": "NafizHC",
-  "fetchedAt": "2026-06-01T02:39:55.039Z"
+  "fetchedAt": "2026-07-01T02:32:05.028Z"
 }

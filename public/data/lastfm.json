@@ -379,18 +379,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/d3facdc8f1284dc3b61d55b0605a2a1d.png"
     },
     {
+      "name": "Jekyll And Hyde",
+      "artist": "Five Finger Death Punch",
+      "album": "Got Your Six",
+      "playcount": 434,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/b6db56c7287fb6da062bef1430243a6b.png"
+    },
+    {
       "name": "Ullashe Mogno",
       "artist": "Odd Signature",
       "album": "Ullashe Mogno",
       "playcount": 434,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/aabd866799bae7bb25d86ee9468ce9ac.png"
-    },
-    {
-      "name": "Jekyll And Hyde",
-      "artist": "Five Finger Death Punch",
-      "album": "Got Your Six",
-      "playcount": 433,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/b6db56c7287fb6da062bef1430243a6b.png"
     },
     {
       "name": "Nothing Else Matters",
@@ -1054,7 +1054,7 @@
       "name": "Moth",
       "artist": "Hellyeah",
       "album": "Blood For Blood",
-      "playcount": 363,
+      "playcount": 364,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/8cd5c5d362064927c9caf9b110dc3c82.png"
     },
     {
@@ -1759,7 +1759,7 @@
     },
     {
       "name": "Five Finger Death Punch",
-      "playcount": 11202,
+      "playcount": 11203,
       "imageUrl": "assets/music/artists/five_finger_death_punch.jpeg"
     },
     {
@@ -1774,7 +1774,7 @@
     },
     {
       "name": "Avenged Sevenfold",
-      "playcount": 9201,
+      "playcount": 9202,
       "imageUrl": "assets/music/artists/avenged_sevenfold.jpeg"
     },
     {
@@ -1784,7 +1784,7 @@
     },
     {
       "name": "Sabaton",
-      "playcount": 8925,
+      "playcount": 8926,
       "imageUrl": "assets/music/artists/sabaton.jpg"
     },
     {
@@ -1799,7 +1799,7 @@
     },
     {
       "name": "Metallica",
-      "playcount": 6993,
+      "playcount": 6994,
       "imageUrl": "assets/music/artists/metallica.jpeg"
     },
     {
@@ -1904,7 +1904,7 @@
     },
     {
       "name": "Iron Maiden",
-      "playcount": 2373,
+      "playcount": 2375,
       "imageUrl": "assets/music/artists/iron_maiden.jpg"
     },
     {
@@ -1944,7 +1944,7 @@
     },
     {
       "name": "Hellyeah",
-      "playcount": 1623,
+      "playcount": 1624,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -1964,18 +1964,18 @@
     },
     {
       "name": "Rob Zombie",
-      "playcount": 1497,
+      "playcount": 1499,
       "imageUrl": "assets/music/artists/rob_zombie.jpg"
+    },
+    {
+      "name": "Nine Inch Nails",
+      "playcount": 1465,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
       "name": "Marilyn Manson",
       "playcount": 1452,
       "imageUrl": "assets/music/artists/marilyn_manson.jpg"
-    },
-    {
-      "name": "Nine Inch Nails",
-      "playcount": 1423,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
       "name": "Rammstein",
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-06-28T04:06:02.735Z",
+  "fetchedAt": "2026-07-05T03:41:06.105Z",
   "username": "NafizHC"
 }

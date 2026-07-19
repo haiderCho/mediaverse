@@ -1953,14 +1953,14 @@
       "imageUrl": "assets/music/artists/motionless_in_white.jpg"
     },
     {
+      "name": "Nine Inch Nails",
+      "playcount": 1595,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
       "name": "YOASOBI",
       "playcount": 1556,
       "imageUrl": "assets/music/artists/yoasobi.jpg"
-    },
-    {
-      "name": "Nine Inch Nails",
-      "playcount": 1524,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
       "name": "KARNiVAL",
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-07-12T03:14:42.946Z",
+  "fetchedAt": "2026-07-19T02:56:08.359Z",
   "username": "NafizHC"
 }

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { PageId } from '../../../types';
-import { MalData, MalStat, DataSource } from './types';
+import { MalData, MalStat, DataSource, CinematicStat } from './types';
 
 export const useStatsData = (pageId: PageId) => {
     const [aniListData, setAniListData] = useState<MalData | null>(null);

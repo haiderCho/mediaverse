@@ -115,7 +115,7 @@ const MangaCategoryStats: React.FC<CategoryStatsProps> = ({ pageId, theme }) => 
                 <div className="p-3 bg-[#111111] text-[#fbfaf5] border-2 border-[#111111]"><BookOpen size={32} /></div>
                 <div className="relative text-center">
                   <span className="text-6xl font-black text-[#111111] manga-title">
-                      {stats.total ?? 0}
+                      {(stats as MalStat).total ?? 0}
                   </span>
                 </div>
                 <span className="manga-lettering-alt text-xs font-black opacity-80 tracking-[0.2em] mt-1 text-[#111111]">TOTAL ENTRIES</span>
@@ -125,7 +125,7 @@ const MangaCategoryStats: React.FC<CategoryStatsProps> = ({ pageId, theme }) => 
                 <div className="p-3 bg-[#bc002d] text-white border-2 border-[#111111]"><CheckCircle size={32} /></div>
                  <div className="relative text-center">
                   <span className="text-6xl font-black text-[#111111] manga-title">
-                      {stats.completed ?? 0}
+                      {(stats as MalStat).completed ?? 0}
                   </span>
                  </div>
                 <span className="manga-lettering-alt text-xs font-black opacity-80 tracking-[0.2em] mt-1 text-[#111111]">COMPLETED</span>
@@ -135,16 +135,16 @@ const MangaCategoryStats: React.FC<CategoryStatsProps> = ({ pageId, theme }) => 
                 <div className="p-3 bg-[#111111] text-[#fbfaf5] border-2 border-[#111111]"><PlayCircle size={32} /></div>
                  <div className="relative text-center">
                   <span className="text-5xl font-black text-[#111111] manga-title leading-none">
-                      {stats.statExtra?.value ?? '---'}
+                      {(stats as MalStat).statExtra?.value ?? '---'}
                   </span>
                  </div>
-                <span className="manga-lettering-alt text-xs font-black opacity-80 tracking-[0.2em] mt-1 text-[#111111]">{stats.statExtra?.label?.toUpperCase() || 'DATA'}</span>
+                <span className="manga-lettering-alt text-xs font-black opacity-80 tracking-[0.2em] mt-1 text-[#111111]">{ (stats as MalStat).statExtra?.label?.toUpperCase() || 'DATA'}</span>
             </div>
             
             <div className="manga-panel p-8 bg-[#bc002d] flex flex-col items-center justify-center gap-4 group manga-pop border-[3px] border-[#111111] text-white">
                 <div className="p-3 bg-white text-[#bc002d] border-2 border-[#111111]"><TrendingUp size={32} /></div>
                  <div className="flex items-baseline gap-1 relative text-white">
-                    <span className="text-6xl font-black manga-title">{stats.meanScore ?? '0.0'}</span>
+                    <span className="text-6xl font-black manga-title">{(stats as MalStat).meanScore ?? '0.0'}</span>
                     <span className="text-lg font-black opacity-80">/{dataSource === 'ANILIST' ? '100' : '10'}</span>
                  </div>
                 <span className="manga-lettering-alt text-xs font-black opacity-100 tracking-[0.2em] mt-1 text-white">MEAN SCORE</span>

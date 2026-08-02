@@ -25,7 +25,7 @@
       "name": "Srotoshinni",
       "artist": "Encore",
       "album": "Unknown Album",
-      "playcount": 516,
+      "playcount": 517,
       "imageUrl": null
     },
     {
@@ -218,6 +218,13 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/d9cffc169f73b19950707d56e5376d77.png"
     },
     {
+      "name": "Nightmare",
+      "artist": "Avenged Sevenfold",
+      "album": "Nightmare",
+      "playcount": 464,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/bd12ddaafc7344d3bf43f963f814cc90.png"
+    },
+    {
       "name": "Na ghumanor Gaan",
       "artist": "Nemesis",
       "album": "Unknown Album",
@@ -237,13 +244,6 @@
       "album": "Karma - Single",
       "playcount": 464,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/49051b314a6dbe3004186f01025323ed.png"
-    },
-    {
-      "name": "Nightmare",
-      "artist": "Avenged Sevenfold",
-      "album": "Nightmare",
-      "playcount": 463,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/bd12ddaafc7344d3bf43f963f814cc90.png"
     },
     {
       "name": "Je Shohore Ami Nei",
@@ -603,18 +603,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/52794cef0c936ce687f9fc0910ccbefb.png"
     },
     {
+      "name": "Beast of Gévaudan",
+      "artist": "Powerwolf",
+      "album": "Dancing with the Dead",
+      "playcount": 408,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/a9877bb026a79c3ad0d786d341ad876b.png"
+    },
+    {
       "name": "Somewhere Only We Know",
       "artist": "Keane",
       "album": "Hopes and Fears",
       "playcount": 407,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/b4d48c7e6c74d5c4bb30ea087712bedd.png"
-    },
-    {
-      "name": "Beast of Gévaudan",
-      "artist": "Powerwolf",
-      "album": "Dancing with the Dead",
-      "playcount": 407,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/a9877bb026a79c3ad0d786d341ad876b.png"
     },
     {
       "name": "Sad Statue",
@@ -848,18 +848,18 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/05c31affcb275d3093b731931ba8dd6b.png"
     },
     {
+      "name": "Freak on a Leash",
+      "artist": "Korn",
+      "album": "Follow the Leader",
+      "playcount": 388,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e7605ccbb6d5d7e7976dea23c182ba63.png"
+    },
+    {
       "name": "In The Air Tonight - 2015 Remastered",
       "artist": "Phil Collins",
       "album": "Face Value (Deluxe Editon)",
       "playcount": 388,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/c601a68cbd0db68c76071df58d7e6ce2.png"
-    },
-    {
-      "name": "Freak on a Leash",
-      "artist": "Korn",
-      "album": "Follow the Leader",
-      "playcount": 387,
-      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/e7605ccbb6d5d7e7976dea23c182ba63.png"
     },
     {
       "name": "Bismarck",
@@ -935,7 +935,7 @@
       "name": "Human",
       "artist": "Hellyeah",
       "album": "Unden!able",
-      "playcount": 377,
+      "playcount": 378,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/ef00e9e9a21dc16e8351c64d14ffd298.png"
     },
     {
@@ -1061,7 +1061,7 @@
       "name": "The Devil in I",
       "artist": "Slipknot",
       "album": ".5: The Gray Chapter (Special Edition)",
-      "playcount": 363,
+      "playcount": 364,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/53afb0781825a1e75f275e0a49591d32.png"
     },
     {
@@ -1166,7 +1166,7 @@
       "name": "Killing in the Name",
       "artist": "Rage Against the Machine",
       "album": "Rage Against the Machine",
-      "playcount": 350,
+      "playcount": 351,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/8f25a0a061254740c74a40a4e16337d6.png"
     },
     {
@@ -1774,7 +1774,7 @@
     },
     {
       "name": "Avenged Sevenfold",
-      "playcount": 9203,
+      "playcount": 9204,
       "imageUrl": "assets/music/artists/avenged_sevenfold.jpeg"
     },
     {
@@ -1794,7 +1794,7 @@
     },
     {
       "name": "Popeye Bangladesh",
-      "playcount": 7057,
+      "playcount": 7058,
       "imageUrl": "assets/music/artists/popeye_bangladesh.jpeg"
     },
     {
@@ -1849,12 +1849,12 @@
     },
     {
       "name": "Korn",
-      "playcount": 2864,
+      "playcount": 2865,
       "imageUrl": "assets/music/artists/korn.jpeg"
     },
     {
       "name": "Powerwolf",
-      "playcount": 2779,
+      "playcount": 2780,
       "imageUrl": "assets/music/artists/powerwolf.jpeg"
     },
     {
@@ -1939,12 +1939,12 @@
     },
     {
       "name": "Slipknot",
-      "playcount": 1722,
+      "playcount": 1723,
       "imageUrl": "assets/music/artists/slipknot.jpg"
     },
     {
       "name": "Hellyeah",
-      "playcount": 1625,
+      "playcount": 1626,
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-07-26T03:15:04.162Z",
+  "fetchedAt": "2026-08-02T02:59:04.437Z",
   "username": "NafizHC"
 }

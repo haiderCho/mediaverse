@@ -1321,7 +1321,7 @@
       "artist": "Billy Joel",
       "album": "Piano Man",
       "playcount": 335,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/54b37d139a3e4656817f66e794492302.png"
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1062aa5827833c1adf4418d638d71522.png"
     },
     {
       "name": "Danpite",
@@ -1804,7 +1804,7 @@
     },
     {
       "name": "Eminem",
-      "playcount": 6934,
+      "playcount": 6935,
       "imageUrl": "assets/music/artists/eminem.jpeg"
     },
     {
@@ -1839,7 +1839,7 @@
     },
     {
       "name": "Alec Benjamin",
-      "playcount": 3531,
+      "playcount": 3532,
       "imageUrl": "assets/music/artists/alec_benjamin.jpeg"
     },
     {
@@ -1869,7 +1869,7 @@
     },
     {
       "name": "Thousand Foot Krutch",
-      "playcount": 2740,
+      "playcount": 2741,
       "imageUrl": "assets/music/artists/thousand_foot_krutch.jpeg"
     },
     {
@@ -1964,7 +1964,7 @@
     },
     {
       "name": "KARNiVAL",
-      "playcount": 1506,
+      "playcount": 1507,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-08-09T01:54:27.505Z",
+  "fetchedAt": "2026-08-16T01:26:47.574Z",
   "username": "NafizHC"
 }

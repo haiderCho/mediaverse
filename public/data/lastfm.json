@@ -676,7 +676,7 @@
       "name": "Time of Dying",
       "artist": "Three Days Grace",
       "album": "One-X",
-      "playcount": 402,
+      "playcount": 403,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7d574c73804709ed8983e6261af8f1f7.png"
     },
     {
@@ -1223,7 +1223,7 @@
       "artist": "Alice in Chains",
       "album": "Facelift",
       "playcount": 345,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61d67476df27e0c4b4450f47f654be27.png"
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/989334c7f7d0a5d0862472736696e951.png"
     },
     {
       "name": "Breath",
@@ -1306,7 +1306,7 @@
       "name": "Sound of Madness",
       "artist": "Shinedown",
       "album": "The Sound of Madness",
-      "playcount": 339,
+      "playcount": 340,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/51e2eb6913cffb979f3979739374a457.png"
     },
     {
@@ -1513,6 +1513,13 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d749ea534dd8855f625320723e20f127.png"
     },
     {
+      "name": "Don't Tell Me (feat. Ann Wilson)",
+      "artist": "Disturbed",
+      "album": "Divisive",
+      "playcount": 323,
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/58b727af068d43c0f7bc55a57c98c67f.png"
+    },
+    {
       "name": "Rock Bottom",
       "artist": "Eminem",
       "album": "The Slim Shady LP",
@@ -1525,13 +1532,6 @@
       "album": "All My Demons Greeting Me As A Friend (Deluxe)",
       "playcount": 322,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3b34f6f1b339e9857fb276c318cb8b05.png"
-    },
-    {
-      "name": "Don't Tell Me (feat. Ann Wilson)",
-      "artist": "Disturbed",
-      "album": "Divisive",
-      "playcount": 322,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/58b727af068d43c0f7bc55a57c98c67f.png"
     },
     {
       "name": "Cradled in Love",
@@ -1587,7 +1587,7 @@
       "artist": "Iron Maiden",
       "album": "Brave New World (2015 - Remaster)",
       "playcount": 319,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ca1aacbe58b61ece99cb53e489821346.png"
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1b469113ba52ddd6992006b9c0946e9c.png"
     },
     {
       "name": "God Of Failure",
@@ -1764,12 +1764,12 @@
     },
     {
       "name": "Godsmack",
-      "playcount": 10290,
+      "playcount": 10291,
       "imageUrl": "assets/music/artists/godsmack.jpeg"
     },
     {
       "name": "Disturbed",
-      "playcount": 9577,
+      "playcount": 9580,
       "imageUrl": "assets/music/artists/disturbed.jpeg"
     },
     {
@@ -1779,7 +1779,7 @@
     },
     {
       "name": "Three Days Grace",
-      "playcount": 9117,
+      "playcount": 9118,
       "imageUrl": "assets/music/artists/three_days_grace.jpeg"
     },
     {
@@ -1804,7 +1804,7 @@
     },
     {
       "name": "Eminem",
-      "playcount": 6935,
+      "playcount": 6937,
       "imageUrl": "assets/music/artists/eminem.jpeg"
     },
     {
@@ -1834,12 +1834,12 @@
     },
     {
       "name": "Shinedown",
-      "playcount": 3755,
+      "playcount": 3756,
       "imageUrl": "assets/music/artists/shinedown.jpeg"
     },
     {
       "name": "Alec Benjamin",
-      "playcount": 3532,
+      "playcount": 3534,
       "imageUrl": "assets/music/artists/alec_benjamin.jpeg"
     },
     {
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-08-16T01:26:47.574Z",
+  "fetchedAt": "2026-08-23T01:28:38.730Z",
   "username": "NafizHC"
 }

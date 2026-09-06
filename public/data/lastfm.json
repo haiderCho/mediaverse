@@ -225,6 +225,13 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/bd12ddaafc7344d3bf43f963f814cc90.png"
     },
     {
+      "name": "Je Shohore Ami Nei",
+      "artist": "Bay of Bengal",
+      "album": "Nirob Durvikkho",
+      "playcount": 464,
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5ee8129f7754ce8bd964ad743fcc688a.png"
+    },
+    {
       "name": "Na ghumanor Gaan",
       "artist": "Nemesis",
       "album": "Unknown Album",
@@ -244,13 +251,6 @@
       "album": "Karma - Single",
       "playcount": 464,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/49051b314a6dbe3004186f01025323ed.png"
-    },
-    {
-      "name": "Je Shohore Ami Nei",
-      "artist": "Bay of Bengal",
-      "album": "Nirob Durvikkho",
-      "playcount": 462,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5ee8129f7754ce8bd964ad743fcc688a.png"
     },
     {
       "name": "Ei Tumi Ke ?",
@@ -586,7 +586,7 @@
       "artist": "System of a Down",
       "album": "Mezmerize",
       "playcount": 410,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ec5cd19fd40ed6c9692e3d3a32d21d39.png"
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6af731c307585bb1e496f80f7dbad566.png"
     },
     {
       "name": "Nikrishto 2",
@@ -621,7 +621,7 @@
       "artist": "System of a Down",
       "album": "Mezmerize",
       "playcount": 407,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ec5cd19fd40ed6c9692e3d3a32d21d39.png"
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6af731c307585bb1e496f80f7dbad566.png"
     },
     {
       "name": "Shopnodeb",
@@ -1685,7 +1685,7 @@
       "artist": "System of a Down",
       "album": "Mezmerize",
       "playcount": 312,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ec5cd19fd40ed6c9692e3d3a32d21d39.png"
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6af731c307585bb1e496f80f7dbad566.png"
     },
     {
       "name": "Living Dead Girl",
@@ -1769,7 +1769,7 @@
     },
     {
       "name": "Disturbed",
-      "playcount": 9580,
+      "playcount": 9581,
       "imageUrl": "assets/music/artists/disturbed.jpeg"
     },
     {
@@ -1789,18 +1789,18 @@
     },
     {
       "name": "Linkin Park",
-      "playcount": 8209,
+      "playcount": 8210,
       "imageUrl": "assets/music/artists/linkin_park.jpg"
+    },
+    {
+      "name": "Metallica",
+      "playcount": 7102,
+      "imageUrl": "assets/music/artists/metallica.jpeg"
     },
     {
       "name": "Popeye Bangladesh",
       "playcount": 7059,
       "imageUrl": "assets/music/artists/popeye_bangladesh.jpeg"
-    },
-    {
-      "name": "Metallica",
-      "playcount": 6995,
-      "imageUrl": "assets/music/artists/metallica.jpeg"
     },
     {
       "name": "Eminem",
@@ -1834,7 +1834,7 @@
     },
     {
       "name": "Shinedown",
-      "playcount": 3757,
+      "playcount": 3758,
       "imageUrl": "assets/music/artists/shinedown.jpeg"
     },
     {
@@ -1894,7 +1894,7 @@
     },
     {
       "name": "Bay of Bengal",
-      "playcount": 2496,
+      "playcount": 2499,
       "imageUrl": "assets/music/artists/bay_of_bengal.jpg"
     },
     {
@@ -1949,7 +1949,7 @@
     },
     {
       "name": "Motionless in White",
-      "playcount": 1604,
+      "playcount": 1618,
       "imageUrl": "assets/music/artists/motionless_in_white.jpg"
     },
     {
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-08-30T04:21:47.645Z",
+  "fetchedAt": "2026-09-06T03:34:16.949Z",
   "username": "NafizHC"
 }

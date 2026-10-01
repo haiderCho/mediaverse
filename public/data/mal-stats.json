@@ -154,7 +154,7 @@
       "meanScore": "7.66",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "102,788"
+        "value": "102,791"
       },
       "topGenres": [
         {
@@ -219,21 +219,21 @@
       }
     },
     "manhwa": {
-      "total": 667,
+      "total": 670,
       "completed": 178,
       "meanScore": "6.30",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "60,277"
+        "value": "60,471"
       },
       "topGenres": [
         {
           "name": "Action",
-          "count": 611
+          "count": 613
         },
         {
           "name": "Fantasy",
-          "count": 523
+          "count": 526
         },
         {
           "name": "Martial Arts",
@@ -241,7 +241,7 @@
         },
         {
           "name": "Adventure",
-          "count": 125
+          "count": 126
         },
         {
           "name": "Reincarnation",
@@ -263,22 +263,22 @@
           "count": 7
         },
         {
-          "name": "LICO",
+          "name": "Woogack",
           "count": 5
         },
         {
-          "name": "Paranyeong",
-          "count": 4
+          "name": "LICO",
+          "count": 5
         }
       ],
       "formats": [
         {
           "name": "MANHWA",
-          "count": 667
+          "count": 670
         }
       ],
       "details": {
-        "watching": 479,
+        "watching": 482,
         "onHold": 0,
         "dropped": 8,
         "planTo": 2
@@ -352,5 +352,5 @@
     }
   },
   "username": "NafizHC",
-  "fetchedAt": "2026-09-01T02:34:19.334Z"
+  "fetchedAt": "2026-10-01T03:02:38.620Z"
 }

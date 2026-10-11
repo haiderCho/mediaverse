@@ -284,7 +284,7 @@
       "name": "Serenity",
       "artist": "Godsmack",
       "album": "Faceless",
-      "playcount": 456,
+      "playcount": 457,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7edb32e7079a4f1eaf522b05e85cae03.png"
     },
     {
@@ -603,6 +603,13 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/52794cef0c936ce687f9fc0910ccbefb.png"
     },
     {
+      "name": "Somewhere Only We Know",
+      "artist": "Keane",
+      "album": "Hopes and Fears",
+      "playcount": 408,
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b4d48c7e6c74d5c4bb30ea087712bedd.png"
+    },
+    {
       "name": "Beast of Gévaudan",
       "artist": "Powerwolf",
       "album": "Dancing with the Dead",
@@ -615,13 +622,6 @@
       "album": "Awake",
       "playcount": 407,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/693af41f6f59bd150b341109c94d0d6e.png"
-    },
-    {
-      "name": "Somewhere Only We Know",
-      "artist": "Keane",
-      "album": "Hopes and Fears",
-      "playcount": 407,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b4d48c7e6c74d5c4bb30ea087712bedd.png"
     },
     {
       "name": "Sad Statue",
@@ -831,7 +831,7 @@
       "artist": "Five Finger Death Punch",
       "album": "American Capitalist",
       "playcount": 389,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/41981bd8acba4470bf53bd8158637319.png"
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/17153809adca4656ac5ad79e74cb6e2a.png"
     },
     {
       "name": "空に歌えば",
@@ -1764,7 +1764,7 @@
     },
     {
       "name": "Godsmack",
-      "playcount": 10302,
+      "playcount": 10303,
       "imageUrl": "assets/music/artists/godsmack.jpeg"
     },
     {
@@ -1789,7 +1789,7 @@
     },
     {
       "name": "Linkin Park",
-      "playcount": 8212,
+      "playcount": 8214,
       "imageUrl": "assets/music/artists/linkin_park.jpg"
     },
     {
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-10-04T04:55:13.538Z",
+  "fetchedAt": "2026-10-11T04:44:17.374Z",
   "username": "NafizHC"
 }

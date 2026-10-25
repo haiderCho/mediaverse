@@ -25,14 +25,14 @@
       "name": "Srotoshinni",
       "artist": "Encore",
       "album": "Unknown Album",
-      "playcount": 517,
+      "playcount": 518,
       "imageUrl": null
     },
     {
       "name": "60's LOVE",
       "artist": "Level five",
       "album": "Obosheshey",
-      "playcount": 513,
+      "playcount": 514,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b4267bfce6edb7dfe1bc6fa7fd855f8e.png"
     },
     {
@@ -46,7 +46,7 @@
       "name": "I Stand Alone",
       "artist": "Godsmack",
       "album": "Faceless",
-      "playcount": 499,
+      "playcount": 500,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7edb32e7079a4f1eaf522b05e85cae03.png"
     },
     {
@@ -99,18 +99,18 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e8d1ff3c8716ef353e9a2e213cbca9b4.png"
     },
     {
+      "name": "Rupkotha",
+      "artist": "Warfaze",
+      "album": "Shotto",
+      "playcount": 479,
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e8d1ff3c8716ef353e9a2e213cbca9b4.png"
+    },
+    {
       "name": "E Hawa",
       "artist": "Meghdol",
       "album": "E Hawa",
       "playcount": 478,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b65052411057bb5cfd2ae0aa94161b3b.png"
-    },
-    {
-      "name": "Rupkotha",
-      "artist": "Warfaze",
-      "album": "Shotto",
-      "playcount": 478,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e8d1ff3c8716ef353e9a2e213cbca9b4.png"
     },
     {
       "name": "Afterlife",
@@ -162,18 +162,18 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/31f81378934d1b7dac60ee72a4be2778.png"
     },
     {
+      "name": "Obak Bhalobasha",
+      "artist": "Warfaze",
+      "album": "Obak Bhalobasha",
+      "playcount": 470,
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e798f24cdc11b28169efab41ef18955f.png"
+    },
+    {
       "name": "Opare",
       "artist": "Bay of Bengal",
       "album": "Nirob Durvikkho",
       "playcount": 469,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5ee8129f7754ce8bd964ad743fcc688a.png"
-    },
-    {
-      "name": "Obak Bhalobasha",
-      "artist": "Warfaze",
-      "album": "Obak Bhalobasha",
-      "playcount": 469,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e798f24cdc11b28169efab41ef18955f.png"
     },
     {
       "name": "Ondho Porajoy",
@@ -195,6 +195,13 @@
       "album": "Mohomukti",
       "playcount": 466,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/9b9abd1329334a7304915bd224bc079c.png"
+    },
+    {
+      "name": "Na ghumanor Gaan",
+      "artist": "Nemesis",
+      "album": "Unknown Album",
+      "playcount": 466,
+      "imageUrl": null
     },
     {
       "name": "Rajahin Rajjo",
@@ -225,11 +232,11 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d9cffc169f73b19950707d56e5376d77.png"
     },
     {
-      "name": "Na ghumanor Gaan",
-      "artist": "Nemesis",
-      "album": "Unknown Album",
+      "name": "Bishonno Shundor",
+      "artist": "Popeye Bangladesh",
+      "album": "Bishonno Shundor - Single",
       "playcount": 465,
-      "imageUrl": null
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e58ab602c557c1f6f96165d78c2dc969.png"
     },
     {
       "name": "Nightmare",
@@ -237,13 +244,6 @@
       "album": "Nightmare",
       "playcount": 464,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/bd12ddaafc7344d3bf43f963f814cc90.png"
-    },
-    {
-      "name": "Bishonno Shundor",
-      "artist": "Popeye Bangladesh",
-      "album": "Bishonno Shundor - Single",
-      "playcount": 464,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e58ab602c557c1f6f96165d78c2dc969.png"
     },
     {
       "name": "Karma",
@@ -438,7 +438,7 @@
       "name": "Odekha Alo",
       "artist": "Popeye Bangladesh",
       "album": "Amar Shorgo",
-      "playcount": 424,
+      "playcount": 425,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1de243ca1c438f6fe640e0e473b7de50.png"
     },
     {
@@ -607,7 +607,7 @@
       "artist": "Keane",
       "album": "Hopes and Fears",
       "playcount": 408,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b4d48c7e6c74d5c4bb30ea087712bedd.png"
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6b360a2d548e2262d53a7b0812a4c2bb.png"
     },
     {
       "name": "Beast of Gévaudan",
@@ -1657,7 +1657,7 @@
       "artist": "Guns N' Roses",
       "album": "Appetite for Destruction",
       "playcount": 314,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f22963b7e2d43df1a664909acb83cb85.png"
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fe3783f447dca320d9ea3c8042ee7db4.png"
     },
     {
       "name": "My December",
@@ -1759,12 +1759,12 @@
     },
     {
       "name": "Five Finger Death Punch",
-      "playcount": 11208,
+      "playcount": 11209,
       "imageUrl": "assets/music/artists/five_finger_death_punch.jpeg"
     },
     {
       "name": "Godsmack",
-      "playcount": 10305,
+      "playcount": 10307,
       "imageUrl": "assets/music/artists/godsmack.jpeg"
     },
     {
@@ -1779,7 +1779,7 @@
     },
     {
       "name": "Three Days Grace",
-      "playcount": 9119,
+      "playcount": 9120,
       "imageUrl": "assets/music/artists/three_days_grace.jpeg"
     },
     {
@@ -1789,7 +1789,7 @@
     },
     {
       "name": "Linkin Park",
-      "playcount": 8218,
+      "playcount": 8219,
       "imageUrl": "assets/music/artists/linkin_park.jpg"
     },
     {
@@ -1799,17 +1799,17 @@
     },
     {
       "name": "Popeye Bangladesh",
-      "playcount": 7059,
+      "playcount": 7061,
       "imageUrl": "assets/music/artists/popeye_bangladesh.jpeg"
     },
     {
       "name": "Eminem",
-      "playcount": 6937,
+      "playcount": 6938,
       "imageUrl": "assets/music/artists/eminem.jpeg"
     },
     {
       "name": "System of a Down",
-      "playcount": 6790,
+      "playcount": 6791,
       "imageUrl": "assets/music/artists/system_of_a_down.jpeg"
     },
     {
@@ -1819,12 +1819,12 @@
     },
     {
       "name": "Breaking Benjamin",
-      "playcount": 5132,
+      "playcount": 5133,
       "imageUrl": "assets/music/artists/breaking_benjamin.jpeg"
     },
     {
       "name": "Warfaze",
-      "playcount": 4848,
+      "playcount": 4850,
       "imageUrl": "assets/music/artists/warfaze.jpg"
     },
     {
@@ -1839,7 +1839,7 @@
     },
     {
       "name": "Alec Benjamin",
-      "playcount": 3536,
+      "playcount": 3537,
       "imageUrl": "assets/music/artists/alec_benjamin.jpeg"
     },
     {
@@ -1854,7 +1854,7 @@
     },
     {
       "name": "Powerwolf",
-      "playcount": 2781,
+      "playcount": 2782,
       "imageUrl": "assets/music/artists/powerwolf.jpeg"
     },
     {
@@ -1874,7 +1874,7 @@
     },
     {
       "name": "Nemesis",
-      "playcount": 2717,
+      "playcount": 2718,
       "imageUrl": "assets/music/artists/nemesis.jpg"
     },
     {
@@ -1964,7 +1964,7 @@
     },
     {
       "name": "KARNiVAL",
-      "playcount": 1509,
+      "playcount": 1510,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-10-18T03:38:27.559Z",
+  "fetchedAt": "2026-10-25T03:46:14.360Z",
   "username": "NafizHC"
 }

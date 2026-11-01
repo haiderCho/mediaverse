@@ -15,7 +15,7 @@
         },
         {
           "name": "Comedy",
-          "count": 613
+          "count": 612
         },
         {
           "name": "Fantasy",
@@ -23,7 +23,7 @@
         },
         {
           "name": "Shounen",
-          "count": 482
+          "count": 483
         },
         {
           "name": "Adventure",
@@ -154,7 +154,7 @@
       "meanScore": "7.66",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "102,791"
+        "value": "102,794"
       },
       "topGenres": [
         {
@@ -171,7 +171,7 @@
         },
         {
           "name": "Comedy",
-          "count": 199
+          "count": 198
         },
         {
           "name": "Seinen",
@@ -219,21 +219,21 @@
       }
     },
     "manhwa": {
-      "total": 670,
+      "total": 675,
       "completed": 178,
       "meanScore": "6.30",
       "statExtra": {
         "label": "Chapters Read",
-        "value": "60,471"
+        "value": "60,886"
       },
       "topGenres": [
         {
           "name": "Action",
-          "count": 613
+          "count": 617
         },
         {
           "name": "Fantasy",
-          "count": 526
+          "count": 531
         },
         {
           "name": "Martial Arts",
@@ -245,7 +245,7 @@
         },
         {
           "name": "Reincarnation",
-          "count": 119
+          "count": 120
         }
       ],
       "topStudios": [],
@@ -274,11 +274,11 @@
       "formats": [
         {
           "name": "MANHWA",
-          "count": 670
+          "count": 675
         }
       ],
       "details": {
-        "watching": 482,
+        "watching": 487,
         "onHold": 0,
         "dropped": 8,
         "planTo": 2
@@ -352,5 +352,5 @@
     }
   },
   "username": "NafizHC",
-  "fetchedAt": "2026-10-01T03:02:38.620Z"
+  "fetchedAt": "2026-11-01T03:09:36.923Z"
 }

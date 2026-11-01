@@ -57,18 +57,18 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5cf34de2fb1a2db73e6c8c7565b3c448.png"
     },
     {
+      "name": "A Little Piece of Heaven",
+      "artist": "Avenged Sevenfold",
+      "album": "Avenged Sevenfold",
+      "playcount": 487,
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/22a003ba9da1f715adea71f6874babe3.png"
+    },
+    {
       "name": "Prithibi Ta Naki Chhoto Hote Hote",
       "artist": "Crosswinds",
       "album": "Aabar Bachhor Kuri Pore",
       "playcount": 487,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f0a1b79f88944d8ebebe5185a55661a7.png"
-    },
-    {
-      "name": "A Little Piece of Heaven",
-      "artist": "Avenged Sevenfold",
-      "album": "Avenged Sevenfold",
-      "playcount": 486,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/22a003ba9da1f715adea71f6874babe3.png"
     },
     {
       "name": "Amar Dehokhan (Official)",
@@ -144,7 +144,7 @@
       "name": "I Don't Belong",
       "artist": "Godsmack",
       "album": "1000hp",
-      "playcount": 471,
+      "playcount": 472,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f224d68815e544fac463b6ee1142bb17.png"
     },
     {
@@ -270,7 +270,7 @@
       "name": "Voodoo",
       "artist": "Godsmack",
       "album": "Godsmack",
-      "playcount": 458,
+      "playcount": 459,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4568f2d377c743d3c318056d5cfb303a.png"
     },
     {
@@ -607,7 +607,7 @@
       "artist": "Keane",
       "album": "Hopes and Fears",
       "playcount": 408,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6b360a2d548e2262d53a7b0812a4c2bb.png"
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b4d48c7e6c74d5c4bb30ea087712bedd.png"
     },
     {
       "name": "Beast of Gévaudan",
@@ -883,18 +883,18 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/14c626c73300fae42990a864b28022d6.png"
     },
     {
+      "name": "Growing Old",
+      "artist": "Godsmack",
+      "album": "Lighting Up the Sky",
+      "playcount": 385,
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2cfa1191ef012e6ce46766adbf9356b1.png"
+    },
+    {
       "name": "Etota Valobasi",
       "artist": "Recall",
       "album": "Onnothay",
       "playcount": 385,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/aee15843d3f24c14cc57b0ba9f988141.png"
-    },
-    {
-      "name": "Growing Old",
-      "artist": "Godsmack",
-      "album": "Lighting Up the Sky",
-      "playcount": 384,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2cfa1191ef012e6ce46766adbf9356b1.png"
     },
     {
       "name": "Bhabale",
@@ -918,18 +918,18 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/185a38ca7368d2c9ad9cb9ea95ae05f4.png"
     },
     {
+      "name": "Human",
+      "artist": "Hellyeah",
+      "album": "Unden!able",
+      "playcount": 382,
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ef00e9e9a21dc16e8351c64d14ffd298.png"
+    },
+    {
       "name": "Send Me An Angel",
       "artist": "Scorpions",
       "album": "Crazy World",
       "playcount": 382,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/470b934e8cd26ed4d4e1f819b7f7014f.png"
-    },
-    {
-      "name": "Human",
-      "artist": "Hellyeah",
-      "album": "Unden!able",
-      "playcount": 381,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ef00e9e9a21dc16e8351c64d14ffd298.png"
     },
     {
       "name": "Another Day in Paradise - 2016 Remaster",
@@ -1534,6 +1534,13 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3b34f6f1b339e9857fb276c318cb8b05.png"
     },
     {
+      "name": "You and I",
+      "artist": "Godsmack",
+      "album": "Lighting Up the Sky",
+      "playcount": 322,
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2cfa1191ef012e6ce46766adbf9356b1.png"
+    },
+    {
       "name": "Cradled in Love",
       "artist": "Poets of the Fall",
       "album": "Temple of Thought",
@@ -1546,13 +1553,6 @@
       "album": "No Regrets",
       "playcount": 321,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/448e16c122a623e288eb481aa777c8a5.png"
-    },
-    {
-      "name": "You and I",
-      "artist": "Godsmack",
-      "album": "Lighting Up the Sky",
-      "playcount": 321,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2cfa1191ef012e6ce46766adbf9356b1.png"
     },
     {
       "name": "Perfect Insanity",
@@ -1657,7 +1657,7 @@
       "artist": "Guns N' Roses",
       "album": "Appetite for Destruction",
       "playcount": 314,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fe3783f447dca320d9ea3c8042ee7db4.png"
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/52bb8e7d38d9af89e279e6f903b6881a.png"
     },
     {
       "name": "My December",
@@ -1702,6 +1702,13 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/559450c2f061f1ee8804a4d3765b5c23.png"
     },
     {
+      "name": "I Miss the Misery",
+      "artist": "Halestorm",
+      "album": "The Strange Case Of...",
+      "playcount": 310,
+      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eb8dba6c6c2c6cf15fcb43aea32509fb.png"
+    },
+    {
       "name": "Help",
       "artist": "Papa Roach",
       "album": "Help",
@@ -1737,13 +1744,6 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/cf57ff0abf04a19970037cf56df6ea5b.png"
     },
     {
-      "name": "I Miss the Misery",
-      "artist": "Halestorm",
-      "album": "The Strange Case Of...",
-      "playcount": 309,
-      "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eb8dba6c6c2c6cf15fcb43aea32509fb.png"
-    },
-    {
       "name": "Sweet Dreams (Are Made of This)",
       "artist": "Marilyn Manson",
       "album": "Smells Like Children",
@@ -1764,7 +1764,7 @@
     },
     {
       "name": "Godsmack",
-      "playcount": 10307,
+      "playcount": 10311,
       "imageUrl": "assets/music/artists/godsmack.jpeg"
     },
     {
@@ -1774,7 +1774,7 @@
     },
     {
       "name": "Avenged Sevenfold",
-      "playcount": 9208,
+      "playcount": 9209,
       "imageUrl": "assets/music/artists/avenged_sevenfold.jpeg"
     },
     {
@@ -1839,7 +1839,7 @@
     },
     {
       "name": "Alec Benjamin",
-      "playcount": 3537,
+      "playcount": 3538,
       "imageUrl": "assets/music/artists/alec_benjamin.jpeg"
     },
     {
@@ -1944,7 +1944,7 @@
     },
     {
       "name": "Hellyeah",
-      "playcount": 1629,
+      "playcount": 1630,
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -2003,6 +2003,6 @@
       "imageUrl": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ],
-  "fetchedAt": "2026-10-25T03:46:14.360Z",
+  "fetchedAt": "2026-11-01T04:59:28.163Z",
   "username": "NafizHC"
 }
